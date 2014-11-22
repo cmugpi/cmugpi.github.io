@@ -1,0 +1,36 @@
+<div class="ui fixed large navbar menu">
+  <div class="ui navbar grid">
+    <div class="three wide column"></div>
+    <div class="nine wide column">
+      <a class="item" href="{{ site.baseurl }}">
+        GPI
+      </a>
+      {% for node in site.pages %}
+        {% if node.group == 'navigation' %}
+          {% if node.url == page.url %}
+            <a class="active teal item" href="#">
+              {{ node.title }}
+            </a>
+          {% else %}
+            <a class="teal item" href="{{ node.url | prepend: site.baseprefix }}">
+              {{ node.title }}
+            </a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      <!-- TODO: replace this with list of helpful links
+        <div class="right menu">
+        <div class="item">
+        <div class="ui icon input">
+        <input type="text" placeholder="Search...">
+        <i class="search link icon"></i>
+        </div>
+        </div>
+        <a class="ui item">
+        Logout
+        </a>
+        </div>
+      -->
+    </div>
+  </div>
+</div>
