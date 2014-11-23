@@ -33,20 +33,11 @@ you're using, so choose the relevant section and proceed from there.
 
 <div id="ssh">
 <div class="ui top attached tabular menu">
-  <a href="#" class="active item" data-tab="windows">Windows</a>
-  <a href="#" class="item" data-tab="osx">Mac OS X</a>
+  <a href="#" class="active item" data-tab="osx">Mac OS X</a>
   <a href="#" class="item" data-tab="linux">Linux</a>
+  <a href="#" class="item" data-tab="windows">Windows</a>
 </div>
-<div class="ui bottom attached active tab segment" data-tab="windows">
-
-We recommend that you use [MobaXterm][mobaxterm] to SSH. For detailed
-installation and setup instructions, see [this blog post][mobaxterm-tutorial].
-
-If you are already somewhat familiar with Linux, however, we strongly recommend
-that you follow the Linux initial setup instructions.
-
-</div>
-<div class="ui bottom attached tab segment" data-tab="osx">
+<div class="ui bottom attached active tab segment" data-tab="osx">
 
 <!-- TODO add screenshots for OS X initial setup -->
 
@@ -104,6 +95,15 @@ Some popular terminals are
 
 Once you've done that, just follow the rest of the instructions in the Mac
 section.
+
+</div>
+<div class="ui bottom attached tab segment" data-tab="windows">
+
+We recommend that you use [MobaXterm][mobaxterm] to SSH. For detailed
+installation and setup instructions, see [this blog post][mobaxterm-tutorial].
+
+If you are already somewhat familiar with Linux, however, we strongly recommend
+that you follow the Linux initial setup instructions.
 
 </div>
 </div>
