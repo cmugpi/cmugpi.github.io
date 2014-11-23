@@ -1,5 +1,5 @@
 ---
-layout: {{ layout }}
+layout: page
 title: {{ title }}
 # uncomment to include in the navbar
 #group: navigation
@@ -10,9 +10,10 @@ title: {{ title }}
 ---
 
 <!-- Uncomment for Table of Contents -->
-<!--
+{% comment %}
 {% include toc.md %}
--->
+{% endcomment %}
+
 
 # Title
 {:.ui.dividing.header.no_toc}
