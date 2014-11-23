@@ -16,7 +16,7 @@
         {% for lesson in site.pages %}
           {% if lesson.group == topic.topic %}
             <a href="{{ lesson.url | replace:'index.html','' | prepend: site.baseprefix }}"
-               class="item{% if lesson.group == page.group %} active{% endif %}">
+               class="item{% if lesson.url == page.url %} active{% endif %}">
               {{ lesson.title }}
             </a>
           {% endif %}
