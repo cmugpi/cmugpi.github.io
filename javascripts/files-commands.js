@@ -1,0 +1,1 @@
+$('#scp .menu .item').tab();
