@@ -1,0 +1,1 @@
+$('#ssh .menu .item').tab();
