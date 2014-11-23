@@ -3,6 +3,8 @@ layout: page
 title: {{ title }}
 group: topic
 description:
+# How sub-pages will be linked to this page
+topic:
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js
@@ -19,7 +21,7 @@ Add an overview here.
 ## Lessons
 
 {% for node in site.pages %}
-{% if node.group == 'CHANGE_ME' %}
+{% if node.group == page.topic %}
 - [{{ node.title }}]({{ node.url | replace:'index.html','' | prepend: site.baseprefix }})
 {% if node.description %}
     - {{ node.description }}
@@ -36,7 +38,7 @@ Add an overview here.
 | Reading | Date |
 | ------- | ---- |
 {% for node in site.pages %}
-{% if node.group == 'CHANGE_ME' %}
+{% if node.group == page.topic %}
 | {{ node.title }}]({{ node.url | replace:'index.html','' | prepend: site.baseprefix }}) | {{ node.duedate | date: "%m/%d" }} |
 {% endif %}
 {% endfor %}

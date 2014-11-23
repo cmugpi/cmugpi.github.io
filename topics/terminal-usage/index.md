@@ -3,6 +3,7 @@ layout: page
 title: "Terminal Usage"
 group: topic
 description: How to use a command line, how to navigate the filesystem, how to run commands, and more.
+topic: 'terminal-usage'
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js
@@ -28,7 +29,7 @@ called a "terminal" in everyday talk.
 ## Lessons
 
 {% for node in site.pages %}
-{% if node.group == 'terminal-usage' %}
+{% if node.group == page.topic %}
 - [{{ node.title }}]({{ node.url | replace:'index.html','' | prepend: site.baseprefix }})
 {% if node.description %}
     - {{ node.description }}
@@ -45,7 +46,7 @@ called a "terminal" in everyday talk.
 | Reading | Date |
 | ------- | ---- |
 {% for node in site.pages %}
-{% if node.group == 'terminal-usage' %}
+{% if node.group == page.topic %}
 | [{{ node.title }}]({{ node.url | replace:'index.html','' | prepend: site.baseprefix }}) | {{ node.duedate | date: "%m/%d" }} |
 {% endif %}
 {% endfor %}

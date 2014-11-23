@@ -1,0 +1,34 @@
+<div class="ui left vertical topics sidebar menu">
+  <a class="item header">Topics</a>
+{% for topic in site.pages %}
+  {% if topic.group == 'topic' %}
+    {% comment %}
+      Active if page is the current topic page or page is lesson of the current topic
+    {% endcomment %}
+    <div class="teal item{% if topic.topic == page.topic or topic.topic == page.group %} active{% endif %}">
+      <a href="{{ topic.url | replace:'index.html','' | prepend: site.baseprefix }}">
+        {{ topic.title }}
+      </a>
+      {% comment %}
+        Only display a sub menu if there are items inside it
+      {% endcomment %}
+      {% capture lessons %}
+        {% for lesson in site.pages %}
+          {% if lesson.group == topic.topic %}
+            <a href="{{ lesson.url | replace:'index.html','' | prepend: site.baseprefix }}"
+               class="item{% if lesson.group == page.group %} active{% endif %}">
+              {{ lesson.title }}
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% endcapture %}
+      {% capture lessons_stripped %}{{ lessons | strip }}{% endcapture %}
+      {% if lessons_stripped != '' %}
+        <div class="menu">
+          {{ lessons }}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endfor %}
+</div>

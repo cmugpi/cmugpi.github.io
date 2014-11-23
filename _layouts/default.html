@@ -12,7 +12,8 @@
   -->
 <html>
   {% include head.html %}
-  <body>
+  <body class="pushable">
+    {% include topics-sidebar.html %}
     {% include header.html %}
     {{ content }}
     {% include scripts.html %}
