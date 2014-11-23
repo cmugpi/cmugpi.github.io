@@ -12,8 +12,11 @@ url: "https://www.cs.cmu.edu/" # the base hostname & protocol for your site
 twitter_username:
 github_username:
 
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
+
 # Build settings
 markdown: kramdown
+highlight: pygments
 
 kramdown:
   parse_block_html: true

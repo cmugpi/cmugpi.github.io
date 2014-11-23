@@ -1,4 +1,15 @@
 ---
 layout: {{ layout }}
 title: {{ title }}
+# uncomment to include in the navbar
+group: navigation
+#script: /javascripts/mypage.js
+#scripts:
+#  - /javascripts/one.js
+#  - /javascripts/two.js
 ---
+
+# Title
+{:.ui.dividing.header.no_toc}
+
+## First Header
