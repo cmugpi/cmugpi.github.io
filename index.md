@@ -9,7 +9,14 @@ group: navigation
 
 ## Overview
 
-Throughout your education as a Computer Scientist at Carnegie Mellon, you will take courses on programming, theoretical ideas, logic, systems, etc. As you progress, you will be expected to pick up the so-called "tools of the trade." This course is intended to help you learn what you need to know in a friendly, low-stress, high-support way. We will discuss UNIX, LaTeX, debugging and many other essential tools.
+Throughout your education as a Computer Scientist at Carnegie Mellon, you will
+take courses on programming, theoretical ideas, logic, systems, etc. As you
+progress, you will be expected to pick up the so-called "tools of the trade."
+This course is intended to help you learn what you need to know in a friendly,
+low-stress, high-support way. We will discuss UNIX, LaTeX, debugging and many
+other essential tools.
+
+For more information, you should checkout the [syllabus][syllabus].
 
 ## Schedule
 
@@ -34,3 +41,4 @@ Throughout your education as a Computer Scientist at Carnegie Mellon, you will t
 {:.ui.striped.table}
 
 [puzzle1]: https://www.google.com/
+[syllabus]: {{ "/syllabus/" | prepend: site.baseprefix }}

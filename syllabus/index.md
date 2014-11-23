@@ -83,7 +83,7 @@ commands.
 
 You may not interact with or ask other students for help.
 
-### Help
+## Help
 
 If at any point during the semester you're having trouble with anything in the
 course or want to know more about a topic, please do not hesitate to email the
