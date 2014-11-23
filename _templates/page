@@ -2,7 +2,7 @@
 layout: {{ layout }}
 title: {{ title }}
 # uncomment to include in the navbar
-group: navigation
+#group: navigation
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js
