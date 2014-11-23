@@ -9,6 +9,11 @@ group: navigation
 #  - /javascripts/two.js
 ---
 
+<!-- Uncomment for Table of Contents -->
+<!--
+{% include toc.md %}
+-->
+
 # Title
 {:.ui.dividing.header.no_toc}
 
