@@ -1,0 +1,17 @@
+---
+layout: page
+title: {{ title }}
+# What topic does this page belong to?
+group:
+#script: /javascripts/mypage.js
+#scripts:
+#  - /javascripts/one.js
+#  - /javascripts/two.js
+---
+
+{% include toc.md %}
+
+# Title
+{:.ui.dividing.header.no_toc}
+
+## First Header
