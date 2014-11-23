@@ -1,0 +1,319 @@
+// Jekyll Pygments syntax highlighter styles
+
+// Color scheme
+$base03: #002b36;
+$base02: #073642;
+$base01: #586e75;
+$base00: #657b83;
+$base0: #839496;
+$base1: #93a1a1;
+$base2: #eee8d5;
+$base3: #fdf6e3;
+
+$yellow: #b58900;
+$orange: #cb4b16;
+$red: #dc322f;
+$magenta: #d33682;
+$violet: #6c71c4;
+$blue: #268bd2;
+$cyan: #2aa198;
+$green: #859900;
+
+// Colors
+$default: $base3;
+$background: $base03;
+$comment: $base01;
+$error: $base01;
+$generic: $base1;
+$keyword: $green;
+$literal: $base1;
+$name: $base1;
+$operator: $green;
+$other: $orange;
+$punctuation: $base1;
+$commentmultiline: $base01;
+$commentpreproc: $green;
+$commentsingle: $base01;
+$commentspecial: $green;
+$genericdeleted: $cyan;
+$genericemph: $base1;
+$genericerror: $red;
+$genericheading: $orange;
+$genericinserted: $green;
+$genericoutput: $base1;
+$genericprompt: $base1;
+$genericstrong: $base1;
+$genericsubheading: $orange;
+$generictraceback: $base1;
+$keywordconstant: $orange;
+$keywordeclaration: $blue;
+$keywordnamespace: $green;
+$keywordpseudo: $green;
+$keywordreserved: $blue;
+$keywordtype: $red;
+$literaldate: $base1;
+$literalnumber: $cyan;
+$literalstring: $cyan;
+$nameattribute: $base1;
+$namebuiltin: $yellow;
+$nameclass: $blue;
+$nameconstant: $orange;
+$namedecorator: $blue;
+$nameentity: $orange;
+$nameexception: $orange;
+$namefunction: $blue;
+$namelabel: $base1;
+$namenamespace: $base1;
+$nameother: $base00;
+$nameproperty: $base1;
+$nametag: $blue;
+$namevariable: $blue;
+$operatorword: $green;
+$textwhitespace: $base1;
+$literalnumberfloat: $cyan;
+$literalnumberhex: $cyan;
+$literalnumberinteger: $cyan;
+$literalnumberoct: $cyan;
+$literalstringbacktick: $base01;
+$literalstringchar: $cyan;
+$literalstringdoc: $base1;
+$literalstringdouble: $cyan;
+$literalstringescape: $orange;
+$literalstringheredoc: $base1;
+$literalstringinterpol: $cyan;
+$literalstringother: $cyan;
+$literalstringregex: $red;
+$literalstringsingle: $cyan;
+$literalstringsymbol: $cyan;
+$namebuiltinpseudo: $blue;
+$namevariableclass: $blue;
+$namevariableglobal: $blue;
+$namevariableinstance: $blue;
+$literalnumberintegerlong: $cyan;
+
+.highlight {
+  font-family: Monaco, monospace;
+  font-size: 1em;
+  line-height: 1.6em;
+  font-weight: bold;
+  background: $background;
+  color: $default;
+  @include border-radius(4px);
+  pre {
+    padding: 1em;
+    background-color: transparent;
+    border: none;
+  }
+  span.lineno {
+    margin-right: 0.6em;
+  }
+  code, pre {
+    margin: 1em 0 1.5em 0;
+  }
+  .c {
+    color: $comment;
+  }
+  .err {
+    color: $error;
+  }
+  .g {
+    color: $generic;
+  }
+  .k {
+    color: $keyword;
+  }
+  .l {
+    color: $literal;
+  }
+  .n {
+    color: $name;
+  }
+  .o {
+    color: $operator;
+  }
+  .x {
+    color: $other;
+  }
+  .p {
+    color: $punctuation;
+  }
+  .cm {
+    color: $commentmultiline;
+  }
+  .cp {
+    color: $commentpreproc;
+  }
+  .c1 {
+    color: $commentsingle;
+  }
+  .cs {
+    color: $commentspecial;
+  }
+  .gd {
+    color: $genericdeleted;
+  }
+  .ge {
+    color: $genericemph;
+    font-style: italic;
+  }
+  .gr {
+    color: $genericerror;
+  }
+  .gh {
+    color: $genericheading;
+  }
+  .gi {
+    color: $genericinserted;
+  }
+  .go {
+    color: $genericoutput;
+  }
+  .gp {
+    color: $genericprompt;
+  }
+  .gs {
+    color: $genericstrong;
+    font-weight: bold;
+  }
+  .gu {
+    color: $genericsubheading;
+  }
+  .gt {
+    color: $generictraceback;
+  }
+  .kc {
+    color: $keywordconstant;
+  }
+  .kd {
+    color: $keywordeclaration;
+  }
+  .kn {
+    color: $keywordnamespace;
+  }
+  .kp {
+    color: $keywordpseudo;
+  }
+  .kr {
+    color: $keywordreserved;
+  }
+  .kt {
+    color: $keywordtype;
+  }
+  .ld {
+    color: $literaldate;
+  }
+  .m {
+    color: $literalnumber;
+  }
+  .s {
+    color: $literalstring;
+  }
+  .na {
+    color: $nameattribute;
+  }
+  .nb {
+    color: $namebuiltin;
+  }
+  .nc {
+    color: $nameclass;
+  }
+  .no {
+    color: $nameconstant;
+  }
+  .nd {
+    color: $namedecorator;
+  }
+  .ni {
+    color: $nameentity;
+  }
+  .ne {
+    color: $nameexception;
+  }
+  .nf {
+    color: $namefunction;
+  }
+  .nl {
+    color: $namelabel;
+  }
+  .nn {
+    color: $namenamespace;
+  }
+  .nx {
+    color: $nameother;
+  }
+  .py {
+    color: $nameproperty;
+  }
+  .nt {
+    color: $nametag;
+  }
+  .nv {
+    color: $namevariable;
+  }
+  .ow {
+    color: $operatorword;
+  }
+  .w {
+    color: $textwhitespace;
+  }
+  .mf {
+    color: $literalnumberfloat;
+  }
+  .mh {
+    color: $literalnumberhex;
+  }
+  .mi {
+    color: $literalnumberinteger;
+  }
+  .mo {
+    color: $literalnumberoct;
+  }
+  .sb {
+    color: $literalstringbacktick;
+  }
+  .sc {
+    color: $literalstringchar;
+  }
+  .sd {
+    color: $literalstringdoc;
+  }
+  .s2 {
+    color: $literalstringdouble;
+  }
+  .se {
+    color: $literalstringescape;
+  }
+  .sh {
+    color: $literalstringheredoc;
+  }
+  .si {
+    color: $literalstringinterpol;
+  }
+  .sx {
+    color: $literalstringother;
+  }
+  .sr {
+    color: $literalstringregex;
+  }
+  .s1 {
+    color: $literalstringsingle;
+  }
+  .ss {
+    color: $literalstringsymbol;
+  }
+  .bp {
+    color: $namebuiltinpseudo;
+  }
+  .vc {
+    color: $namevariableclass;
+  }
+  .vg {
+    color: $namevariableglobal;
+  }
+  .vi {
+    color: $namevariableinstance;
+  }
+  .il {
+    color: $literalnumberintegerlong;
+  }
+}
