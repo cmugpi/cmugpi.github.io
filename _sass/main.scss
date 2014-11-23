@@ -15,6 +15,11 @@
   margin-top: 0;
 }
 
+// Huge hack to fix black bar that appears after toggling sidebar
+.pushable {
+  background: #f7f7f7!important;
+}
+
 // Change base font size
 html, body {
   font-size: 16px;

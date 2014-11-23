@@ -315,23 +315,28 @@
 }
 
 /* line 19, ../_sass/main.scss */
+.pushable {
+  background: #f7f7f7 !important;
+}
+
+/* line 24, ../_sass/main.scss */
 html, body {
   font-size: 16px;
 }
 
-/* line 25, ../_sass/main.scss */
+/* line 30, ../_sass/main.scss */
 .main {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
 
-/* line 31, ../_sass/main.scss */
+/* line 36, ../_sass/main.scss */
 pre, code {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 14px;
 }
 
-/* line 36, ../_sass/main.scss */
+/* line 41, ../_sass/main.scss */
 code {
   padding: 2px 4px;
   color: #d14;
@@ -343,7 +348,7 @@ code {
   border-radius: 3px;
 }
 
-/* line 45, ../_sass/main.scss */
+/* line 50, ../_sass/main.scss */
 pre {
   display: block;
   padding: 9.5px;
@@ -362,7 +367,7 @@ pre {
   border-radius: 4px;
 }
 
-/* line 61, ../_sass/main.scss */
+/* line 66, ../_sass/main.scss */
 pre code {
   padding: 0;
   color: inherit;
