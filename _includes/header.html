@@ -12,7 +12,7 @@
               {{ node.title }}
             </a>
           {% else %}
-            <a class="teal item" href="{{ node.url | prepend: site.baseprefix }}">
+            <a class="teal item" href="{{ node.url | replace:'index.html','' | prepend: site.baseprefix }}">
               {{ node.title }}
             </a>
           {% endif %}
