@@ -5,6 +5,8 @@ group: topic
 description:
 # How sub-pages will be linked to this page
 topic:
+# Relative ordering of topics
+order:
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js
@@ -20,7 +22,8 @@ Add an overview here.
 
 ## Lessons
 
-{% for node in site.pages %}
+{% assign pages_sorted = site.pages | sort: 'order' %}
+{% for node in pages_sorted %}
 {% if node.group == page.topic %}
 - [{{ node.title }}]({{ node.url | replace:'index.html','' | prepend: site.baseprefix }})
 {% if node.description %}
@@ -37,7 +40,7 @@ Add an overview here.
 
 | Reading | Date |
 | ------- | ---- |
-{% for node in site.pages %}
+{% for node in pages_sorted %}
 {% if node.group == page.topic %}
 | {{ node.title }}]({{ node.url | replace:'index.html','' | prepend: site.baseprefix }}) | {{ node.duedate | date: "%m/%d" }} |
 {% endif %}

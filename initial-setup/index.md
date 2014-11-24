@@ -2,6 +2,7 @@
 layout: page
 title: "Initial Setup"
 group: navigation
+order: 2
 script: /javascripts/initial-setup.js
 ---
 

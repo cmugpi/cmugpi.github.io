@@ -1,6 +1,7 @@
 <div class="ui left vertical topics sidebar menu">
   <a class="item header">Topics</a>
-{% for topic in site.pages %}
+{% assign pages_sorted = site.pages | sort: 'order' %}
+{% for topic in pages_sorted %}
   {% if topic.group == 'topic' %}
     {% comment %}
       Active if page is the current topic page or page is lesson of the current topic
@@ -13,7 +14,7 @@
         Only display a sub menu if there are items inside it
       {% endcomment %}
       {% capture lessons %}
-        {% for lesson in site.pages %}
+        {% for lesson in pages_sorted %}
           {% if lesson.group == topic.topic %}
             <a href="{{ lesson.url | replace:'index.html','' | prepend: site.baseprefix }}"
                class="item{% if lesson.url == page.url %} active{% endif %}">

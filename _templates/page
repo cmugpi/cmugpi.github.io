@@ -3,6 +3,8 @@ layout: page
 title: {{ title }}
 # uncomment to include in the navbar
 #group: navigation
+# Relative ordering of this page within its group
+order:
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js

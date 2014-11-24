@@ -9,7 +9,8 @@
       <a class="item" href="{{ site.baseurl }}">
         GPI
       </a>
-      {% for node in site.pages %}
+      {% assign pages_sorted = site.pages | sort: 'order' %}
+      {% for node in pages_sorted %}
         {% if node.group == 'navigation' %}
           {% if node.url == page.url %}
             <a class="active teal item" href="#">

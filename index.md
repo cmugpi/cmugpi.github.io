@@ -2,6 +2,7 @@
 layout: page
 title: Schedule
 group: navigation
+order: 1
 ---
 
 # 15-131 -- Great Practical Ideas in CS
