@@ -314,29 +314,34 @@
   margin-top: 0;
 }
 
-/* line 19, ../_sass/main.scss */
+/* line 18, ../_sass/main.scss */
+.ui.vertical.topics.menu .active.item {
+  box-shadow: 4px 0 0 inset;
+}
+
+/* line 23, ../_sass/main.scss */
 .pushable {
   background: #f7f7f7 !important;
 }
 
-/* line 24, ../_sass/main.scss */
+/* line 28, ../_sass/main.scss */
 html, body {
   font-size: 16px;
 }
 
-/* line 30, ../_sass/main.scss */
+/* line 34, ../_sass/main.scss */
 .main {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
 
-/* line 36, ../_sass/main.scss */
+/* line 40, ../_sass/main.scss */
 pre, code {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 14px;
 }
 
-/* line 41, ../_sass/main.scss */
+/* line 45, ../_sass/main.scss */
 code {
   padding: 2px 4px;
   color: #d14;
@@ -348,7 +353,7 @@ code {
   border-radius: 3px;
 }
 
-/* line 50, ../_sass/main.scss */
+/* line 54, ../_sass/main.scss */
 pre {
   display: block;
   padding: 9.5px;
@@ -367,7 +372,7 @@ pre {
   border-radius: 4px;
 }
 
-/* line 66, ../_sass/main.scss */
+/* line 70, ../_sass/main.scss */
 pre code {
   padding: 0;
   color: inherit;
