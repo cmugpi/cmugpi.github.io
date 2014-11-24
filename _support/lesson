@@ -27,17 +27,17 @@ echo "Please read the ${cred}README${cnone} for guidelines!"
 echo
 echo "Enter the lesson's topic (${cgreen}ex: terminal-usage${cnone}):"
 echo -n "${cwhiteb}>${cnone} "
-read topic
+read -e topic
 
 echo "Enter the lesson's title (${cgreen}ex: \"Using Files & Commands\"${cnone}):"
 echo -n "${cwhiteb}>${cnone} "
-read title
+read -e title
 
 echo "Enter the title's slug (${cgreen}ex: files-commands${cnone}):"
 echo -n "${cwhiteb}>${cnone} "
-read slug
+read -e slug
 
-order=$(find topics/$topic/*/ -type f | xargs cat | grep 'order:' | sort -r | head -n 1 | cut -c 8-)
+order=$(find topics/$topic/*/ -type f 2> /dev/null | xargs cat | grep 'order:' | sort -r | head -n 1 | cut -c 8-)
 if [ -z "$order" ]; then
   order="0"
 fi

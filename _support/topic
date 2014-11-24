@@ -27,11 +27,11 @@ echo "Please read the ${cred}README${cnone} for guidelines!"
 echo
 echo "Enter the topic's slug (${cgreen}ex: terminal-usage${cnone}):"
 echo -n "${cwhiteb}>${cnone} "
-read topic
+read -e topic
 
 echo "Enter the topic's title (${cgreen}ex: \"Terminal Usage\"${cnone}):"
 echo -n "${cwhiteb}>${cnone} "
-read title
+read -e title
 
 order=$(cat topics/*/index.md | grep 'order:' | sort -r | head -n 1 | cut -c 8-)
 if [ -z "$order" ]; then
