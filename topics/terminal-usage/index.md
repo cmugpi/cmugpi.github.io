@@ -47,10 +47,7 @@ called a "terminal" in everyday talk.
 
 | Reading | Date |
 | ------- | ---- |
-{% for node in pages_sorted %}
-{% if node.group == page.topic %}
-| [{{ node.title }}]({{ node.url | replace:'index.html','' | prepend: site.baseprefix }}) | {{ node.duedate | date: "%m/%d" }} |
-{% endif %}
-{% endfor %}
+| lesson | 12/31 |
+{:.ui.striped.table}
 
 [linuxcommand]: http://linuxcommand.org/lc3_learning_the_shell.php
