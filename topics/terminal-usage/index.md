@@ -43,11 +43,19 @@ called a "terminal" in everyday talk.
 
 - [Learning the Shell][linuxcommand]
 
+[linuxcommand]: http://linuxcommand.org/lc3_learning_the_shell.php
+
 ## Readings
 
-| Reading | Date |
-| ------- | ---- |
-| lesson | 12/31 |
+| Date | Reading                                                                                  |
+| ---- | -------                                                                                  |
+| 8/28 | [Using Files & Commands][files-commands] <br> [Terminal Environment & AFS][terminal-afs] |
+| 9/18 | [Globbing & Ranges][globbing-ranges] <br> [Jobs, Man Pages, & Links][jobs-man-links]     |
+| -    | [Recovering Lost Files][oldfiles]                                                        |
 {:.ui.striped.table}
 
-[linuxcommand]: http://linuxcommand.org/lc3_learning_the_shell.php
+[files-commands]: files-commands/
+[terminal-afs]: terminal-afs/
+[globbing-ranges]: globbing-ranges/
+[jobs-man-links]: jobs-man-links/
+[oldfiles]: oldfiles/
