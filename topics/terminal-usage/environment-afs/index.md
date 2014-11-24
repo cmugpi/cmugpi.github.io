@@ -1,18 +1,14 @@
 ---
 layout: page
-title: "Terminal Environment & Globbing"
-# What topic does this page belong to?
+title: "Terminal Environment & AFS"
 group: 'terminal-usage'
-#script: /javascripts/mypage.js
-#scripts:
-#  - /javascripts/one.js
-#  - /javascripts/two.js
+order: 2
 ---
 
 
 {% include toc.md %}
 
-# Terminal Environment & Globbing
+# Terminal Environment & AFS
 {:.ui.dividing.header.no_toc}
 
 ## Printing Text (echo)
@@ -102,8 +98,7 @@ files from any Andrew Unix server or cluster computer on campus.
 
 When you're using AFS, there's a system of permissions (called access control
 lists, or ACLs) regulating who can access your files and what they can do to
-them. C@CM has a discussion of ACLs. If your curious, you may want to review
-that lesson.
+them.
 
 It's important to know about how to use this system so that you can stop other
 people from getting access to your homework or other private files.
@@ -118,58 +113,70 @@ want other people to be able to see. Other users will be able to read files that
 you put there (and make copies of them), but not change them, delete them, or
 add their own files.
 
-## Globbing
+## ACLs (fs)
 
-So far, you haven't really seen any ways that the terminal can be much more
-powerful than a GUI file browser that you're used to. However, you can combine
-some basic features of bash with the commands you already know to quickly do
-things that would have been hard to do by hand otherwise.
+You don't need to memorize this information! It's listed here solely for your
+reference.
+{:.ui.info.message}
 
-Part of bash's power comes from it's ability to carry out file name expansion in
-a process known as "globbing". Globbing is a process whereby certain special
-"wildcard" symbols are expanded into a matching set of filenames.
+It's important to be able to control who can access your files on AFS, and
+there's a command called `fs` that lets you do this.
 
-[This page][wildcards] has a great list of examples and wildcards that bash can
-expand. For this class, though, you only need to know the following:
+For more information on any of the following commands, you can always run `fs
+help <command>` to get help on that fs subcommand.
 
-| Pattern | Description                              |
-| ------- | -----------                              |
-| `*`     | Matches any characters in a filename     |
-| `?`     | Matches a single character in a filename |
-{:.ui.striped.table}
+### Listing Permissions (fs la)
 
-### Examples
-
-| Pattern     | Description                                                                   |
-| -------     | -----------                                                                   |
-| `*`         | All file in the current directory                                             |
-| `*.html`    | All files ending in `.html`                                                   |
-| `*notes*`   | All files containing `notes` in their name                                    |
-| `../*`      | All files in the parent directory                                             |
-| `some?file` | All files containing `some` separated from `file` by one character in between |
-{:.ui.striped.table}
-
-### Gotchas
-
-Using an exclamation point (`!`) in bash can be tricky, because it's actually a
-bash special character.
+You can use `fs la` (or fs listacl) to see what the permissions on a directory
+are. The output will be an AndrewID or group followed by what they are allowed
+to do. For example:
 
 {% highlight bash %}
-$ echo "Hello, world!"
--bash: !": event not found"
+jzimmerm@unix4:~$ fs la
+Access list for . is
+Normal rights:
+  system:anyuser l
+  jzimmerm rlidwka
 {% endhighlight %}
 
-You can get around this either by using single quotes (`'...'`) or by escaping
-the exclamation point (`\!`). We'll discuss why the single quotes work when we
-get to bash scripting.
-<!-- TODO add link to discussion of bash strings -->
+There are several permissions that a user can have for a given directory:
+
+| Symbol | Permission                                                      |
+| ------ | ----------                                                      |
+| `r`    | read files                                                      |
+| `l`    | list files and see basic information about them                 |
+| `i`    | create (or insert) new files                                    |
+| `d`    | delete files                                                    |
+| `w`    | edit (or write) to existing files                               |
+| `k`    | "lock" files so that no one else can edit them at the same time |
+| `a`    | admin, i.e. change AFS permissions                              |
+{:.ui.striped.table}
+
+### Setting Permissions (fs sa)
+
+You can use `fs sa` (or fs setacl) to change the permissions on a directory. The
+syntax is:
+
+~~~
+fs sa <directory> <user ><permissions>
+~~~
+
+where <permissions> is some of the letters rlidwk or "none". For instance, to let
+the user bovik list, read, edit, create, lock, and delete files in the directory
+foo, you'd do:
+
+~~~
+fs sa foo bovik rlidwk
+~~~
+
+### AFS Quota (fs lq)
+
+You can use `fs lq` (or fs listquota) to see how much of your alloted AFS space
+you're using. For example:
 
 {% highlight bash %}
-$ echo 'Hello, world!'
-Hello, world!
-$ echo "Hello, world\!"
-Hello, world!
+jzimmerm@unix14:~$ fs lq
+Volume Name                    Quota       Used %Used   Partition
+user.jzimmerm                2000000     385982   19%         46%
 {% endhighlight %}
 
-
-[wildcards]: http://linuxcommand.org/lc3_lts0050.php

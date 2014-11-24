@@ -1,15 +1,15 @@
 ---
 layout: page
-title: "Files and Commands"
-# What topic does this page belong to?
-group: terminal-usage
+title: "Using Files & Commands"
+group: 'terminal-usage'
+order: 1
 script: /javascripts/files-commands.js
 ---
 
 
 {% include toc.md %}
 
-# Files and Commands
+# Using Files & Commands
 {:.ui.dividing.header.no_toc}
 
 ## Remotely Transfer Files (scp)
