@@ -11,6 +11,9 @@ compass:
 serve:
 	octopress serve --watch
 
+topic:
+	_support/topic
+
 lesson:
 	_support/lesson
 
