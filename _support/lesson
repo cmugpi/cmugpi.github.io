@@ -25,8 +25,17 @@ echo
 echo "${cblue}***** New Lesson *****${cnone}"
 echo "Please read the ${cred}README${cnone} for guidelines!"
 echo
-echo "Enter the lesson's topic (${cgreen}ex: terminal-usage${cnone}):"
-read -e -p "${cwhiteb}>${cnone} " topic
+echo "Enter the ${cgreen}number${cnone} of the lesson's topic:"
+#read -e -p "${cwhiteb}>${cnone} " topic
+topics=$(for folder in topics/*/; do basename $folder; done)
+# Change their PS3
+OLD_PS3="$PS3"
+export PS3="Choice number ${cwhiteb}>${cnone} "
+topic=""
+until [ -n "$topic" ]; do
+  select topic in $topics; do break; done
+done
+export PS3="$OLD_PS3"
 
 echo "Enter the lesson's title (${cgreen}ex: \"Using Files & Commands\"${cnone}):"
 read -e -p "${cwhiteb}>${cnone} " title
