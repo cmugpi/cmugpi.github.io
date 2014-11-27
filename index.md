@@ -21,25 +21,28 @@ For more information, you should checkout the [syllabus][syllabus].
 
 ## Schedule
 
-| Topic                                      | Lecture Date   | Puzzle Pack     |
-| ------------------------------------------ | -------------- | --------------- |
-| Initial setup                              | ASAP           | n/a             |
-| Terminal Usage                             | 8/28           | [link][puzzle1] |
-| Vim                                        | 9/4            | [link][puzzle1] |
-| Vim                                        | 9/11           | [link][puzzle1] |
-| Terminal Usage                             | 9/18           | [link][puzzle1] |
-| Terminal Usage                             | 9/25           | [link][puzzle1] |
-| Regular Expressions & Bash                 | 10/2           | [link][puzzle1] |
-| Midterm Exam                               | 10/9           | [link][puzzle1] |
-| Bash                                       | 10/16          | [link][puzzle1] |
-| Debugging                                  | 10/23          | [link][puzzle1] |
-| Debugging                                  | 10/30          | [link][puzzle1] |
-| Git                                        | 11/6           | [link][puzzle1] |
-| LaTeX                                      | 11/13          | [link][puzzle1] |
-| Dotfiles, Makefiles, & Course Advice       | 11/20          | [link][puzzle1] |
-| Thanksgiving                               | 11/27          | [link][puzzle1] |
-| Research & Internship Advice, & Final Exam | 12/4           | [link][puzzle1] |
+| Lecture Date   | Topic                                      | Lecture         |
+| -------------- | ------------------------------------------ | --------------- |
+| ASAP           | [Initial setup][initial-setup]             | -               |
+| 8/28           | [Terminal Usage][terminal-usage]           | [link][puzzle1] |
+| 9/4            | [Vim][vim]                                 | [link][puzzle1] |
+| 9/11           | [Vim][vim]                                 | [link][puzzle1] |
+| 9/18           | [Terminal Usage][terminal-usage]           | [link][puzzle1] |
+| 9/25           | [Terminal Usage][terminal-usage]           | [link][puzzle1] |
+| 10/2           | Regular Expressions & Bash                 | [link][puzzle1] |
+| 10/9           | Midterm Exam                               | [link][puzzle1] |
+| 10/16          | Bash                                       | [link][puzzle1] |
+| 10/23          | Debugging                                  | [link][puzzle1] |
+| 10/30          | Debugging                                  | [link][puzzle1] |
+| 11/6           | Git                                        | [link][puzzle1] |
+| 11/13          | LaTeX                                      | [link][puzzle1] |
+| 11/20          | Dotfiles, Makefiles, & Course Advice       | [link][puzzle1] |
+| __11/27__      | __Thanksgiving__                           | -               |
+| 12/4           | Research & Internship Advice, & Final Exam | [link][puzzle1] |
 {:.ui.striped.table}
 
 [puzzle1]: https://www.google.com/
 [syllabus]: {{ "/syllabus/" | prepend: site.baseprefix }}
+[initial-setup]: {{ "/initial-setup/" | prepend: site.baseprefix }}
+[terminal-usage]: {{ "/terminal-usage/" | prepend: site.baseprefix }}
+[vim]: {{ "/vim/" | prepend: site.baseprefix }}
