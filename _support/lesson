@@ -53,7 +53,7 @@ echo
 echo "Creating new lesson..."
 octopress new page topics/$topic/$slug/ --title "$title" --template lesson
 
-if [ "$?" != 0]; then
+if [ "$?" != 0 ]; then
   echo "${cred}Error creating lesson page.${cnone}"
   exit 1
 fi
