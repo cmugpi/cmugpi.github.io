@@ -1,3 +1,5 @@
+all:
+
 
 install:
 	which gem &> /dev/null || { echo "Requires gem."; exit }
