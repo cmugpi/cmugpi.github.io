@@ -16,6 +16,7 @@ at Carnegie Mellon University (15-131).
   - [Do your research](#do-your-research)
   - [Use links](#use-links)
   - [General Notes](#general-notes)
+- [Jekyll Tips](#jekyll-tips)
 - [Updating](#updating)
 - [License](#license)
 - [Appendix](#appendix)
@@ -195,6 +196,13 @@ that topic.
 Keep in mind that there should only be one `h1` header (`#` in Markdown) per
 page. Make your own headers using `##`.
 
+
+## Jekyll Tips
+
+This is a unordered list of Jekyll tips that I've found useful.
+
+- add `published: false` and change `order` to `0` to the front matter of any
+  page to make it not show up in the generated site.
 
 ## Updating
 
