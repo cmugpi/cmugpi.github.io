@@ -381,3 +381,15 @@ pre code {
   background-color: transparent;
   border: 0;
 }
+
+/* line 79, ../_sass/main.scss */
+li > p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 84, ../_sass/main.scss */
+.content li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

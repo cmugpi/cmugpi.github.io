@@ -75,3 +75,13 @@ pre code {
   background-color: transparent;
   border: 0;
 }
+
+li > p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.content li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
