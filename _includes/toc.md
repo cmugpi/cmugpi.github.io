@@ -1,4 +1,4 @@
-<div class="ui close right rail">
+<div class="ui very close left rail">
 * Table of Contents
 {:toc}
 </div>
