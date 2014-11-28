@@ -1,8 +1,12 @@
 ;(function () {
-  function toggleSidebar(e) {
+  function toggleTopicsSidebar(e) {
     e.preventDefault();
     $('.topics.sidebar').sidebar('toggle');
-    $('.topics.icon.item').children().toggleClass('content arrow left')
+  }
+
+  function toggleNavigationSidebar(e) {
+    e.preventDefault();
+    $('.navigation.sidebar').sidebar('toggle');
   }
 
   function fixTOC() {
@@ -17,6 +21,7 @@
 
   $(document).ready(function main() {
     fixTOC();
-    $('.topics.icon.item').click(toggleSidebar);
+    $('.topics.icon.item').click(toggleTopicsSidebar);
+    $('.navigation.icon.item').click(toggleNavigationSidebar);
   });
 })();

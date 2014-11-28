@@ -1,0 +1,14 @@
+{% assign pages_sorted = site.pages | sort: 'order' %}
+{% for node in pages_sorted %}
+  {% if node.group == 'navigation' %}
+    {% if node.url == page.url %}
+      <a class="active teal item" href="#">
+        {{ node.title }}
+      </a>
+    {% else %}
+      <a class="teal item" href="{{ node.url | replace:'index.html','' | prepend: site.baseprefix }}">
+        {{ node.title }}
+      </a>
+    {% endif %}
+  {% endif %}
+{% endfor %}

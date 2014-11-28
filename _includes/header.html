@@ -1,41 +1,25 @@
 <div class="ui fixed large navbar menu">
-  <div class="ui navbar stackable grid">
-    <div class="four wide column">
+  <div class="ui navbar grid">
+    <div class="four wide left aligned column">
       <a href="#" class="topics icon item">
         <i class="content icon"></i>
       </a>
     </div>
-    <div class="eight wide column">
+    <div class="eight wide computer only column">
       <a class="item" href="{{ site.baseurl }}">
         GPI
       </a>
-      {% assign pages_sorted = site.pages | sort: 'order' %}
-      {% for node in pages_sorted %}
-        {% if node.group == 'navigation' %}
-          {% if node.url == page.url %}
-            <a class="active teal item" href="#">
-              {{ node.title }}
-            </a>
-          {% else %}
-            <a class="teal item" href="{{ node.url | replace:'index.html','' | prepend: site.baseprefix }}">
-              {{ node.title }}
-            </a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-      <!-- TODO: replace this with list of helpful links
-        <div class="right menu">
-        <div class="item">
-        <div class="ui icon input">
-        <input type="text" placeholder="Search...">
-        <i class="search link icon"></i>
-        </div>
-        </div>
-        <a class="ui item">
-        Logout
-        </a>
-        </div>
-      -->
+      {% include navigation.html %}
+    </div>
+    <div class="eight wide center aligned mobile tablet only column">
+      <a class="item" href="{{ site.baseurl }}">
+        GPI
+      </a>
+    </div>
+    <div class="four wide right aligned mobile tablet only column">
+      <a href="#" class="navigation icon item">
+        <i class="toggle down icon"></i>
+      </a>
     </div>
   </div>
 </div>
