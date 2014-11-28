@@ -314,34 +314,44 @@
   margin-top: 0;
 }
 
-/* line 18, ../_sass/main.scss */
+@media (max-width: 992px) {
+  /* line 20, ../_sass/main.scss */
+  .ui.navbar.fixed {
+    position: initial;
+  }
+  /* line 22, ../_sass/main.scss */
+  .ui.navbar.fixed + .ui.main.grid {
+    padding-top: initial;
+  }
+}
+/* line 28, ../_sass/main.scss */
 .ui.vertical.topics.menu .active.item {
   box-shadow: 4px 0 0 inset;
 }
 
-/* line 23, ../_sass/main.scss */
+/* line 33, ../_sass/main.scss */
 .pushable {
   background: #f7f7f7 !important;
 }
 
-/* line 28, ../_sass/main.scss */
+/* line 38, ../_sass/main.scss */
 html, body {
   font-size: 16px;
 }
 
-/* line 34, ../_sass/main.scss */
+/* line 44, ../_sass/main.scss */
 .main {
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
 
-/* line 40, ../_sass/main.scss */
+/* line 50, ../_sass/main.scss */
 pre, code {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 14px;
 }
 
-/* line 45, ../_sass/main.scss */
+/* line 55, ../_sass/main.scss */
 code {
   padding: 2px 4px;
   color: #d14;
@@ -353,7 +363,7 @@ code {
   border-radius: 3px;
 }
 
-/* line 54, ../_sass/main.scss */
+/* line 64, ../_sass/main.scss */
 pre {
   display: block;
   padding: 9.5px;
@@ -372,7 +382,7 @@ pre {
   border-radius: 4px;
 }
 
-/* line 70, ../_sass/main.scss */
+/* line 80, ../_sass/main.scss */
 pre code {
   padding: 0;
   color: inherit;
@@ -382,13 +392,13 @@ pre code {
   border: 0;
 }
 
-/* line 79, ../_sass/main.scss */
+/* line 89, ../_sass/main.scss */
 li > p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 84, ../_sass/main.scss */
+/* line 94, ../_sass/main.scss */
 .content li {
   margin-top: 5px;
   margin-bottom: 5px;
