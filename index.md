@@ -21,24 +21,24 @@ For more information, you should checkout the [syllabus][syllabus].
 
 ## Schedule
 
-| Lecture Date   | Topic                                      | Lecture         |
-| -------------- | ------------------------------------------ | --------------- |
-| ASAP           | [Initial setup][initial-setup]             | -               |
-| 8/28           | [Terminal Usage][terminal-usage]           | [link][puzzle1] |
-| 9/4            | [Vim][vim]                                 | [link][puzzle1] |
-| 9/11           | [Vim][vim]                                 | [link][puzzle1] |
-| 9/18           | [Terminal Usage][terminal-usage]           | [link][puzzle1] |
-| 9/25           | [Terminal Usage][terminal-usage]           | [link][puzzle1] |
-| 10/2           | Regular Expressions & Bash                 | [link][puzzle1] |
-| 10/9           | Midterm Exam                               | [link][puzzle1] |
-| 10/16          | Bash                                       | [link][puzzle1] |
-| 10/23          | Debugging                                  | [link][puzzle1] |
-| 10/30          | Debugging                                  | [link][puzzle1] |
-| 11/6           | Git                                        | [link][puzzle1] |
-| 11/13          | LaTeX                                      | [link][puzzle1] |
-| 11/20          | Dotfiles, Makefiles, & Course Advice       | [link][puzzle1] |
-| __11/27__      | __Thanksgiving__                           | -               |
-| 12/4           | Research & Internship Advice, & Final Exam | [link][puzzle1] |
+| Lecture Date | Topic                            | Lecture         |
+| ------------ | -----                            | -------         |
+| ASAP         | [Initial setup][initial-setup]   | -               |
+| 9/3          | [Terminal Usage][terminal-usage] | [link][puzzle1] |
+| 9/10         | [Vim][vim]                       | [link][puzzle1] |
+| 9/17         | [Vim][vim]                       | [link][puzzle1] |
+| 9/24         | [Terminal Usage][terminal-usage] | [link][puzzle1] |
+| 10/1         | [Terminal Usage][terminal-usage] | [link][puzzle1] |
+| 10/8         | Bash                             | [link][puzzle1] |
+| 10/15        | Midterm Exam                     | [link][puzzle1] |
+| 10/22        | Bash                             | [link][puzzle1] |
+| 10/29        | Bash                             | [link][puzzle1] |
+| 11/5         | Bash                             | [link][puzzle1] |
+| 11/12        | Git                              | [link][puzzle1] |
+| 11/19        | LaTeX                            | [link][puzzle1] |
+| __11/26__    | __Thanksgiving__                 | -               |
+| 12/3         | Terminal Configuration           | [link][puzzle1] |
+| 12/10        | Open Source, Final Exam          | [link][puzzle1] |
 {:.ui.striped.table}
 
 [puzzle1]: https://www.google.com/

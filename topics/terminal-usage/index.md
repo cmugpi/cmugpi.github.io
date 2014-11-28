@@ -47,15 +47,13 @@ called a "terminal" in everyday talk.
 
 ## Readings
 
-| Date | Reading                                                                                  |
-| ---- | -------                                                                                  |
-| 8/28 | [Using Files & Commands][files-commands] <br> [Terminal Environment & AFS][environment-afs] |
-| 9/18 | [Globbing & Ranges][globbing-ranges] <br> [Jobs, Man Pages, & Links][jobs-man-links]     |
-| -    | [Recovering Lost Files][oldfiles]                                                        |
+| Date | Reading                                       |
+| ---- | -------                                       |
+| 9/3  | [Using Files & Commands][files-commands]      |
+| 9/24 | [Terminal Environment & AFS][environment-afs] |
+| 10/1 | [Jobs, Man Pages, & Links][jobs-man-links]    |
 {:.ui.striped.table}
 
 [files-commands]: files-commands/
 [environment-afs]: environment-afs/
-[globbing-ranges]: globbing-ranges/
 [jobs-man-links]: jobs-man-links/
-[oldfiles]: oldfiles/

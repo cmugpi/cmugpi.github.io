@@ -60,8 +60,8 @@ this course will focus only on Vim.
 
 | Date | Reading                                     |
 | ---- | -------                                     |
-| 9/4  | [Getting Started with Vim][getting-started] |
-| 9/11 | [Vim as Language][vim-language]             |
+| 9/10 | [Getting Started with Vim][getting-started] |
+| 9/17 | [Vim as Language][vim-language]             |
 {:.ui.striped.table}
 
 [editor-war]: http://en.wikipedia.org/wiki/Editor_war
