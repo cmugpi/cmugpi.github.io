@@ -196,6 +196,30 @@ that topic.
 Keep in mind that there should only be one `h1` header (`#` in Markdown) per
 page. Make your own headers using `##`.
 
+Use the `{{ "/link-url/" | prepend: site.baseprefix }}` [Liquid][liquid] syntax
+to create links relative to the site's base URL. This facilitates making
+separate sites for each semester (/~15131/f14/...) if we decide to take this
+path.
+
+Try to keep paragraph text to 80-character lines. Note that GitHub flavored
+Markdown treats inner-paragraph line breaks as `<br>` tags, but the Markdown
+renderer we're using to build our site doesn't have this feature enabled.
+
+Markdown tables _cannot_ have line breaks in them, so make them as long as they
+need to be to hold their content. If you need a line break within a cell, use
+`<br>`. For an easy way to format Markdown tables, you may want to look at
+[tabular][tabular] or [vim-markdown][vim-markdown].
+
+To sort everything, each page has an `order` property. Before rendering any
+content, all the pages are sorted in order of this property. Because we only
+ever render similar content (i.e., topics, lessons, navigation items) together,
+only pages that occur "near" each other need to have non-ambiguous `order`
+values. For example, All five `navigation` items can have orders from 1 through
+5, and all lessons under the `terminal-usgage` topic can have orders from 1
+through 5, and everything will be sorted appropriately, even if the intermediate
+sorted list of all pages intermingles navigation pages with terminal-usage
+lesson pages.
+
 
 ## Jekyll Tips
 
@@ -203,6 +227,7 @@ This is a unordered list of Jekyll tips that I've found useful.
 
 - add `published: false` and change `order` to `0` to the front matter of any
   page to make it not show up in the generated site.
+- k
 
 ## Updating
 
@@ -317,6 +342,9 @@ whole machine).
 [rbenv]: https://github.com/sstephenson/rbenv
 [yaml]: http://learnxinyminutes.com/docs/yaml/
 [semantic-ui]: https://github.com/semantic-org/semantic-ui/
+[liquid]: http://docs.shopify.com/themes/liquid-documentation/basics
+[tabular]: https://github.com/godlygeek/tabular
+[vim-markdown]: https://github.com/plasticboy/vim-markdown
 
 <!-- vim:foldmethod=marker:foldlevel=0:
 -->
