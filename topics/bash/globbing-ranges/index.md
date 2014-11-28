@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Globbing & Ranges"
-group: 'terminal-usage'
-order: 3
+group: 'bash'
+order: 1
 ---
 
 {% include toc.md %}
@@ -32,13 +32,13 @@ expand. For this class, though, you only need to know the following:
 
 ### Examples
 
-| Pattern     | Description                                                                   |
-| -------     | -----------                                                                   |
-| `*`         | All file in the current directory                                             |
-| `*.html`    | All files ending in `.html`                                                   |
-| `*notes*`   | All files containing `notes` in their name                                    |
-| `../*`      | All files in the parent directory                                             |
-| `some?file` | All files containing `some` separated from `file` by one character in between |
+| Pattern     | Description                                                                       |
+| -------     | -----------                                                                       |
+| `*`         | All file in the current directory                                                 |
+| `*.html`    | All files ending in `.html`                                                       |
+| `*notes*`   | All files containing `notes` in their name                                        |
+| `../*`      | All files in the parent directory                                                 |
+| `some?file` | All files starting with `some`, ending with `file`, with one character in between |
 {:.ui.striped.table}
 
 ### Gotchas

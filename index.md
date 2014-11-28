@@ -29,11 +29,11 @@ For more information, you should checkout the [syllabus][syllabus].
 | 9/17         | [Vim][vim]                       | [link][puzzle1] |
 | 9/24         | [Terminal Usage][terminal-usage] | [link][puzzle1] |
 | 10/1         | [Terminal Usage][terminal-usage] | [link][puzzle1] |
-| 10/8         | Bash                             | [link][puzzle1] |
+| 10/8         | [Bash][bash]                     | [link][puzzle1] |
 | 10/15        | Midterm Exam                     | [link][puzzle1] |
-| 10/22        | Bash                             | [link][puzzle1] |
-| 10/29        | Bash                             | [link][puzzle1] |
-| 11/5         | Bash                             | [link][puzzle1] |
+| 10/22        | [Bash][bash]                     | [link][puzzle1] |
+| 10/29        | [Bash][bash]                     | [link][puzzle1] |
+| 11/5         | [Bash][bash]                     | [link][puzzle1] |
 | 11/12        | Git                              | [link][puzzle1] |
 | 11/19        | LaTeX                            | [link][puzzle1] |
 | __11/26__    | __Thanksgiving__                 | -               |
@@ -46,3 +46,4 @@ For more information, you should checkout the [syllabus][syllabus].
 [initial-setup]: {{ "/initial-setup/" | prepend: site.baseprefix }}
 [terminal-usage]: {{ "/topics/terminal-usage/" | prepend: site.baseprefix }}
 [vim]: {{ "/topics/vim/" | prepend: site.baseprefix }}
+[bash]: {{ "/topics/bash/" | prepend: site.baseprefix }}
