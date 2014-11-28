@@ -155,13 +155,13 @@ $ ln -s <to_file> <from_file>
 
 This can be hard to remember. I personally find it easy to think about it in
 terms of the "arrow" that effectively gets drawn by linking one file to another.
-When using `ls -l`, the directory of this arrow is forward (->), but when using
+When using `ls -l`, the direction of this arrow is forward (->), but when using
 the `ln -s` command to create links, the _arrow points backwards_.
 
 {% highlight bash %}
-#            .----<----.
-#            |         |
-#            V         ^
+#              <----
 $ ln -s <to_file> <from_file>
+$ ls -l <from_file>
+...omitted... <from_file> -> <to_file>
 {% endhighlight %}
 
