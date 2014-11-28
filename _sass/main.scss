@@ -17,6 +17,10 @@
 
 // Turn off fixed navbar on mobile
 @media(max-width: 992px) {
+  .ui.navbar.grid {
+    margin: 0;
+  }
+
   .ui.navbar.fixed {
     position: initial;
     +.ui.main.grid {
