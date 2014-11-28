@@ -44,5 +44,5 @@ For more information, you should checkout the [syllabus][syllabus].
 [puzzle1]: https://www.google.com/
 [syllabus]: {{ "/syllabus/" | prepend: site.baseprefix }}
 [initial-setup]: {{ "/initial-setup/" | prepend: site.baseprefix }}
-[terminal-usage]: {{ "/terminal-usage/" | prepend: site.baseprefix }}
-[vim]: {{ "/vim/" | prepend: site.baseprefix }}
+[terminal-usage]: {{ "/topics/terminal-usage/" | prepend: site.baseprefix }}
+[vim]: {{ "/topics/vim/" | prepend: site.baseprefix }}
