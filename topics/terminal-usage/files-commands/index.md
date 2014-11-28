@@ -49,7 +49,7 @@ that files _and_ folders should be copied.
 $ scp school/notes.txt andrew:notes_sept_2.txt
 # Copies school/notes.txt from your computer to Andrew and renames it
 
-$ scp andrew:~/private/myfile.txt projects/`
+$ scp andrew:~/private/myfile.txt projects/
 # Copies ~/private/myfile.txt from Andrew to your computer and puts it in
 # the projects directory.
 
