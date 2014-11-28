@@ -41,7 +41,7 @@ echo
 echo "Creating new topic..."
 octopress new page topics/$topic/ --title "$title" --template topic
 
-if [ "$?" != 0]; then
+if [ "$?" != 0 ]; then
   echo "${cred}Error creating lesson page.${cnone}"
   exit 1
 fi
