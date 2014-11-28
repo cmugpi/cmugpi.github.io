@@ -17,6 +17,9 @@ at Carnegie Mellon University (15-131).
   - [Use links](#use-links)
   - [General Notes](#general-notes)
 - [Jekyll Tips](#jekyll-tips)
+- [Markdown Tips](#markdown-tips)
+  - [Tables](#tables)
+  - [Simple `pre` blocks](#simple-pre-blocks)
 - [Updating](#updating)
 - [License](#license)
 - [Appendix](#appendix)
@@ -227,7 +230,33 @@ This is a unordered list of Jekyll tips that I've found useful.
 
 - add `published: false` and change `order` to `0` to the front matter of any
   page to make it not show up in the generated site.
-- k
+- Checkout the Vim plugin [vim-liquid][vim-liquid] by Tim Pope.
+- use `{% highlight <lang> %}... content ...{% endhighlight %}` to have your
+  code snippets highlighted according to a specific language.
+
+## Markdown Tips
+
+### Tables
+
+You can use Tables in your markdown like this:
+
+```
+| Heading 1 | Heading 2 |
+| --------- | --------- |
+| A         | B         |
+| C         | D         |
+```
+
+output:
+
+| Heading 1 | Heading 2 |
+| --------- | --------- |
+| A         | B         |
+| C         | D         |
+
+### Simple `pre` blocks
+
+For simple, non-highlighted code blocks, use `~~~` instead of <code>```</code>.
 
 ## Updating
 
@@ -345,6 +374,7 @@ whole machine).
 [liquid]: http://docs.shopify.com/themes/liquid-documentation/basics
 [tabular]: https://github.com/godlygeek/tabular
 [vim-markdown]: https://github.com/plasticboy/vim-markdown
+[vim-liquid]: https://github.com/tpope/vim-liquid
 
 <!-- vim:foldmethod=marker:foldlevel=0:
 -->
