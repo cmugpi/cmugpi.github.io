@@ -4,7 +4,7 @@ title: "Input & Output"
 # What topic does this page belong to?
 group: bash
 # Relative ordering of lessons within a topic
-order: 2
+order: 3
 ---
 
 

@@ -4,7 +4,7 @@ title: "Strings"
 # What topic does this page belong to?
 group: bash
 # Relative ordering of lessons within a topic
-order: 3
+order: 2
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js
