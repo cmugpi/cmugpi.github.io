@@ -10,7 +10,7 @@ order: 2
 
 {% include toc.md %}
 
-# Input Title Output
+# Input & Output
 {:.ui.dividing.header.no_toc}
 
 Bash has tons of commands that print out information. While having it just be
