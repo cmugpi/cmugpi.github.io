@@ -253,10 +253,11 @@ when learning how to use regexs:
   - Man page for regular expression formats
 
 ## Going Further
+
 - [Sed - An Introduction and Tutorial][sed]
   - A very comprehensive but readable introduction to sed
 
 [sed]: http://www.grymoire.com/Unix/Sed.html
 [regex101]: https://regex101.com/
-[reqex-info]: http://www.regular-expressions.info/
-[reqex-info-qs]: http://www.regular-expressions.info/quickstart.html
+[regex-info]: http://www.regular-expressions.info/
+[regex-info-qs]: http://www.regular-expressions.info/quickstart.html
