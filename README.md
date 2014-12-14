@@ -5,6 +5,7 @@ at Carnegie Mellon University (15-131).
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Recompiling the Site](#recompiling-the-site)
 - [Site Layout](#site-layout)
@@ -20,6 +21,8 @@ at Carnegie Mellon University (15-131).
 - [Markdown Tips](#markdown-tips)
   - [Tables](#tables)
   - [Simple `pre` blocks](#simple-pre-blocks)
+- [Semantic UI Tips](#semantic-ui-tips)
+  - [UI Messages](#ui-messages)
 - [Updating](#updating)
 - [License](#license)
 - [Appendix](#appendix)
@@ -27,7 +30,7 @@ at Carnegie Mellon University (15-131).
     - [OS X](#os-x)
     - [Other](#other)
   - [Building a Ruby Version](#building-a-ruby-version)
-
+  - [Other Notes](#other-notes)
 
 ## Installation
 
@@ -245,6 +248,7 @@ You can use Tables in your markdown like this:
 | --------- | --------- |
 | A         | B         |
 | C         | D         |
+{:.ui.striped.table}
 ```
 
 output:
@@ -253,10 +257,45 @@ output:
 | --------- | --------- |
 | A         | B         |
 | C         | D         |
+{:.ui.striped.table}
+
+The `{:.ui.striped.table}` is used by the Markdown rendering engine we're using
+(kramdown) to apply CSS classes to the previous HTML block. The CSS framework
+we're using (Semantic UI) needs these classes to be present to make the table
+look good.
 
 ### Simple `pre` blocks
 
-For simple, non-highlighted code blocks, use `~~~` instead of <code>```</code>.
+For simple, non-highlighted code blocks, use `~~~` instead of `` ``` ``
+
+## Semantic UI Tips
+
+The CSS framework we're using, Semantic UI, comes with a variety of CSS helper
+classes. This is a list of common classes you might want to include when writing
+your pages.
+
+The Markdown processor we're using, kramdown, supports an extension where CSS
+classes can be applied by appending text of the following form to the end of
+block:
+
+```
+{:.class1.class2}
+```
+
+### UI Messages
+
+To have messages stand out more than bold or italic text, you can include a
+`.ui.message`. Example:
+
+```
+__WARNING!__ This is my warning message.
+{:.ui.warning.message}
+```
+
+There are classes for `warning`, `error`, `info`, `success`, and a variety of
+other colors. See [here][ui-message] for a full list.
+
+
 
 ## Updating
 
@@ -366,6 +405,14 @@ and it will install the version specified by that file. If you want to create a
 you can run `rbenv local` (or `rbenv global` to make it the default across your
 whole machine).
 
+### Other Notes
+
+The Table of Contents in this file was generated using [DocToc][doctoc].
+
+```
+$ doctoc README.md
+```
+
 
 
 [rbenv]: https://github.com/sstephenson/rbenv
@@ -375,6 +422,8 @@ whole machine).
 [tabular]: https://github.com/godlygeek/tabular
 [vim-markdown]: https://github.com/plasticboy/vim-markdown
 [vim-liquid]: https://github.com/tpope/vim-liquid
+[ui-message]: http://semantic-ui.com/collections/message.html
+[doctoc]: https://github.com/thlorenz/doctoc
 
 <!-- vim:foldmethod=marker:foldlevel=0:
 -->
