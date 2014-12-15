@@ -8,7 +8,7 @@ compass:
 	compass watch
 
 serve:
-	octopress serve --watch
+	jekyll serve --watch
 
 topic:
 	_support/topic
