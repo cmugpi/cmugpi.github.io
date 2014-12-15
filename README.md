@@ -5,7 +5,6 @@ at Carnegie Mellon University (15-131).
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Recompiling the Site](#recompiling-the-site)
 - [Site Layout](#site-layout)

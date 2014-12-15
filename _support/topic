@@ -23,7 +23,7 @@ ccyanb="$(echo -ne '\033[1;36m')"
 
 echo
 echo "${cblue}***** New Topic *****${cnone}"
-echo "Please read the ${cred}README${cnone} for guidelines!"
+echo "Please read the ${cred}README (Creating New Content)${cnone} for guidelines!"
 echo
 echo "Enter the topic's slug (${cgreen}ex: terminal-usage${cnone}):"
 read -e -p "${cwhiteb}>${cnone} " topic

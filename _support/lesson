@@ -23,7 +23,7 @@ ccyanb="$(echo -ne '\033[1;36m')"
 
 echo
 echo "${cblue}***** New Lesson *****${cnone}"
-echo "Please read the ${cred}README${cnone} for guidelines!"
+echo "Please read the ${cred}README (Creating New Content)${cnone} for guidelines!"
 echo
 echo "Enter the ${cgreen}number${cnone} of the lesson's topic:"
 #read -e -p "${cwhiteb}>${cnone} " topic
