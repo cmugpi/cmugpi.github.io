@@ -54,6 +54,7 @@ rewarding endeavor.
     - A very comprehensive but readable introduction to sed
 - Bash Scripting
   - [Bash Programming -- Introduction How-To][tldpbash]
+    - Very comprehensive intro to bash scripting
 
 [regex101]: https://regex101.com/
 [regex-info]: http://www.regular-expressions.info/
