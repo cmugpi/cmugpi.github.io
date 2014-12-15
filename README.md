@@ -63,6 +63,19 @@ $ make install
 which will set up the virtual environment, install the dependencies, and make
 the magic happen.
 
+To work in the newly created virtual environment, run
+
+```
+$ workon <name of virtualenv>
+$ rbenv rehash # if you're using rbenv
+```
+
+To stop working on the virtual environment,
+
+```
+$ deactivate
+```
+
 ## Recompiling the Site
 
 We're using Octopress 3.0, the most recent version of Octopress, to help with

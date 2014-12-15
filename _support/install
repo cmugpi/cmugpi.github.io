@@ -109,10 +109,11 @@ echo
 echo "${cwhite}==>${cnone} Installing gems to virtual env..."
 echo ">> gem install bundle"
 gem install bundle
-which rbenv &> /dev/null && rbenv rehash
 
 echo ">> bundle install"
 bundle install
+
+echo "${cyellow}New gems have been installed. You may need to run \`rbenv rehash\`."
 
 echo $cwhite
 echo " *** Done! ***"
