@@ -413,6 +413,12 @@ The Table of Contents in this file was generated using [DocToc][doctoc].
 $ doctoc README.md
 ```
 
+From time to time, RubyGems can be a pain. What I'd really like is a
+virtualenv-like environment for Ruby gems, but for now what I do when I have
+upgrading troubles is uninstall everything according to [this
+script][uninstall_gems], and then do a `bundle install` to install from the
+Gemfile.lock (the last working state).
+
 
 
 [rbenv]: https://github.com/sstephenson/rbenv
@@ -424,6 +430,7 @@ $ doctoc README.md
 [vim-liquid]: https://github.com/tpope/vim-liquid
 [ui-message]: http://semantic-ui.com/collections/message.html
 [doctoc]: https://github.com/thlorenz/doctoc
+[uninstall_gems]: https://gist.github.com/IanVaughan/2902499
 
 <!-- vim:foldmethod=marker:foldlevel=0:
 -->
