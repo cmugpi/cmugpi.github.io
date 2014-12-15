@@ -21,6 +21,11 @@ For more information, you should checkout the [syllabus][syllabus].
 
 ## Schedule
 
+{% comment %}
+I apologize for this being so wide! Trust me, it looks really nice if you have
+a screen big enough to handle it.
+{% endcomment %}
+
 | Lecture Date | Topic                            | Lecture                                             |
 | ------------ | -----                            | -------                                             |
 | ASAP         | [Initial setup][initial-setup]   | -                                                   |
@@ -34,7 +39,7 @@ For more information, you should checkout the [syllabus][syllabus].
 | 10/22        | [Bash][bash]                     | [Input & Output][io] & [Regular Expressions][regex] |
 | 10/29        | [Bash][bash]                     | [Oneliners][oneliners]                              |
 | 11/5         | [Bash][bash]                     | [Bash Scripting][scripting]                         |
-| 11/12        | Git                              | x |
+| 11/12        | [Git][git]                       | [Getting Started with Git][gs-git]                  |
 | 11/19        | LaTeX                            | x |
 | __11/26__    | __Thanksgiving__                 | -                                                   |
 | 12/3         | Terminal Configuration           | x |
@@ -62,4 +67,6 @@ For more information, you should checkout the [syllabus][syllabus].
 [oneliners]: {{ "/topics/bash/oneliners/"           | prepend: site.baseprefix }}
 [scripting]: {{ "/topics/bash/scripting/"           | prepend: site.baseprefix }}
 
+[git]:    {{ "/topics/git/"                 | prepend: site.baseprefix }}
+[gs-git]: {{ "/topics/git/getting-started/" | prepend: site.baseprefix }}
 
