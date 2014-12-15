@@ -2,7 +2,10 @@
 layout: page
 title: "Bash"
 group: topic
-description:
+description: >
+  Bash is a language, development tool, and time saver. Just about
+  any time you're typing something into a terminal, you're interacting with
+  bash.
 # How sub-pages will be linked to this page
 topic: bash
 # Relative ordering of topics
@@ -49,20 +52,11 @@ rewarding endeavor.
     - Start with the [QuickStart][regex-info-qs]
   - [Sed - An Introduction and Tutorial][sed]
     - A very comprehensive but readable introduction to sed
+- Bash Scripting
+  - [Bash Programming -- Introduction How-To][tldpbash]
 
 [regex101]: https://regex101.com/
 [regex-info]: http://www.regular-expressions.info/
 [regex-info-qs]: http://www.regular-expressions.info/quickstart.html
 [sed]: http://www.grymoire.com/Unix/Sed.html
-
-## Readings
-
-| Date  | Reading |
-| ----  | ------- |
-| 10/8  | [Globbing & Ranges][globbing] |
-| 10/22 | TODO    |
-| 10/29 | TODO    |
-| 11/5  | TODO    |
-{:.ui.striped.table}
-
-[globbing]: globbing-ranges/
+[tldpbash]: http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html

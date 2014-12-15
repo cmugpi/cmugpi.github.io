@@ -44,16 +44,3 @@ called a "terminal" in everyday talk.
 - [Learning the Shell][linuxcommand]
 
 [linuxcommand]: http://linuxcommand.org/lc3_learning_the_shell.php
-
-## Readings
-
-| Date | Reading                                       |
-| ---- | -------                                       |
-| 9/3  | [Using Files & Commands][files-commands]      |
-| 9/24 | [Terminal Environment & AFS][environment-afs] |
-| 10/1 | [Jobs, Man Pages, & Links][jobs-man-links]    |
-{:.ui.striped.table}
-
-[files-commands]: files-commands/
-[environment-afs]: environment-afs/
-[jobs-man-links]: jobs-man-links/

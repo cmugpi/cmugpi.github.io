@@ -56,18 +56,9 @@ this course will focus only on Vim.
 - [Your problem with Vim is that you don't grok vi][grok-vi]
     - Famous StackOverflow post explaining how to use Vim as a language
 
-## Readings
-
-| Date | Reading                                     |
-| ---- | -------                                     |
-| 9/10 | [Getting Started with Vim][getting-started] |
-| 9/17 | [Vim as Language][vim-language]             |
-{:.ui.striped.table}
-
 [editor-war]: http://en.wikipedia.org/wiki/Editor_war
 [learning-vim]: http://benmccormick.org/learning-vim-in-2014/
 [the-basics]: http://benmccormick.org/2014/06/30/learning-vim-in-2014-the-basics/
 [vim-language]: http://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/
 [learn-vim-progressively]: http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
 [grok-vi]: http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
-[getting-started]: getting-started
