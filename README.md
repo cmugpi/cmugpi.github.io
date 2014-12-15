@@ -340,17 +340,17 @@ that satisfy the requirements specified in the `Gemfile`.
 We depend on two static assets: jQuery and Semantic UI.
 
 jQuery is being loaded through the Google CDN. To update it, simply change the
-URL in `_includes/scripts.html`.
+URL in ``_includes/scripts.html``.
 
 Semantic UI is being served locally. To update it, [clone it][semantic-ui],
 rebuild the stylesheets, and move the compiled stylesheets into the right
 places. Specifically,
 
-| Move in Semantic UI   | To Here in GPI www          |
-| -------------------   | ------------------          |
-| dist/semantic.min.css | css/lib/                    |
-| dist/themes           | css/lib/                    |
-| dist/semantic.min.js  | javascripts/semantic.min.js |
+| Move x from Semantic UI | To Here in GPI www          |
+| ----------------------- | ------------------          |
+| dist/semantic.min.css   | css/lib/                    |
+| dist/themes             | css/lib/                    |
+| dist/semantic.min.js    | javascripts/semantic.min.js |
 
 ## License
 
