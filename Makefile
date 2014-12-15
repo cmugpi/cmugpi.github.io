@@ -2,10 +2,7 @@ all:
 
 
 install:
-	which gem &> /dev/null || { echo "Requires gem."; exit }
-	gem install bundle
-	which rbenv &> /dev/null && rbenv rehash
-	bundle install
+	_support/install
 
 compass:
 	compass watch

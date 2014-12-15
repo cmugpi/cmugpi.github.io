@@ -47,11 +47,21 @@ Now that you have Ruby, you can go ahead and install the projects dependencies.
 We're going to be using Bundler to manage Ruby gems. For a detailed list of what
 will be installed, see the `Gemfile`.
 
-To install gems:
+As it turns out though, managing module dependencies is a pain. Luckily, the
+Python community went and figured it out, building a project called
+[virtualenvwrapper][venvw]. Most of the time it's used for managing Python
+modules, but when combined with RubyGems and Bundler, it possesses all the
+features necessary to work similarly for Ruby. If you don't have
+virtualenvwrapper installed already, go [install it][venvwinstall].
+
+Once you've got that done, you can go ahead and run
 
 ```
 $ make install
 ```
+
+which will set up the virtual environment, install the dependencies, and make
+the magic happen.
 
 ## Recompiling the Site
 
@@ -421,6 +431,8 @@ Gemfile.lock (the last working state).
 
 
 
+[venvw]: http://virtualenvwrapper.readthedocs.org/en/latest/
+[venvwinstall]: http://virtualenvwrapper.readthedocs.org/en/latest/install.html#basic-installation
 [rbenv]: https://github.com/sstephenson/rbenv
 [yaml]: http://learnxinyminutes.com/docs/yaml/
 [semantic-ui]: https://github.com/semantic-org/semantic-ui/
