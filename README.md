@@ -67,7 +67,6 @@ To work in the newly created virtual environment, run
 
 ```
 $ workon <name of virtualenv>
-$ rbenv rehash # if you're using rbenv
 ```
 
 To stop working on the virtual environment,

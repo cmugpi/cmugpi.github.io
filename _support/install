@@ -105,6 +105,11 @@ unset OLD_${virtualenv_caps}_PATH
 EOF
 echo "Done. See ${cblue}$VIRTUAL_ENV/bin/postdeactivate${cnone} for what was added."
 
+# make the same changes we made in the postactivate script
+export GEM_HOME="$VIRTUAL_ENV/gems"
+export GEM_PATH=""
+export PATH="$PATH:$GEM_HOME/bin"
+
 echo
 echo "${cwhite}==>${cnone} Installing gems to virtual env..."
 echo ">> gem install bundle"
@@ -113,9 +118,18 @@ gem install bundle
 echo ">> bundle install"
 bundle install
 
-echo "${cyellow}New gems have been installed. You may need to run \`rbenv rehash\`."
-
 echo $cwhite
-echo " *** Done! ***"
+echo "********************************************************************************"
+echo "*                                                                              *"
+echo "*  Done!                                                                       *"
+echo "*                                                                              *"
+echo "*  To start working on the project, READ THE README (please actually do it).   *"
+echo "*  You'll also need to run                                                     *"
+echo "*                                                                              *"
+echo "*      workon <virtualenv name>                                                *"
+echo "*                                                                              *"
+echo "*  every time you want to do work. Thanks!                                     *"
+echo "*                                                                              *"
+echo "********************************************************************************"
 echo $cnone
 
