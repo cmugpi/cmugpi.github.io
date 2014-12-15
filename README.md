@@ -16,6 +16,7 @@ at Carnegie Mellon University (15-131).
   - [Do your research](#do-your-research)
   - [Use links](#use-links)
   - [General Notes](#general-notes)
+- [Troubleshooting](#troubleshooting)
 - [Jekyll Tips](#jekyll-tips)
 - [Markdown Tips](#markdown-tips)
   - [Tables](#tables)
@@ -246,6 +247,15 @@ values. For example, All five `navigation` items can have orders from 1 through
 through 5, and everything will be sorted appropriately, even if the intermediate
 sorted list of all pages intermingles navigation pages with terminal-usage
 lesson pages.
+
+
+## Troubleshooting
+
+If you're not working on the virtual environment (`workon <env>`), chances are
+that everything will fail with non-descriptive error messages, so check that
+you're working on the environment. You should be able to see that you're on an
+environment because its name will have been added to your prompt, but otherwise
+you can check that the value of `$VIRTUAL_ENV` is non-empty.
 
 
 ## Jekyll Tips
