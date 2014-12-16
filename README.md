@@ -16,6 +16,7 @@ at Carnegie Mellon University (15-131).
   - [Create lessons readily](#create-lessons-readily)
   - [Do your research](#do-your-research)
   - [Use links](#use-links)
+  - [PDFs & Documents](#pdfs-documents)
   - [General Notes](#general-notes)
 - [Troubleshooting](#troubleshooting)
 - [Jekyll Tips](#jekyll-tips)
@@ -248,6 +249,25 @@ resources. Link to them! Putting links in the context of the page is a great way
 to enrich the content of your own posts. On top of in-line links, all topics
 pages have a _Resources_ section for accumulating a list of stellar links about
 that topic.
+
+
+### PDFs and Documents
+
+PDFs and other similar documents should be added under the appropriate topic
+that they belong to. For example, Adam Blank's _How to LaTeX_ PDF is placed in
+the same directory as the index.md page for LaTeX: `topics/latex/`.
+
+For PDFs or documents that don't have a single topic, only put them in one
+place.
+
+For PDFs or documents that have no topic, perhaps you should create a topic page
+for that particular topic. To figure out whether you should do this, see
+"Creating New Content" in this document.
+
+Currently, there is no place to put PDFs or documents that have no topic. If it
+becomes necessary to place these documents somewhere, bring up the subject at a
+course staff meeting, outline your reasoning, and make an argument for where you
+think these documents should be placed.
 
 
 ### General Notes
