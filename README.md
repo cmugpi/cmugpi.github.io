@@ -10,6 +10,7 @@ at Carnegie Mellon University (15-131).
 - [Site Layout](#site-layout)
 - [Creating New Content](#creating-new-content)
   - [Guidelines](#guidelines)
+  - [Naming is Important](#naming-is-important)
   - [Refer to the Site Layout](#refer-to-the-site-layout)
   - [Create topics sparingly](#create-topics-sparingly)
   - [Create lessons readily](#create-lessons-readily)
@@ -174,6 +175,36 @@ site, this site comes with a set of guidelines to be followed when creating new
 content.
 
 
+### Naming is Important
+
+The following words are officially banished from titles by decree of Jacob
+Zimmerman, Chief BossyPants:
+
+- intro
+- introduction
+- basic
+- intermediate
+- advanced
+- more
+- moar
+
+Additionally, try at all costs to avoid the following words _in lessons_
+
+- usage
+- tips
+
+There will be exceptions to this, but a descriptive name is _always_ better.
+
+Additionally, titles for lessons of the form
+
+- Getting Started with X
+
+are officially reserved for the circumstance when a topic requires special
+configuration that was not covered in the Initial Setup document. These
+documents should be short, focus on the _bare minimum_ required to configure the
+terminal environment, and then link to the next resource that should be viewed.
+
+
 ### Refer to the Site Layout
 
 The site is already a great example of what should and should not be a topic or
@@ -233,11 +264,6 @@ Try to keep paragraph text to 80-character lines. Note that GitHub flavored
 Markdown treats inner-paragraph line breaks as `<br>` tags, but the Markdown
 renderer we're using to build our site doesn't have this feature enabled.
 
-Markdown tables _cannot_ have line breaks in them, so make them as long as they
-need to be to hold their content. If you need a line break within a cell, use
-`<br>`. For an easy way to format Markdown tables, you may want to look at
-[tabular][tabular] or [vim-markdown][vim-markdown].
-
 To sort everything, each page has an `order` property. Before rendering any
 content, all the pages are sorted in order of this property. Because we only
 ever render similar content (i.e., topics, lessons, navigation items) together,
@@ -294,6 +320,11 @@ The `{:.ui.striped.table}` is used by the Markdown rendering engine we're using
 (kramdown) to apply CSS classes to the previous HTML block. The CSS framework
 we're using (Semantic UI) needs these classes to be present to make the table
 look good.
+
+Markdown tables _cannot_ have line breaks in them, so make them as long as they
+need to be to hold their content. If you need a line break within a cell, use
+`<br>`. For an easy way to format Markdown tables, you may want to look at
+[tabular][tabular] or [vim-markdown][vim-markdown].
 
 ### Simple `pre` blocks
 
