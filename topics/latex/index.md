@@ -94,7 +94,7 @@ free LaTeX templates.
   - This project let's you just do `\documentclass{homework}` to gain access to
     a load of helpful commands for typesetting your homework.
 - [LaTeX Homework Template][jake-template]
-  - This is Jake Zimmerman's LaTeX template. It was based off the template
+  - This is Jake Zimmerman's LaTeX template. It was based off the CMU template
     above, with some convenience features added on top of it, and restyled a
     bit. __It's far more uncool than the one above__! It's just here in case
     getting the class file to work turns out to be too tricky.
