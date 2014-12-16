@@ -64,7 +64,6 @@ uses "WriteOut" to mean "save". Nano will ask you to confirm the filename you
 want to save. Just hit enter to confirm it.)
 
 <!-- TODO add better fenced code blocks -->
-<!-- TODO document Markdown idiosyncrasies -->
 
 ~~~
 Host andrew
