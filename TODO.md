@@ -1,5 +1,8 @@
 # TODO
 
+For general TODOs, feel free to grep/ack/ag through the source for the text
+'TODO'.
+
 ## Topics
 
 The following topics need to be completed
