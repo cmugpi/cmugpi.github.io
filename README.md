@@ -345,11 +345,16 @@ look good.
 Markdown tables _cannot_ have line breaks in them, so make them as long as they
 need to be to hold their content. If you need a line break within a cell, use
 `<br>`. For an easy way to format Markdown tables, you may want to look at
-[tabular][tabular] or [vim-markdown][vim-markdown].
+[tabular][tabular] or [vim-markdown][vim-markdown]. Note that HTML is valid
+Markdown, so you can always just add the HTML for a table if you need to
+(though, this defeats the simplicity of Markdown, so don't do this often!).
 
 ### Simple `pre` blocks
 
-For simple, non-highlighted code blocks, use `~~~` instead of `` ``` ``
+For simple, non-highlighted code blocks, use `~~~` instead of three back ticks.
+This is an unfortunate limitation of the Markdown processor that we're using.
+That being said, you probably want to use the `{% highlight <lang> %}` syntax
+mentioned in the _Jekyll Tips_ section.
 
 ## Semantic UI Tips
 
