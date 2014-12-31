@@ -2,7 +2,7 @@
 layout: page
 title: {{ title }}
 group: topic
-description:
+description: # TODO your description
 # How sub-pages will be linked to this page
 topic:
 # Relative ordering of topics
