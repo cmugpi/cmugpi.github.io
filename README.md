@@ -273,7 +273,8 @@ think these documents should be placed.
 ### General Notes
 
 Keep in mind that there should only be one `h1` header (`#` in Markdown) per
-page. Make your own headers using `##`.
+page (i.e., the title). Your own section headers should use `##`, and your
+subsections should use `###`.
 
 Use the `{{ "/link-url/" | prepend: site.baseprefix }}` [Liquid][liquid] syntax
 to create links relative to the site's base URL. This facilitates making
