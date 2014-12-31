@@ -40,7 +40,7 @@ a screen big enough to handle it.
 | 10/29        | [Bash][bash]                     | [Oneliners][oneliners]                              |
 | 11/5         | [Bash][bash]                     | [Bash Scripting][scripting]                         |
 | 11/12        | [Git][git]                       | [Getting Started with Git][gs-git]                  |
-| 11/19        | LaTeX                            | x |
+| 11/19        | [LaTeX][latex]                   | [Getting Started with LaTeX][gs-latex]              |
 | __11/26__    | __Thanksgiving__                 | -                                                   |
 | 12/3         | Terminal Configuration           | x |
 | 12/10        | Open Source, Final Exam          | x |
@@ -69,4 +69,7 @@ a screen big enough to handle it.
 
 [git]:    {{ "/topics/git/"                 | prepend: site.baseprefix }}
 [gs-git]: {{ "/topics/git/getting-started/" | prepend: site.baseprefix }}
+
+[latex]:    {{ "/topics/latex/"                 | prepend: site.baseprefix }}
+[gs-latex]: {{ "/topics/latex/getting-started/" | prepend: site.baseprefix }}
 
