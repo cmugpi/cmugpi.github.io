@@ -43,7 +43,7 @@ a screen big enough to handle it.
 | 11/19        | [LaTeX][latex]                   | [Getting Started with LaTeX][gs-latex]              |
 | __11/26__    | __Thanksgiving__                 | -                                                   |
 | 12/3         | Terminal Configuration           | x |
-| 12/10        | Open Source, Final Exam          | x |
+| 12/10        | Final Exam                       | x |
 {:.ui.striped.table}
 
 [puzzle1]: https://www.google.com/
