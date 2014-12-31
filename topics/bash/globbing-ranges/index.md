@@ -52,9 +52,7 @@ $ echo "Hello, world!"
 {% endhighlight %}
 
 You can get around this either by using single quotes (`'...'`) or by escaping
-the exclamation point (`\!`). We'll discuss why the single quotes work when we
-get to bash scripting.
-<!-- TODO add link to discussion of bash strings -->
+the exclamation point (`\!`).
 
 {% highlight bash %}
 $ echo 'Hello, world!'
@@ -63,6 +61,9 @@ $ echo "Hello, world\!"
 Hello, world!
 {% endhighlight %}
 
+__Note:__ We discuss the differences between the types of bash strings in [this
+lesson][strings].
+{:.ui.info.message}
 
 ## Ranges
 
@@ -89,3 +90,4 @@ characters, wrap the filename in single quotes.
 
 
 [wildcards]: http://linuxcommand.org/lc3_lts0050.php
+[strings]: {{ '/topics/bash/strings/' | prepend: site.baseprefix }}
