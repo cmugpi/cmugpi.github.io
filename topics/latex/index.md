@@ -97,8 +97,9 @@ free LaTeX templates.
   - This is Jake Zimmerman's LaTeX template. It was based off the CMU template
     above, with some convenience features added on top of it, and restyled a
     bit.
-  -  __The "LaTeX Homework Class" replaces this template__! It's just here in
-    case getting the class file to work turns out to be too tricky.
+  -  __The "LaTeX Homework Class" (directly above) replaces this template__!
+    It's just here in case getting the class file to work turns out to be too
+    tricky.
 - [Comprehensive Preamble][preamble]
   - This is a huge LaTeX preamble that contains useful macros for commonly
     used math symbols.
