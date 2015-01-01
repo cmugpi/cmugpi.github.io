@@ -33,17 +33,17 @@ $ jobs
 [1]-  Running                 sleep 100 &
 [2]+  Stopped                 vim
 
-# start a job in the background (include '& at end of line')
+# start a job in the background (include '&' at end of line)
 $ sleep 100 &
 [1] 14884
 
 # stop the current program and return to the terminal
 $ vim
-# (^Z pressed from within vim)
+# (pressed ^Z while vim was running)
 [2]+  Stopped                 vim
 
-# bring a backgrounded (stopped or running) program into the foreground (takes
-# control of the terminal)
+# bring a backgrounded (stopped or running) program into the
+# foreground (takes control of the terminal)
 $ jobs
 [1]-  Running                 sleep 100 &
 [2]+  Stopped                 vim
@@ -57,16 +57,9 @@ $ jobs
 [2]-  Stopped                 vim
 $ bg
 [1]+ sleep 100 &
-$ 
+$
 # control returns to terminal
 {% endhighlight %}
-
-## Quitting a Program (^C)
-
-Sometimes, you'll be running a program and it's taking too long (whether because
-of a program that's slow or an infinite loop). If you want to make a program
-quit immediately, type `^C`. (This may not always make the program quit
-immediately, but will in the majority of cases.)
 
 ## Exiting from a REPL (^D)
 
@@ -78,6 +71,11 @@ These types of programs are called REPLs (read-eval-print-loop). They do exactly
 what their name says: read input from a user, evaluate it in some way, print the
 results of evaluating, and repeat the process. They stop when there is no more
 input, which you can signal by pressing `^D`.
+
+## Quitting a Program (^C)
+
+To ask a program to stop running, type `^C`. (This may not always make
+the program quit immediately, but will in the majority of cases.)
 
 ## Killing a Program (kill, ps)
 
@@ -126,9 +124,9 @@ easier to read through than the man page.
 ### Google
 
 You can also use Google to look for answers to questions that are not as easily
-answered by man. StackOverflow tends to be a very good resource to answer
-questions. It's important to be careful with Googling, since some answers you'll
-find are either wrong or just overly complicated.
+answered by `man`. StackOverflow tends to be a very good resource to answer
+questions. It's important to be careful with Googling, since some answers are
+wrong or overly complicated.
 
 ## Symbolic Links (ln)
 

@@ -12,6 +12,10 @@ script: /javascripts/files-commands.js
 # Using Files & Commands
 {:.ui.dividing.header.no_toc}
 
+Files and commands are the backbone of a getting work done on a terminal.
+Knowing how to effectively manipulate them is key, so we'll need to learn the
+commands that make manipulating these files possible.
+
 ## Remotely Transfer Files (scp)
 
 SCP (for "secure copy") is a program for copying files from one machine to
@@ -50,12 +54,12 @@ $ scp school/notes.txt andrew:notes_sept_2.txt
 # Copies school/notes.txt from your computer to Andrew and renames it
 
 $ scp andrew:~/private/myfile.txt projects/
-# Copies ~/private/myfile.txt from Andrew to your computer and puts it in
-# the projects directory.
+# Copies ~/private/myfile.txt from Andrew to your computer and puts it
+# in the projects directory.
 
 $ scp -r school/projects andrew:~/private/
-# Copies the whole school/projects folder to Andrew and places it in the
-# ~/private/ folder
+# Copies the whole school/projects folder to Andrew and places it in
+# the ~/private/ folder
 {% endhighlight %}
 
 __Tip__: Examples of command line snippets often begin with `$`. This symbol is
@@ -82,18 +86,18 @@ directory for many commands if you don't specify a directory.
 
 There are two commands commonly used to work with the current working directory:
 
-- `pwd` ("print working directory"), tells you what your current working directory is
-- `cd` ("change directory"), which takes a directory as an argument and changes
-your working directory to that directory.
+- `pwd` ("print working directory") tells you what your current working directory is
+- `cd` ("change directory") takes a directory as an argument and changes
+  your working directory to that directory.
 
 ### Examples
 
 {% highlight bash %}
 $ pwd
-/afs/andrew.cmu.edu/usr5/jzimmerm
+/afs/andrew.cmu.edu/usr10/jezimmer
 $ cd private
 $ pwd
-/afs/andrew.cmu.edu/usr5/jzimmerm/private
+/afs/andrew.cmu.edu/usr10/jezimmer/private
 {% endhighlight %}
 
 __Tip__: Lines that don't begin with `$` when `$`'s are present in a code block
@@ -108,37 +112,38 @@ be passed many different options (or "flags") that control the output it gives.
 ### Examples
 
 {% highlight bash %}
+# Initial contents of the current folder
 $ ls
-i_am_a_file  subdirectory
+file1 folder1
 
 # The -l flag tells ls to give you more information
 $ ls -l
 total 2
--rw-r--r-- 1 jzimmerm    0 Aug 17 18:20 i_am_a_file
-drwxr-xr-x 2 jzimmerm 2048 Aug 17 18:21 subdirectory
+-rw-r--r-- 1 jezimmer    0 Aug 17 18:20 file1
+drwxr-xr-x 2 jezimmer 2048 Aug 17 18:21 folder1
 
-# If you specify a path, ls will print from that path instead of the current
-# working directory
-$ ls -l subdirectory/
-total 0
--rw-r--r-- 1 jzimmerm 0 Aug 17 18:21 another_file
+# If you specify a path, ls will print in that path instead of the
+# current working directory
+$ ls folder1
+file2
 
-# The -a flag tells ls to list hidden and non-hidden files (i.e. 'all' files)
-# The -R flag is for recursively listing the contents of a directory
+# The -a flag tells ls to list hidden and non-hidden files (i.e. 'all'
+# files) The -R flag is for recursively listing the contents of a
+# directory
 $ ls -alR
 .:
 total 6
-drwxr-xr-x 3 jzimmerm 2048 Aug 17 18:21 .
-drwx------ 5 jzimmerm 2048 Aug 17 18:20 ..
--rw-r--r-- 1 jzimmerm    0 Aug 17 18:21 .a_hidden_file
--rw-r--r-- 1 jzimmerm    0 Aug 17 18:20 i_am_a_file
-drwxr-xr-x 2 jzimmerm 2048 Aug 17 18:21 subdirectory
+drwxr-xr-x 3 jezimmer 2048 Aug 17 18:21 .
+drwx------ 5 jezimmer 2048 Aug 17 18:20 ..
+-rw-r--r-- 1 jezimmer    0 Aug 17 18:21 .hidden-file1
+-rw-r--r-- 1 jezimmer    0 Aug 17 18:20 file1
+drwxr-xr-x 2 jezimmer 2048 Aug 17 18:21 folder1/
 
-./subdirectory:
+./folder1:
 total 4
-drwxr-xr-x 2 jzimmerm 2048 Aug 17 18:21 .
-drwxr-xr-x 3 jzimmerm 2048 Aug 17 18:21 ..
--rw-r--r-- 1 jzimmerm    0 Aug 17 18:21 another_file
+drwxr-xr-x 2 jezimmer 2048 Aug 17 18:21 .
+drwxr-xr-x 3 jezimmer 2048 Aug 17 18:21 ..
+-rw-r--r-- 1 jezimmer    0 Aug 17 18:21 file2
 {% endhighlight %}
 
 __Tip__: The `#` is a comment character in `bash` (to be discussed later!).
@@ -153,9 +158,11 @@ the more common ones.
 
 ### `cat <filename>` - print files
 
+To quickly dump the contents of a file to the console, use `cat`.
+
 {% highlight bash %}
-$ cat myfile.txt
-I have lots of stuffy stuff in my file!
+$ cat file1
+The quick brown fox jumped over the lazy dog.
 {% endhighlight %}
 
 ### `less <filename>` - display and scroll through files
@@ -171,65 +178,82 @@ file.
 ### `cp <source> <destination>` - copy files
 
 {% highlight bash %}
-$ cp myfile.txt anotherfile.txt
+# Copy existing file to new file
+$ cp file1 file3
 $ ls
-anotherfile.txt myfile.txt subdirectory/
-$ cat anotherfile.txt
-I have lots of stuffy stuff in my file!
+file1 file3 folder1/
+# The contents of the new file are the same
+$ cat file3
+The quick brown fox jumped over the lazy dog.
 
 # You can also use the -r option to copy directorys
+$ cp folder1 folder2
+$ ls
+file1 file3 folder1/ folder2/
 {% endhighlight %}
 
 ### `mv <source> <destination>` - move and rename files
 
 {% highlight bash %}
-$ mv myfile.txt new_name.txt
+# Moving a file "into" another file is how you rename files
+$ mv file1 file4
 $ ls
-anotherfile.txt new_name.txt subdirectory/
-$ cat new_name.txt
-I have lots of stuffy stuff in my file!
+file3 file4 folder1/ folder2/
 
+# Move file into directory
+$ mv file3 folder1
 $ ls -R
 .:
-anotherfile.txt new_name.txt
+file4
 
-subdirectory:
-$ mv anotherfile.txt subdirectory
-$ ls -R
-.:
-new_name.txt
+folder1:
+file2 file3
 
-subdirectory:
-anotherfile.txt
+folder2:
+file2
 {% endhighlight %}
 
 ### `rm <filename>` - PERMANENTLY delete files
 
 {% highlight bash %}
-$ rm new_name.txt
+$ rm file4
+$ ls
+folder1/ folder2/
 
 # use the -r flag to recursively remove a directory
-$ rm -r subdirectory
+$ rm -r folder2/
+$ ls
+folder1/
 {% endhighlight %}
 
 ### `mkdir <directory>` - make directories
 
 {% highlight bash %}
-$ mkdir bucket_of_stuff
+$ mkdir folder3
+$ ls -R
+.:
+
+folder1:
+file2 file3
+
+folder3:
+
 {% endhighlight %}
 
 ## Running Executables (chmod)
 
-Very frequently, you'll want to run executables when using the command line. If
-the executable is named `a.out` and is in your current working directory, you'd
-run `./a.out` (remember, `.` stands for your current working directory).
+Very frequently, you'll want to run executables that you've either
+written or compiled. For example, if you have an executable file named
+`a.out` in your current directory, you'd run `./a.out` (`.` stands for
+your current working directory).
 
-The reason the `./` is necessary is that if you don't specify a path to the
-executable, bash only checks in the directories named in the `PATH` variable
-(more on this later) and the directory `.` is in is almost certainly not in your
-PATH. (System utilities, like the commands we taught you about above, _are_ in
-your `PATH`, usually in the standard directories `/bin` and `/usr/bin`. You can
-also modify your PATH to tell bash to look in other places for executables.)
+The `./` is necessary because if you don't specify a path to the
+executable, bash only checks in the directories listed in the `PATH`
+variable (more on this later), and the directory `.` is in is almost
+certainly not in your PATH. (System utilities, like the commands we
+taught you about above, _are_ in your `PATH`, usually in the standard
+directories `/bin` and `/usr/bin`. You can also modify your PATH to
+tell bash to look in other places for executables.)
 
 ### Fixing "Permission denied" Error
 

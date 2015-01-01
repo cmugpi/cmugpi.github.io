@@ -14,8 +14,8 @@ order: 5
 
 Don't panic. CMU keeps a backup for you.
 
-Look in `~/OldFiles`. This is a read-only nightly snapshot of your files that you
-can use to copy files you accidentally deleted back to where they should be.
+Look in `~/OldFiles`. This is a read-only nightly snapshot of your files that
+you can use to copy files you accidentally deleted back to where they should be.
 You can `cp` files out of it.
 
 If `~/OldFiles` is missing, there is probably still hope! Run the following

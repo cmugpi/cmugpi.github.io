@@ -11,23 +11,34 @@ order: 2
 # Terminal Environment & AFS
 {:.ui.dividing.header.no_toc}
 
+By now you should have a decent idea of how you can manage files and a basic
+understanding of some commonly-used commands. This article will build on that
+knowledge to acquaint you with some key elements of your terminal environment.
+We'll also briefly talk about AFS, which is the environment you'll be working on
+when you ssh into one of the Andrew Unix machines.
+
+
 ## Printing Text (echo)
 
 To print text, you can use the `echo` command, which just prints its arguments:
 
-{% highlight bash%}
+{% highlight bash %}
 $ echo Hello, world!
 Hello, world!
 {% endhighlight %}
 
+
 ## Important Directory Names
+
+Some directories are more important than others, so they're given some shorter
+names.
 
 ### `~` -- the home directory
 
 {% highlight bash %}
 $ cd ~
 $ pwd
-/afs/andrew.cmu.edu/usr5/jzimmerm
+/afs/andrew.cmu.edu/usr10/jezimmer
 {% endhighlight %}
 
 ### `~andrewid` -- the home directory of user "andrewid"
@@ -54,9 +65,25 @@ of typing out an entire directory name.
 
 Represents the directory above the current directory.
 
+### `/` -- the root directory
+
+This is the folder that contains _everything_. That is to say it has no parent.
+Try running `cd ..` from this directory, and you'll find that you end up back in
+`/`!
+
+
 ## Environment Variables (export)
 
+Bash keeps a collection of environment variables for every user who's logged in.
+These variables hold key pieces of information about what's going on. For
+example, there's a variable called `SHELL` that says what shell you're running,
+a variable named `USER` which contains the username of the current user, another
+named `PWD` that contains the present working directory, and more.
+
 ### Setting Variables
+
+You can control your environment by setting certain variables. Here are a few
+examples of how that's done:
 
 {% highlight bash %}
 # set my_variable to the string "hello" (no spaces around the '='!)
@@ -74,6 +101,9 @@ that you run will be able to see the value of the variable that you just set.
 In practice, you will almost always want to use `export` when setting variables.
 
 ### Accessing Variables
+
+It helps to be able to check and print the value of environment variables! To
+access to contents of a variable, you have to use the `$` operator.
 
 {% highlight bash %}
 # get the value of my_variable and print it
@@ -98,10 +128,8 @@ files from any Andrew Unix server or cluster computer on campus.
 
 When you're using AFS, there's a system of permissions (called access control
 lists, or ACLs) regulating who can access your files and what they can do to
-them.
-
-It's important to know about how to use this system so that you can stop other
-people from getting access to your homework or other private files.
+them.  It's important to know about how to use this system so that you can stop
+other people from getting access to your homework or other private files.
 
 AFS is set up so that by default, you have a private directory where you can do
 your work: `~/private`. If you don't change its permissions, you can put all of
