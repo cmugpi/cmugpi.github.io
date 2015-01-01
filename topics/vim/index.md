@@ -47,6 +47,9 @@ this course will focus only on Vim.
       into your workflow incrementally
 - [Your problem with Vim is that you don't grok vi][grok-vi]
     - Famous StackOverflow post explaining how to use Vim as a language
+- [Learn Vimscript the Hard Way][hard-way]
+    - Very comprehensive look at Vim, from using it as en editor to adding
+      plugins, to writing plugins yourself.
 
 [editor-war]: http://en.wikipedia.org/wiki/Editor_war
 [learning-vim]: http://benmccormick.org/learning-vim-in-2014/
@@ -54,3 +57,4 @@ this course will focus only on Vim.
 [vim-language]: http://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/
 [learn-vim-progressively]: http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
 [grok-vi]: http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
+[hard-way]: learnvimscriptthehardway.stevelosh.com
