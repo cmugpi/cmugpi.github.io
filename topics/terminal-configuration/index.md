@@ -40,4 +40,15 @@ tips, and discuss the logistics of it all.
 
 ## Resources
 
+- [Repositories named "dotfiles"][dotfiles]
+    - Every repository on GitHub that's named "dotfiles". Browsing the source of
+      other people's dotfiles is a great way to discover new things.
+- [GitHub Does Dotfiles][dotfiles.github.io]
+    - GitHub's personal getting-started-with-dotfiles page. It links to
+      resources like all-in-one dotfiles frameworks, dotfiles management
+      software, and great examples of dotfiles repos.
+
+[dotfiles]: https://github.com/search?q=dotfiles&s=stars&type=Repositories
+[dotfiles.github.io]: https://dotfiles.github.io/
+
 <!-- TODO terminal configuration resources -->

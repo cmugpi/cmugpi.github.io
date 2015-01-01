@@ -68,4 +68,17 @@ script, and your `.vimrc` is just another Vim script. At least for these two
 examples, anything you could normally run at the command line or in Vim you can
 also place into the appropriate dotfile.
 
+## Getting Started with Dotfiles
+
+The best way to get started with dotfiles is to look at what other people are
+doing. Tens of thousands of people have [open-sourced their dotfiles on
+GitHub][dotfiles], and GitHub has [a whole page][dotfiles.github.io] dedicated
+to getting started with dotfiles. The most popular repositories are
+well-commented, so just peruse the source and find things that look interesting.
+Happy hunting!
+
 [rc]: http://stackoverflow.com/questions/11030552/what-does-rc-mean-in-dot-files
+[dotfiles]: https://github.com/search?q=dotfiles&s=stars&type=Repositories
+[dotfiles.github.io]: https://dotfiles.github.io/
+
+
