@@ -18,8 +18,8 @@ order: 2
 {:.ui.dividing.header.no_toc}
 
 People often stumble when it comes to the various ways strings can be quoted in
-bash. There are two characters which can be used for quoting in bash: `"` and
-`'`, though each has its own time and place.
+Bash. There are two characters which can be used for quoting in bash: `"` and
+`'`; each has its own time and place.
 
 ## Review
 
@@ -34,16 +34,16 @@ When running the command
 $ cp myfile.txt ../mydir
 {% endhighlight %}
 
-bash receives two distinct arguments because we _separated these arguments by
+Bash receives two distinct arguments because we _separated these arguments by
 spaces_.
 
-__Problem:__ what if our filenames have spaces _inside_ them?
+__Problem:__ what if our filenames or arguments have spaces _inside_ them?
 {:.ui.warning.message}
 
 ### Special Characters
 
-There are a variety of characters which have special meaning in bash. Some of
-these characters serve as signals that bash should replace or _expand_ text
+There are a variety of characters which have special meaning in Bash. Some of
+these characters serve as signals that Bash should replace or _expand_ text
 with some other text. These characters in particular are `$`, which is used for
 [environment variables][vars] and [command substitution][command-sub], and
 `` ` ``, which is used as an alternate form of `$(...)` (``$(...) == `...` ``).
@@ -69,10 +69,10 @@ grouping:
 # copies the files "my", "file", "with", "spaces.txt" to "../mydir"
 $ cp my file with spaces.txt ../mydir
 
-# copies a single file named "my file with spaces.txt" to ../mydir
+# copies a single file named "my file with spaces.txt" to "../mydir"
 $ cp "my file with spaces.txt" ../mydir
 
-# does the same thing
+# does the same thing as double quotes
 $ cp 'my file with spaces.txt' ../mydir
 {% endhighlight %}
 
@@ -96,7 +96,7 @@ For a more complete list, see [here][escaping].
 ### Example
 
 {% highlight bash %}
-# copies a single file named "my file with spaces.txt" to ../mydir
+# copies a single file named "my file with spaces.txt" to "../mydir"
 $ cp my\ file\ with\ spaces.txt ../mydir
 {% endhighlight %}
 
@@ -107,13 +107,13 @@ with spaces. What's the difference then?
 
 From the [bash manual][bash-3.1.2]:
 
-Enclosing characters in single quotes (`'`) preserves the literal value of each
-character within the quotes. A single quote may not occur between single quotes,
-even when preceded by a backslash.
-
-Enclosing characters in double quotes (`"`) preserves the literal value of all
-characters within the quotes, with the exception of `$`, `` ` ``, `\`, and, when
-history expansion is enabled, `!`.
+> Enclosing characters in single quotes (`'`) preserves the literal value of
+> each character within the quotes. A single quote may not occur between single
+> quotes, even when preceded by a backslash.
+>
+> Enclosing characters in double quotes (`"`) preserves the literal value of all
+> characters within the quotes, with the exception of `$`, `` ` ``, `\`, and,
+> when history expansion is enabled, `!`.
 
 This means that strings enclosed in double quotes will _still have variables
 expanded and command substitution performed_.

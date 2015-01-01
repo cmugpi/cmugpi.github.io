@@ -13,11 +13,11 @@ order: 3
 # Input & Output
 {:.ui.dividing.header.no_toc}
 
-Bash has tons of commands that print out information. While having it just be
-printed to the terminal is great, there are many times when we'd like to be able
-to save the output for later, or feed the output of one command into the input
-of another command. Since bash is a _shell_, it has features that support these
-common tasks straight out of the box.
+Bash has tons of commands that print out information. While printing it to the
+terminal is great, there are many times when we'd like to be able to save the
+output for later or feed the output of one command into the input of another.
+Since bash is a _shell_, it has features that support these common tasks
+straight out of the box.
 
 ## Streams (stdin, stdout, stderr)
 
@@ -36,9 +36,9 @@ streams.
 {:.ui.striped.table}
 
 - `stdin` is the type of stream that continuously receives input, and is one of
-  the most common way a program can receive input (other than from command line
+  the most common ways a program can receive input (other than from command line
   arguments).
-- `stdout` and `stderr` are the kind that continuously send text out,
+- `stdout` and `stderr` are the kind of stream that continuously send text out,
   and are the most common way that a process can communicate with the user or
   other programs.
   - `stdout` is generally used for normal program output
@@ -57,8 +57,8 @@ communicate with programs that prompt you for input).
 Using a bit of shell syntax, we can reconfigure what `stdin`, `stdout`, and
 `stderr` are for a program. We use some combination of less than (`<`) and
 greater than (`>`) symbols, along with a specific file where input or output
-should go. There are two flavors to output: we can either overwrite the stream
-or append to it.
+should go. There are two flavors of outputting text: we can either overwrite the
+stream or append to it.
 
 | Syntax                 | Meaning                                                                |
 | ------                 | -------                                                                |
@@ -111,16 +111,16 @@ cat: asdf: No such file or directory
 Goodbye
 Hello again :D
 # ... with redirection
-$ cat asdf hello.txt 2> myfile.log > myfile.out
-$ cat myfile.log
+$ cat asdf hello.txt 2> error.log > output.log
+$ cat error.log
 cat: asdf: No such file or directory
-$ cat myfile.out
+$ cat output.log
 Goodbye
 Hello again :D
 {% endhighlight %}
 
 __Note__: we've just been using `cat` and `echo` in these examples because it's
-a simple command for demos. Redirection works on all Linux commands!
+a simple command for demos. Redirection works on all shell commands!
 {:.ui.info.message}
 
 ### Sending Both Output Streams
@@ -173,14 +173,15 @@ computer
 ... (shortened) ...
 uncomputed
 
-# Pipe output of grep (on stdout) to wc (on stdin)
+# Pipe output of grep (on stdout) to the input of wc (on stdin)
 $ grep compute /usr/share/dict/words | wc -l
 34
+# Thus, 34 words have the word 'compute' in them
 {% endhighlight %}
 
-We'll discuss the power of pipes in more detail in the section on Bash
-Oneliners. Using pipes effectively is a fine art which, when mastered, can
-reduce some incredibly hard problems down to one line of code!
+We'll discuss the power of pipes in more detail in the section on [Bash
+Oneliners][oneliners]. Using pipes effectively is a fine art which, when
+mastered, can reduce some incredibly hard problems down to one line of code!
 
 ## Command Substitution ($(...))
 
@@ -203,3 +204,4 @@ myfile-1417165610.txt
 
 
 [null-device]: http://en.wikipedia.org/wiki/Null_device
+[oneliners]: {{ '/topics/bash/oneliners/' | prepend: site.baseprefix }}

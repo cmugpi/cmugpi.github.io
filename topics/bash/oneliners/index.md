@@ -17,19 +17,18 @@ order: 5
 # Oneliners
 {:.ui.dividing.header.no_toc}
 
-In my opinion, bash "oneliners" are the most attractive feature of bash. There
-are few other languages which have such expressive power. A bash oneliner is
-just a normal bash command, usually involving pipes, and with a special eye to
-finding the right tool for the job.
+In my opinion, Bash "oneliners" are the most attractive feature of Bash. There
+are few other languages which have such expressive power. A Bash oneliner is
+just a normal Bash command, usually involving pipes, with an emphasis on finding
+the right tool for the job.
 
 ## Tools (find, xargs)
 
-Bash oneliners are just lines of bash, so all the programs and tools we've
-learned up to now can be the foundations of oneliners. In particular, tools like
-`sed`, `grep`, `cat`, and `echo` come up a lot when writing and implementing
-oneliners.
+Bash oneliners are just lines of Bash, so all the programs and tools we've
+learned up to now can make up a oneliner. In particular, tools like `sed`,
+`grep`, `cat`, and `echo` come up a lot when writing and implementing oneliners.
 
-Moreover, there are a few new tools that are found in a large number of bash
+In addition, there are a few new tools that are found in a large number of Bash
 oneliners:
 
 - `find`
@@ -47,13 +46,13 @@ either
 $ find <directory> -name "<pattern>"
 ~~~
 
-where `<pattern>` is a bash glob, or
+where `<pattern>` is a Bash glob, or
 
 ~~~
 $ find <directory> -regex "<regex>"
 ~~~
 
-When invoked like this, it simply starts in `<directory>` and recursively lists
+When invoked like this, find simply starts in `<directory>` and recursively lists
 all files which match the pattern provided.
 
 
@@ -193,20 +192,21 @@ thesauruslab
 I want to study for the test by reviewing all the lab handouts (all the PDF
 files with the same name as their parent folder), but _not_ my written solutions
 (all the files named "written.pdf"). If I can figure out which files to open, I
-know that I can use the program `open` to open them (on a Mac, on Linux we could
+know that I can use the program `open` to open them on my Mac (on Linux we could
 use `evince`).
 
 I mentioned before that we should construct our oneliner iteratively. Most of
-the tools we use are really handy: if we don't specify where our output should
-go, it just prints it to the console, so we can try something first by printing
-it to the console, then build on top of it by sending the output somewhere else.
+the tools we use are really handy in that if we don't specify where our output
+should go, it just prints it to the console, so we can try something first by
+printing it to the console, then build on top of it by sending the output
+somewhere else.
 
 Let's first get rid of all the non-PDF files using find, and print output to the
 console:
 
 {% highlight bash %}
-# note that this also gets rid of folders because there aren't any folders
-# ending with "pdf"
+# note that this also gets rid of folders because there aren't any
+# folders ending with "pdf"
 $ find . -name "*pdf"
 ./abridgedlab.pdf
 ./written.pdf
@@ -239,7 +239,7 @@ something useful: `grep -v`, which only prints line that _don't_ match a regex.
 Checking out the man page for more info just in case, we're ready to go:
 
 {% highlight bash %}
-# build on top of our previous command by piping output from find to grep
+# build on top of our previous command by piping output to grep
 $ find . -name "*pdf" | grep -v "written.pdf"
 ./abridgedlab.pdf
 ./babblelab.pdf
@@ -255,22 +255,25 @@ $ find . -name "*pdf" | grep -v "written.pdf"
 {% endhighlight %}
 
 Look at how we piped output from one command to the next. This is an extremely
-common pattern when constructing oneliners. It's semantically the equivalent of
-filtering and refining our input data, distilling it down to the exact form
-needed by the last command we call, which usually does the heavy lifting. That's
-certainly the case here, as we can now use `xargs` to open our PDFs:
+common pattern when constructing oneliners. Semantically, we've filtered and
+refined our input data, distilling it down to the exact form needed by the last
+command we call, which usually does the heavy lifting. That's certainly the case
+here, as we can now use `xargs` to open our PDFs:
 
 {% highlight bash %}
-# use xargs with no command first to see what would be called first (just
-# in case)
+# use xargs with no command first to see what would be called first
+# (just in case)
 $ find . -name "*pdf" | grep -v "written.pdf" | xargs
-./abridgedlab.pdf ./babblelab.pdf ./bignumlab.pdf ./cilklab.pdf ./dplab.pdf
-./minilab.pdf ./parenlab.pdf ./rangelab.pdf ./segmentlab.pdf ./skylinelab.pdf
-./thesauruslab.pdf
+./abridgedlab.pdf ./babblelab.pdf ./bignumlab.pdf ./cilklab.pdf
+./dplab.pdf ./minilab.pdf ./parenlab.pdf ./rangelab.pdf
+./segmentlab.pdf ./skylinelab.pdf ./thesauruslab.pdf
 
-# happy with the result, let's use xargs open to actually open the files
+# use `xargs open` to actually open the files
 $ find . -name "*pdf" | grep -v "written.pdf" | xargs open
-# opens our PDFs!
+# equivalent to:
+# open ./abridgedlab.pdf ./babblelab.pdf ./bignumlab.pdf ./cilklab.pdf
+# ./dplab.pdf ./minilab.pdf ./parenlab.pdf ./rangelab.pdf
+# ./segmentlab.pdf ./skylinelab.pdf ./thesauruslab.pdf
 {% endhighlight %}
 
 ## Tips

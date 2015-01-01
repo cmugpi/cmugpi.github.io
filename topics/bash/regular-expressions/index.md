@@ -19,7 +19,7 @@ order: 4
 
 Regular expressions, or "regex" are a _very_ powerful tool for searching and
 processing text. At a high level, regular expressions are a way of defining
-_patters_ of text to operate on. Certain tools use regular expressions to take
+_patterns_ of text to operate on. Certain tools use regular expressions to take
 these patterns and do something with them.
 
 ## Regex Syntax
@@ -41,6 +41,11 @@ this:
 
 Read on to learn what these things mean and why they're cool!
 
+Also, a lot of special regex characters are also special bash characters. To
+ensure that your regex gets passed along to `grep` and `sed` in tact, you'll
+almost always want to surround it in single quotes. See [Strings][strings] for
+more information.
+
 ### Plain Patterns
 
 There are a ton of special characters that you can use in regular expressions,
@@ -59,9 +64,9 @@ __Note__: Most regular expressions are case sensitive by default.
 
 ### Quantifiers (`*`, `\{n,m\}`)
 
-Now we're getting into the special characters. There is a certain type of
-special characters that allow you to specify _how many times_ a pattern should
-be repeated when trying to match.
+Now we're getting into the special characters. Some special characters allow you
+to specify _how many times_ a pattern should be repeated when trying to perform
+a match.
 
 - `<pattern>*`: matches _zero or more_ occurrences of `<pattern>`
 - `<pattern>\{n,m\}`: matches _at least n and at most m_ occurrences of `<pattern>`
@@ -83,7 +88,7 @@ want to repeat has more than one character, wrap the pattern in `\(...\)`.
 ### Character Classes (`[...]`)
 
 Sometimes, we want a pattern to match any character from a set of characters. To
-do this, we can define character classes. Simple all the characters that you
+do this, we can define character classes. Simply put all the characters that you
 want to potentially match inside `[...]`. You can also use hyphens (-) to
 specify all characters within a range of characters.
 
@@ -257,6 +262,7 @@ when learning how to use regexs:
 - [Sed - An Introduction and Tutorial][sed]
   - A very comprehensive but readable introduction to sed
 
+[strings]: {{ '/topics/bash/strings/' | prepend: site.baseprefix }}
 [sed]: http://www.grymoire.com/Unix/Sed.html
 [regex101]: https://regex101.com/
 [regex-info]: http://www.regular-expressions.info/

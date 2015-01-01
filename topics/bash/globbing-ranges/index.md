@@ -10,14 +10,14 @@ order: 1
 # Globbing & Ranges
 {:.ui.dividing.header.no_toc}
 
+So far, you haven't really seen any ways that the terminal can be much more
+powerful than a GUI file browser that you're used to. However, as we'll see in
+this lesson, you can combine some basic features of Bash with the commands you
+already know to quickly do things that would have been hard to do otherwise.
+
 ## Globbing
 
-So far, you haven't really seen any ways that the terminal can be much more
-powerful than a GUI file browser that you're used to. However, you can combine
-some basic features of bash with the commands you already know to quickly do
-things that would have been hard to do by hand otherwise.
-
-Part of bash's power comes from it's ability to carry out file name expansion in
+Part of Bash's power comes from it's ability to carry out file name expansion in
 a process known as "globbing". Globbing is a process whereby certain special
 "wildcard" symbols are expanded into a matching set of filenames.
 
