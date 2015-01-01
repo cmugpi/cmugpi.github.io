@@ -42,8 +42,8 @@ a screen big enough to handle it.
 | 11/12        | [Git][git]                       | [Getting Started with Git][gs-git]                  |
 | 11/19        | [LaTeX][latex]                   | [Getting Started with LaTeX][gs-latex]              |
 | __11/26__    | __Thanksgiving__                 | -                                                   |
-| 12/3         | Terminal Configuration           | x |
-| 12/10        | Final Exam                       | x |
+| 12/3         | [Terminal Configuration][config] | [Dotfiles][dotfiles] |
+| 12/10        | Final Exam                       | - |
 {:.ui.striped.table}
 
 [puzzle1]: https://www.google.com/
@@ -73,3 +73,5 @@ a screen big enough to handle it.
 [latex]:    {{ "/topics/latex/"                 | prepend: site.baseprefix }}
 [gs-latex]: {{ "/topics/latex/getting-started/" | prepend: site.baseprefix }}
 
+[config]:   {{ "/topics/terminal-configuration/"          | prepend: site.baseprefix }}
+[dotfiles]: {{ "/topics/terminal-configuration/dotfiles/" | prepend: site.baseprefix }}
