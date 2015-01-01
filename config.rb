@@ -16,6 +16,8 @@ sass_dir = "_sass"
 images_dir = "images"
 fonts_dir = "fonts"
 
-# TODO turn this back off
-line_comments = true
-# output_style = :compressed
+# Optimize for production site
+line_comments = false
+output_style = :compressed
+# Comment the above and uncomment the below to help debug
+#line_comments = true
