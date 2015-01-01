@@ -3,8 +3,8 @@ layout: page
 title: "Vim"
 group: topic
 description: >
-  Vim is a terminal-based text editor. It contains many features specially
-  tailored to programming. It is best known for its unique keyboard shortcuts.
+  Vim is a terminal-based text editor specially tailored to programming. It is
+  best known for its unique keyboard shortcuts and editing style.
 # How sub-pages will be linked to this page
 topic: vim
 # Relative ordering of topics
@@ -17,13 +17,13 @@ order: 2
 
 ## Overview
 
-Vim is a terminal-based text editor. It contains many features specially
-tailored to programming. It is best known for its unique keyboard shortcuts.
+Vim is a terminal-based text editor specially tailored to programming. It is
+best known for its unique keyboard shortcuts and editing style.
 
-There are generally [two choices][editor-war] for terminal-based text editors.
-You are free to choose whatever text editor you prefer, but because the course
-staff uses Vim exclusively and teaching two text editors is counter productive,
-this course will focus only on Vim.
+There are generally [two choices][editor-war] when it comes to terminal-based
+text editors. You are free to choose whatever text editor you prefer, but
+because the course staff uses Vim exclusively and teaching two text editors is
+counter-productive, this course will focus only on Vim.
 
 ## Lessons
 
