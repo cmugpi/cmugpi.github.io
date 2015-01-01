@@ -50,5 +50,3 @@ tips, and discuss the logistics of it all.
 
 [dotfiles]: https://github.com/search?q=dotfiles&s=stars&type=Repositories
 [dotfiles.github.io]: https://dotfiles.github.io/
-
-<!-- TODO terminal configuration resources -->
