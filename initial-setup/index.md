@@ -13,9 +13,9 @@ script: /javascripts/initial-setup.js
 
 ## Help!
 
-If at any point during this initial setup or the semester you get stuck and
-can't figure out what to do, please don't hesitate to email the course staff at
-15-131-staff at cs dot cmu dot edu.
+If at any point you get stuck during this initial setup or throughout the
+semester, please don't hesitate to email the course staff at 15-131-staff at cs
+dot cmu dot edu.
 
 ## Set Up SSH
 
@@ -25,9 +25,9 @@ important tool for working in industry and knowing how to use it will be
 essential throughout your career. (Even in academia, SSH is a very important
 tool.)
 
-We'll teach you about how to use it and what uses it has during the semester,
-but for now we'll just focus on getting it set up so that you can start using
-it right away if you need to.
+Throughout the rest of the semester we'll teach you about how to use it and why
+you want to, but for now we'll just focus on getting it set up so that you can
+start using it right away.
 
 The exact instructions on how to set up SSH vary based on what operating system
 you're using, so choose the relevant section and proceed from there.
@@ -48,10 +48,20 @@ terminals for OS X like [iTerm2][iterm2] if you want cooler features like better
 color support, easier theming, vertical splits, advanced `tmux` integration, and
 more.
 
+Sshing is simple; run the following command, replacing `ANDREWID` with your
+Andrew ID:
+
+{% highlight bash %}
+ssh ANDREWID@unix.andrew.cmu.edu
+{% endhighlight %}
+
+When you enter this, you will be prompted for a password--it's the same password
+you use to log onto WebISO.
+
 To facilitate quick sshing, you should edit the __ssh config file__. Use the
 following command to do that (you don't need to understand this command
-yet--we'll teach you what you need to know to understand it during the
-semester). Just copy and paste the command into your terminal and hit enter.
+yet--we'll cover it later in the semester). Copy and paste the command into
+your terminal and hit enter.
 
 {% highlight bash %}
 mkdir -p ~/.ssh; touch ~/.ssh/config; nano ~/.ssh/config
@@ -73,19 +83,19 @@ GSSAPIAuthentication yes
 GSSAPIDelegateCredentials yes
 ~~~
 
-Normally, without the above incantation, you would need to type ssh
-`ANDREWID@unix.andrew.cmu.edu` to ssh, but now you can just type `ssh andrew`
+Normally, without the above incantation, you would need to type `ssh
+ANDREWID@unix.andrew.cmu.edu` to ssh, but now you can just type `ssh andrew`
 and the rest will be auto-detected. If you prefer a different name than
-`andrew`, you can change that line (`Host andrew`) in the ssh config file. When
-you type `ssh andrew`, you will be prompted for a password--it is the same
-password you use to log onto WebISO.
+`andrew`, you can change that line (`Host andrew`) in the ssh config file.
+
+<!-- TODO add note about passwordless ssh -->
 
 </div>
 <div class="ui bottom attached tab segment" data-tab="linux">
 
 First, you should choose a terminal. Your distro almost certainly has one
-already, but if you don't like that one you can download and install another.
-Some popular terminals are
+already, but if you don't the default one you can download another. Some
+popular terminals are
 
 - Terminator
 - Konsole
@@ -93,16 +103,15 @@ Some popular terminals are
 - xterm
 - xrvt-unicode
 
-Once you've done that, just follow the rest of the instructions in the Mac
-section.
+Once you've done that, follow the instructions in the Mac section.
 
 </div>
 <div class="ui bottom attached tab segment" data-tab="windows">
 
-We recommend that you use [MobaXterm][mobaxterm] to SSH. For detailed
+We recommend that you use [MobaXterm][mobaxterm] for SSH. For detailed
 installation and setup instructions, see [this blog post][mobaxterm-tutorial].
 
-If you are already somewhat familiar with Linux, however, we strongly recommend
+If you're already somewhat familiar with Linux, however, we strongly recommend
 that you follow the Linux initial setup instructions.
 
 </div>
@@ -113,7 +122,7 @@ that you follow the Linux initial setup instructions.
 __A Note About Terminals__
 
 I'm using the word "terminal" here for consistency with the way people use the
-word commonly. To be technically correct I should call it a "terminal emulator",
+word commonly. To be technically correct, I should call it a "terminal emulator,"
 but this phrasing could lead to confusion so I'm using the slightly less correct
 phrasing instead.
 
@@ -124,7 +133,7 @@ phrasing instead.
 A _shell_ is a program that lets you enter in text commands to a computer and
 get output from those commands. Shells are essential for using SSH and very
 useful for programming. We'll be doing all of our work in this class within a
-shell, so it's important that we are using the right one!
+shell, so it's important that we use the right one!
 
 The default shell on Andrew Linux systems, `csh`, is lacking in many ways. For
 that reason, we'll be switching you over to a shell called bash. (If you have
@@ -134,15 +143,15 @@ as it's not csh.)
 In order to switch your shell over, follow these instructions:
 
 
-1. SSH in to andrew using the setup you did above.
+1. SSH into andrew using the setup you did above.
 1. Run the command `chsh` at the prompt (type it and hit enter).
 1. You'll be asked to enter a new shell. (When doing this, be very careful; if
    you enter something that isn't a shell, you will not be able to use your
    account until the problem is fixed, which is not easy to do!)
    Type in `/bin/bash` and hit enter.
 1. If you log out (disconnect) and connect again, your new shell should be bash.
-   (It says it will take longer but is generally nearly instantaneous. If it's
-   taking longer than 30 minutes though, you might want to send us an email)
+   (It says it will take a long time, but it's generally nearly instantaneous.
+   If it's taking longer than 30 minutes, you might want to send us an email.)
 
 When entering your new shell for step 3, mistyping the shell will cause you to
 be locked out until the problem is fixed, which takes at least a day to do.
@@ -157,10 +166,9 @@ prompts, and REPLs.
 ## Get the GPI Configuration
 
 The default settings for bash (the shell you switched to) and other programs
-you're likely to use during the semester are rather minimal, and so we've
-written some configuration files that will give you nicer defaults. Of course,
-if you want to change these settings to better fit your preferences you can do
-so.
+you're likely to use during the semester are rather minimal, so we've written
+some configuration files that will give you nicer defaults. Of course, if you
+want to change these settings to better fit your preferences you can do so.
 
 SSH in to `andrew`.
 
@@ -188,7 +196,7 @@ your programming assignments.
 ## Get a Lern2Unix Account
 
 We'll be using the lern2unix website as a backend to submit and download
-problems. So, you'll need a [lern2unix account][lern2unix-signup], which you
+problems, so you'll need a [lern2unix account][lern2unix-signup] which you
 should sign up for before our first lecture.
 
 __IMPORTANT__:
