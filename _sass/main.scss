@@ -100,7 +100,14 @@ li > p {
   margin-bottom: 0px;
 }
 
-.content li {
-  margin-top: 5px;
-  margin-bottom: 5px;
+.content {
+  h1, h2, h3, h4, h5, h6 {
+    // hack to get ID anchor links to position correctly
+    margin-top: -50px;
+    padding-top: 50px;
+  }
+  li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
