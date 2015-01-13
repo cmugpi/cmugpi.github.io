@@ -42,3 +42,25 @@ staff:
 {% endfor %}
 </div>
 
+# Attribution
+{:.ui.dividing.header.no_toc}
+
+The content of this site has gone through many forms and revisions. The first
+version of the course was designed by [Adam Blank][adam]. Later, modifications and
+additions to the content were made by Josh Zimmerman, who reformatted the
+original PDFs into web content.
+
+The current version of the site, including the site layout and design as well as
+further modifications and additions to content, was written by [Jake
+Zimmerman][jake] with contributions from the GPI staff.
+
+The source of this site is licensed under the MIT License and is readily
+[available on GitHub][cmugpi]. It uses Jekyll and Octopress 3.0 for static site
+generation and Semantic UI as a general purpose CSS framework. If you enjoyed
+this site, be sure to star it! If you notice an issue or bug with the site,
+feel free to open an issue or a pull request.
+
+[adam]: http://www.countablethoughts.com/
+[jake]: https://www.zimmerman.io/
+[cmugpi]: https://github.com/cmugpi/cmugpi.github.io
+
