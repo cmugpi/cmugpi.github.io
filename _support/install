@@ -62,16 +62,17 @@ if [ -z "$virtualenv_name" ]; then
 fi
 virtualenv_caps=$(echo $virtualenv_name | tr '[:lower:]' '[:upper:]')
 mkvirtualenv $virtualenv_name
+deactivate
 if [ "$?" != "0" ]; then
   echo "${cred}Error creating virtual environment ${virtualenv_name}.${cnone}"
   exit 1
 fi
-echo "Created virtualenv at ${cblue}${VIRTUAL_ENV}${cnone}."
+echo "Created virtualenv at ${cblue}${virtualenv_name}${cnone}."
 
 # Initialize virtualenv postactivate script to set environment vars
 echo
 echo "${cwhite}==>${cnone} Initializing virtualenv postactivate script to sandbox RubyGems..."
-cat << EOF >> $VIRTUAL_ENV/bin/postactivate
+cat << EOF >> $virtualenv_name/bin/postactivate
 
 # -- added by gpi www \`make install\` --
 export OLD_${virtualenv_caps}_GEMHOME="\$GEM_HOME"
@@ -84,13 +85,13 @@ export OLD_${virtualenv_caps}_PATH="\$PATH"
 export PATH="\$PATH:\$GEM_HOME/bin"
 # -------------------------------------
 EOF
-echo "Done. See ${cblue}$VIRTUAL_ENV/bin/postactivate${cnone} for what was added."
+echo "Done. See ${cblue}$virtualenv_name/bin/postactivate${cnone} for what was added."
 
 # Initialize virtualenv postdeactivate to unset environment vars
 echo
 echo "${cwhite}==>${cnone} Initializing virtualenv postdeactivate script to turn off sandboxing..."
 virtualenv_caps=$(echo $virtualenv_name | tr '[:lower:]' '[:upper:]')
-cat << EOF >> $VIRTUAL_ENV/bin/postdeactivate
+cat << EOF >> $virtualenv_name/bin/postdeactivate
 
 # -- added by gpi www \`make install\` --
 export GEM_HOME="\$OLD_${virtualenv_caps}_GEM_HOME"
@@ -103,20 +104,27 @@ export PATH="\$OLD_${virtualenv_caps}_PATH"
 unset OLD_${virtualenv_caps}_PATH
 # -------------------------------------
 EOF
-echo "Done. See ${cblue}$VIRTUAL_ENV/bin/postdeactivate${cnone} for what was added."
+echo "Done. See ${cblue}$virtualenv_name/bin/postdeactivate${cnone} for what was added."
 
-# make the same changes we made in the postactivate script
-export GEM_HOME="$VIRTUAL_ENV/gems"
-export GEM_PATH=""
-export PATH="$PATH:$GEM_HOME/bin"
+
+# Install Ruby dependencies
+echo
+echo "Installing bundle (outside virtualenv)"
+# We have to install bundler outside of the virtualenv or else rbenv won't be
+# able to find it
+echo ">> gem install bundler"
+gem install bundle
+rbenv rehash
+
 
 echo
 echo "${cwhite}==>${cnone} Installing gems to virtual env..."
-echo ">> gem install bundle"
-gem install bundle
-
 echo ">> bundle install"
+workon $virtualenv_name
 bundle install
+# We don't have to run rbenv rehash here because rbenv doesn't even know gems
+# were installed! They are sort of "hidden" by the virtualenv
+deactivate
 
 echo $cwhite
 echo "********************************************************************************"
