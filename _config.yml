@@ -26,3 +26,6 @@ highlight: pygments
 kramdown:
   parse_block_html: true
   toc_levels: 1..2
+
+jquery_version: 2.1.1
+semantic_version: 1.6.2
