@@ -65,7 +65,7 @@ a screen big enough to handle it.
 [io]:        {{ "/topics/bash/input-output/"        | prepend: site.baseprefix }}
 [regex]:     {{ "/topics/bash/regular-expressions/" | prepend: site.baseprefix }}
 [oneliners]: {{ "/topics/bash/oneliners/"           | prepend: site.baseprefix }}
-[scripting]: {{ "/topics/bash/scripting/"           | prepend: site.baseprefix }}
+[scripting]: {{ "/topics/bash/bash-scripting/"      | prepend: site.baseprefix }}
 
 [git]:    {{ "/topics/git/"                 | prepend: site.baseprefix }}
 [gs-git]: {{ "/topics/git/getting-started/" | prepend: site.baseprefix }}
