@@ -83,15 +83,11 @@ free LaTeX templates.
   - This template has been distributed by a number of classes at CMU, including
     15-251 and 15-451. It's fairly straightforward, but it does the job.
 - [LaTeX Homework Class][homework-class]
-  - This project let's you just do `\documentclass{homework}` to gain access to
+  - This project lets you just do `\documentclass{homework}` to gain access to
     a load of helpful commands for typesetting your homework.
 - [LaTeX Homework Template][jake-template]
-  - This is Jake Zimmerman's LaTeX template. It was based off the CMU template
-    above, with some convenience features added on top of it, and restyled a
-    bit.
-  -  __The "LaTeX Homework Class" (directly above) replaces this template__!
-    It's just here in case getting the class file to work turns out to be too
-    tricky.
+  - This is another LaTeX template. It was based off the CMU template above,
+    with some convenience features added on top of it, and restyled a bit.
 - [Comprehensive Preamble][preamble]
   - This is a huge LaTeX preamble that contains useful macros for commonly
     used math symbols.
