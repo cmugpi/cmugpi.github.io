@@ -45,8 +45,8 @@ staff:
 # Attribution
 {:.ui.dividing.header.no_toc}
 
-The content of this site has gone through many forms and revisions. The first
-version of the course was designed by [Adam Blank][adam]. Later, modifications and
+The initial version of the course and a significant amount of the current course
+content was created [Adam Blank][adam] in Fall 2011. Later, modifications and
 additions to the content were made by Josh Zimmerman, who reformatted the
 original PDFs into web content.
 
