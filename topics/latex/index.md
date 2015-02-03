@@ -92,10 +92,10 @@ free LaTeX templates.
   - This is a huge LaTeX preamble that contains useful macros for commonly
     used math symbols.
 
-[cmu-template]: https://github.com/Z1MM32M4N/cmu-latex-hw-template
-[homework-class]: https://github.com/Z1MM32M4N/latex-homework-class
-[jake-template]: https://github.com/Z1MM32M4N/latex-hw-template
-[preamble]: https://gist.github.com/Z1MM32M4N/8109d1ef3421f453ee14
+[cmu-template]: https://github.com/jez/cmu-latex-hw-template
+[homework-class]: https://github.com/jez/latex-homework-class
+[jake-template]: https://github.com/jez/latex-hw-template
+[preamble]: https://gist.github.com/jez/8109d1ef3421f453ee14
 
 
 
