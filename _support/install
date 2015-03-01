@@ -70,9 +70,10 @@ fi
 echo "Created virtualenv at ${cblue}${virtualenv_name}${cnone}."
 
 # Initialize virtualenv postactivate script to set environment vars
-echo
-echo "${cwhite}==>${cnone} Initializing virtualenv postactivate script to sandbox RubyGems..."
-cat << EOF >> $virtualenv_name/bin/postactivate
+if [ $(wc -l $virtualenv_name/bin/postactivate) -le 4 ]; then
+  echo
+  echo "${cwhite}==>${cnone} Initializing virtualenv postactivate script to sandbox RubyGems..."
+  cat << EOF >> $virtualenv_name/bin/postactivate
 
 # -- added by gpi www \`make install\` --
 export OLD_${virtualenv_caps}_GEMHOME="\$GEM_HOME"
@@ -85,13 +86,17 @@ export OLD_${virtualenv_caps}_PATH="\$PATH"
 export PATH="\$PATH:\$GEM_HOME/bin"
 # -------------------------------------
 EOF
-echo "Done. See ${cblue}$virtualenv_name/bin/postactivate${cnone} for what was added."
+  echo "Done. See ${cblue}$virtualenv_name/bin/postactivate${cnone} for what was added."
+else
+  echo "${cred}Virtualenv postactivate script not initialized. You should do this yourself.${cnone}"
+fi
 
 # Initialize virtualenv postdeactivate to unset environment vars
-echo
-echo "${cwhite}==>${cnone} Initializing virtualenv postdeactivate script to turn off sandboxing..."
-virtualenv_caps=$(echo $virtualenv_name | tr '[:lower:]' '[:upper:]')
-cat << EOF >> $virtualenv_name/bin/postdeactivate
+if [ $(wc -l $virtualenv_name/bin/postdeactivate) -le 4 ]; then
+  echo
+  echo "${cwhite}==>${cnone} Initializing virtualenv postdeactivate script to turn off sandboxing..."
+  virtualenv_caps=$(echo $virtualenv_name | tr '[:lower:]' '[:upper:]')
+  cat << EOF >> $virtualenv_name/bin/postdeactivate
 
 # -- added by gpi www \`make install\` --
 export GEM_HOME="\$OLD_${virtualenv_caps}_GEM_HOME"
@@ -104,7 +109,10 @@ export PATH="\$OLD_${virtualenv_caps}_PATH"
 unset OLD_${virtualenv_caps}_PATH
 # -------------------------------------
 EOF
-echo "Done. See ${cblue}$virtualenv_name/bin/postdeactivate${cnone} for what was added."
+  echo "Done. See ${cblue}$virtualenv_name/bin/postdeactivate${cnone} for what was added."
+else
+  echo "${cred}Virtualenv postactivate script not initialized. You should do this yourself.${cnone}"
+fi
 
 
 # Install Ruby dependencies
