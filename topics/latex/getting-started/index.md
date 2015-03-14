@@ -87,6 +87,6 @@ good LaTeX editor for Windows.
 
 [sharelatex]: https://www.sharelatex.com/
 [mactex]: https://tug.org/mactex/
-[offline]: http://blog.zimmerman.io/2014/10/06/offline-latex-development/
+[offline]: http://blog.jez.io/2014/10/06/offline-latex-development/
 [miktex]: http://miktex.org/
 [texnic]: http://www.texniccenter.org/
