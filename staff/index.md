@@ -61,6 +61,6 @@ this site, be sure to star it! If you notice an issue or bug with the site,
 feel free to open an issue or a pull request.
 
 [adam]: http://www.countablethoughts.com/
-[jake]: https://www.zimmerman.io/
+[jake]: https://jez.io/
 [cmugpi]: https://github.com/cmugpi/cmugpi.github.io
 
