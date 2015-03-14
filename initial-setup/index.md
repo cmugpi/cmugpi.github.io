@@ -206,6 +206,6 @@ andrew.cmu.edu email address for your email.
 
 
 [mobaxterm]: http://mobaxterm.mobatek.net/
-[mobaxterm-tutorial]: http://blog.zimmerman.io/2014/09/28/setting-up-mobaxterm-for-ssh-on-windows/
+[mobaxterm-tutorial]: http://blog.jez.io/2014/09/28/setting-up-mobaxterm-for-ssh-on-windows/
 [iterm2]: http://iterm2.com/
 [lern2unix-signup]: http://www.lern2unix.com/account/signup/
