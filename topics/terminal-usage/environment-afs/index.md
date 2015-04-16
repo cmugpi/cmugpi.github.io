@@ -22,7 +22,7 @@ when you ssh into one of the Andrew Unix machines.
 
 To print text, you can use the `echo` command, which just prints its arguments:
 
-{% highlight bash %}
+{% highlight console %}
 $ echo Hello, world!
 Hello, world!
 {% endhighlight %}
@@ -35,7 +35,7 @@ names.
 
 ### `~` -- the home directory
 
-{% highlight bash %}
+{% highlight console %}
 $ cd ~
 $ pwd
 /afs/andrew.cmu.edu/usr10/jezimmer
@@ -45,7 +45,7 @@ $ pwd
 
 Similar to the previous directory, but for any arbitrary user.
 
-{% highlight bash %}
+{% highlight console %}
 $ cd ~nmunson
 $ pwd
 /afs/andrew.cmu.edu/usr13/nmunson
@@ -85,7 +85,7 @@ named `PWD` that contains the present working directory, and more.
 You can control your environment by setting certain variables. Here are a few
 examples of how that's done:
 
-{% highlight bash %}
+{% highlight console %}
 # set my_variable to the string "hello" (no spaces around the '='!)
 $ my_variable="hello"
 
@@ -105,7 +105,7 @@ In practice, you will almost always want to use `export` when setting variables.
 It helps to be able to check and print the value of environment variables! To
 access to contents of a variable, you have to use the `$` operator.
 
-{% highlight bash %}
+{% highlight console %}
 # get the value of my_variable and print it
 $ echo $my_variable
 hello
@@ -159,7 +159,7 @@ You can use `fs la` (or fs listacl) to see what the permissions on a directory
 are. The output will be an AndrewID or group followed by what they are allowed
 to do. For example:
 
-{% highlight bash %}
+{% highlight console %}
 jzimmerm@unix4:~$ fs la
 Access list for . is
 Normal rights:
@@ -202,7 +202,7 @@ fs sa foo bovik rlidwk
 You can use `fs lq` (or fs listquota) to see how much of your alloted AFS space
 you're using. For example:
 
-{% highlight bash %}
+{% highlight console %}
 jzimmerm@unix14:~$ fs lq
 Volume Name                    Quota       Used %Used   Partition
 user.jzimmerm                2000000     385982   19%         46%
