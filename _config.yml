@@ -17,11 +17,15 @@ exclude:
   - LICENSE
   - Gemfile.lock
   - Gemfile
-  - config.rb
 
 # Build settings
 markdown: kramdown
 highlight: pygments
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
 
 kramdown:
   parse_block_html: true

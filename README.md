@@ -42,8 +42,8 @@ so I may use this as a shorthand for the root of the project from time to time.
 This is a Jekyll site. If you don't have an up-to-date version of Ruby, go get
 one. OS X comes with a version of Ruby out of the box, but it's outdated and not
 easy to upgrade. If you don't already have a way to manage Ruby versions, I
-recommend [rbenv][rbenv]. See the Appendix for `rbenv` installation
-instructions.
+recommend [rbenv][rbenv]. See the Appendix for [`rbenv`
+installation](#building-a-ruby-version) instructions.
 
 Now that you have Ruby, you can go ahead and install the projects dependencies.
 We're going to be using Bundler to manage Ruby gems. For a detailed list of what
@@ -85,20 +85,14 @@ Jekyll, instead of being a blogging framework in its own right. Jekyll is a
 blogging framework which makes writing your site's content as easy as putting it
 in the right place, and Octopress 3.0 helps to put things in the right place.
 
-We're also using Compass to compile the Sass stylesheets. Sass is a language
-that compiles to CSS, but adds in tons of cool features that make it easy to
-write maintainable stylesheets.
+We're the version of Sass that comes with Jekyll to build the Sass stylesheets.
+Sass is a language that compiles to CSS, but adds in tons of cool features that
+make it easy to write maintainable stylesheets.
 
 To continuously build and preview the site locally:
 
 ```
 $ make serve
-```
-
-To continuously build the stylesheets:
-
-```
-$ make compass
 ```
 
 

@@ -1,0 +1,46 @@
+// ----- Semantic UI Overrides ------------------------------------------------
+.ui.menu .item:before {
+  content: normal;
+}
+
+.ui.navbar.menu {
+  z-index: 102;
+}
+
+.ui.navbar.grid {
+  margin-top: 0;
+}
+
+// Remove awkward whitespace above navbar
+.ui.grid > .row {
+  padding-top: 0;
+}
+
+// Turn off fixed navbar on mobile
+@media(max-width: 992px) {
+  .ui.navbar.grid {
+    margin: 0;
+  }
+
+  .ui.navbar.fixed {
+    position: initial;
+    +.ui.main.grid {
+      padding-top: initial;
+    }
+  }
+}
+
+.ui.vertical.topics.menu .active.item {
+  box-shadow: 4px 0 0 inset;
+}
+
+// Huge hack to fix black bar that appears after toggling sidebar
+.pushable {
+  background: #f7f7f7!important;
+}
+
+// Change base font size
+html, body {
+  font-size: 16px;
+}
+

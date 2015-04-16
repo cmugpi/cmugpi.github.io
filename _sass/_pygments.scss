@@ -98,7 +98,7 @@ $literalnumberintegerlong: $cyan;
   //font-weight: bold;
   background: $background;
   color: $default;
-  @include border-radius(4px);
+  border-radius: 4px;
   pre {
     padding: 1em;
     background-color: transparent;
