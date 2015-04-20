@@ -42,7 +42,7 @@ The first 15 minutes of lecture will be a discussion of the reading or a demo,
 A TA will go over the content of the reading, give some sort of demo, and answer
 questions.
 
-After the talk you will solve a series of puzzles on that weeks' topic. Each set
+After the talk you will solve a series of puzzles on that week's topic. Each set
 of puzzles is called a PuzzlePack. PuzzlePacks are composed of terminal/Unix
 puzzles involving typing in the right command, writing a simple script, or
 reading some code to figure out what it's doing. Almost all PuzzlePacks must be
@@ -93,10 +93,10 @@ The grading breakdown will be as follows:
 Alternatively, to encourage people to attend the extratations, anyone who
 attends at least 3 extratations will be able to either
 
-- make his final grade equal to what he received on the midterm (thus not having
-  to take the final), or
-- make both his midterm and final grade be equal to the max of his midterm and
-  final grades.
+- receive credit on the final exam equal to what was received on the midterm
+  (thus not having to take the final), or
+- receive credit for both the midterm and final exam equal to the max of what
+  was received on the midterm and final exam.
 
 
 ## Collaboration Policy
