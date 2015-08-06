@@ -176,12 +176,19 @@ First, we'll get a few basic files. Copy the following commands into your
 terminal, hitting enter after each one.
 
 ~~~
-cp /afs/cs.cmu.edu/academic/class/15131-f13/config/.bash_login ~/
-cat /afs/cs.cmu.edu/academic/class/15131-f13/config/.bashrc >> ~/.bashrc
-cp /afs/cs.cmu.edu/academic/class/15131-f13/config/.bashrc_gpi ~/
+curl https://github.com/cmugpi/dotfiles/blob/master/bashrc > ~/.bashrc
+curl https://github.com/cmugpi/dotfiles/blob/master/bashrc_gpi > ~/.bashrc_gpi
+
+curl https://github.com/cmugpi/dotfiles/blob/master/vimrc > ~/.vimrc
+git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vunvle.vim
+vim +PluginInstall +qall
 ~~~
 
-Then, disconnect from andrew (remember, `^D`) and log in again. When you've logged
+Side note: these will overwrite any existing files you might have. If you have
+your own bashrc or vimrc, read the [Advanced Usage][advanced] instructions.
+{:.ui.info.message}
+
+Then, disconnect from Andrew (remember, `^D`) and log in again. When you've logged
 in, type `gpi` and hit enter. If you see a message with some information about
 GPI, then everything went correctly! (If you see an error message about the
 command not being found, something went wrong. Try again, and if you can't
@@ -208,4 +215,5 @@ andrew.cmu.edu email address for your email.
 [mobaxterm]: http://mobaxterm.mobatek.net/
 [mobaxterm-tutorial]: http://blog.jez.io/2014/09/28/setting-up-mobaxterm-for-ssh-on-windows/
 [iterm2]: http://iterm2.com/
+[advanced]: https://github.com/cmugpi/dotfiles#advanced-usage
 [lern2unix-signup]: http://www.lern2unix.com/account/signup/
