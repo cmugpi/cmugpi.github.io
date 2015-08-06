@@ -175,14 +175,14 @@ SSH in to `andrew`.
 First, we'll get a few basic files. Copy the following commands into your
 terminal, hitting enter after each one.
 
-~~~
+{% highlight bash %}
 curl https://github.com/cmugpi/dotfiles/blob/master/bashrc > ~/.bashrc
 curl https://github.com/cmugpi/dotfiles/blob/master/bashrc_gpi > ~/.bashrc_gpi
 
 curl https://github.com/cmugpi/dotfiles/blob/master/vimrc > ~/.vimrc
 git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vunvle.vim
 vim +PluginInstall +qall
-~~~
+{% endhighlight %}
 
 Side note: these will overwrite any existing files you might have. If you have
 your own bashrc or vimrc, read the [Advanced Usage][advanced] instructions.
