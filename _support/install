@@ -91,12 +91,12 @@ else
   echo "${cred}Virtualenv postactivate script not initialized. You should do this yourself.${cnone}"
 fi
 
-# Initialize virtualenv postdeactivate to unset environment vars
-if [ $(wc -l $virtualenv_name/bin/postdeactivate) -le 4 ]; then
+# Initialize virtualenv predeactivate to unset environment vars
+if [ $(wc -l $virtualenv_name/bin/predeactivate) -le 4 ]; then
   echo
-  echo "${cwhite}==>${cnone} Initializing virtualenv postdeactivate script to turn off sandboxing..."
+  echo "${cwhite}==>${cnone} Initializing virtualenv predeactivate script to turn off sandboxing..."
   virtualenv_caps=$(echo $virtualenv_name | tr '[:lower:]' '[:upper:]')
-  cat << EOF >> $virtualenv_name/bin/postdeactivate
+  cat << EOF >> $virtualenv_name/bin/predeactivate
 
 # -- added by gpi www \`make install\` --
 export GEM_HOME="\$OLD_${virtualenv_caps}_GEM_HOME"
@@ -109,9 +109,9 @@ export PATH="\$OLD_${virtualenv_caps}_PATH"
 unset OLD_${virtualenv_caps}_PATH
 # -------------------------------------
 EOF
-  echo "Done. See ${cblue}$virtualenv_name/bin/postdeactivate${cnone} for what was added."
+  echo "Done. See ${cblue}$virtualenv_name/bin/predeactivate${cnone} for what was added."
 else
-  echo "${cred}Virtualenv postactivate script not initialized. You should do this yourself.${cnone}"
+  echo "${cred}Virtualenv predeactivate script not initialized. You should do this yourself.${cnone}"
 fi
 
 
