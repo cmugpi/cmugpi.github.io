@@ -38,8 +38,8 @@ the QuickCheck, and they should only take a few minutes to finish.
 
 ## Lecture
 
-The first 15 minutes of lecture will be a discussion of the reading or a demo,
-A TA will go over the content of the reading, give some sort of demo, and answer
+The first 15 minutes of lecture will be a discussion of the reading or a demo, 
+a TA will go over the content of the reading, give some sort of demo, and answer
 questions.
 
 After the talk you will solve a series of puzzles on that week's topic. Each set
@@ -64,7 +64,7 @@ understanding that week's reading and subsequent quiz.
 ## Extratations
 
 While we'll try to cover as much as we can in class, there's tons of cool, more
-complex, topics we simply won't have time to cover in class. For those who are
+complex, topics we simply won't have time to cover. For those who are
 interested in taking their knowledge of the command line further, we'll hold a
 number of optional workshops called "extratations" (a portmanteau of "extra" and
 "recitation").
@@ -123,7 +123,7 @@ haven't learned!
 
 You may not interact with or ask other students for help. These should be super
 simple, so if you feel like you're struggling with them, let the course staff
-know, because we're probably making them too hard.
+know because we're probably making them too hard.
 
 
 ## Help
