@@ -3,6 +3,8 @@
 This is a Jekyll/Octopress project that compiles to the website for GPI, a class
 at Carnegie Mellon University (15-131).
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
 - [Installation](#installation)
@@ -16,7 +18,7 @@ at Carnegie Mellon University (15-131).
   - [Create lessons readily](#create-lessons-readily)
   - [Do your research](#do-your-research)
   - [Use links](#use-links)
-  - [PDFs & Documents](#pdfs-documents)
+  - [PDFs and Documents](#pdfs-and-documents)
   - [General Notes](#general-notes)
 - [Troubleshooting](#troubleshooting)
 - [Jekyll Tips](#jekyll-tips)
@@ -33,6 +35,8 @@ at Carnegie Mellon University (15-131).
     - [Other](#other)
   - [Building a Ruby Version](#building-a-ruby-version)
   - [Other Notes](#other-notes)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Installation
 
@@ -486,6 +490,7 @@ whole machine).
 The Table of Contents in this file was generated using [DocToc][doctoc].
 
 ```
+$ npm install -g doctoc
 $ doctoc README.md
 ```
 

@@ -19,59 +19,62 @@ other essential tools.
 
 For more information, you should checkout the [syllabus][syllabus].
 
+
+## How to use this site
+
+This site is broken up into a number of _Topics_ which are further broken up
+into _Lessons_. One topic in particular relates directly to the assignments in
+this class: Puzzle Packs. The PuzzlePack topic is where you can find links to
+the PuzzlePack we will be doing in class as well as the lessons that will be
+useful in for solving that PuzzlePack. These are linked below for your
+convenience.
+
+In general, there are more lesson pages than there are PuzzlePacks. You only
+have to read those not directly linked from the PuzzlePack lessons if you're
+interested. You will only be assessed on your knowledge of those that relate to
+solving the PuzzlePacks.
+
+
 ## Schedule
 
-{% comment %}
-I apologize for this being so wide! Trust me, it looks really nice if you have
-a screen big enough to handle it.
-{% endcomment %}
-
-| Lecture Date | Topic                            | Lecture                                             |
-| ------------ | -----                            | -------                                             |
-| ASAP         | [Initial setup][initial-setup]   | -                                                   |
-| 9/3          | [Terminal Usage][terminal-usage] | [Using Files & Commands][files-commands]            |
-| 9/10         | [Vim][vim]                       | [Getting Started with Vim][gs-vim]                  |
-| 9/17         | [Vim][vim]                       | [Vim as Language][vim-language]                     |
-| 9/24         | [Terminal Usage][terminal-usage] | [Terminal Environment & AFS][environment-afs]       |
-| 10/1         | [Terminal Usage][terminal-usage] | [Jobs, Man Pages, & Links][jobs-man-links]          |
-| 10/8         | [Bash][bash]                     | [Globbing & Ranges][globbing] & [Strings][strings]  |
-| 10/15        | Midterm Exam                     | -                                                   |
-| 10/22        | [Bash][bash]                     | [Input & Output][io] & [Regular Expressions][regex] |
-| 10/29        | [Bash][bash]                     | [Oneliners][oneliners]                              |
-| 11/5         | [Bash][bash]                     | [Bash Scripting][scripting]                         |
-| 11/12        | [Git][git]                       | [Getting Started with Git][gs-git]                  |
-| 11/19        | [LaTeX][latex]                   | [Getting Started with LaTeX][gs-latex]              |
-| __11/26__    | __Thanksgiving__                 | -                                                   |
-| 12/3         | [Terminal Configuration][config] | [Dotfiles][dotfiles] |
-| 12/10        | Final Exam                       | - |
+| Lecture Date | Topic                            | PuzzlePack         |
+| ------------ | -------------------------------- | ------------------ |
+| ASAP         | [Initial setup][initial-setup]   | -                  |
+| 9/3          | [Terminal Usage][usage]          | [Week 1][week-1]   |
+| 9/10         | [Vim][vim]                       | [Week 2][week-2]   |
+| 9/17         | [Vim][vim]                       | [Week 3][week-3]   |
+| 9/24         | [Terminal Usage][usage]          | [Week 4][week-4]   |
+| 10/1         | [Terminal Usage][usage]          | [Week 5][week-5]   |
+| 10/8         | [Bash][bash]                     | [Week 6][week-6]   |
+| 10/15        | Midterm Exam                     | -                  |
+| 10/22        | [Bash][bash]                     | [Week 7][week-7]   |
+| 10/29        | [Bash][bash]                     | [Week 8][week-8]   |
+| 11/5         | [Git][git]                       | [Week 9][week-9]   |
+| 11/12        | [Git][git]                       | [Week 10][week-10] |
+| 11/19        | [Terminal Configuration][config] | [Week 11][week-11] |
+| __11/26__    | __Thanksgiving__                 | -                  |
+| 12/3         | [Terminal Configuration][config] | [Week 12][week-12] |
+| 12/10        | Final Exam                       | -                  |
 {:.ui.striped.table}
 
-[puzzle1]: https://www.google.com/
 [syllabus]: {{ "/syllabus/" | prepend: site.baseprefix }}
 [initial-setup]: {{ "/initial-setup/" | prepend: site.baseprefix }}
 
-[terminal-usage]:  {{ "/topics/terminal-usage/"                 | prepend: site.baseprefix }}
-[files-commands]:  {{ "/topics/terminal-usage/files-commands/"  | prepend: site.baseprefix }}
-[environment-afs]: {{ "/topics/terminal-usage/environment-afs/" | prepend: site.baseprefix }}
-[jobs-man-links]:  {{ "/topics/terminal-usage/jobs-man-links/"  | prepend: site.baseprefix }}
+[usage]:  {{ "/topics/terminal-usage/"         | prepend: site.baseprefix }}
+[vim]:    {{ "/topics/vim/"                    | prepend: site.baseprefix }}
+[bash]:   {{ "/topics/bash/"                   | prepend: site.baseprefix }}
+[config]: {{ "/topics/terminal-configuration/" | prepend: site.baseprefix }}
+[git]:    {{ "/topics/git/"                    | prepend: site.baseprefix }}
 
-[vim]:    {{ "/topics/vim/"                 | prepend: site.baseprefix }}
-[gs-vim]: {{ "/topics/vim/getting-started/" | prepend: site.baseprefix }}
-[vim-language]: http://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/
-
-[bash]:      {{ "/topics/bash/"                     | prepend: site.baseprefix }}
-[globbing]:  {{ "/topics/bash/globbing-ranges/"     | prepend: site.baseprefix }}
-[strings]:   {{ "/topics/bash/strings/"             | prepend: site.baseprefix }}
-[io]:        {{ "/topics/bash/input-output/"        | prepend: site.baseprefix }}
-[regex]:     {{ "/topics/bash/regular-expressions/" | prepend: site.baseprefix }}
-[oneliners]: {{ "/topics/bash/oneliners/"           | prepend: site.baseprefix }}
-[scripting]: {{ "/topics/bash/bash-scripting/"      | prepend: site.baseprefix }}
-
-[git]:    {{ "/topics/git/"                 | prepend: site.baseprefix }}
-[gs-git]: {{ "/topics/git/getting-started/" | prepend: site.baseprefix }}
-
-[latex]:    {{ "/topics/latex/"                 | prepend: site.baseprefix }}
-[gs-latex]: {{ "/topics/latex/getting-started/" | prepend: site.baseprefix }}
-
-[config]:   {{ "/topics/terminal-configuration/"          | prepend: site.baseprefix }}
-[dotfiles]: {{ "/topics/terminal-configuration/dotfiles/" | prepend: site.baseprefix }}
+[week-1]:  {{ "/topics/puzzle-packs/week-1/"  | prepend: site.baseprefix }}
+[week-2]:  {{ "/topics/puzzle-packs/week-2/"  | prepend: site.baseprefix }}
+[week-3]:  {{ "/topics/puzzle-packs/week-3/"  | prepend: site.baseprefix }}
+[week-4]:  {{ "/topics/puzzle-packs/week-4/"  | prepend: site.baseprefix }}
+[week-5]:  {{ "/topics/puzzle-packs/week-5/"  | prepend: site.baseprefix }}
+[week-6]:  {{ "/topics/puzzle-packs/week-6/"  | prepend: site.baseprefix }}
+[week-7]:  {{ "/topics/puzzle-packs/week-7/"  | prepend: site.baseprefix }}
+[week-8]:  {{ "/topics/puzzle-packs/week-8/"  | prepend: site.baseprefix }}
+[week-9]:  {{ "/topics/puzzle-packs/week-9/"  | prepend: site.baseprefix }}
+[week-10]: {{ "/topics/puzzle-packs/week-10/" | prepend: site.baseprefix }}
+[week-11]: {{ "/topics/puzzle-packs/week-11/" | prepend: site.baseprefix }}
+[week-12]: {{ "/topics/puzzle-packs/week-12/" | prepend: site.baseprefix }}

@@ -39,7 +39,10 @@ let "next = $order + 1"
 
 echo
 echo "Creating new topic..."
-octopress new page topics/$topic/ --title "$title" --template topic
+octopress new page topics/$topic/ \
+  --title "$title" \
+  --template topic \
+  --config _octopress.yml
 
 if [ "$?" != 0 ]; then
   echo "${cred}Error creating lesson page.${cnone}"

@@ -43,7 +43,7 @@ read -e -p "${cwhiteb}>${cnone} " title
 echo "Enter the title's slug (${cgreen}ex: files-commands${cnone}):"
 read -e -p "${cwhiteb}>${cnone} " slug
 
-order=$(find topics/$topic/*/ -type f 2> /dev/null | xargs cat | grep 'order:' | sort -r | head -n 1 | cut -c 8-)
+order=$(find topics/$topic/*/ -type f 2> /dev/null | xargs cat | grep -I 'order:' | sort -r | head -n 1 | cut -c 8-)
 if [ -z "$order" ]; then
   order="0"
 fi
@@ -51,7 +51,10 @@ let "next = $order + 1"
 
 echo
 echo "Creating new lesson..."
-octopress new page topics/$topic/$slug/ --title "$title" --template lesson
+octopress new page topics/$topic/$slug/ \
+  --title "$title" \
+  --template lesson \
+  --config _octopress.yml
 
 if [ "$?" != 0 ]; then
   echo "${cred}Error creating lesson page.${cnone}"

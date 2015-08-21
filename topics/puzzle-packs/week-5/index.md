@@ -1,0 +1,32 @@
+---
+layout: page
+title: "Week 5"
+# What topic does this page belong to?
+group: puzzle-packs
+# Relative ordering of lessons within a topic
+order: 4
+#script: /javascripts/mypage.js
+#scripts:
+#  - /javascripts/one.js
+#  - /javascripts/two.js
+---
+
+
+{% include toc.md %}
+
+# Week 5
+{:.ui.dividing.header.no_toc}
+
+## Reading
+
+[Jobs, Man Pages, & Links][jobs-man-links]
+[Globbing & Ranges][globbing]
+
+## Download PuzzlePack
+
+[advanced_terminal_1][lern2unix]
+
+
+[lern2unix]: http://lern2unix.com/download/advanced_terminal_1
+[jobs-man-links]:  {{ "/topics/terminal-usage/jobs-man-links/"  | prepend: site.baseprefix }}
+[globbing]:        {{ "/topics/terminal-usage/globbing-ranges/" | prepend: site.baseprefix }}
