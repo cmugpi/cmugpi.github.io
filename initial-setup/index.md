@@ -180,7 +180,7 @@ curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/bashrc > ~/.bashrc
 curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/bashrc_gpi > ~/.bashrc_gpi
 
 curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/vimrc > ~/.vimrc
-git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vunvle.vim
+git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 {% endhighlight %}
 
