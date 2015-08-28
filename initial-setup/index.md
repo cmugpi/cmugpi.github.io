@@ -176,10 +176,10 @@ First, we'll get a few basic files. Copy the following commands into your
 terminal, hitting enter after each one.
 
 {% highlight bash %}
-curl https://github.com/cmugpi/dotfiles/blob/master/bashrc > ~/.bashrc
-curl https://github.com/cmugpi/dotfiles/blob/master/bashrc_gpi > ~/.bashrc_gpi
+curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/bashrc > ~/.bashrc
+curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/bashrc_gpi > ~/.bashrc_gpi
 
-curl https://github.com/cmugpi/dotfiles/blob/master/vimrc > ~/.vimrc
+curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/vimrc > ~/.vimrc
 git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vunvle.vim
 vim +PluginInstall +qall
 {% endhighlight %}
