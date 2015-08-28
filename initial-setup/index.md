@@ -189,16 +189,9 @@ your own bashrc or vimrc, read the [Advanced Usage][advanced] instructions.
 {:.ui.info.message}
 
 Then, disconnect from Andrew (remember, `^D`) and log in again. When you've logged
-in, type `gpi` and hit enter. If you see a message with some information about
-GPI, then everything went correctly! (If you see an error message about the
-command not being found, something went wrong. Try again, and if you can't
-figure it out email us and we'll help you out!)
-
-Finally, run the `gpi_install` command. You'll get a list of packages that you can
-choose to install. If you don't know what any of the packages are, for now just
-install the ones with "vim" and "emacs" in their names. Those provide
-configuration for the text editors you'll most likely choose between for use in
-your programming assignments.
+in, type `echo $GPI_PATH` and hit enter. If you see a file path, then everything
+went correctly! (If you see nothing, something went wrong. Try logging out and
+back in, and if that doesn't fix it, make a post on Piazza or email us.)
 
 ## Get a Lern2Unix Account
 
