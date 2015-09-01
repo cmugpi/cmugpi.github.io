@@ -50,38 +50,37 @@ how to use it so you can hit the ground running.
 
 ## Resources
 
+### Before Getting Started with Git
+
 - [Try Git][trygit]
   - An __interactive__ Git tutorial, put together by Code School and available
     through GitHub.
   - Targets first-time Git users, takes about 15 minutes. Make sure to read the
     "Advice" for a deeper understanding.
-  - __Most valuable:__ immediately after you start learning Git.
 - [Git - The Simple Guide][simplegit]
   - Straight-forward __summary__ of the Git commands everyone needs to know to
     use Git on a day-to-day basis
-  - __Most valuable__: immediately after you start learning Git.
+
+### Once you've used Git for a while
+
 - [Learn Git Branching][gitbranching]
   - __Interactive__, very well designed tutorial that covers just about
     everything there is to know about Git branching. Depicts what's happening
     visually on top of just demonstrating the commands.
-  - __Most valuable:__ once you learn the basic add/commit(/push) workflow (see
-    above!)
 - [A Hacker's Guide to Git][hackersguide]
   - My __absolute favorite__ guide to Git. Everyone who uses Git should read
     this at some point, as it really demystifies a large portion of how Git
     works.
-  - __Most valuable:__ once you've already used Git for a little while.
+
+### When you're comfortable using Git in the real world
+
 - [A Successful Git Branching Model][gitflow]
   - High-level overview of how to use Git's branches to manage features,
     releases, hotfixes, bugfixes, etc.
-  - __Most valuable:__ once you feel comfortable with how branching works (see
-    above!)
 - [Pro Git][progit]
   - The official Git documentation. Very comprehensive, very lengthy. I find it
     more useful to look up specific things in this book rather than read it all
     the way through, though it certainly could be approached that way.
-  - __Most valuable:__ Anytime, but probably once you've started learning Git a
-    little.
 
 [trygit]: https://try.github.io/
 [simplegit]: http://rogerdudler.github.io/git-guide/

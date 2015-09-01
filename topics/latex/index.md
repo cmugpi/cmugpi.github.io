@@ -54,9 +54,14 @@ papers in academia and industry.
 
 ## Resources
 
+### Quick Start Guide
+
 - [How to LaTeX][howtolatex]
   - An excellent intro to LaTeX guide by Adam Blank, a former student, TA, and
     CS instructor at CMU.
+
+### Handy Tools
+
 - [Detexify][detexify]
   - A tool for figuring out the command for typesetting a symbol in LaTeX. Just
     draw it with your mouse!
@@ -68,6 +73,9 @@ papers in academia and industry.
 - [Finite State Machine Designer][fsmd]
   - Tool that simplifies drawing [finite state machines][fsm], which come up in
     theoretical computer science classes.
+
+### Curl up with a cup of tea and just keep reading
+
 - [The Not So Short Introduction to LaTeX][lshort]
   - A very comprehensive overview of how LaTeX works in 157 pages of LaTeX.
 

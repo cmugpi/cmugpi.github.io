@@ -31,6 +31,8 @@ counter-productive, this course will focus only on Vim.
 
 ## Resources
 
+### Essential Reads
+
 - `vimtutor`
     - Command line program that teaches you Vim interactively
 - [Learning Vim in 2014][learning-vim]
@@ -42,11 +44,20 @@ counter-productive, this course will focus only on Vim.
     - [Vim as Language][vim-language]
         - Teaches Vim as a _language_, a crucial paradigm to understand when
           learning Vim
+
+### One-a-day tips
+
 - [Learn Vim Progressively][learn-vim-progressively]
     - Good at outlining small sets of commands that you can learn to incorporate
       into your workflow incrementally
+
+### Interesting, non-essential reads
+
 - [Your problem with Vim is that you don't grok vi][grok-vi]
     - Famous StackOverflow post explaining how to use Vim as a language
+
+### Reference and Next Level Vim usage
+
 - [Learn Vimscript the Hard Way][hard-way]
     - Very comprehensive look at Vim, from using it as en editor to adding
       plugins, to writing plugins yourself.
