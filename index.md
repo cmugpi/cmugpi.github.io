@@ -57,6 +57,79 @@ solving the PuzzlePacks.
 | 12/10        | Final Exam                       | -                  |
 {:.ui.striped.table}
 
+## Extratations
+
+Throughout the semester, we'll be holding extra workshops and talks outside of
+class, dubbed "extratations", to explore topics that we don't want to test you
+on but that you might find interesting.
+
+Location: TBA
+Time: TBA, but probably 2 p.m. or 3 p.m. All the dates are Saturdays.
+
+### LaTeXing Your Homework--for the Greater Good™ (9/5)
+
+LaTeX is a program that lets you write write mathematical documents as plain
+text and compile them to PDFs. It's the industry-standard way of making
+beautiful documents, but it's also a great way to collect and organize your
+homeworks for long-term storage.
+
+We'll cover some common tools for getting set up with LaTeX as well as have a
+workshop where you can try your hand at typesetting some documents.
+
+### Power Emacs (9/12)
+
+Does vim have you feeling down in the dumps? Try emacs! You can use Ctrl-v,
+Ctrl-x, Ctrl-c, and all that jazz, just as you're used to! And no modes! We'll
+go over all the knowledge you need to be productive, and how you can feel right
+at home in the world's most advanced text editor.
+
+### Thermonuclear Emacs (9/19)
+
+You've learned about Emacs? Now learn more! Learn about the neat features and
+futuristic programming environment that lead some to call Emacs "the
+thermonuclear text editor". Plus, learn the basics of customizing Emacs for your
+own needs!
+
+### tmux--saving your life, one bad wifi router at a time (9/26)
+
+tmux, short for "terminal multiplexer", is a tool for managing multiple
+persistent shell sessions while logged into a computer. What this means in
+practice is that tmux is good for a number of things, including being able to
+split your terminal screens and keep persistent shell sessions while logged into
+a remote server, even if your wifi cuts out or your computer loses power. Come
+learn about how you can rather simply integrate this awesome tool into your
+workflow!
+
+### Vim as an IDE (10/3)
+
+This workshop is for you if...
+
+- You use Vim, but only begrudgingly because someone in GPI, 15-122 or 15-150
+  told you to.
+- You enjoy Vim, but feel like you're not taping into it's full potential.
+- You use Emacs, but you don't take advantage of any of it's cool features, and
+  would rather have a fully-configured editor than a glorified Notepad.
+- You use Emacs quite well, but you're interested in learning Vim for the lulz.
+- You use Sublime, but don't like having to scp files back and forth, or switch
+  between Sublime and the terminal to compile and submit code.
+
+In this fully-interactive workshop, you'll take charge of converting Vim into
+your go-to power tool. I promise you won't be disappointed.
+
+### ... check back later for more talks!
+
+<!--
+(10/10)
+(10/17)
+(10/24)
+(10/31)
+(11/7)
+(11/14)
+(11/21)
+(11/28)
+(12/5)
+-->
+
 [syllabus]: {{ "/syllabus/" | prepend: site.baseprefix }}
 [initial-setup]: {{ "/initial-setup/" | prepend: site.baseprefix }}
 
