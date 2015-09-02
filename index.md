@@ -76,14 +76,14 @@ homeworks for long-term storage.
 We'll cover some common tools for getting set up with LaTeX as well as have a
 workshop where you can try your hand at typesetting some documents.
 
-### Power Emacs (9/12)
+### Emacs Fundamentals (9/12)
 
 Does vim have you feeling down in the dumps? Try emacs! You can use Ctrl-v,
 Ctrl-x, Ctrl-c, and all that jazz, just as you're used to! And no modes! We'll
 go over all the knowledge you need to be productive, and how you can feel right
 at home in the world's most advanced text editor.
 
-### Thermonuclear Emacs (9/19)
+### Emacs Rocks (9/19)
 
 You've learned about Emacs? Now learn more! Learn about the neat features and
 futuristic programming environment that lead some to call Emacs "the
