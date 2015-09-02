@@ -31,6 +31,7 @@ at Carnegie Mellon University (15-131).
 - [Deploying](#deploying)
   - [Pushing](#pushing)
   - [Bumping the Semester](#bumping-the-semester)
+  - [GitHub Pages Site](#github-pages-site)
 - [License](#license)
 - [Appendix](#appendix)
   - [Installing `rbenv`](#installing-rbenv)
@@ -407,7 +408,7 @@ version variable (`semantic_version`) in the `_config.yml` file.
 ## Deploying
 
 We're hosting the site on the www.cs.cmu.edu domain. To get this to work,
-there's a Git remote hook that watches for incoming pushes to the `master`
+there's a Git remote hook that watches for incoming pushes to the `develop`
 branch set up in our AFS space. It
 
 - watches for incoming pushes
@@ -425,10 +426,10 @@ After having cloned this repo, you can add the AFS remote with
 git remote add andrew ssh://ANDREWID@unix.andrew.cmu.edu/afs/cs/academic/class/15131-f15/repos/www.git/
 ```
 
-And you can deploy to it by pushing `master` to that remote:
+And you can deploy to it by pushing `develop` to that remote:
 
 ```
-git push andrew master
+git push andrew develop
 ```
 
 ### Bumping the Semester
@@ -458,6 +459,12 @@ places just discussed. To recap, you'll have to edit the semester in
 
 That's a lot of places, but it's only once a semester. If you want to make it
 better, make it better.
+
+### GitHub Pages Site
+
+The GitHub pages site (i.e., the `master` branch) is just a single HTML file
+that redirects to the www.cs.cmu.edu version of the site. This means you only
+ever have to push the site to `andrew` and the two can never get out of sync.
 
 
 ## License
