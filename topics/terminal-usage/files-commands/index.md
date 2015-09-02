@@ -78,6 +78,36 @@ transferring files. If this doesn't work, MobaXterm also supports a rudimentary
 </div>
 </div>
 
+
+## Working with PuzzlePacks
+
+PuzzlePacks are distributed as a `tar` file. This is basically like a zipped
+(.zip) folder. To "untar" the file from the command line, you can run this:
+
+{% highlight bash %}
+$ ls
+my-tar-file.tar
+
+$ tar xvf my-tar-file.tar
+
+$ ls
+jezimmer/ my-tar-file.tar
+{% endhighlight %}
+
+Once you've unpacked the tar file's contents, you'll notice a folder in the
+current directory named your Andrew ID. All PuzzlePacks are named this way;
+you'll want to rename them to keep things organized:
+
+{% highlight bash %}
+$ mv jezimmer week1
+{% endhighlight %}
+
+This renames the folder `jezimmer` to `week1`. Next week when you get a tar
+file for the PuzzlePack and untar it, you'll again get a folder named according
+to your Andrew ID. You'll want to rename this folder along the lines of `week2`,
+etc.
+
+
 ## Current Working Directory (pwd, cd)
 
 On most systems that use a command line, there's something called your "current
