@@ -28,5 +28,5 @@ order: 4
 
 
 [lern2unix]: http://lern2unix.com/download/advanced_terminal_1
-[jobs-man-links]:  {{ "/topics/terminal-usage/jobs-man-links/"  | prepend: site.baseprefix }}
-[globbing]:        {{ "/topics/terminal-usage/globbing-ranges/" | prepend: site.baseprefix }}
+[jobs-man-links]:  {{ "/topics/terminal-usage/jobs-man-links/"  | prepend: site.baseurl }}
+[globbing]:        {{ "/topics/terminal-usage/globbing-ranges/" | prepend: site.baseurl }}

@@ -10,11 +10,11 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/{{ site.jquery_version }}/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/{{ site.semantic_version }}/semantic.min.js"></script>
-<script src="{{ '/javascripts/main.js' | prepend: site.baseprefix }}"></script>
+<script src="{{ '/javascripts/main.js' | prepend: site.baseurl }}"></script>
 {% if page.script %}
-  <script src="{{ page.script | prepend: site.baseprefix }}"></script>
+  <script src="{{ page.script | prepend: site.baseurl }}"></script>
 {% elsif page.scripts %}
   {% for script in page.scripts %}
-    <script src="{{ script | prepend: site.baseprefix }}"></script>
+    <script src="{{ script | prepend: site.baseurl }}"></script>
   {% endfor %}
 {% endif %}

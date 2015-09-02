@@ -28,4 +28,4 @@ order: 6
 
 
 [lern2unix]: http://lern2unix.com/download/advanced_terminal_2
-[oneliners]: {{ "/topics/bash/oneliners/" | prepend: site.baseprefix }}
+[oneliners]: {{ "/topics/bash/oneliners/" | prepend: site.baseurl }}

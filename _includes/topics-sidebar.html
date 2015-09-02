@@ -7,7 +7,7 @@
       Active if page is the current topic page or page is lesson of the current topic
     {% endcomment %}
     <div class="teal item{% if topic.topic == page.topic or topic.topic == page.group %} active{% endif %}">
-      <a href="{{ topic.url | replace:'index.html','' | prepend: site.baseprefix }}">
+      <a href="{{ topic.url | replace:'index.html','' | prepend: site.baseurl }}">
         {{ topic.title }}
       </a>
       {% comment %}
@@ -16,7 +16,7 @@
       {% capture lessons %}
         {% for lesson in pages_sorted %}
           {% if lesson.group == topic.topic %}
-            <a href="{{ lesson.url | replace:'index.html','' | prepend: site.baseprefix }}"
+            <a href="{{ lesson.url | replace:'index.html','' | prepend: site.baseurl }}"
                class="item{% if lesson.url == page.url %} active{% endif %}">
               {{ lesson.title }}
             </a>

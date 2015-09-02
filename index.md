@@ -130,24 +130,24 @@ your go-to power tool. I promise you won't be disappointed.
 (12/5)
 -->
 
-[syllabus]: {{ "/syllabus/" | prepend: site.baseprefix }}
-[initial-setup]: {{ "/initial-setup/" | prepend: site.baseprefix }}
+[syllabus]: {{ "/syllabus/" | prepend: site.baseurl }}
+[initial-setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 
-[usage]:  {{ "/topics/terminal-usage/"         | prepend: site.baseprefix }}
-[vim]:    {{ "/topics/vim/"                    | prepend: site.baseprefix }}
-[bash]:   {{ "/topics/bash/"                   | prepend: site.baseprefix }}
-[config]: {{ "/topics/terminal-configuration/" | prepend: site.baseprefix }}
-[git]:    {{ "/topics/git/"                    | prepend: site.baseprefix }}
+[usage]:  {{ "/topics/terminal-usage/"         | prepend: site.baseurl }}
+[vim]:    {{ "/topics/vim/"                    | prepend: site.baseurl }}
+[bash]:   {{ "/topics/bash/"                   | prepend: site.baseurl }}
+[config]: {{ "/topics/terminal-configuration/" | prepend: site.baseurl }}
+[git]:    {{ "/topics/git/"                    | prepend: site.baseurl }}
 
-[week-1]:  {{ "/topics/puzzle-packs/week-1/"  | prepend: site.baseprefix }}
-[week-2]:  {{ "/topics/puzzle-packs/week-2/"  | prepend: site.baseprefix }}
-[week-3]:  {{ "/topics/puzzle-packs/week-3/"  | prepend: site.baseprefix }}
-[week-4]:  {{ "/topics/puzzle-packs/week-4/"  | prepend: site.baseprefix }}
-[week-5]:  {{ "/topics/puzzle-packs/week-5/"  | prepend: site.baseprefix }}
-[week-6]:  {{ "/topics/puzzle-packs/week-6/"  | prepend: site.baseprefix }}
-[week-7]:  {{ "/topics/puzzle-packs/week-7/"  | prepend: site.baseprefix }}
-[week-8]:  {{ "/topics/puzzle-packs/week-8/"  | prepend: site.baseprefix }}
-[week-9]:  {{ "/topics/puzzle-packs/week-9/"  | prepend: site.baseprefix }}
-[week-10]: {{ "/topics/puzzle-packs/week-10/" | prepend: site.baseprefix }}
-[week-11]: {{ "/topics/puzzle-packs/week-11/" | prepend: site.baseprefix }}
-[week-12]: {{ "/topics/puzzle-packs/week-12/" | prepend: site.baseprefix }}
+[week-1]:  {{ "/topics/puzzle-packs/week-1/"  | prepend: site.baseurl }}
+[week-2]:  {{ "/topics/puzzle-packs/week-2/"  | prepend: site.baseurl }}
+[week-3]:  {{ "/topics/puzzle-packs/week-3/"  | prepend: site.baseurl }}
+[week-4]:  {{ "/topics/puzzle-packs/week-4/"  | prepend: site.baseurl }}
+[week-5]:  {{ "/topics/puzzle-packs/week-5/"  | prepend: site.baseurl }}
+[week-6]:  {{ "/topics/puzzle-packs/week-6/"  | prepend: site.baseurl }}
+[week-7]:  {{ "/topics/puzzle-packs/week-7/"  | prepend: site.baseurl }}
+[week-8]:  {{ "/topics/puzzle-packs/week-8/"  | prepend: site.baseurl }}
+[week-9]:  {{ "/topics/puzzle-packs/week-9/"  | prepend: site.baseurl }}
+[week-10]: {{ "/topics/puzzle-packs/week-10/" | prepend: site.baseurl }}
+[week-11]: {{ "/topics/puzzle-packs/week-11/" | prepend: site.baseurl }}
+[week-12]: {{ "/topics/puzzle-packs/week-12/" | prepend: site.baseurl }}

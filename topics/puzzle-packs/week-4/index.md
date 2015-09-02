@@ -27,4 +27,4 @@ order: 3
 
 
 [lern2unix]: http://lern2unix.com/download/basic_terminal_part_2
-[environment-afs]: {{ "/topics/terminal-usage/environment-afs/" | prepend: site.baseprefix }}
+[environment-afs]: {{ "/topics/terminal-usage/environment-afs/" | prepend: site.baseurl }}

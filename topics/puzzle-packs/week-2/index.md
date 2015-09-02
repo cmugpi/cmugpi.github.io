@@ -27,4 +27,4 @@ order: 2
 
 
 [lern2unix]: http://lern2unix.com/download/vim_part_1
-[gs-vim]: {{ "/topics/vim/getting-started/" | prepend: site.baseprefix }}
+[gs-vim]: {{ "/topics/vim/getting-started/" | prepend: site.baseurl }}

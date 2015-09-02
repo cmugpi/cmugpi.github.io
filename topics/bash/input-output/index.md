@@ -204,4 +204,4 @@ myfile-1417165610.txt
 
 
 [null-device]: http://en.wikipedia.org/wiki/Null_device
-[oneliners]: {{ '/topics/bash/oneliners/' | prepend: site.baseprefix }}
+[oneliners]: {{ '/topics/bash/oneliners/' | prepend: site.baseurl }}

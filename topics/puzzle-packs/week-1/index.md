@@ -27,4 +27,4 @@ order: 1
 
 
 [lern2unix]: http://lern2unix.com/download/basic_terminal_part_1
-[files-commands]:  {{ "/topics/terminal-usage/files-commands/"  | prepend: site.baseprefix }}
+[files-commands]:  {{ "/topics/terminal-usage/files-commands/"  | prepend: site.baseurl }}

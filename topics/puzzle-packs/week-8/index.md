@@ -27,4 +27,4 @@ No puzzle pack yet
 
 
 [lern2unix]: http://lern2unix.com/download/xyz
-[scripting]: {{ "/topics/bash/bash-scripting/" | prepend: site.baseprefix }}
+[scripting]: {{ "/topics/bash/bash-scripting/" | prepend: site.baseurl }}

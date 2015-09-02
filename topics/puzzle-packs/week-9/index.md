@@ -27,4 +27,4 @@ order: 8
 
 
 [lern2unix]: http://lern2unix.com/download/git
-[gs-git]: {{ "/topics/git/getting-started/" | prepend: site.baseprefix }}
+[gs-git]: {{ "/topics/git/getting-started/" | prepend: site.baseurl }}

@@ -11,7 +11,7 @@ order: 3
 {% assign pages_sorted = site.pages | sort: 'order' %}
 {% for topic in pages_sorted %}
 {% if topic.group == 'topic' %}
-### [{{ topic.title }}]({{ topic.url | replace:'index.html','' | prepend: site.baseprefix }})
+### [{{ topic.title }}]({{ topic.url | replace:'index.html','' | prepend: site.baseurl }})
 {% if topic.description %}
 {{ topic.description }}
 {% endif %}

@@ -6,9 +6,9 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | GPI</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
-    <link rel="icon" href="{{ "/favicon.png" | prepend: site.baseprefix }}">
+    <link rel="icon" href="{{ "/favicon.png" | prepend: site.baseurl }}">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/{{ site.semantic_version }}/semantic.min.css">
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseprefix }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseprefix | slice: 1 | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | slice: 1 | prepend: site.url }}">
 </head>

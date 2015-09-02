@@ -277,7 +277,7 @@ Keep in mind that there should only be one `h1` header (`#` in Markdown) per
 page (i.e., the title). Your own section headers should use `##`, and your
 subsections should use `###`.
 
-Use the `{{ "/link-url/" | prepend: site.baseprefix }}` [Liquid][liquid] syntax
+Use the `{{ "/link-url/" | prepend: site.baseurl }}` [Liquid][liquid] syntax
 to create links relative to the site's base URL. This facilitates making
 separate sites for each semester (/~15131/f14/...) if we decide to take this
 path.
@@ -454,7 +454,7 @@ places just discussed. To recap, you'll have to edit the semester in
 - `SEMESTER` in `/afs/cs/academic/class/15131-f15/www.git/hooks/post-receive`
   and in `_support/post-receive`
 - the refresh URL of `/afs/cs/academic/class/15131-f15/www/index.html`
-- `baseprefix` in `_config.yml`
+- `baseurl` in `_config.yml`
 
 That's a lot of places, but it's only once a semester. If you want to make it
 better, make it better.

@@ -23,7 +23,7 @@ config. You might have already installed this configuration when you did the
 [initial setup][initial-setup] instructions, but if you didn't, run
 `gpi_install` and choose the `vim_config` package.
 
-[initial-setup]: {{ "/initial-setup/" | prepend: site.baseprefix }}
+[initial-setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 
 ## Jump Right In
 

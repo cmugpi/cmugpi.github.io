@@ -262,7 +262,7 @@ when learning how to use regexs:
 - [Sed - An Introduction and Tutorial][sed]
   - A very comprehensive but readable introduction to sed
 
-[strings]: {{ '/topics/bash/strings/' | prepend: site.baseprefix }}
+[strings]: {{ '/topics/bash/strings/' | prepend: site.baseurl }}
 [sed]: http://www.grymoire.com/Unix/Sed.html
 [regex101]: https://regex101.com/
 [regex-info]: http://www.regular-expressions.info/

@@ -301,4 +301,4 @@ lets you change the file permissions [or "mode"] of a file, and `u+x` means to
 take the permissions for the user who owns the file and add the execute
 permission).
 
-[initial-setup]: {{ "/initial-setup/" | prepend: site.baseprefix }}
+[initial-setup]: {{ "/initial-setup/" | prepend: site.baseurl }}

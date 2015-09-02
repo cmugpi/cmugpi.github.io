@@ -27,5 +27,5 @@ No puzzle pack yet
 
 
 [lern2unix]: http://lern2unix.com/download/xyz
-[dotfiles]: {{ "/topics/terminal-configuration/dotfiles/" | prepend: site.baseprefix }}
+[dotfiles]: {{ "/topics/terminal-configuration/dotfiles/" | prepend: site.baseurl }}
 

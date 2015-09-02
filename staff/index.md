@@ -32,7 +32,7 @@ staff:
 <div class="ui three column center aligned grid">
 {% for person in page.staff %}
 <div class="column">
-<img class="ui rounded image" alt="{{ person.id }}" width="100%" src="{{ site.baseprefix }}/images/staff/{{ person.id }}.jpg">
+<img class="ui rounded image" alt="{{ person.id }}" width="100%" src="{{ site.baseurl }}/images/staff/{{ person.id }}.jpg">
 
 ## {{ person.name }}
 

@@ -90,4 +90,4 @@ characters, wrap the filename in single quotes.
 
 
 [wildcards]: http://linuxcommand.org/lc3_lts0050.php
-[strings]: {{ '/topics/bash/strings/' | prepend: site.baseprefix }}
+[strings]: {{ '/topics/bash/strings/' | prepend: site.baseurl }}
