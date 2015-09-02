@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+#
+# Author: Jake Zimmerman
+# Created: Tue 01 Sep 2015
+# Last modified: Tue 01 Sep 2015
+#
+#
+# post-receive hook
+#
+# Deploys a this repository to the deployment directory by forcing a checkout
+# every time that we receive a change to the master branch from a push.
+
+indent() { awk '{sub(/^/,"    ");print}'; }
+
+# Fail if errors
+set -o errexit
+
+echo -e "\n\n"
+
+# Initialize constants
+SEMESTER="f15"
+
+ROOT_DIR="/afs/cs/academic/class/15131-f15"
+STAGING_DIR="$ROOT_DIR/.tmp"
+GEM_HOME="$ROOT_DIR/.gems"
+DEPLOYMENT_DIR="$ROOT_DIR/www/$SEMESTER"
+
+read from_commit to_commit ref_name
+
+if [[ ! $ref_name =~ .*/master$ ]]; then
+  echo "Ref $ref_name is not master, skipping deployment."
+  exit 0
+fi
+
+# Deploy the project
+echo "Deploying project to $DEPLOYMENT_DIR"
+
+rm -rf "$STAGING_DIR"
+mkdir -p "$STAGING_DIR" "$GEM_HOME"
+
+GIT_WORK_TREE="$STAGING_DIR" git checkout -f master
+
+cd $STAGING_DIR
+
+# for more information on the interplay of these variables, see this article:
+# http://blog.jez.io/2014/12/22/ruby-virtualenvs/
+export GEM_HOME
+unset GEM_PATH
+export PATH="$GEM_HOME/bin:$PATH"
+
+echo -e "\nInstalling bundler"
+gem install bundler | indent
+
+echo -e "\nInstalling requirements"
+bundle install | indent
+
+echo -e "\nCompiling project"
+jekyll build --destination "$DEPLOYMENT_DIR" | indent
+
+rm -rf $STAGING_DIR
+
+echo -e "\n\nSuccessfully deployed branch master.\n\n"
+
+

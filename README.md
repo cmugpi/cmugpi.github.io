@@ -28,6 +28,7 @@ at Carnegie Mellon University (15-131).
 - [Semantic UI Tips](#semantic-ui-tips)
   - [UI Messages](#ui-messages)
 - [Updating](#updating)
+- [Deploying](#deploying)
 - [License](#license)
 - [Appendix](#appendix)
   - [Installing `rbenv`](#installing-rbenv)
@@ -399,6 +400,62 @@ version variable (`jquery_version`) in the `_config.yml` file.
 
 Semantic UI is being loaded through cdnjs. To update it, simply change the
 version variable (`semantic_version`) in the `_config.yml` file.
+
+
+## Deploying
+
+We're hosting the site on the www.cs.cmu.edu domain. To get this to work,
+there's a Git remote hook that watches for incoming pushes to the `master`
+branch set up in our AFS space. It
+
+- watches for incoming pushes
+- creates a checkout of the code into the `www` directory on our AFS space
+- installs Jekyll dependencies if necessary
+- runs Jekyll to build the site
+
+From here, SCS Facilities takes care of serving our site whenever it's visited.
+
+### Pushing
+
+After having cloned this repo, you can add the AFS remote with
+
+```
+git remote add andrew ssh://ANDREWID@unix.andrew.cmu.edu/afs/cs/academic/class/15131-f15/repos/www.git/
+```
+
+And you can deploy to it by pushing `master` to that remote:
+
+```
+git push andrew master
+```
+
+### Bumping the Semester
+
+Our site's content is always versioned by semester, so people can always access
+the content they remember, even after their semester has ended. The way this
+works is:
+
+- Within the `www` folder on AFS, there are folders for the corresponding
+  semesters.
+- When you push, the Git hook looks at the appropriate semester and builds the
+  site into the right directory.
+    - A copy of this script is in `_support`
+- When Jekyll builds the site, it knows what semester it is from the
+  `_config.yml` file.
+- When users visit https://www.cs.cmu.edu/~15131/, there is a single
+  `index.html` file sitting in `15131-f15/www/` that refreshes to the current
+  semester.
+
+To bump the semester, you have to manually alter the semester in the last three
+places just discussed. To recap, you'll have to edit the semester in
+
+- `SEMESTER` in `/afs/cs/academic/class/15131-f15/www.git/hooks/post-receive`
+  and in `_support/post-receive`
+- the refresh URL of `/afs/cs/academic/class/15131-f15/www/index.html`
+- `baseprefix` in `_config.yml`
+
+That's a lot of places, but it's only once a semester. If you want to make it
+better, make it better.
 
 
 ## License
