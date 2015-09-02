@@ -17,6 +17,7 @@ exclude:
   - LICENSE
   - Gemfile.lock
   - Gemfile
+  - Makefile
 
 # Build settings
 markdown: kramdown
