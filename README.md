@@ -29,6 +29,8 @@ at Carnegie Mellon University (15-131).
   - [UI Messages](#ui-messages)
 - [Updating](#updating)
 - [Deploying](#deploying)
+  - [Pushing](#pushing)
+  - [Bumping the Semester](#bumping-the-semester)
 - [License](#license)
 - [Appendix](#appendix)
   - [Installing `rbenv`](#installing-rbenv)
