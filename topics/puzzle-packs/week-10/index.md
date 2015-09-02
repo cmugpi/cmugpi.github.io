@@ -4,7 +4,7 @@ title: "Week 10"
 # What topic does this page belong to?
 group: puzzle-packs
 # Relative ordering of lessons within a topic
-order: 9
+order: 10
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js
