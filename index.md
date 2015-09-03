@@ -63,18 +63,18 @@ Throughout the semester, we'll be holding extra workshops and talks outside of
 class, dubbed "extratations", to explore topics that we don't want to test you
 on but that you might find interesting.
 
-Location: TBA
-Time: TBA, but probably 2 p.m. or 3 p.m. All the dates are Saturdays.
+- Location: __WEH 5310__, with some exceptions as marked
+- Time: __Saturdays at 3:00 p.m.__
 
-### LaTeXing Your Homework--for the Greater Good™ (9/5)
+### Useful Command Starter Pack (9/5)
 
-LaTeX is a program that lets you write write mathematical documents as plain
-text and compile them to PDFs. It's the industry-standard way of making
-beautiful documents, but it's also a great way to collect and organize your
-homeworks for long-term storage.
+So you've completed the first PuzzlePack, but you're still pretty lost regarding
+what this "terminal" thing is. To get you a little more familiar with the
+command line environment, we'll introduce you to some helpful tips that make
+using the command line more enjoyable, and then dive into some examples of
+commands that help out a lot when you're at the command line.
 
-We'll cover some common tools for getting set up with LaTeX as well as have a
-workshop where you can try your hand at typesetting some documents.
+Be sure to bring a laptop!
 
 ### Emacs Fundamentals (9/12)
 
