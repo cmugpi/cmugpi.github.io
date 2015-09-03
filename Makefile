@@ -8,7 +8,7 @@ compass:
 	compass watch
 
 serve:
-	jekyll serve --watch
+	jekyll serve --baseurl '' --watch
 
 topic:
 	_support/topic
