@@ -21,7 +21,8 @@ order: 2
 
 [Getting Started with Vim][gs-vim]
 
-You will also find this useful for solving the PuzzlePacks:
+You will also find this useful for solving the PuzzlePacks (you don't have to
+read this before class if you don't want to):
 
 [Vim Cheatsheet][vim-cheatsheet]
 
