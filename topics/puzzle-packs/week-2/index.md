@@ -32,4 +32,4 @@ You will also find this useful for solving the PuzzlePacks:
 
 [lern2unix]: http://lern2unix.com/download/vim_part_1
 [gs-vim]: {{ "/topics/vim/getting-started/" | prepend: site.baseurl }}
-[gs-vim]: {{ "/topics/vim/vim-cheatsheet.pdf" | prepend: site.baseurl }}
+[vim-cheatsheet]: {{ "/topics/vim/vim-cheatsheet.pdf" | prepend: site.baseurl }}
