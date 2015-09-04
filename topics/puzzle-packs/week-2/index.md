@@ -21,6 +21,10 @@ order: 2
 
 [Getting Started with Vim][gs-vim]
 
+You will also find this useful for solving the PuzzlePacks:
+
+[Vim Cheatsheet][vim-cheatsheet]
+
 ## Download PuzzlePack
 
 [vim_part_1][lern2unix]
@@ -28,3 +32,4 @@ order: 2
 
 [lern2unix]: http://lern2unix.com/download/vim_part_1
 [gs-vim]: {{ "/topics/vim/getting-started/" | prepend: site.baseurl }}
+[gs-vim]: {{ "/topics/vim/vim-cheatsheet.pdf" | prepend: site.baseurl }}

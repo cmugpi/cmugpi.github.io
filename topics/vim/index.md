@@ -50,6 +50,8 @@ counter-productive, this course will focus only on Vim.
 - [Learn Vim Progressively][learn-vim-progressively]
     - Good at outlining small sets of commands that you can learn to incorporate
       into your workflow incrementally
+- [Vim Cheatsheet][vim-cheatsheet]
+    - Quick reference
 
 ### Interesting, non-essential reads
 
@@ -67,5 +69,6 @@ counter-productive, this course will focus only on Vim.
 [the-basics]: http://benmccormick.org/2014/06/30/learning-vim-in-2014-the-basics/
 [vim-language]: http://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/
 [learn-vim-progressively]: http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
+[vim-cheatsheet]: vim-cheatsheet.pdf
 [grok-vi]: http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
 [hard-way]: learnvimscriptthehardway.stevelosh.com
