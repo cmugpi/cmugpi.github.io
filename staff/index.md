@@ -15,9 +15,6 @@ staff:
   - id: nmunson
     domain: andrew
     name: Nick Munson
-  - id: dringwal
-    domain: andrew
-    name: Dan Ringwalt
   - id: mjmurphy
     domain: andrew
     name: Michael Murphy
