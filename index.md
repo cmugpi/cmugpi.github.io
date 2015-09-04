@@ -63,8 +63,8 @@ Throughout the semester, we'll be holding extra workshops and talks outside of
 class, dubbed "extratations", to explore topics that we don't want to test you
 on but that you might find interesting.
 
-- Location: __WEH 5310__, with some exceptions as marked
-- Time: __Saturdays at 3:00 p.m.__
+- Location: __WEH 6423__, with some exceptions as marked
+- Time: __Saturdays from 3:00 p.m. to 4:00 p.m.__
 
 ### Useful Command Starter Pack (9/5)
 
