@@ -176,6 +176,7 @@ First, we'll get a few basic files. Copy the following commands into your
 terminal, hitting enter after each one.
 
 {% highlight bash %}
+curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/bash_login > ~/.bash_login
 curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/bashrc > ~/.bashrc
 curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/bashrc_gpi > ~/.bashrc_gpi
 
