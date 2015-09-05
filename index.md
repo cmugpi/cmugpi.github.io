@@ -66,13 +66,14 @@ on but that you might find interesting.
 - Location: __WEH 6423__, with some exceptions as marked
 - Time: __Saturdays from 3:00 p.m. to 4:00 p.m.__
 
-### Useful Command Starter Pack (9/5)
+### [Command Booster Pack][command-booster-pack] (9/5)
 
 So you've completed the first PuzzlePack, but you're still pretty lost regarding
 what this "terminal" thing is. To get you a little more familiar with the
 command line environment, we'll introduce you to some helpful tips that make
 using the command line more enjoyable, and then dive into some examples of
-commands that help out a lot when you're at the command line.
+commands that help out a lot when you're at the command line as well as some
+that are just plain cool.
 
 Be sure to bring a laptop!
 
@@ -151,3 +152,5 @@ your go-to power tool. I promise you won't be disappointed.
 [week-10]: {{ "/topics/puzzle-packs/week-10/" | prepend: site.baseurl }}
 [week-11]: {{ "/topics/puzzle-packs/week-11/" | prepend: site.baseurl }}
 [week-12]: {{ "/topics/puzzle-packs/week-12/" | prepend: site.baseurl }}
+
+[command-booster-pack]: {{ "/topics/extratations/command-booster-pack" | prepend: site.baseurl }}
