@@ -19,9 +19,8 @@ Like many Unix tools, Vim is heavily configurable. Unfortunately, this means
 that it's not very well-configured out of the box.
 
 If you don't already have a Vim configuration, you should start with the GPI Vim
-config. You might have already installed this configuration when you did the
-[initial setup][initial-setup] instructions, but if you didn't, run
-`gpi_install` and choose the `vim_config` package.
+config which you will already have if you're run through the [initial
+setup][initial-setup] instructions.
 
 [initial-setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 
