@@ -32,12 +32,18 @@ of useful knowledge.
 But you only need part of it.
 
 You should read and execute sections
-[1.3 Emacs tutorial](http://cmu.io/~sbaugh/emacs.html#sec-1-3)
+[1.4 Emacs tutorial](http://cmu.io/~sbaugh/emacs.html#sec-1-4)
 and
-[1.5.1 Emacs installed on unix.andrew.cmu.edu](http://cmu.io/~sbaugh/emacs.html#sec-1-5-1).
+[1.6.1 Emacs installed on unix.andrew.cmu.edu](http://cmu.io/~sbaugh/emacs.html#sec-1-6-1).
 
-It's not strictly essential, but it's quite straightforward and it would
+If you are using OS X, you will unfortunately need to also do
+[1.3 Special problems OS X users need to fix](http://cmu.io/~sbaugh/emacs.html#sec-1-3).
+
+It's not essential, but it's quite straightforward and it would
 make you a cool person if you would also read and execute sections
-[1.4.1 Installing Emacs](http://cmu.io/~sbaugh/emacs.html#sec-1-4-1)
-and the appropriate part of
-[1.5 Bare essentials of configuration](http://cmu.io/~sbaugh/emacs.html#sec-1-5).
+[1.5.1 Installing Emacs](http://cmu.io/~sbaugh/emacs.html#sec-1-5-1)
+and the appropriate parts of
+[1.6 Bare essentials of configuration](http://cmu.io/~sbaugh/emacs.html#sec-1-6).
+
+Also if you feel like wasting time,
+[1.7.1 Games](http://cmu.io/~sbaugh/emacs.html#sec-1-7-1).
