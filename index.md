@@ -77,7 +77,7 @@ that are just plain cool.
 
 Be sure to bring a laptop!
 
-### Emacs Fundamentals (9/12)
+### [Emacs Fundamentals][emacs-fundamentals] (9/12)
 
 Does vim have you feeling down in the dumps? Try emacs! You can use Ctrl-v,
 Ctrl-x, Ctrl-c, and all that jazz, just as you're used to! And no modes! We'll
@@ -154,3 +154,4 @@ your go-to power tool. I promise you won't be disappointed.
 [week-12]: {{ "/topics/puzzle-packs/week-12/" | prepend: site.baseurl }}
 
 [command-booster-pack]: {{ "/topics/extratations/command-booster-pack" | prepend: site.baseurl }}
+[emacs-fundamentals]: {{ "/topics/extratations/emacs-fundamentals" | prepend: site.baseurl }}
