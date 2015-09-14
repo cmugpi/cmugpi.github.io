@@ -20,7 +20,9 @@ order: 3
 
 ## Reading
 
-[Vim as Language][vim-language]
+- [Vim as Language][vim-language]
+- `vimtutor` (Lessons 3 onwards)
+  - There's a lot of stuff here, remember that memorization is not the goal!
 
 ## Download PuzzlePack
 

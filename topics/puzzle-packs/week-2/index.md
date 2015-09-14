@@ -19,12 +19,13 @@ order: 2
 
 ## Reading
 
-[Getting Started with Vim][gs-vim]
+- [Getting Started with Vim][gs-vim]
+- `vimtutor` (Lessons 1.1 - 2.7)
 
 You will also find this useful for solving the PuzzlePacks (you don't have to
 read this before class if you don't want to):
 
-[Vim Cheatsheet][vim-cheatsheet]
+- [Vim Cheatsheet][vim-cheatsheet]
 
 ## Download PuzzlePack
 
