@@ -29,5 +29,5 @@ order: 3
 [vim_part_2][lern2unix]
 
 
-[lern2unix]: http://lern2unix.com/download/vim_part_1
+[lern2unix]: http://lern2unix.com/download/vim_part_2
 [vim-language]: http://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/
