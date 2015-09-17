@@ -19,8 +19,8 @@ order: 5
 
 ## Reading
 
-[Jobs, Man Pages, & Links][jobs-man-links]
-[Globbing & Ranges][globbing]
+- [Jobs, Man Pages, & Links][jobs-man-links]
+- [Globbing & Ranges][globbing]
 
 ## Download PuzzlePack
 
