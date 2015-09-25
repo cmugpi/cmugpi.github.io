@@ -117,12 +117,29 @@ This workshop is for you if...
 In this fully-interactive workshop, you'll take charge of converting Vim into
 your go-to power tool. I promise you won't be disappointed.
 
+### Introduction to the Technical Interview (Sunday, 10/11)
+
+In this workshop, we'll get you up to speed with what to expect at a technical
+interview, how to prepare, and do a little bit of practice.
+
+### LaTeX and Markdown--Writing at the Command Line (10/17)
+
+Basically since elementary school, you've been taught that Microsoft Word is the
+One True Way™. In this talk, we'll teach you how to transform the terminal into
+the ultimate writing tool. We'll be covering LaTeX and Markdown, tools which let
+you create things from resumes, to beautiful Math and CS homeworks, to blogs,
+and beyond.
+
+### GDB and Debugging (10/24)
+
+When trying to figure out why your C program isn't quite working, there's no
+more powerful tool than `gdb`. We'll go over what `gdb` is, some demos of how
+it's useful, and set you loose to solve some fun puzzles using it.
+
 ### ... check back later for more talks!
 
+
 <!--
-(10/10)
-(10/17)
-(10/24)
 (10/31)
 (11/7)
 (11/14)
