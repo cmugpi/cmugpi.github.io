@@ -21,6 +21,7 @@ order: 5
 
 - [Jobs, Man Pages, & Links][jobs-man-links]
 - [Globbing & Ranges][globbing]
+- [Strings][strings]
 
 ## Download PuzzlePack
 
@@ -30,3 +31,4 @@ order: 5
 [lern2unix]: http://lern2unix.com/download/advanced_terminal_1
 [jobs-man-links]:  {{ "/topics/terminal-usage/jobs-man-links/"  | prepend: site.baseurl }}
 [globbing]:        {{ "/topics/terminal-usage/globbing-ranges/" | prepend: site.baseurl }}
+[strings]:         {{ "/topics/bash/strings/"                   | prepend: site.baseurl }}

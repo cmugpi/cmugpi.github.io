@@ -19,9 +19,8 @@ order: 6
 
 ## Reading
 
-[Strings][strings]
-[Input & Output][io]
-[Regular Expressions][regex]
+- [Input & Output][io]
+- [Regular Expressions][regex]
 
 ## Download PuzzlePack
 
@@ -29,6 +28,5 @@ order: 6
 
 
 [lern2unix]: http://lern2unix.com/download/bash_scripting_1
-[strings]:   {{ "/topics/bash/strings/"             | prepend: site.baseurl }}
 [io]:        {{ "/topics/bash/input-output/"        | prepend: site.baseurl }}
 [regex]:     {{ "/topics/bash/regular-expressions/" | prepend: site.baseurl }}
