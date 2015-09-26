@@ -19,7 +19,8 @@ order: 4
 
 ## Reading
 
-[Terminal Environment & AFS][environment-afs]
+- [Terminal Environment & AFS][environment-afs]
+- [Strings][strings]
 
 ## Download PuzzlePack
 
@@ -28,3 +29,4 @@ order: 4
 
 [lern2unix]: http://lern2unix.com/download/basic_terminal_part_2
 [environment-afs]: {{ "/topics/terminal-usage/environment-afs/" | prepend: site.baseurl }}
+[strings]:         {{ "/topics/bash/strings/"                   | prepend: site.baseurl }}
