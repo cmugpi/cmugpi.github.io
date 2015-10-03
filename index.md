@@ -101,7 +101,7 @@ a remote server, even if your wifi cuts out or your computer loses power. Come
 learn about how you can rather simply integrate this awesome tool into your
 workflow!
 
-### Vim as an IDE (10/3)
+### [Vim as an IDE][vim-as-an-ide] (10/3)
 
 This workshop is for you if...
 
@@ -172,3 +172,4 @@ it's useful, and set you loose to solve some fun puzzles using it.
 
 [command-booster-pack]: {{ "/topics/extratations/command-booster-pack" | prepend: site.baseurl }}
 [emacs-fundamentals]: {{ "/topics/extratations/emacs-fundamentals" | prepend: site.baseurl }}
+[vim-as-an-ide]: https://github.com/jez/vim-as-an-ide
