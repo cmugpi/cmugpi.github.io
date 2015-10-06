@@ -84,7 +84,7 @@ Ctrl-x, Ctrl-c, and all that jazz, just as you're used to! And no modes! We'll
 go over all the knowledge you need to be productive, and how you can feel right
 at home in the world's most advanced text editor.
 
-### Emacs Rocks (9/19)
+### [Emacs Rocks][emacs-rocks] (9/19)
 
 You've learned about Emacs? Now learn more! Learn about the neat features and
 futuristic programming environment that lead some to call Emacs "the
@@ -172,4 +172,5 @@ it's useful, and set you loose to solve some fun puzzles using it.
 
 [command-booster-pack]: {{ "/topics/extratations/command-booster-pack" | prepend: site.baseurl }}
 [emacs-fundamentals]: {{ "/topics/extratations/emacs-fundamentals" | prepend: site.baseurl }}
+[emacs-rocks]: http://cmu.io/~sbaugh/emacs.html
 [vim-as-an-ide]: https://github.com/jez/vim-as-an-ide
