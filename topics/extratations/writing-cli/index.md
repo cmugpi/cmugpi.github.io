@@ -67,7 +67,7 @@ demonstrate what it looks like and to give you some scaffolding.
 
 The command line utility `grip` (available [on GitHub][13]) is another tool that
 people use frequently for quickly previewing a Markdown file. By running `grip
-<filename>` you can easily compile and view a Markdown file in your web browser.
+foo.md` you can easily compile and view a Markdown file in your web browser.
 
 
 ## Exercises
