@@ -91,7 +91,7 @@ futuristic programming environment that lead some to call Emacs "the
 thermonuclear text editor". Plus, learn the basics of customizing Emacs for your
 own needs!
 
-### tmux--saving your life, one bad wifi router at a time (9/26)
+### [tmux: saving your life, one bad wifi router at a time][tmux] (9/26)
 
 tmux, short for "terminal multiplexer", is a tool for managing multiple
 persistent shell sessions while logged into a computer. What this means in
@@ -122,7 +122,7 @@ your go-to power tool. I promise you won't be disappointed.
 In this workshop, we'll get you up to speed with what to expect at a technical
 interview, how to prepare, and do a little bit of practice.
 
-### LaTeX and Markdown--Writing at the Command Line (10/24)
+### [Writing on the Command Line: LaTeX and Markdown][writing-cli] (10/24)
 
 Basically since elementary school, you've been taught that Microsoft Word is the
 One True Way™. In this talk, we'll teach you how to transform the terminal into
@@ -130,7 +130,7 @@ the ultimate writing tool. We'll be covering LaTeX and Markdown, tools which let
 you create things from resumes, to beautiful Math and CS homeworks, to blogs,
 and beyond.
 
-### GDB and Debugging (11/1 Sunday 3PM)
+### GDB and Debugging (11/1, Sunday 3 p.m.)
 
 When trying to figure out why your C program isn't quite working, there's no
 more powerful tool than `gdb`. We'll go over what `gdb` is, some demos of how
@@ -140,7 +140,6 @@ it's useful, and set you loose to solve some fun puzzles using it.
 
 
 <!--
-(10/31)
 (11/7)
 (11/14)
 (11/21)
@@ -174,3 +173,5 @@ it's useful, and set you loose to solve some fun puzzles using it.
 [emacs-fundamentals]: {{ "/topics/extratations/emacs-fundamentals" | prepend: site.baseurl }}
 [emacs-rocks]: http://cmu.io/~sbaugh/emacs.html
 [vim-as-an-ide]: https://github.com/jez/vim-as-an-ide
+[tmux]: https://gist.github.com/MohamedAlaa/2961058
+[writing-cli]: {{ "/topics/extratations/writing-cli" | prepend: site.baseurl }}
