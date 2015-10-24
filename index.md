@@ -122,7 +122,7 @@ your go-to power tool. I promise you won't be disappointed.
 In this workshop, we'll get you up to speed with what to expect at a technical
 interview, how to prepare, and do a little bit of practice.
 
-### LaTeX and Markdown--Writing at the Command Line (10/17)
+### LaTeX and Markdown--Writing at the Command Line (10/24)
 
 Basically since elementary school, you've been taught that Microsoft Word is the
 One True Way™. In this talk, we'll teach you how to transform the terminal into
@@ -130,7 +130,7 @@ the ultimate writing tool. We'll be covering LaTeX and Markdown, tools which let
 you create things from resumes, to beautiful Math and CS homeworks, to blogs,
 and beyond.
 
-### GDB and Debugging (10/24)
+### GDB and Debugging (11/1 Sunday 3PM)
 
 When trying to figure out why your C program isn't quite working, there's no
 more powerful tool than `gdb`. We'll go over what `gdb` is, some demos of how
