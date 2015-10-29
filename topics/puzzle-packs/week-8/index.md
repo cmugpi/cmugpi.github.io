@@ -23,7 +23,11 @@ order: 8
 
 ## Download PuzzlePack
 
-No puzzle pack yet
+There is no stand alone PuzzlePack for this week. You should do the following
+problems that had been included in the previous two weeks' PuzzlePacks:
+
+- `all_the_kings_horses`
+- `QuerySauce_goes_bankrupt`
 
 
 [lern2unix]: http://lern2unix.com/download/xyz
