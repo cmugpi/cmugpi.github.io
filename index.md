@@ -130,7 +130,7 @@ the ultimate writing tool. We'll be covering LaTeX and Markdown, tools which let
 you create things from resumes, to beautiful Math and CS homeworks, to blogs,
 and beyond.
 
-### GDB and Debugging (11/1, Sunday 3 p.m.)
+### GDB and Debugging (11/8, Sunday 3 p.m.)
 
 When trying to figure out why your C program isn't quite working, there's no
 more powerful tool than `gdb`. We'll go over what `gdb` is, some demos of how
