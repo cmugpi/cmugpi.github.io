@@ -178,10 +178,10 @@ To "stage" changes (to add changes from your working tree to the index), you can
 use various forms of the git add command.
 
 - `git add <files>` - add the listed files to the index
-- `git add` -p - interactively add "hunks" to the index. This examines all files
+- `git add -p` - interactively add "hunks" to the index. This examines all files
   tracked by the repository, detects the sections that have individually, and
   lets you add sections of files individually.
-- `git add` -p <files> - like git add -p, but only looks at the listed files.
+- `git add -p <files>` - like git add -p, but only looks at the listed files.
 
 You can examine the staged changes with git diff --cached.
 
@@ -189,9 +189,9 @@ If you have staged changes which you wish to remove from the index, the command
 git reset can remove them:
 
 - `git reset <files>` - unstage all changes from the listed files.
-- `git reset` -p - interactively remove staged hunks from the index.
-- `git reset` -p <files> - probably what you expect
-- `git reset` --mixed - unstage all changes in the index
+- `git reset -p` - interactively remove staged hunks from the index.
+- `git reset -p <files>` - probably what you expect
+- `git reset --mixed` - unstage all changes in the index
 
 Once you have modified the index to your liking, you can commit the staged
 changes with a simple git commit (no arguments!).
@@ -225,15 +225,15 @@ To use a branch that someone else has added to a remote repository, do `git
 checkout --track -b <branchname> origin/<branchname>`.
 
 When you're done with the new branch and ready to combine it into your main one,
-switch to the master branch (using `git checkout master`) and do `git merge
-<branchname>`. This will pull in all the changes from the branch (as usual when
-merging, you may have to resolve conflicting changes by hand).
+switch to the master branch (using `git checkout master`) and do
+`git merge <branchname>`. This will pull in all the changes from the branch (as
+usual when merging, you may have to resolve conflicting changes by hand).
 
 
 ## Troubleshooting
 
-You can use the Git man page: `man git` to see an overview, or `git help
-<command>` to open the man page for each individual git command.
+You can use the Git man page: `man git` to see an overview, or
+`git help <command>` to open the man page for each individual git command.
 
 
 
