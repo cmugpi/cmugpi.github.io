@@ -19,7 +19,9 @@ order: 9
 
 ## Reading
 
-[Getting Started with Git][gs-git]
+- [Getting Started with Git][gs-git]
+- [Git Command Overview][git-commands]
+  - Not required reading, but good for the PuzzlePack:
 
 ## Download PuzzlePack
 
@@ -43,3 +45,4 @@ Some tips:
 
 [lern2unix]: http://lern2unix.com/download/git
 [gs-git]: {{ "/topics/git/getting-started/" | prepend: site.baseurl }}
+[gs-git]: {{ "/topics/git/git-commands/"    | prepend: site.baseurl }}
