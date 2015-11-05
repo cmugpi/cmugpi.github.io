@@ -25,15 +25,20 @@ order: 9
 
 [git][lern2unix]
 
-Order of the puzzles:
+Some tips:
 
-1. git_to_work
-1. dag_dog_search
-1. switcheroo
-1. dag_dog_search_part2
-1. stick
-1. oorehctiws
-1. what_it_takes
+- The puzzles have to be completed in order (for the most part). This is their
+  order:
+  1. git_to_work
+  1. dag_dog_search
+  1. switcheroo
+  1. dag_dog_search_part2
+  1. stick
+  1. oorehctiws
+  1. what_it_takes
+- Make sure that you always run the puzzle commands (`./git_to_work`,
+  `./switcheroo`, etc.) from the top-most folder in the PuzzlePack. For example,
+  you shouldn't be doing `../git_to_work`.
 
 
 [lern2unix]: http://lern2unix.com/download/git
