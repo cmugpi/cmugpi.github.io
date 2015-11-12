@@ -45,4 +45,4 @@ Some tips:
 
 [lern2unix]: http://lern2unix.com/download/git
 [gs-git]: {{ "/topics/git/getting-started/" | prepend: site.baseurl }}
-[gs-git]: {{ "/topics/git/git-commands/"    | prepend: site.baseurl }}
+[git-commands]: {{ "/topics/git/git-commands/"    | prepend: site.baseurl }}
