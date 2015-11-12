@@ -42,7 +42,7 @@ $ git status
 
 AND
 
-$ git log --pretty=oneline --decorate --graph --all
+$ git log --pretty=oneline --abbrev-commit --decorate --graph --all
 # or without as much information,
 $ git log
 {% endhighlight %}
