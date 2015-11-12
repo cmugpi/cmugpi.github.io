@@ -37,3 +37,4 @@ This week's homework isn't on lern2unix. It's composed of two parts.
 [google-form]: https://docs.google.com/forms/d/1x7B4iCyeKxtthApRrDqG6g1Uh4OgAaFEyqMfCQsVrCg/viewform?usp=send_form
 [learnGitBranching]: http://pcottle.github.io/learnGitBranching/
 [branching-exercise]: https://github.com/cmugpi/branching-exercise
+[using-github]: {{ "/topics/git/using-github/"    | prepend: site.baseurl }}
