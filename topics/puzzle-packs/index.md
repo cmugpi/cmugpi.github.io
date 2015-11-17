@@ -4,7 +4,7 @@ title: "PuzzlePacks"
 group: topic
 description: >
   A topic that's not really a topic. Here you can find all the PuzzlePacks,
-  their due dates, and links to other topics that will be helpfult
+  their due dates, and links to other topics that will be helpful.
 # How sub-pages will be linked to this page
 topic: puzzle-packs
 # Relative ordering of topics
