@@ -2,7 +2,7 @@
   <a class="item header">Topics</a>
 {% assign pages_sorted = site.pages | sort: 'order' %}
 {% for topic in pages_sorted %}
-  {% if topic.group == 'topic' %}
+  {% if topic.group == 'topic' and !(topic.hide_from_sidebar == true) %}
     {% comment %}
       Active if page is the current topic page or page is lesson of the current topic
     {% endcomment %}

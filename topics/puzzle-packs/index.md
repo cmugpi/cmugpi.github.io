@@ -9,6 +9,7 @@ description: >
 topic: puzzle-packs
 # Relative ordering of topics
 order: 7
+hide_from_sidebar: true
 ---
 
 

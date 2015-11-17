@@ -7,6 +7,9 @@ description: # TODO your description
 topic:
 # Relative ordering of topics
 order:
+# Unset this to have your topic removed from the sidebar
+# (you likely don't need this)
+hide_from_sidebar: false
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js
