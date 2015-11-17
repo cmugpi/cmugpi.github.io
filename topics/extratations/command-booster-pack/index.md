@@ -5,16 +5,12 @@ title: "Command Booster Pack"
 group: extratations
 # Relative ordering of lessons within a topic
 order: 1
-#script: /javascripts/mypage.js
-#scripts:
-#  - /javascripts/one.js
-#  - /javascripts/two.js
 ---
-
 
 {% include toc.md %}
 
 # Command Booster Pack
+{:.ui.dividing.header.no_toc}
 
 There are a lot of useful commands in the real world. Today you'll get a chance
 to play around with some of the most commonly used commands. __The goal here is
