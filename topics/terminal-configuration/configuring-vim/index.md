@@ -51,7 +51,7 @@ settings. The best way to unearth these hidden settings is to browse through
 others' ~/.vimrc files. Luckily, many people have put their [entire dotfiles
 collection on GitHub][dotfiles], so browsing these files to find interesting
 settings is relatively easy. Ben McCormick also has a page on [configuring
-Vim][configure-20114], but it's less informative than just browsing GitHub
+Vim][configure-2014], but it's less informative than just browsing GitHub
 yourself.
 
 
