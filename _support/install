@@ -37,7 +37,7 @@ which gem &> /dev/null || {
   exit
 }
 which virtualenvwrapper.sh &> /dev/null || {
-  echo "${cred}Requires virtualenvwrapper.${cnone{}"
+  echo "${cred}Requires virtualenvwrapper.${cnone}"
   echo "See 'Installing virtualenvwrapper' in README.md"
   echo "Note: virtualenvwrapper.sh must be in your PATH, so make sure it is."
   exit
