@@ -71,4 +71,4 @@ counter-productive, this course will focus only on Vim.
 [learn-vim-progressively]: http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
 [vim-cheatsheet]: vim-cheatsheet.pdf
 [grok-vi]: http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
-[hard-way]: learnvimscriptthehardway.stevelosh.com
+[hard-way]: http://learnvimscriptthehardway.stevelosh.com
