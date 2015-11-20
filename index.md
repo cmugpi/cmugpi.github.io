@@ -136,7 +136,24 @@ When trying to figure out why your C program isn't quite working, there's no
 more powerful tool than `gdb`. We'll go over what `gdb` is, some demos of how
 it's useful, and set you loose to solve some fun puzzles using it.
 
-### ... check back later for more talks!
+### Install Linux on your own computer! (11/21, Saturday 3 p.m.)
+
+You'll have a chance to install Linux on your personal machine (alongside whatever operating system you currently have) with lots of help nearby.
+
+Why should I install Linux?
+
+- It's super easy to install almost any software you want with a package manager. No more sketchy software from the internet.
+- You'll have more control, and more options for customizing anything from your window manager to how your computer handles running out of RAM to being able to access your AFS files without SSH.
+- It's good for writing code because it's easy to install the dependencies and compilers you need.
+- There's a huge community that responds to bugs and requests faster than a large corporation can.
+- A large and growing gaming community. I do almost all my gaming on Linux.
+- Most distributions are easier to use than Windows or OSX (after the learning curve).
+- Use all the powerful tools you've learned this semester on your own computer instead of CMU's.
+- Linux won't spy on you like Windows 10 does.
+
+What do I need to do to prepare?
+
+See the [Piazza Post][linux-piazza-post] about what to bring, and what to do ahead of time. See you there!
 
 
 <!--
@@ -169,6 +186,8 @@ it's useful, and set you loose to solve some fun puzzles using it.
 [week-11]: {{ "/topics/puzzle-packs/week-11/" | prepend: site.baseurl }}
 [week-12]: {{ "/topics/puzzle-packs/week-12/" | prepend: site.baseurl }}
 
+
+[linux-piazza-post]: https://piazza.com/class/iduqblvkccg2ur?cid=113
 [command-booster-pack]: {{ "/topics/extratations/command-booster-pack" | prepend: site.baseurl }}
 [emacs-fundamentals]: {{ "/topics/extratations/emacs-fundamentals" | prepend: site.baseurl }}
 [emacs-rocks]: http://cmu.io/~sbaugh/emacs.html
