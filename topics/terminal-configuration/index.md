@@ -47,7 +47,12 @@ tips, and discuss the logistics of it all.
     - GitHub's personal getting-started-with-dotfiles page. It links to
       resources like all-in-one dotfiles frameworks, dotfiles management
       software, and great examples of dotfiles repos.
+- [Prompt Tricks][prompt-settings]
+	- Here is a good description of most of the cool features supported by bash.
+	  zsh also supports a 'right prompt' that hangs out on the right side of your
+	  prompt as seen in my example post on Piazza.
 
+[prompt-settings]: http://linuxconfig.org/bash-prompt-basics
 [dotfiles]: https://github.com/search?q=dotfiles&s=stars&type=Repositories
 [dotfiles.github.io]: https://dotfiles.github.io/
 
