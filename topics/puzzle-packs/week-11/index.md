@@ -23,12 +23,27 @@ order: 11
 
 ## Download PuzzlePack
 
-The 'PuzzlePack' for this week is to customize your bash prompt using this week's
-reading, and post a screenshot of it on [Piazza]. Try to put your andrew id in your
-prompt where we can see it, and include the contents of your PS1 variable, either
-echo it in the screenshot, or post it as a comment.
+The 'PuzzlePack' for this week is to customize your Bash prompt, so get
+creative! You can find a lot of good examples on the [Terminal
+Configuration][termconf] topic page; in particular, [this is a good quick
+reference][prompt-settings].
 
-[Piazza]: https://piazza.com/class/iduqblvkccg2ur?cid=116
-[lern2unix]: http://lern2unix.com/download/xyz
+### Handin Instructions
+
+Please submit a picture of your prompt to AFS. To do this,
+
+1. Name your file `week11-prompt.jpg` or `week11-prompt.png`
+1. `scp` your file to AFS
+1. Run `aklog cs.cmu.edu` (this is required to be able to write to the GPI
+   course handin folder)
+1. Move your image to the folder
+   `/afs/cs/academic/class/15131-f15/users/f15/ANDREWID/`, replacing your
+   AndrewID as appropriate.
+
+Feel free to also post the screenshot to Piazza!
+
+
 [dotfiles]: {{ "/topics/terminal-configuration/dotfiles/" | prepend: site.baseurl }}
+[term-conf]: {{ "/topics/terminal-configuration/" | prepend: site.baseurl }}
+[prompt-settings]: http://linuxconfig.org/bash-prompt-basics
 
