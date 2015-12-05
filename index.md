@@ -91,7 +91,7 @@ futuristic programming environment that lead some to call Emacs "the
 thermonuclear text editor". Plus, learn the basics of customizing Emacs for your
 own needs!
 
-### [tmux: saving your life, one bad wifi router at a time][tmux] (9/26)
+### [All About tmux][all-about-tmux] (9/26)
 
 tmux, short for "terminal multiplexer", is a tool for managing multiple
 persistent shell sessions while logged into a computer. What this means in
@@ -141,32 +141,12 @@ it's useful, and set you loose to solve some fun puzzles using it.
 Missed out on or couldn't finish the first Vim as an IDE talk? We're holding a
 second! See the full description above.
 
-### Install Linux on your own computer! (11/21)
+### [Linux Installation Lab][linux-installation-lab] (11/21)
 
 You'll have a chance to install Linux on your personal machine (alongside
 whatever operating system you currently have) with lots of help nearby.
 
-Why should I install Linux?
-
-- It's super easy to install almost any software you want with a package
-  manager. No more sketchy software from the Internet.
-  - In particular, this makes it particularly good for developing software.
-- You'll have more control, and more options for customizing anything from your
-  window manager to how your computer handles running out of RAM to being able
-  to access your AFS files without SSH.
-- There's a huge community that responds to bugs and requests.
-- Linux has a large and growing gaming community.
-- Linux lets you Use all the powerful tools you've learned this semester on your
-  own computer instead of CMU's, especially if you're currently have Windows.
-- Linux won't spy on you like Windows 10 does.
-
-What do I need to do to prepare?
-
-- Have a Linux image on a USB drive ([steps, windows][linux-usb-stick-win],
-  [steps, osx][linux-usb-stick-osx]).
-
-  After the extratation, if you want to undo these steps, you can look make
-  your USB drive [usable again][linux-reformat-usb].
+Click above for the required setup instructions.
 
 ### Final Exam Review (12/5)
 
@@ -201,10 +181,8 @@ enough attendance points!).
 
 [command-booster-pack]: {{ "/topics/extratations/command-booster-pack" | prepend: site.baseurl }}
 [emacs-fundamentals]: {{ "/topics/extratations/emacs-fundamentals" | prepend: site.baseurl }}
-[emacs-rocks]: http://cmu.io/~sbaugh/emacs.html
-[vim-as-an-ide]: https://github.com/jez/vim-as-an-ide
-[tmux]: https://gist.github.com/MohamedAlaa/2961058
+[emacs-rocks]: {{ "/topics/extratations/emacs-rocks" | prepend: site.baseurl }}
+[vim-as-an-ide]: {{ "/topics/extratations/vim-as-an-ide" | prepend: site.baseurl }}
+[all-about-tmux]: {{ "/topics/extratations/all-about-tmux" | prepend: site.baseurl }}
 [writing-cli]: {{ "/topics/extratations/writing-cli" | prepend: site.baseurl }}
-[linux-usb-stick-win]: http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows
-[linux-usb-stick-osx]: http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-mac-osx
-[linux-reformat-usb]: http://trisquel.info/en/wiki/how-format-external-storage-device-using-parted
+[linux-installation-lab]: {{ "/topics/extratations/linux-installation-lab" | prepend: site.baseurl }}
