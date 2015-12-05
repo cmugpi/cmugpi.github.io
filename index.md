@@ -130,39 +130,51 @@ the ultimate writing tool. We'll be covering LaTeX and Markdown, tools which let
 you create things from resumes, to beautiful Math and CS homeworks, to blogs,
 and beyond.
 
-### GDB and Debugging (11/8, Sunday 3 p.m.)
+### GDB and Debugging (Sunday, 11/8)
 
 When trying to figure out why your C program isn't quite working, there's no
 more powerful tool than `gdb`. We'll go over what `gdb` is, some demos of how
 it's useful, and set you loose to solve some fun puzzles using it.
 
-### Install Linux on your own computer! (11/21, Saturday 3 p.m.)
+### [Vim as an IDE][vim-as-an-ide] (11/14)
 
-You'll have a chance to install Linux on your personal machine (alongside whatever operating system you currently have) with lots of help nearby.
+Missed out on or couldn't finish the first Vim as an IDE talk? We're holding a
+second! See the full description above.
+
+### Install Linux on your own computer! (11/21)
+
+You'll have a chance to install Linux on your personal machine (alongside
+whatever operating system you currently have) with lots of help nearby.
 
 Why should I install Linux?
 
-- It's super easy to install almost any software you want with a package manager. No more sketchy software from the internet.
-- You'll have more control, and more options for customizing anything from your window manager to how your computer handles running out of RAM to being able to access your AFS files without SSH.
-- It's good for writing code because it's easy to install the dependencies and compilers you need.
-- There's a huge community that responds to bugs and requests faster than a large corporation can.
-- A large and growing gaming community. I do almost all my gaming on Linux.
-- Most distributions are easier to use than Windows or OSX (after the learning curve).
-- Use all the powerful tools you've learned this semester on your own computer instead of CMU's.
+- It's super easy to install almost any software you want with a package
+  manager. No more sketchy software from the Internet.
+  - In particular, this makes it particularly good for developing software.
+- You'll have more control, and more options for customizing anything from your
+  window manager to how your computer handles running out of RAM to being able
+  to access your AFS files without SSH.
+- There's a huge community that responds to bugs and requests.
+- Linux has a large and growing gaming community.
+- Linux lets you Use all the powerful tools you've learned this semester on your
+  own computer instead of CMU's, especially if you're currently have Windows.
 - Linux won't spy on you like Windows 10 does.
 
 What do I need to do to prepare?
 
-See the [Piazza Post][linux-piazza-post] about what to bring, and what to do ahead of time. See you there!
+- Have a Linux image on a USB drive ([steps, windows][linux-usb-stick-win],
+  [steps, osx][linux-usb-stick-osx]).
+
+  After the extratation, if you want to undo these steps, you can look make
+  your USB drive [usable again][linux-reformat-usb].
+
+### Final Exam Review (12/5)
+
+We'll be covering some topics that should help you do better on the final exam.
+Feel free to come even if you plan on skipping the final (because you have
+enough attendance points!).
 
 
-<!--
-(11/7)
-(11/14)
-(11/21)
-(11/28)
-(12/5)
--->
 
 [syllabus]: {{ "/syllabus/" | prepend: site.baseurl }}
 [initial-setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
@@ -187,10 +199,12 @@ See the [Piazza Post][linux-piazza-post] about what to bring, and what to do ahe
 [week-12]: {{ "/topics/puzzle-packs/week-12/" | prepend: site.baseurl }}
 
 
-[linux-piazza-post]: https://piazza.com/class/iduqblvkccg2ur?cid=113
 [command-booster-pack]: {{ "/topics/extratations/command-booster-pack" | prepend: site.baseurl }}
 [emacs-fundamentals]: {{ "/topics/extratations/emacs-fundamentals" | prepend: site.baseurl }}
 [emacs-rocks]: http://cmu.io/~sbaugh/emacs.html
 [vim-as-an-ide]: https://github.com/jez/vim-as-an-ide
 [tmux]: https://gist.github.com/MohamedAlaa/2961058
 [writing-cli]: {{ "/topics/extratations/writing-cli" | prepend: site.baseurl }}
+[linux-usb-stick-win]: http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows
+[linux-usb-stick-osx]: http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-mac-osx
+[linux-reformat-usb]: http://trisquel.info/en/wiki/how-format-external-storage-device-using-parted
