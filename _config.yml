@@ -18,6 +18,9 @@ exclude:
   - Gemfile
   - Makefile
 
+gems:
+  - jekyll-redirect-from
+
 # Build settings
 markdown: kramdown
 highlight: pygments
