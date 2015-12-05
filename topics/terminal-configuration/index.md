@@ -41,24 +41,23 @@ tips, and discuss the logistics of it all.
 ## Resources
 
 - [Repositories named "dotfiles"][dotfiles]
-    - Every repository on GitHub that's named "dotfiles". Browsing the source of
-      other people's dotfiles is a great way to discover new things.
+  - Every repository on GitHub that's named "dotfiles". Browsing the source of
+    other people's dotfiles is a great way to discover new things.
 - [GitHub Does Dotfiles][dotfiles.github.io]
-    - GitHub's personal getting-started-with-dotfiles page. It links to
-      resources like all-in-one dotfiles frameworks, dotfiles management
-      software, and great examples of dotfiles repos.
+  - GitHub's personal getting-started-with-dotfiles page. It links to
+    resources like all-in-one dotfiles frameworks, dotfiles management
+    software, and great examples of dotfiles repos.
 - [Prompt Tricks][prompt-settings]
-	- Here is a good description of most of the cool features supported by bash.
-	  zsh also supports a 'right prompt' that hangs out on the right side of your
-	  prompt as seen in my example post on Piazza.
+	- A good description of most of the cool prompt features supported by Bash.
 
-[prompt-settings]: http://linuxconfig.org/bash-prompt-basics
 [dotfiles]: https://github.com/search?q=dotfiles&s=stars&type=Repositories
 [dotfiles.github.io]: https://dotfiles.github.io/
+[prompt-settings]: http://linuxconfig.org/bash-prompt-basics
 
 ## Examples from the Course Staff
 
-Some of the course staff host our dotfiles on GitHub. Take a look to see what they look like in the real world and get ideas for what to include in your own.
+Some of the course staff host our dotfiles on GitHub. Take a look to see what
+they look like in the real world and get ideas for what to include in your own.
 
 - [Jake](https://github.com/jez/dotfiles)
     - A [blog post](http://blog.jez.io/2015/03/10/noteworthy-dotfile-hacks/) with the highlights of his configurations.
