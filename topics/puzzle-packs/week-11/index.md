@@ -19,14 +19,13 @@ order: 11
 
 ## Reading
 
-[Dotfiles][dotfiles]
+- [Dotfiles][dotfiles]
+- [Configuring Bash][configuring-bash]
 
-## Download PuzzlePack
+## Homework
 
-The 'PuzzlePack' for this week is to customize your Bash prompt, so get
-creative! You can find a lot of good examples on the [Terminal
-Configuration][termconf] topic page; in particular, [this is a good quick
-reference][prompt-settings].
+The homework for this week is to customize your Bash prompt, so get
+creative! 
 
 ### Handin Instructions
 
@@ -43,7 +42,7 @@ Please submit a picture of your prompt to AFS. To do this,
 Feel free to also post the screenshot to Piazza!
 
 
-[dotfiles]: {{ "/topics/terminal-configuration/dotfiles/" | prepend: site.baseurl }}
 [term-conf]: {{ "/topics/terminal-configuration/" | prepend: site.baseurl }}
-[prompt-settings]: http://linuxconfig.org/bash-prompt-basics
+[dotfiles]: {{ "/topics/terminal-configuration/dotfiles/" | prepend: site.baseurl }}
+[configuring-bash]: {{ "/topics/terminal-configuration/configuring-bash/" | prepend: site.baseurl }}
 

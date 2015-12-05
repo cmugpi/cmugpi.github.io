@@ -47,12 +47,9 @@ tips, and discuss the logistics of it all.
   - GitHub's personal getting-started-with-dotfiles page. It links to
     resources like all-in-one dotfiles frameworks, dotfiles management
     software, and great examples of dotfiles repos.
-- [Prompt Tricks][prompt-settings]
-	- A good description of most of the cool prompt features supported by Bash.
 
 [dotfiles]: https://github.com/search?q=dotfiles&s=stars&type=Repositories
 [dotfiles.github.io]: https://dotfiles.github.io/
-[prompt-settings]: http://linuxconfig.org/bash-prompt-basics
 
 ## Examples from the Course Staff
 
@@ -60,15 +57,15 @@ Some of the course staff host our dotfiles on GitHub. Take a look to see what
 they look like in the real world and get ideas for what to include in your own.
 
 - [Jake](https://github.com/jez/dotfiles)
-    - A [blog post](http://blog.jez.io/2015/03/10/noteworthy-dotfile-hacks/) with the highlights of his configurations.
-    - Check out the files themselves:
-    - [Aliases](https://github.com/jez/dotfiles/blob/ef98d308675dfa2d7ac333a3d1c1dd41f1cf347f/util/aliases.sh)
-    - [Useful zsh stuff](https://github.com/jez/dotfiles/blob/ef98d308675dfa2d7ac333a3d1c1dd41f1cf347f/util/misc.zsh)
-    - [.zshrc](https://github.com/jez/dotfiles/blob/ef98d308675dfa2d7ac333a3d1c1dd41f1cf347f/zshrc) to tie it all together
-    - [.vimrc](https://github.com/jez/dotfiles/blob/eba0202443de6bcc171dbe6bc133fa9fe02357f7/vimrc)
+  - A [blog post](http://blog.jez.io/2015/03/10/noteworthy-dotfile-hacks/) with the highlights of his configurations.
+  - Check out the files themselves:
+  - [Aliases](https://github.com/jez/dotfiles/blob/ef98d308675dfa2d7ac333a3d1c1dd41f1cf347f/util/aliases.sh)
+  - [Useful zsh stuff](https://github.com/jez/dotfiles/blob/ef98d308675dfa2d7ac333a3d1c1dd41f1cf347f/util/misc.zsh)
+  - [.zshrc](https://github.com/jez/dotfiles/blob/ef98d308675dfa2d7ac333a3d1c1dd41f1cf347f/zshrc) to tie it all together
+  - [.vimrc](https://github.com/jez/dotfiles/blob/eba0202443de6bcc171dbe6bc133fa9fe02357f7/vimrc)
 - [Stuart](https://github.com/guertin/config_files)
-    - [Aliases](https://github.com/guertin/config_files/blob/master/aliases)
-    - [bashrc](https://github.com/guertin/config_files/blob/master/bashrc) (including prompt) and [inputrc](https://github.com/guertin/config_files/blob/master/inputrc)
-    - [zshrc](https://github.com/guertin/config_files/blob/master/zshrc) (including prompt)
-    - [vimrc](https://github.com/guertin/config_files/blob/master/vimrc)
-    - [gitconfig](https://github.com/guertin/config_files/blob/master/gitconfig) and [global gitignore](https://github.com/guertin/config_files/blob/master/gitignore_global)
+  - [Aliases](https://github.com/guertin/config_files/blob/master/aliases)
+  - [bashrc](https://github.com/guertin/config_files/blob/master/bashrc) (including prompt) and [inputrc](https://github.com/guertin/config_files/blob/master/inputrc)
+  - [zshrc](https://github.com/guertin/config_files/blob/master/zshrc) (including prompt)
+  - [vimrc](https://github.com/guertin/config_files/blob/master/vimrc)
+  - [gitconfig](https://github.com/guertin/config_files/blob/master/gitconfig) and [global gitignore](https://github.com/guertin/config_files/blob/master/gitignore_global)
