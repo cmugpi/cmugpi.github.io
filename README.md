@@ -416,6 +416,11 @@ branch set up in our AFS space. It
 - installs Jekyll dependencies if necessary
 - runs Jekyll to build the site
 
+Git remote hooks don't get version controlled with a repository's content, but
+nonetheless you can see a copy of this Git hook [here][git-hook] (it should
+hopefully be up to date with whatever's actually deployed, but if you're
+troubleshooting, make sure you check the copy on AFS).
+
 From here, SCS Facilities takes care of serving our site whenever it's visited.
 
 ### Pushing
@@ -580,6 +585,7 @@ Gemfile.lock (the last working state).
 [ui-message]: http://semantic-ui.com/collections/message.html
 [doctoc]: https://github.com/thlorenz/doctoc
 [uninstall_gems]: https://gist.github.com/IanVaughan/2902499
+[git-hook]: https://github.com/cmugpi/cmugpi.github.io/blob/develop/_support/post-receive
 
 <!-- vim:foldmethod=marker:foldlevel=0:
 -->
