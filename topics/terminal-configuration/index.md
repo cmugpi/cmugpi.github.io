@@ -56,16 +56,31 @@ tips, and discuss the logistics of it all.
 Some of the course staff host our dotfiles on GitHub. Take a look to see what
 they look like in the real world and get ideas for what to include in your own.
 
-- [Jake](https://github.com/jez/dotfiles)
-  - A [blog post](http://blog.jez.io/2015/03/10/noteworthy-dotfile-hacks/) with the highlights of his configurations.
-  - Check out the files themselves:
-  - [Aliases](https://github.com/jez/dotfiles/blob/ef98d308675dfa2d7ac333a3d1c1dd41f1cf347f/util/aliases.sh)
-  - [Useful zsh stuff](https://github.com/jez/dotfiles/blob/ef98d308675dfa2d7ac333a3d1c1dd41f1cf347f/util/misc.zsh)
-  - [.zshrc](https://github.com/jez/dotfiles/blob/ef98d308675dfa2d7ac333a3d1c1dd41f1cf347f/zshrc) to tie it all together
-  - [.vimrc](https://github.com/jez/dotfiles/blob/eba0202443de6bcc171dbe6bc133fa9fe02357f7/vimrc)
-- [Stuart](https://github.com/guertin/config_files)
-  - [Aliases](https://github.com/guertin/config_files/blob/master/aliases)
-  - [bashrc](https://github.com/guertin/config_files/blob/master/bashrc) (including prompt) and [inputrc](https://github.com/guertin/config_files/blob/master/inputrc)
-  - [zshrc](https://github.com/guertin/config_files/blob/master/zshrc) (including prompt)
-  - [vimrc](https://github.com/guertin/config_files/blob/master/vimrc)
-  - [gitconfig](https://github.com/guertin/config_files/blob/master/gitconfig) and [global gitignore](https://github.com/guertin/config_files/blob/master/gitignore_global)
+- Jake's dotfiles: [jez/dotfiles][ex1]
+  - A [blog post][ex2] with the highlights of his configurations
+  - Some individual highlights:
+    - all my [aliases][ex3]
+    - a [starter zshrc][ex4] file for those interested in switching to zsh
+    - my complete [vimrc][ex6]
+- Stuart's dotfiles: [guertin/config_files][ex7]
+  - [Aliases][ex8]
+  - [bashrc][ex9] (including prompt) and [inputrc][ex10]
+  - [zshrc][ex11] (including prompt)
+  - [vimrc][ex12]
+  - [gitconfig][ex13] and [global gitignore][ex14]
+
+[ex1]: https://github.com/jez/dotfiles
+[ex2]: http://blog.jez.io/2015/03/10/noteworthy-dotfile-hacks/
+[ex3]: https://github.com/jez/dotfiles/blob/ef98d308675dfa2d7ac333a3d1c1dd41f1cf347f/util/aliases.sh
+[ex4]: https://github.com/jez/starter-zshrc
+[ex5]: https://github.com/jez/dotfiles/blob/ef98d308675dfa2d7ac333a3d1c1dd41f1cf347f/zshrc
+[ex6]: https://github.com/jez/dotfiles/blob/eba0202443de6bcc171dbe6bc133fa9fe02357f7/vimrc
+
+[ex7]: https://github.com/guertin/config_files
+[ex8]: https://github.com/guertin/config_files/blob/master/aliases
+[ex9]: https://github.com/guertin/config_files/blob/master/bashrc
+[ex10]: https://github.com/guertin/config_files/blob/master/inputrc
+[ex11]: https://github.com/guertin/config_files/blob/master/zshrc
+[ex12]: https://github.com/guertin/config_files/blob/master/vimrc
+[ex13]: https://github.com/guertin/config_files/blob/master/gitconfig
+[ex14]: https://github.com/guertin/config_files/blob/master/gitignore_global
