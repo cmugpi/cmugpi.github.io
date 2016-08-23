@@ -457,7 +457,7 @@ works is:
 To bump the semester, you have to manually alter the semester in the last three
 places just discussed. To recap, you'll have to edit the semester in
 
-- `SEMESTER` in `/afs/cs/academic/class/15131-f15/www.git/hooks/post-receive`
+- `SEMESTER` in `/afs/cs/academic/class/15131-f15/repos/www.git/hooks/post-receive`
   and in `_support/post-receive`
 - the refresh URL of `/afs/cs/academic/class/15131-f15/www/index.html`
 - `baseurl` in `_config.yml`
