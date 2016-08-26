@@ -114,11 +114,12 @@ enough, open the Start Menu, type in `winver`, and press enter. In the window
 that appears, look at the number that comes after "OS Build".
 
 If that number is lower than 14316 (or if you're running a version of Windows
-other than Windows 10), your copy of Windows does not include this terminal. We
-recommend that you use [MobaXterm][mobaxterm] for SSH. For detailed installation
-and setup instructions, see [this blog post][mobaxterm-tutorial]. If you're
-already somewhat familiar with Linux, however, we strongly recommend that you
-follow the Linux initial setup instructions.
+other than Windows 10), your copy of Windows does not include this terminal. In
+that case, we recommend that you use [MobaXterm][mobaxterm] for SSH. For
+detailed installation and setup instructions, see [this blog
+post][mobaxterm-tutorial]. If you're already somewhat familiar with Linux,
+however, we strongly recommend that you follow the Linux initial setup
+instructions.
 
 If that number is 14316 or greater, you should follow these instructions to
 activate the built-in terminal:
