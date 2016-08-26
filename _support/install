@@ -62,18 +62,23 @@ if [ -z "$virtualenv_name" ]; then
 fi
 virtualenv_caps=$(echo $virtualenv_name | tr '[:lower:]' '[:upper:]')
 mkvirtualenv $virtualenv_name
-deactivate
 if [ "$?" != "0" ]; then
   echo "${cred}Error creating virtual environment ${virtualenv_name}.${cnone}"
   exit 1
 fi
 echo "Created virtualenv at ${cblue}${virtualenv_name}${cnone}."
 
+# Stash the VIRTUAL_ENV path
+virtualenv_prefix="$VIRTUAL_ENV"
+
+# Deactivate before using Ruby commands (so these changes can take effect)
+deactivate
+
 # Initialize virtualenv postactivate script to set environment vars
-if [ $(wc -l $virtualenv_name/bin/postactivate) -le 4 ]; then
+if [ "$(wc -l < "$HOME/.virtualenvs/postactivate")" -le 4 ]; then
   echo
   echo "${cwhite}==>${cnone} Initializing virtualenv postactivate script to sandbox RubyGems..."
-  cat << EOF >> $virtualenv_name/bin/postactivate
+  cat << EOF >> "$virtualenv_prefix/bin/postactivate"
 
 # -- added by gpi www \`make install\` --
 export OLD_${virtualenv_caps}_GEMHOME="\$GEM_HOME"
@@ -86,17 +91,16 @@ export OLD_${virtualenv_caps}_PATH="\$PATH"
 export PATH="\$PATH:\$GEM_HOME/bin"
 # -------------------------------------
 EOF
-  echo "Done. See ${cblue}$virtualenv_name/bin/postactivate${cnone} for what was added."
+  echo "Done. See ${cblue}$virtualenv_prefix/bin/postactivate${cnone} for what was added."
 else
   echo "${cred}Virtualenv postactivate script not initialized. You should do this yourself.${cnone}"
 fi
 
 # Initialize virtualenv predeactivate to unset environment vars
-if [ $(wc -l $virtualenv_name/bin/predeactivate) -le 4 ]; then
+if [ "$(wc -l < "$HOME/.virtualenvs/predeactivate")" -le 4 ]; then
   echo
   echo "${cwhite}==>${cnone} Initializing virtualenv predeactivate script to turn off sandboxing..."
-  virtualenv_caps=$(echo $virtualenv_name | tr '[:lower:]' '[:upper:]')
-  cat << EOF >> $virtualenv_name/bin/predeactivate
+  cat << EOF >> "$virtualenv_prefix/bin/predeactivate"
 
 # -- added by gpi www \`make install\` --
 export GEM_HOME="\$OLD_${virtualenv_caps}_GEM_HOME"
@@ -109,26 +113,29 @@ export PATH="\$OLD_${virtualenv_caps}_PATH"
 unset OLD_${virtualenv_caps}_PATH
 # -------------------------------------
 EOF
-  echo "Done. See ${cblue}$virtualenv_name/bin/predeactivate${cnone} for what was added."
+  echo "Done. See ${cblue}$virtualenv_prefix/bin/predeactivate${cnone} for what was added."
 else
   echo "${cred}Virtualenv predeactivate script not initialized. You should do this yourself.${cnone}"
 fi
 
 
 # Install Ruby dependencies
-echo
-echo "Installing bundle (outside virtualenv)"
-# We have to install bundler outside of the virtualenv or else rbenv won't be
-# able to find it
-echo ">> gem install bundler"
-gem install bundle
-rbenv rehash
+####echo
+####echo "Installing bundle (outside virtualenv)"
+##### We have to install bundler outside of the virtualenv or else rbenv won't be
+##### able to find it
+####echo ">> gem install bundler"
+####gem install bundler
+####rbenv rehash
 
+echo
+echo "Installing bundle (inside virtualenv)"
+workon $virtualenv_name
+gem install bundler
 
 echo
 echo "${cwhite}==>${cnone} Installing gems to virtual env..."
 echo ">> bundle install"
-workon $virtualenv_name
 bundle install
 # We don't have to run rbenv rehash here because rbenv doesn't even know gems
 # were installed! They are sort of "hidden" by the virtualenv
