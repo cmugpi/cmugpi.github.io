@@ -56,8 +56,8 @@ yourself.
 
 
 [pathogen]: https://github.com/tpope/vim-pathogen
-[vundle]: https://github.com/gmarik/Vundle.vim
-[vundle-qs]: https://github.com/gmarik/Vundle.vim#Quick-Start
+[vundle]: https://github.com/VundleVim/Vundle.vim
+[vundle-qs]: https://github.com/VundleVim/Vundle.vim#Quick-Start
 
 [plugins-2014]: http://benmccormick.org/2014/07/21/learning-vim-in-2014-getting-more-from-vim-with-plugins/
 [configure-2014]: http://benmccormick.org/2014/07/14/learning-vim-in-2014-configuring-vim/
@@ -66,12 +66,3 @@ yourself.
 [molokai]: https://github.com/tomasr/molokai
 
 [dotfiles]: https://github.com/search?q=dotfiles&s=stars&type=Repositories
-
-
-
-
-
-[pathogen]: https://github.com/tpope/vim-pathogen
-[vundle]: https://github.com/gmarik/Vundle.vim
-[vundle-wq]: https://github.com/gmarik/Vundle.vim#quick-start
-[plugins-2014]: http://benmccormick.org/2014/07/21/learning-vim-in-2014-getting-more-from-vim-with-plugins/
