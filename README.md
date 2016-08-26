@@ -93,9 +93,9 @@ Jekyll, instead of being a blogging framework in its own right. Jekyll is a
 blogging framework which makes writing your site's content as easy as putting it
 in the right place, and Octopress 3.0 helps to put things in the right place.
 
-We're the version of Sass that comes with Jekyll to build the Sass stylesheets.
-Sass is a language that compiles to CSS, but adds in tons of cool features that
-make it easy to write maintainable stylesheets.
+We're using the version of Sass that comes with Jekyll to build the Sass
+stylesheets. Sass is a language that compiles to CSS, but adds in tons of cool
+features that make it easy to write maintainable stylesheets.
 
 To continuously build and preview the site locally:
 
