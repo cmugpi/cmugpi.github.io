@@ -101,7 +101,7 @@ popular terminals are
 - Konsole
 - Gnome Terminal
 - xterm
-- xrvt-unicode
+- rxvt-unicode
 
 Once you've done that, follow the instructions in the Mac section.
 
