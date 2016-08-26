@@ -290,7 +290,7 @@ in your ~/.bashrc to have it's value set correctly every time you log in.
 
 
 
-[bash]: {{ /topics/bash/ | prepend: site.baseurl }}
+[bash]: {{ "/topics/bash/" | prepend: site.baseurl }}
 [bashrc]: http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html
 [prompts]: https://www.google.com/search?tbm=isch&q=bash+prompt
 
