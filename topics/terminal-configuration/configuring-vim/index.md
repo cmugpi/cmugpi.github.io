@@ -66,12 +66,3 @@ yourself.
 [molokai]: https://github.com/tomasr/molokai
 
 [dotfiles]: https://github.com/search?q=dotfiles&s=stars&type=Repositories
-
-
-
-
-
-[pathogen]: https://github.com/tpope/vim-pathogen
-[vundle]: https://github.com/gmarik/Vundle.vim
-[vundle-wq]: https://github.com/gmarik/Vundle.vim#quick-start
-[plugins-2014]: http://benmccormick.org/2014/07/21/learning-vim-in-2014-getting-more-from-vim-with-plugins/
