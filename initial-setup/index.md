@@ -146,47 +146,12 @@ phrasing instead.
 
 </div>
 
-## Changing Your Shell
-
-A _shell_ is a program that lets you enter in text commands to a computer and
-get output from those commands. Shells are essential for using SSH and very
-useful for programming. We'll be doing all of our work in this class within a
-shell, so it's important that we use the right one!
-
-The default shell on Andrew Linux systems, `csh`, is lacking in many ways. For
-that reason, we'll be switching you over to a shell called bash. (If you have
-strong preferences about your shell, you're welcome to use another shell as long
-as it's not csh.)
-
-In order to switch your shell over, follow these instructions:
-
-
-1. SSH into andrew using the setup you did above.
-1. Run the command `chsh` at the prompt (type it and hit enter).
-1. You'll be asked to enter a new shell. (When doing this, be very careful; if
-   you enter something that isn't a shell, you will not be able to use your
-   account until the problem is fixed, which is not easy to do!)
-   Type in `/bin/bash` and hit enter.
-1. If you log out (disconnect) and connect again, your new shell should be bash.
-   (It says it will take a long time, but it's generally nearly instantaneous.
-   If it's taking longer than 30 minutes, you might want to send us an email.)
-
-When entering your new shell for step 3, mistyping the shell will cause you to
-be locked out until the problem is fixed, which takes at least a day to do.
-{:.ui.error.message}
-
-You can disconnect by either typing "logout" and hitting enter or by
-using the keyboard shortcut `^D` (control-D). `^D` is a very common keyboard
-shortcut that very often will exit you out of programs like shells, command
-prompts, and REPLs.
-{:.ui.info.message}
-
 ## Get the GPI Configuration
 
-The default settings for bash (the shell you switched to) and other programs
-you're likely to use during the semester are rather minimal, so we've written
-some configuration files that will give you nicer defaults. Of course, if you
-want to change these settings to better fit your preferences you can do so.
+The default settings for the command line and other programs you're likely to
+use during the semester are rather minimal, so we've written some configuration
+files that will give you nicer defaults. Of course, if you want to change these
+settings to better fit your preferences you can do so.
 
 SSH in to `andrew`.
 
@@ -207,22 +172,11 @@ Side note: these will overwrite any existing files you might have. If you have
 your own bashrc or vimrc, read the [Advanced Usage][advanced] instructions.
 {:.ui.info.message}
 
-Then, disconnect from Andrew (remember, `^D`) and log in again. When you've logged
-in, type `echo $GPI_PATH` and hit enter. If you see a file path, then everything
-went correctly! (If you see nothing, something went wrong. Try logging out and
-back in, and if that doesn't fix it, make a post on Piazza or email us.)
-
-## Get a Lern2Unix Account
-
-We'll be using the lern2unix website as a backend to submit and download
-problems, so you'll need a [lern2unix account][lern2unix-signup] which you
-should sign up for before our first lecture.
-
-__IMPORTANT__:
-You need to use your AndrewID for your username and your
-andrew.cmu.edu email address for your email.
-{:.ui.error.message}
-
+Then, disconnect from Andrew (remember, `^D`) and log in again. When you've
+logged in, if you see something like `username@unixN:~$` instead of what the
+prompt used to be, you're done! If you see a file path, then everything went
+correctly! (If it looks like nothing changed, something went wrong. Try logging
+out and back in, and if that doesn't fix it, make a post on Piazza or email us.)
 
 [mobaxterm]: http://mobaxterm.mobatek.net/
 [mobaxterm-tutorial]: http://blog.jez.io/2014/09/28/setting-up-mobaxterm-for-ssh-on-windows/
