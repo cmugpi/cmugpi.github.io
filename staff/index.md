@@ -6,30 +6,27 @@ order: 4
 
 # -- yaml variables local to this file --
 staff:
-  - id: jezimmer
-    domain: andrew
-    name: Jake Zimmerman
-  - id: jxc
-    domain: cs
-    name: Jacobo Carrasquel
-  - id: nmunson
-    domain: andrew
-    name: Nick Munson
-  - id: mjmurphy
-    domain: andrew
-    name: Michael Murphy
-  - id: sguertin
-    domain: andrew
-    name: Stuart Guertin
-  - id: shomirog
-    domain: andrew
-    name: Ronnie Ghose
   - id: jmbrown
     domain: andrew
     name: Jordan Brown
-  - id: anniec1
+  - id: jxc
+    domain: cs
+    name: Jacobo Carrasquel
+  - id: jezimmer
     domain: andrew
-    name: Annie Cheng
+    name: Jake Zimmerman
+  - id: adbenson
+    domain: andrew
+    name: Andrew Benson
+  - id: wyz
+    domain: andrew
+    name: Wilson Zhao
+  - id: eosofsky
+    domain: andrew
+    name: Everi Osofsky
+  - id: mgq
+    domain: andrew
+    name: Matthew Quarles
 ---
 
 # Staff
