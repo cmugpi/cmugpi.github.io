@@ -19,47 +19,30 @@ systems used in 15-122, 15-213, and many other CS courses. Our goal for the
 course is for you to have a fun break from your other classes, and an
 opportunity to see some real uses for what you're learning about.
 
-We will meet on Thursdays from 3:00 - 4:20 in WEH 7500. Each instructor and TA
-will also be holding office hours. Times for office hours will be announced on
-Piazza.
-
-
-## Homework
-
-Each week you will get a short reading about the next week's topic on the
-schedule. Every week except the first, will have a "QuickCheck" to accompany the
-reading. QuickChecks will only ask you to type in a few commands from the
-reading or answer a few easy questions.
-
-QuickChecks are graded based on completion, as you will have as many guesses as
-you need to complete them. You will have the entire week to read and complete
-the QuickCheck, and they should only take a few minutes to finish.
-
+We will meet on Thursdays from 3:00 - 4:20 in GHC 4401.
 
 ## Lecture
 
-The first 15 minutes of lecture will be a discussion of the reading or a demo, 
-a TA will go over the content of the reading, give some sort of demo, and answer
-questions.
+The first 20 minutes of lecture will be a discussion of the reading or a demo.
 
-After the talk you will solve a series of puzzles on that week's topic. Each set
-of puzzles is called a PuzzlePack. PuzzlePacks are composed of terminal/Unix
-puzzles involving typing in the right command, writing a simple script, or
-reading some code to figure out what it's doing. Almost all PuzzlePacks must be
-completed on Andrew Unix.
+Once the demo is done, you will have time to work on that week's homework while
+the TA's are available to help.
 
-The PuzzlePacks are designed to be completed by the end of class, but if you don't
-finish, you will have all of the following week to complete it. If you need more
-time for any reason just ask for an extension. We are fairly lenient with giving
-extensions; we'd much rather have you complete the PuzzlePack and learn than not
-learn.
+## Labs & Homeworks
 
+Labs are composed of terminal/Unix puzzles involving running the right commands
+at the prompt or writing a simple script. There will also be a few non-lab
+homeworks.
 
-## Office Hours
+This is a 2 unit course. We design the labs to be short, but sometimes they
+can't be completed during lecture. In this case, you will have the remaining
+week to finish the lab.
 
-At office hours you can ask TAs for help with PuzzlePacks or help
-understanding that week's reading and subsequent quiz.
+## Late Policy
 
+If you need more time for any reason just ask for an extension. We are fairly
+lenient with giving extensions; we'd much rather have you complete the
+lab and learn than not learn.
 
 ## Extratations
 
@@ -69,62 +52,46 @@ interested in taking their knowledge of the command line further, we'll hold a
 number of optional workshops called "extratations" (a portmanteau of "extra" and
 "recitation").
 
-We're still working on finalizing the list of topics, but we'll be sure to put
-them up as soon as we know what they are!
-
-
 ## Tests
 
-There will be an in-class midterm exam which will have questions similar to
-those on the QuickChecks. It will only cover material from the first half of the
-course. There will also be a final exam, similar in style to the midterm exam
-but covering material from the entire semester.
+There will be an in-class written midterm exam which will have multiple choice
+and free response questions.
 
+There will also be a final exam, similar in style to the midterm exam but
+covering material from the entire semester.
 
 ## Grading
 
 The grading breakdown will be as follows:
 
-- 70% PuzzlePacks
-- 10% QuickChecks
+- 80% Homeworks
 - 10% Midterm Exam
 - 10% Final Exam
 
-Alternatively, to encourage people to attend the extratations, anyone who
-attends at least 3 extratations will be able to either
+But if you attend at least 3 extratations, you can:
 
-- receive credit on the final exam equal to what was received on the midterm
-  (thus not having to take the final), or
-- receive credit for both the midterm and final exam equal to the max of what
-  was received on the midterm and final exam.
+- use your midterm grade as your final grade
+- use your final grade as your midterm grade
 
+Thus, you only have to take the final if you want to improve your midterm grade.
+
+You'll notice that this means you can get a 50% on the midterm and pass with an
+A as long as you've completed all the labs. **Anyone who puts effort into this
+class can get an A.**
 
 ## Collaboration Policy
 
-On both QuickChecks and PuzzlePacks, you may...
+On labs, you may...
 
 - use manual (`man`) pages for commands in question.
 - use Google to learn how to use a command/solve a problem.
 - ask TAs for help.
 
-In addition, the following policies apply to their respective categories.
-
-
-### PuzzlePacks
-
-Students may point peers to particular commands, but should refrain from
-describing a solution to a problem that uses specific commands' arguments or
-combinations of commands. The purpose of PuzzlePacks is to learn by solving. If
-you solve the PuzzlePack and then explain the solution to others, they
+On homeworks, students may point peers to particular commands, but should
+refrain from describing a solution to a problem that uses specific commands'
+arguments or combinations of commands. The purpose of labs is to learn by
+solving. If you solve the lab and then explain the solution to others, they
 haven't learned!
-
-
-### QuickChecks
-
-You may not interact with or ask other students for help. These should be super
-simple, so if you feel like you're struggling with them, let the course staff
-know because we're probably making them too hard.
-
 
 ## Help
 
