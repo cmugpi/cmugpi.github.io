@@ -55,22 +55,22 @@ on but that you might find interesting.
 
 We'll be posting the extratation schedule here.
 
-| Date | Notes         | Extratation Topic           |
-| ---- | -----         | -----------------       |
-| 9/3          |                 |                         |
-| 9/10         |                 |                         |
-| 9/17         |                 |                         |
-| 9/24         |                 |                         |
-| 10/1         |                 |                         |
-| 10/8         |                 | Midterm Review          |
-| 10/15        | -               | Midterm Exam            |
-| 10/22        |                 |                         |
-| 10/29        |                 |                         |
-| 11/5         |                 |                         |
-| 11/12        |                 |                         |
-| 11/19        |                 |                         |
-| __11/26__    | -               | __Thanksgiving__        |
-| 12/3         |                 | Final Exam Review       |
+| Date      | Notes                   | Extratation Topic       |
+| ----      | -----                   | -----------------       |
+| 9/3       | [Commands Booster Pack] | [Terminal Usage][usage] |
+| 9/10      |                         |                         |
+| 9/17      |                         |                         |
+| 9/24      |                         |                         |
+| 10/1      |                         |                         |
+| 10/8      |                         | Midterm Review          |
+| 10/15     | -                       | Midterm Exam            |
+| 10/22     |                         |                         |
+| 10/29     |                         |                         |
+| 11/5      |                         |                         |
+| 11/12     |                         |                         |
+| 11/19     |                         |                         |
+| __11/26__ | -                       | __Thanksgiving__        |
+| 12/3      |                         | Final Exam Review       |
 {:.ui.striped.table}
 
 
@@ -109,4 +109,4 @@ are there as additional resources.
 [Week 11]: {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
 [Week 12]: {{ "/topics/readings/week-12/" | prepend: site.baseurl }}
 
-
+[Commands Booster Pack]: {{ "/topics/extratations/command-booster-pack/" | prepend: site.baseurl }}
