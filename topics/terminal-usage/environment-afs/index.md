@@ -28,50 +28,6 @@ Hello, world!
 {% endhighlight %}
 
 
-## Important Directory Names
-
-Some directories are more important than others, so they're given some shorter
-names.
-
-### `~` -- the home directory
-
-{% highlight console %}
-$ cd ~
-$ pwd
-/afs/andrew.cmu.edu/usr10/jezimmer
-{% endhighlight %}
-
-### `~andrewid` -- the home directory of user "andrewid"
-
-Similar to the previous directory, but for any arbitrary user.
-
-{% highlight console %}
-$ cd ~nmunson
-$ pwd
-/afs/andrew.cmu.edu/usr13/nmunson
-{% endhighlight %}
-
-### `.` -- the current directory
-
-Shortcut for what would be printed out by `pwd`.
-
-__Note__: `pwd` and `.` are _not_ the same thing. `pwd` is a _command_ which
-when run prints out the full path of the current directory. `.` (when used as
-a directory) is _not a command_. It's merely a shortcut that can be used instead
-of typing out an entire directory name.
-{:.ui.warning.message}
-
-### `..` -- the parent directory
-
-Represents the directory above the current directory.
-
-### `/` -- the root directory
-
-This is the folder that contains _everything_. That is to say it has no parent.
-Try running `cd ..` from this directory, and you'll find that you end up back in
-`/`!
-
-
 ## Environment Variables (export)
 
 Bash keeps a collection of environment variables for every user who's logged in.

@@ -79,36 +79,34 @@ transferring files. If this doesn't work, MobaXterm also supports a rudimentary
 </div>
 
 
-## Working with PuzzlePacks
+## Working with Labs
 
-PuzzlePacks are distributed as a `tar` file. This is basically like a zipped
-(.zip) folder. To "untar" the file from the command line, you can run this:
-
-{% highlight bash %}
-$ ls
-my-tar-file.tar
-
-$ tar xvf my-tar-file.tar
-
-$ ls
-jezimmer/ my-tar-file.tar
-{% endhighlight %}
-
-Once you've unpacked the tar file's contents, you'll notice a folder in the
-current directory named your Andrew ID. All PuzzlePacks are named this way;
-you'll want to rename them to keep things organized:
+Labs starter files are distributed on Autolab. To get started:
 
 {% highlight bash %}
-$ mv jezimmer week1
+# Download this week's zip file
+
+# Use scp to transfer the zip file to Andrew, as per above:
+$ scp ~/Downloads/LABNAME.zip andrew:~
+
+# Use ssh to log into Andrew.
+$ ssh andrew, or ssh ANDREWID@andrew.cmu.edu
+
+# Make a folder to hold your GPI files:
+$ mkdir -p ~/private/gpi
+
+# Move the zip file into your GPI directory:
+$ mv LABNAME.zip ~/private/gpi
+
+# Use cd to change into your GPI directory:
+$ cd ~/private/gpi
+
+# Unzip the lab:
+$ unzip LABNAME.zip
 {% endhighlight %}
 
-This renames the folder `jezimmer` to `week1`. Next week when you get a tar
-file for the PuzzlePack and untar it, you'll again get a folder named according
-to your Andrew ID. You'll want to rename this folder along the lines of `week2`,
-etc.
 
-
-## Current Working Directory (pwd, cd)
+## Directories (pwd, cd)
 
 On most systems that use a command line, there's something called your "current
 working directory." The current working directory is used as the default
@@ -116,9 +114,41 @@ directory for many commands if you don't specify a directory.
 
 There are two commands commonly used to work with the current working directory:
 
-- `pwd` ("print working directory") tells you what your current working directory is
-- `cd` ("change directory") takes a directory as an argument and changes
-  your working directory to that directory.
+### `pwd` - print working directory
+
+This tells you what directory you are currently in
+
+### `cd` - change directory
+
+This lets you change into a different directory.
+
+### Important Directory Names
+
+Some directories are more important than others, so they're given some shorter
+names.
+
+`~` -- the home directory
+
+`~andrewid` -- the home directory of user "andrewid"
+
+`.` -- the current directory
+
+`..` -- the parent directory (the directory right above the current one)
+
+`/` -- the root directory
+
+  - This is the folder that contains _everything_.
+  - It has no parent. Try running `cd ..` from this directory: you'll end up
+    back in `/`!
+
+__Note__: `pwd` and `.` are _not_ the same thing. `pwd` is a _command_ which
+when run prints out the full path of the current directory. `.` (when used as
+a directory) is _not a command_. It's merely a shortcut that can be used instead
+of typing out an entire directory name.
+{:.ui.warning.message}
+
+
+
 
 ### Examples
 
@@ -134,17 +164,36 @@ __Tip__: Lines that don't begin with `$` when `$`'s are present in a code block
 usually mean that those lines are the output from running a particular command.
 {:.ui.info.message}
 
-## Listing Files (ls)
+## Listing Files (ls, tree)
+
+One of the most common things you want to do at the command prompt is list the
+files in the current directory.
+
+### `ls [path]` - listing files
 
 The program `ls` allows you to list files and folders within a directory. It can
 be passed many different options (or "flags") that control the output it gives.
 
+### `tree [path]` - recursively listing files
+
+While `ls` can show you all the files in a folder, it's much nicer to use `tree`
+when you want to see the contents of folder multiple levels deep.
+
+### Hidden Files
+
+`ls` doesn't include all files in it's listing; some of them are "hidden". To
+show hidden files, include the `-a` flag, which stands for "all".
+
 ### Examples
 
 {% highlight bash %}
-# Initial contents of the current folder
+# Contents of the current folder
 $ ls
 file1 folder1
+
+# Contents of the current folder, including hidden files
+$ ls -a
+.hidden-file file1 folder1
 
 # The -l flag tells ls to give you more information
 $ ls -l
@@ -157,23 +206,29 @@ drwxr-xr-x 2 jezimmer 2048 Aug 17 18:21 folder1
 $ ls folder1
 file2
 
-# The -a flag tells ls to list hidden and non-hidden files (i.e. 'all'
-# files) The -R flag is for recursively listing the contents of a
-# directory
-$ ls -alR
-.:
-total 6
-drwxr-xr-x 3 jezimmer 2048 Aug 17 18:21 .
-drwx------ 5 jezimmer 2048 Aug 17 18:20 ..
--rw-r--r-- 1 jezimmer    0 Aug 17 18:21 .hidden-file1
--rw-r--r-- 1 jezimmer    0 Aug 17 18:20 file1
-drwxr-xr-x 2 jezimmer 2048 Aug 17 18:21 folder1/
+# List multiple levels of folders
+$ tree
+.
+├── folder1/
+│   ├── bar.txt
+│   └── foo.txt
+├── folder2/
+│   └── not-hidden
+└── folder3/
 
-./folder1:
-total 4
-drwxr-xr-x 2 jezimmer 2048 Aug 17 18:21 .
-drwxr-xr-x 3 jezimmer 2048 Aug 17 18:21 ..
--rw-r--r-- 1 jezimmer    0 Aug 17 18:21 file2
+3 directories, 3 files
+
+# Tree also permits -a for listing hidden files
+$ tree -a
+.
+├── folder1/
+│   ├── bar.txt
+│   └── foo.txt
+├── folder2/
+│   ├── .hidden
+│   └── not-hidden
+└── folder3/
+
 {% endhighlight %}
 
 __Tip__: The `#` is a comment character in `bash` (to be discussed later!).
@@ -232,15 +287,16 @@ file3 file4 folder1/ folder2/
 
 # Move file into directory
 $ mv file3 folder1
-$ ls -R
-.:
-file4
+$ tree
+.
+├── folder1/
+│   ├── file2
+│   └── file3
+├── folder2/
+│   └── file2
+└── file4
 
-folder1:
-file2 file3
-
-folder2:
-file2
+2 directories, 4 files
 {% endhighlight %}
 
 ### `rm <filename>` - PERMANENTLY delete files
@@ -260,16 +316,26 @@ folder1/
 
 {% highlight bash %}
 $ mkdir folder3
-$ ls -R
-.:
+$ tree
+.
+├── folder1/
+│   ├── file2
+│   └── file3
+└── folder3/
 
-folder1:
-file2 file3
+2 directories, 2 files
+{% endhighlight %}
 
-folder3:
+### `touch <file>` - create an empty file
+
+{% highlight bash %}
+$ touch file1
+$ ls
+file1
 
 {% endhighlight %}
 
+<!--
 ## Running Executables (chmod)
 
 Very frequently, you'll want to run executables that you've either
@@ -300,5 +366,6 @@ to give yourself permissions to run the executable. (`chmod` is a utility that
 lets you change the file permissions [or "mode"] of a file, and `u+x` means to
 take the permissions for the user who owns the file and add the execute
 permission).
+-->
 
 [initial-setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
