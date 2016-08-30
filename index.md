@@ -17,46 +17,31 @@ This course is intended to help you learn what you need to know in a friendly,
 low-stress, high-support way. We will discuss UNIX, LaTeX, debugging and many
 other essential tools.
 
-For more information, you should checkout the [syllabus][syllabus].
-
-
-## How to use this site
-
-This site is broken up into a number of _Topics_ which are further broken up
-into _Lessons_. One topic in particular relates directly to the assignments in
-this class: Puzzle Packs. The PuzzlePack topic is where you can find links to
-the PuzzlePack we will be doing in class as well as the lessons that will be
-useful in for solving that PuzzlePack. These are linked below for your
-convenience.
-
-In general, there are more lesson pages than there are PuzzlePacks. You only
-have to read those not directly linked from the PuzzlePack lessons if you're
-interested. You will only be assessed on your knowledge of those that relate to
-solving the PuzzlePacks.
+For more information, you should checkout the [syllabus].
 
 
 ## Schedule
 
 **NOTE**: We are still tweaking the schedule, and it is subject to change.
 
-| Lecture Date | Topic                            | PuzzlePack         |
-| ------------ | -------------------------------- | ------------------ |
-| ASAP         | [Initial setup][initial-setup]   | -                  |
-| 9/1          | [Terminal Usage][usage]          |                    |
-| 9/8          | [Vim][vim]                       |                    |
-| 9/15         | [Vim][vim]                       |                    |
-| 9/22         | [Terminal Usage][usage]          |                    |
-| 9/29         | [Terminal Usage][usage]          |                    |
-| 10/6         | [Bash][bash]                     |                    |
-| 10/13        | Midterm Exam                     | -                  |
-| 10/20        | [Bash][bash]                     |                    |
-| 10/27        | [Bash][bash]                     |                    |
-| 11/3         | [Git][git]                       |                    |
-| 11/10        | [Git][git]                       |                    |
-| 11/17        | [Terminal Configuration][config] |                    |
-| __11/24__    | __Thanksgiving__                 | -                  |
-| 12/1         | [Terminal Configuration][config] |                    |
-| 12/8         | Final Exam                       | -                  |
+| Date      | Reading         | Lecture Topic           |
+| ----      | -------         | -------------           |
+| ASAP      | [Initial setup] | -                       |
+| 9/1       | [Week 1]        | [Terminal usage][usage] |
+| 9/8       |                 |                         |
+| 9/15      |                 |                         |
+| 9/22      |                 |                         |
+| 9/29      |                 |                         |
+| 10/6      |                 |                         |
+| 10/13     | -               | Midterm Exam            |
+| 10/20     |                 |                         |
+| 10/27     |                 |                         |
+| 11/3      |                 |                         |
+| 11/10     |                 |                         |
+| 11/17     |                 |                         |
+| __11/24__ | -               | __Thanksgiving__        |
+| 12/1      |                 |                         |
+| 12/8      | -               | Final Exam              |
 {:.ui.striped.table}
 
 ## Extratations
@@ -70,9 +55,40 @@ on but that you might find interesting.
 
 We'll be posting the extratation schedule here.
 
+| Date | Notes         | Extratation Topic           |
+| ---- | -----         | -----------------       |
+| 9/3          |                 |                         |
+| 9/10         |                 |                         |
+| 9/17         |                 |                         |
+| 9/24         |                 |                         |
+| 10/1         |                 |                         |
+| 10/8         |                 | Midterm Review          |
+| 10/15        | -               | Midterm Exam            |
+| 10/22        |                 |                         |
+| 10/29        |                 |                         |
+| 11/5         |                 |                         |
+| 11/12        |                 |                         |
+| 11/19        |                 |                         |
+| __11/26__    | -               | __Thanksgiving__        |
+| 12/3         |                 | Final Exam Review       |
+{:.ui.striped.table}
+
+
+## How to use this site
+
+This site is broken up into a number of _Topics_ which are further broken up
+into _Lessons_. One topic in particular relates directly to the assignments in
+this class: Readings. The "Readings" topic is where you can find links to
+the the lessons that will be useful for solving that week's lab.
+
+In general, there are more lesson pages than there are labs. You will only be
+assessed on your knowledge of those that relate to solving the labs. The others
+are there as additional resources.
+
+
 
 [syllabus]: {{ "/syllabus/" | prepend: site.baseurl }}
-[initial-setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
+[Initial setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 
 [usage]:  {{ "/topics/terminal-usage/"         | prepend: site.baseurl }}
 [vim]:    {{ "/topics/vim/"                    | prepend: site.baseurl }}
@@ -80,24 +96,17 @@ We'll be posting the extratation schedule here.
 [config]: {{ "/topics/terminal-configuration/" | prepend: site.baseurl }}
 [git]:    {{ "/topics/git/"                    | prepend: site.baseurl }}
 
-[week-1]:  {{ "/topics/puzzle-packs/week-1/"  | prepend: site.baseurl }}
-[week-2]:  {{ "/topics/puzzle-packs/week-2/"  | prepend: site.baseurl }}
-[week-3]:  {{ "/topics/puzzle-packs/week-3/"  | prepend: site.baseurl }}
-[week-4]:  {{ "/topics/puzzle-packs/week-4/"  | prepend: site.baseurl }}
-[week-5]:  {{ "/topics/puzzle-packs/week-5/"  | prepend: site.baseurl }}
-[week-6]:  {{ "/topics/puzzle-packs/week-6/"  | prepend: site.baseurl }}
-[week-7]:  {{ "/topics/puzzle-packs/week-7/"  | prepend: site.baseurl }}
-[week-8]:  {{ "/topics/puzzle-packs/week-8/"  | prepend: site.baseurl }}
-[week-9]:  {{ "/topics/puzzle-packs/week-9/"  | prepend: site.baseurl }}
-[week-10]: {{ "/topics/puzzle-packs/week-10/" | prepend: site.baseurl }}
-[week-11]: {{ "/topics/puzzle-packs/week-11/" | prepend: site.baseurl }}
-[week-12]: {{ "/topics/puzzle-packs/week-12/" | prepend: site.baseurl }}
+[Week 1]:  {{ "/topics/readings/week-1/"  | prepend: site.baseurl }}
+[Week 2]:  {{ "/topics/readings/week-2/"  | prepend: site.baseurl }}
+[Week 3]:  {{ "/topics/readings/week-3/"  | prepend: site.baseurl }}
+[Week 4]:  {{ "/topics/readings/week-4/"  | prepend: site.baseurl }}
+[Week 5]:  {{ "/topics/readings/week-5/"  | prepend: site.baseurl }}
+[Week 6]:  {{ "/topics/readings/week-6/"  | prepend: site.baseurl }}
+[Week 7]:  {{ "/topics/readings/week-7/"  | prepend: site.baseurl }}
+[Week 8]:  {{ "/topics/readings/week-8/"  | prepend: site.baseurl }}
+[Week 9]:  {{ "/topics/readings/week-9/"  | prepend: site.baseurl }}
+[Week 10]: {{ "/topics/readings/week-10/" | prepend: site.baseurl }}
+[Week 11]: {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
+[Week 12]: {{ "/topics/readings/week-12/" | prepend: site.baseurl }}
 
 
-[command-booster-pack]: {{ "/topics/extratations/command-booster-pack" | prepend: site.baseurl }}
-[emacs-fundamentals]: {{ "/topics/extratations/emacs-fundamentals" | prepend: site.baseurl }}
-[emacs-rocks]: {{ "/topics/extratations/emacs-rocks" | prepend: site.baseurl }}
-[vim-as-an-ide]: {{ "/topics/extratations/vim-as-an-ide" | prepend: site.baseurl }}
-[all-about-tmux]: {{ "/topics/extratations/all-about-tmux" | prepend: site.baseurl }}
-[writing-cli]: {{ "/topics/extratations/writing-cli" | prepend: site.baseurl }}
-[linux-installation-lab]: {{ "/topics/extratations/linux-installation-lab" | prepend: site.baseurl }}

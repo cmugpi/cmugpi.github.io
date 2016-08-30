@@ -2,7 +2,7 @@
 layout: page
 title: "Week 9"
 # What topic does this page belong to?
-group: puzzle-packs
+group: readings
 # Relative ordering of lessons within a topic
 order: 9
 #script: /javascripts/mypage.js
@@ -21,11 +21,7 @@ order: 9
 
 - [Getting Started with Git][gs-git]
 - [Git Command Overview][git-commands]
-  - Not required reading, but good for the PuzzlePack:
-
-## Download PuzzlePack
-
-[git][lern2unix]
+  - Not required reading, but good for the lab
 
 Some tips:
 
@@ -39,10 +35,9 @@ Some tips:
   1. oorehctiws
   1. what_it_takes
 - Make sure that you always run the puzzle commands (`./git_to_work`,
-  `./switcheroo`, etc.) from the top-most folder in the PuzzlePack. For example,
+  `./switcheroo`, etc.) from the top-most folder in the lab. For example,
   you shouldn't be doing `../git_to_work`.
 
 
-[lern2unix]: http://lern2unix.com/download/git
 [gs-git]: {{ "/topics/git/getting-started/" | prepend: site.baseurl }}
 [git-commands]: {{ "/topics/git/git-commands/"    | prepend: site.baseurl }}

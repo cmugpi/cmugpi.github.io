@@ -2,7 +2,7 @@
 layout: page
 title: "Week 10"
 # What topic does this page belong to?
-group: puzzle-packs
+group: readings
 # Relative ordering of lessons within a topic
 order: 10
 #script: /javascripts/mypage.js
@@ -21,9 +21,11 @@ order: 10
 
 - [Using Git on GitHub][using-github]
 
+<!--
+
 ## Homework
 
-This week's homework isn't on lern2unix. It's composed of two parts.
+This week's homework isn't on Autolab. It's composed of two parts.
 
 1. [Learn Git Branching][learnGitBranching]
   - Do the "Introduction Sequence", which amounts to the first four exercises.
@@ -33,6 +35,7 @@ This week's homework isn't on lern2unix. It's composed of two parts.
   - Fork the Git Branching repository.
   - Fix up the repo. (Hint: check the README of the repo!)
   - Submit a pull request so we can see your solution!
+-->
 
 [google-form]: https://docs.google.com/forms/d/1x7B4iCyeKxtthApRrDqG6g1Uh4OgAaFEyqMfCQsVrCg/viewform?usp=send_form
 [learnGitBranching]: http://pcottle.github.io/learnGitBranching/

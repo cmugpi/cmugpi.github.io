@@ -2,7 +2,7 @@
 layout: page
 title: "Week 11"
 # What topic does this page belong to?
-group: puzzle-packs
+group: readings
 # Relative ordering of lessons within a topic
 order: 11
 #script: /javascripts/mypage.js
@@ -22,10 +22,11 @@ order: 11
 - [Dotfiles][dotfiles]
 - [Configuring Bash][configuring-bash]
 
+<!--
 ## Homework
 
 The homework for this week is to customize your Bash prompt, so get
-creative! 
+creative!
 
 ### Handin Instructions
 
@@ -40,6 +41,7 @@ Please submit a picture of your prompt to AFS. To do this,
    AndrewID as appropriate.
 
 Feel free to also post the screenshot to Piazza!
+-->
 
 
 [term-conf]: {{ "/topics/terminal-configuration/" | prepend: site.baseurl }}

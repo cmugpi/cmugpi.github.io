@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Week 12"
+title: "Week 7"
 # What topic does this page belong to?
-group: puzzle-packs
+group: readings
 # Relative ordering of lessons within a topic
-order: 12
+order: 7
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js
@@ -14,16 +14,11 @@ order: 12
 
 {% include toc.md %}
 
-# Week 12
+# Week 7
 {:.ui.dividing.header.no_toc}
 
 ## Reading
 
-No reading notes yet
+[Oneliners][oneliners]
 
-## Download PuzzlePack
-
-No puzzle pack yet
-
-
-[lern2unix]: http://lern2unix.com/download/xyz
+[oneliners]: {{ "/topics/bash/oneliners/" | prepend: site.baseurl }}
