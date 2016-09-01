@@ -148,6 +148,30 @@ of typing out an entire directory name.
 {:.ui.warning.message}
 
 
+## Running Commands
+
+Commands can be run in a number of ways. Most types of commands you'll encounter
+are "global commands." This means you can run these commands no matter what
+directory you're in. These commands can be run just by typing their name:
+
+{% highlight bash %}
+# Some example commands:
+$ ls
+$ mkdir my-folder
+$ rm useless-file
+{% endhighlight %}
+
+Not every command is available globally. In this case, you have to provide the
+path to the command's program file in order to run it.
+
+{% highlight bash %}
+# If the program is in your current directory, you can use
+# the '.' shortcut for the current directory:
+$ ./command-in-current-directory
+
+# Similarly, if the program is in the parent directory, you can use '..'
+$ ../command-in-parent-directory
+{% endhighlight %}
 
 
 ### Examples
