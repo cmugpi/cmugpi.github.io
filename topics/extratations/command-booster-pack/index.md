@@ -4,7 +4,7 @@ title: "Command Booster Pack"
 # What topic does this page belong to?
 group: extratations
 # Relative ordering of lessons within a topic
-order: 1
+order: 3
 ---
 
 {% include toc.md %}

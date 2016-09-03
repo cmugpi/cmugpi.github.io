@@ -4,7 +4,7 @@ title: "Writing on the Command Line"
 # What topic does this page belong to?
 group: extratations
 # Relative ordering of lessons within a topic
-order: 3
+order: 1000
 ---
 
 
