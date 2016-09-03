@@ -16,6 +16,41 @@ Files and commands are the backbone of a getting work done on a terminal.
 Knowing how to effectively manipulate them is key, so we'll need to learn the
 commands that make manipulating these files possible.
 
+## Working with Labs
+
+Labs starter files are distributed on Autolab. To get started:
+
+{% highlight bash %}
+# Download this week's zip file
+
+# Use scp to transfer the zip file to Andrew, as per above:
+#
+# Non-Windows:
+$ scp ~/Downloads/LABNAME.zip ANDREWID@unix.andrew.cmu.edu:~
+# or, if you set up the SSH shortcut in the Initial Setup:
+$ scp ~/Downloads/LABNAME.zip andrew:~
+#
+# Windows:
+$ scp /mnt/c/Users/USERNAME/Downloads/LABNAME.zip ANDREWID@unix.andrew.cmu.edu:~
+# USERNAME is the username you use on your laptop
+
+# Use ssh to log into Andrew.
+$ ssh andrew, or ssh ANDREWID@unix.andrew.cmu.edu
+
+# Make a folder to hold your GPI files:
+$ mkdir -p ~/private/gpi
+
+# Move the zip file into your GPI directory:
+$ mv LABNAME.zip ~/private/gpi
+
+# Use cd to change into your GPI directory:
+$ cd ~/private/gpi
+
+# Unzip the lab:
+$ unzip LABNAME.zip
+{% endhighlight %}
+
+
 ## Remotely Transfer Files (scp)
 
 SCP (for "secure copy") is a program for copying files from one machine to
@@ -77,41 +112,6 @@ transferring files. If this doesn't work, MobaXterm also supports a rudimentary
 
 </div>
 </div>
-
-
-## Working with Labs
-
-Labs starter files are distributed on Autolab. To get started:
-
-{% highlight bash %}
-# Download this week's zip file
-
-# Use scp to transfer the zip file to Andrew, as per above:
-#
-# Non-Windows:
-$ scp ~/Downloads/LABNAME.zip ANDREWID@unix.andrew.cmu.edu:~
-# or, if you set up the SSH shortcut in the Initial Setup:
-$ scp ~/Downloads/LABNAME.zip andrew:~
-#
-# Windows:
-$ scp /mnt/c/Users/USERNAME/Downloads/LABNAME.zip ANDREWID@unix.andrew.cmu.edu:~
-# USERNAME is the username you use on your laptop
-
-# Use ssh to log into Andrew.
-$ ssh andrew, or ssh ANDREWID@unix.andrew.cmu.edu
-
-# Make a folder to hold your GPI files:
-$ mkdir -p ~/private/gpi
-
-# Move the zip file into your GPI directory:
-$ mv LABNAME.zip ~/private/gpi
-
-# Use cd to change into your GPI directory:
-$ cd ~/private/gpi
-
-# Unzip the lab:
-$ unzip LABNAME.zip
-{% endhighlight %}
 
 
 ## Directories (pwd, cd)
