@@ -40,28 +40,69 @@ you're using, so choose the relevant section and proceed from there.
 </div>
 <div class="ui bottom attached active tab segment" data-tab="osx">
 
-<!-- TODO add screenshots for OS X initial setup -->
-
 Congratulations! Your OS has a built-in terminal (Terminal.app), so you don't
 need to download anything. You might consider looking at one of the other
 terminals for OS X like [iTerm2][iterm2] if you want cooler features like better
 color support, easier theming, vertical splits, advanced `tmux` integration, and
 more.
 
-Sshing is simple; run the following command, replacing `ANDREWID` with your
-Andrew ID:
+</div>
+<div class="ui bottom attached tab segment" data-tab="linux">
 
-{% highlight bash %}
-ssh ANDREWID@unix.andrew.cmu.edu
-{% endhighlight %}
 
-When you enter this, you will be prompted for a password--it's the same password
-you use to log onto WebISO.
+You have lots of choices for a terminal. Your distro almost certainly has one
+already, but if you don't like the default one you can download another. Some
+popular terminals are
 
-To facilitate quick sshing, you should edit the __ssh config file__. Use the
-following command to do that (you don't need to understand this command
-yet--we'll cover it later in the semester). Copy and paste the command into
-your terminal and hit enter.
+- Terminator
+- Konsole
+- Gnome Terminal
+- xterm
+- rxvt-unicode
+
+</div>
+<div class="ui bottom attached tab segment" data-tab="windows">
+
+If you're already somewhat familiar with Linux, we strongly recommend that you
+follow the Linux initial setup instructions. We're going to be teaching you more
+about Linux throughout this course, so you'll end up being proficient with it by
+the end of the semester.
+
+If you're running a recent version of Windows 10, then you can activate a
+terminal built-in to the OS. To find out if your copy of Windows 10 is recent
+enough, open the Start Menu, type in `winver`, and press enter. In the window
+that appears, look at the number that comes after "OS Build".
+
+If that number is lower than 14316 (or if you're running a version of Windows
+other than Windows 10), your copy of Windows does not include this terminal. In
+that case, we recommend that you use [MobaXterm][mobaxterm] for SSH. Download
+and install it from that site.
+
+If that number is 14316 or greater, you should follow these instructions to
+activate the built-in terminal:
+
+- Open the Start Menu, type in "Turn Windows features on or off", and press
+  enter.
+- Scroll down to "Windows Subsystem for Linux", check its box, and press OK.
+  Allow your computer to restart.
+- After boot, open the start menu and type in "Bash on Ubuntu on Windows", which
+  launches the terminal app. Follow the first-time setup instructions to finish.
+
+</div>
+</div>
+
+Once you've chosen a terminal for your operating system, you can set up an
+optional shortcut to save some typing.
+
+__NOTE__: We need to make these changes before running any SSH command, or
+before launching any SSH session. On OS X and Linux, this means make sure you do
+these instructions immediately after opening a new terminal window or tab. On
+MobaXterm, you should verify that you see an [image similar to
+this][mobaxterm-startup].
+
+We're going to edit the __ssh config file__. Use the following command to do
+that (you don't need to understand this command yet--we'll cover it later in the
+semester). Copy and paste the command into your terminal and hit enter.
 
 {% highlight bash %}
 mkdir -p ~/.ssh; touch ~/.ssh/config; nano ~/.ssh/config
@@ -73,8 +114,6 @@ the "control" key, so `^O` means "hold control and press the O key", and nano
 uses "WriteOut" to mean "save". Nano will ask you to confirm the filename you
 want to save. Just hit enter to confirm it.)
 
-<!-- TODO add better fenced code blocks -->
-
 ~~~
 Host andrew
 Hostname unix.andrew.cmu.edu
@@ -83,57 +122,22 @@ GSSAPIAuthentication yes
 GSSAPIDelegateCredentials yes
 ~~~
 
-Normally, without the above incantation, you would need to type `ssh
-ANDREWID@unix.andrew.cmu.edu` to ssh, but now you can just type `ssh andrew`
-and the rest will be auto-detected. If you prefer a different name than
-`andrew`, you can change that line (`Host andrew`) in the ssh config file.
+You should now verify that SSH works with your chosen terminal. You will always
+be asked for a password when SSH'ing in--it's the same password you use to log
+onto WebISO.
 
-<!-- TODO add note about passwordless ssh -->
+{% highlight bash %}
+ssh ANDREWID@unix.andrew.cmu.edu
+{% endhighlight %}
 
-</div>
-<div class="ui bottom attached tab segment" data-tab="linux">
+If you did the optional setup above to set up the shortcut, you can
+alternatively run
 
-First, you should choose a terminal. Your distro almost certainly has one
-already, but if you don't the default one you can download another. Some
-popular terminals are
+{% highlight bash %}
+ssh andrew
+{% endhighlight %}
 
-- Terminator
-- Konsole
-- Gnome Terminal
-- xterm
-- rxvt-unicode
-
-Once you've done that, follow the instructions in the Mac section.
-
-</div>
-<div class="ui bottom attached tab segment" data-tab="windows">
-
-If you're running a recent version of Windows 10, then you can activate a
-terminal built-in to the OS. To find out if your copy of Windows 10 is recent
-enough, open the Start Menu, type in `winver`, and press enter. In the window
-that appears, look at the number that comes after "OS Build".
-
-If that number is lower than 14316 (or if you're running a version of Windows
-other than Windows 10), your copy of Windows does not include this terminal. In
-that case, we recommend that you use [MobaXterm][mobaxterm] for SSH. For
-detailed installation and setup instructions, see [this blog
-post][mobaxterm-tutorial]. If you're already somewhat familiar with Linux,
-however, we strongly recommend that you follow the Linux initial setup
-instructions.
-
-If that number is 14316 or greater, you should follow these instructions to
-activate the built-in terminal:
-
-- Open the Start Menu, type in "Turn Windows features on or off", and press
-  enter.
-- Scroll down to "Windows Subsystem for Linux", check its box, and press OK.
-  Allow your computer to restart.
-- After boot, open the start menu and type in "Bash on Ubuntu on Windows", which
-  launches the terminal app. Follow the first-time setup instructions to finish.
-- Now follow the instructions in the Mac section.
-
-</div>
-</div>
+(Note: it's literally 'andrew', not your Andrew ID).
 
 <div class="ui info message">
 
@@ -183,3 +187,4 @@ out and back in, and if that doesn't fix it, make a post on Piazza or email us.)
 [iterm2]: http://iterm2.com/
 [advanced]: https://github.com/cmugpi/dotfiles#advanced-usage
 [lern2unix-signup]: http://www.lern2unix.com/account/signup/
+[mobaxterm-startup]: {{ "/images/mobaxterm-startup.png" | prepend: site.baseurl }}
