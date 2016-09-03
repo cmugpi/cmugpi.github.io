@@ -87,10 +87,18 @@ Labs starter files are distributed on Autolab. To get started:
 # Download this week's zip file
 
 # Use scp to transfer the zip file to Andrew, as per above:
+#
+# Non-Windows:
+$ scp ~/Downloads/LABNAME.zip ANDREWID@unix.andrew.cmu.edu:~
+# or, if you set up the SSH shortcut in the Initial Setup:
 $ scp ~/Downloads/LABNAME.zip andrew:~
+#
+# Windows:
+$ scp /mnt/c/Users/USERNAME/Downloads/LABNAME.zip ANDREWID@unix.andrew.cmu.edu:~
+# USERNAME is the username you use on your laptop
 
 # Use ssh to log into Andrew.
-$ ssh andrew, or ssh ANDREWID@andrew.cmu.edu
+$ ssh andrew, or ssh ANDREWID@unix.andrew.cmu.edu
 
 # Make a folder to hold your GPI files:
 $ mkdir -p ~/private/gpi
