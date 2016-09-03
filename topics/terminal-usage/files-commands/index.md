@@ -85,6 +85,11 @@ that files _and_ folders should be copied.
 ### Examples
 
 {% highlight bash %}
+#
+# Remember: replace 'andrew' with 'ANDREWID@unix.andrew.cmu.edu'
+# if you use the latter when SSH'ing
+#
+
 $ scp school/notes.txt andrew:notes_sept_2.txt
 # Copies school/notes.txt from your computer to Andrew and renames it
 
