@@ -57,7 +57,7 @@ We'll be posting the extratation schedule here.
 
 | Date      | Notes                   | Extratation Topic       |
 | ----      | -----                   | -----------------       |
-| 9/3       |                         |                         |
+| 9/3       | [First Week Worktime]   | [Terminal Usage][usage] |
 | 9/10      |                         |                         |
 | 9/17      | [Commands Booster Pack] | [Terminal Usage][usage] |
 | 9/24      |                         |                         |
@@ -109,4 +109,5 @@ are there as additional resources.
 [Week 11]: {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
 [Week 12]: {{ "/topics/readings/week-12/" | prepend: site.baseurl }}
 
+[First Week Worktime]: {{ "/topics/extratations/first-week-worktime/" | prepend: site.baseurl }}
 [Commands Booster Pack]: {{ "/topics/extratations/command-booster-pack/" | prepend: site.baseurl }}
