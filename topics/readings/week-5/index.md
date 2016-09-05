@@ -10,5 +10,5 @@ order: 5
 #  - /javascripts/one.js
 #  - /javascripts/two.js
 redirect_to:
-- ../../topics/bash/regular-expressions/
+- ../../bash/regular-expressions/
 ---
