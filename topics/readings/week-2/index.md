@@ -17,6 +17,15 @@ order: 2
 # Week 2
 {:.ui.dividing.header.no_toc}
 
+## GPI Vim Config
+
+If you still haven't gone through the Initial Setup instructions, make sure
+you do them now.
+
+If you have already done this, you do not have to repeat the process.
+
+- [Initial Setup]
+
 ## Reading
 
 Vim is a command line text editor. You may have started using it in your classes
@@ -37,5 +46,6 @@ read this before class if you don't want to):
 
 - [Vim Cheatsheet]
 
+[Initial Setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 [Vim as Language]: {{ "/topics/vim/vim-as-language/" | prepend: site.baseurl }}
 [Vim Cheatsheet]: {{ "/topics/vim/vim-cheatsheet.pdf" | prepend: site.baseurl }}

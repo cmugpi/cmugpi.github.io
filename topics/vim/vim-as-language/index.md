@@ -4,7 +4,7 @@ title: Vim as Language
 # What topic does this page belong to?
 group: vim
 # Relative ordering of lessons within a topic
-order: 2
+order: 1
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js
