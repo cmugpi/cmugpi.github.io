@@ -2,7 +2,7 @@
 layout: page
 title: "Using Files & Commands"
 group: 'terminal-usage'
-order: 1
+order: 2
 script: /javascripts/files-commands.js
 ---
 

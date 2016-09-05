@@ -2,7 +2,7 @@
 layout: page
 title: "Terminal Environment & AFS"
 group: 'terminal-usage'
-order: 2
+order: 3
 ---
 
 
