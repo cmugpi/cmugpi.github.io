@@ -2,7 +2,7 @@
 layout: page
 title: "Globbing & Ranges"
 group: 'bash'
-order: 1
+order: 2
 ---
 
 {% include toc.md %}

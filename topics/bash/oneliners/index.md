@@ -4,7 +4,7 @@ title: "Oneliners"
 # What topic does this page belong to?
 group: bash
 # Relative ordering of lessons within a topic
-order: 5
+order: 6
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js
