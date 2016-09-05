@@ -1,86 +1,26 @@
 ---
 layout: page
-title: "Terminal Environment & AFS"
-group: 'terminal-usage'
-order: 3
+title: AFS
+# What topic does this page belong to?
+group: terminal-usage
+# Relative ordering of lessons within a topic
+order: 4
+#script: /javascripts/mypage.js
+#scripts:
+#  - /javascripts/one.js
+#  - /javascripts/two.js
 ---
 
 
 {% include toc.md %}
 
-# Terminal Environment & AFS
+# AFS
 {:.ui.dividing.header.no_toc}
 
-By now you should have a decent idea of how you can manage files and a basic
-understanding of some commonly-used commands. This article will build on that
-knowledge to acquaint you with some key elements of your terminal environment.
-We'll also briefly talk about AFS, which is the environment you'll be working on
-when you ssh into one of the Andrew Unix machines.
-
-
-## Printing Text (echo)
-
-To print text, you can use the `echo` command, which just prints its arguments:
-
-{% highlight console %}
-$ echo Hello, world!
-Hello, world!
-{% endhighlight %}
-
-
-## Environment Variables (export)
-
-Bash keeps a collection of environment variables for every user who's logged in.
-These variables hold key pieces of information about what's going on. For
-example, there's a variable called `SHELL` that says what shell you're running,
-a variable named `USER` which contains the username of the current user, another
-named `PWD` that contains the present working directory, and more.
-
-### Setting Variables
-
-You can control your environment by setting certain variables. Here are a few
-examples of how that's done:
-
-{% highlight console %}
-# set my_variable to the string "hello" (no spaces around the '='!)
-$ my_variable="hello"
-
-# assign to another_var and "export" it (see below)
-$ export another_var="some string"
-{% endhighlight %}
-
-The difference between using `export` and not using it deals with what programs
-are able to read the contents of that variable. If a variable is not exported,
-then only you will be able to read its contents. That is, none of the programs
-that you run will be able to see the value of the variable that you just set.
-
-In practice, you will almost always want to use `export` when setting variables.
-
-### Accessing Variables
-
-It helps to be able to check and print the value of environment variables! To
-access to contents of a variable, you have to use the `$` operator.
-
-{% highlight console %}
-# get the value of my_variable and print it
-$ echo $my_variable
-hello
-
-# print another_var surrounded by other text
-$ echo lone${another_var}s
-lonesome strings
-{% endhighlight %}
-
-Note that in the last example, had we not used `${...}` around the variable
-name, like `lone$another_vars`, bash would have tried to look up the contents
-of `another_vars`, not `another_var`. Since this is a different variable
-entirely, something incorrect would have been printed.
-
-## AFS
-
-AFS is a distributed file system that was invented at CMU. You have a quota of
-space and a home directory where you can put your files. You can access these
-files from any Andrew Unix server or cluster computer on campus.
+AFS stands for [Andrew File System] and is a distributed file system that was
+invented at CMU. You have a quota of space and a home directory where you can
+put your files. You can access these files from any Andrew Unix server or
+cluster computer on campus.
 
 When you're using AFS, there's a system of permissions (called access control
 lists, or ACLs) regulating who can access your files and what they can do to
@@ -164,3 +104,31 @@ Volume Name                    Quota       Used %Used   Partition
 user.jzimmerm                2000000     385982   19%         46%
 {% endhighlight %}
 
+
+## Recovering Lost Files
+
+CMU's AFS has a feature called OldFiles that keeps track of a snapshot of your
+home folder from the previous day.
+
+Look for it in `~/OldFiles`. This is a read-only nightly snapshot of your files
+that you can use to copy files you accidentally deleted back to where they
+should be. You can `cp` files out of it.
+
+If `~/OldFiles` is missing, there is probably still hope! Run the following
+commands (substitute your AndrewID for `ANDREW_ID_HERE`):
+
+{% highlight bash %}
+$ cd ~
+$ fs mkmount OldFiles user.ANDREW_ID_HERE.backup
+{% endhighlight %}
+
+Now you can look in `~/OldFiles` to find your backed up files.
+
+__Caution__: OldFiles only backs up your files once a day, so you
+could still lose up to a day of work if you need to restore from OldFiles.
+Also, OldFiles is a feature of Andrew Unix systems and most machines do not
+have such a system. Be careful when using `rm` and other destructive commands.
+{:.ui.warning.message}
+
+
+[Andrew File System]: https://en.wikipedia.org/wiki/Andrew_File_System

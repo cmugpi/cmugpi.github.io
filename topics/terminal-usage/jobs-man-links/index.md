@@ -4,7 +4,7 @@ title: "Jobs, Man Pages & Links"
 # What topic does this page belong to?
 group: 'terminal-usage'
 # Relative ordering of lessons within a topic
-order: 4
+order: 3
 ---
 
 

@@ -4,7 +4,7 @@ title: "Bash Scripting"
 # What topic does this page belong to?
 group: bash
 # Relative ordering of lessons within a topic
-order: 6
+order: 1
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js
@@ -17,138 +17,17 @@ order: 6
 # Bash Scripting
 {:.ui.dividing.header.no_toc}
 
-Everything we've covered about Bash up to now has really been Bash scripting in
-disguise. However, all that you've really seen is how to run single lines of
-code. While some of these single lines are really powerful, we can do better.
+Scripting is the process of taking a set of commands you'd normally run by hand
+and putting them in a file to automate the process. Bash is one of the most
+common languages used for scripting. While scripting is a subset of programming,
+the act is usually called "programming" once higher level language features come
+into play, like control flow, loops, and modules.
 
-Bash is a programming language like any other, and as such we can create files
-that contain Bash programs. We call these files "scripts" and the practice of
-creating them "scripting."
+We're going to introduce you to scripting in this class for two reasons:
 
-## Conditionals (if)
+1. As a way to automate tasks to make your life easier
+2. As a way to submit your work on labs
 
-The general syntax of a Bash if statement is
-
-{% highlight bash %}
-if <condition>; then
-  ...
-fi
-
-# OR
-
-if <condition>; then
-  ...
-else
-  ...
-fi
-{% endhighlight %}
-
-The condition is sort of tricky; Bash doesn't have boolean values like true and
-false. Instead, it has commands, and every command that you run in the shell has
-to return a _number_. When programs run to completion without an error, they
-return 0. When an error occurs, they return an error code, which is usually 1,
--1, or some other number that corresponds to the type of error that occurred.
-
-For the most part, we ignore this and coerce Bash into behaving as if it had
-booleans. To do this, we use the `test` program, which is abbreviated as `[`.
-For a comprehensive reference, see `man test`.  To see how it works though,
-let's see some examples:
-
-### Examples
-
-{% highlight bash %}
-# check if variable equals a string
-if [ "$myvar" = "something" ]; ...
-
-# check if variable doesn't equal a string
-if [ "$myvar" != "something" ]; ...
-
-# test if a file exists and is a regular file
-if [ -f "./myfile" ]; ...
-
-# test if a directory exists
-if [ -d "./myfile" ]; ...
-
-# test if a file exists (of any type)
-if [ -e "./myfile" ]; ...
-
-# test if a string is the empty string (length zero)
-if [ -z "$myvar" ]; ...
-
-# test if either of two conditions are true (logical or)
-if [ -z "$myvar" -o "$myvar" = "something" ]; ...
-{% endhighlight %}
-
-Again, for a complete list of flags you can use, check out `man test`.
-
-## Loops (for)
-
-We'll just be talking about `for` loops here, even though Bash also has while
-loops. While loops come up in a few programs, but for loops are _far_ more
-common. Syntax:
-
-{% highlight bash %}
-for myvar in <items>; do
-  ...
-  # can access current item with $myvar
-  ...
-done
-~~~
-{% endhighlight %}
-
-where `<items>` is a space-delimitted string. What happens is that `myvar`
-iteratively takes on the next "word" contained in `<items>`. `<items>` can be
-a valid Bash expressions, so you can loop over things like the contents of a
-variable, a Bash glob, or the result of a command substitution.
-
-### Examples
-
-{% highlight bash %}
-# .
-# ├── colors
-# │   ├── blue
-# │   ├── green
-# │   ├── red
-# │   └── white
-# └── seasons
-#     ├── fall
-#     ├── spring
-#     ├── summer
-#     └── winter
-
-
-# using a bash glob (bash globs exapand to space-separated strings)
-for file in *; do
-  echo $file
-done
-# output:
-# colors
-# seasons
-
-# using command substitution (the dictionary is newline-separated)
-for word in $(cat /usr/share/dict/words); do
-  echo "Current word: $word"
-done
-# output:
-# Current word: A
-# Current word: a
-# Current word: aa
-# Current word: aal
-# Current word: aalii
-# ...
-
-# using contents of a variable
-seasons="fall winter spring summer"
-for season in $seasons; do
-  echo $season
-done
-# output:
-# fall
-# winter
-# spring
-# summer
-
-{% endhighlight %}
 
 ## Putting Scripts in Files
 
@@ -159,13 +38,9 @@ Let's look at an example:
 {% highlight bash %}
 #!/usr/bin/env bash
 
-first_argument="$1"
+cd my-project
 
-if [ "$first_argument" = "hello" ]; then
-  echo 'Hello!'
-else
-  echo "Aww, you didn't say hi to me..."
-fi
+mv foo.txt backups/
 {% endhighlight %}
 
 First, notice the top line. This is what's called a _shebang_, and is basically
@@ -175,14 +50,13 @@ could have just as easily been writing a Python script and changed "bash" to
 "python").
 
 The rest of the file is just a sequence of Bash commands! That means we can do
-things like assign to variables (line 3) and include if statements (line 5).
+things like change directories and move files for example.
 
-### Getting Files to Run (chmod)
+## Getting Scripts to Run (chmod)
 
-Note that if you saved this file as "my-first-script.sh" and tried to run it
-(`./my-first-script.sh`), you'd get an error. If you remember back to [Running
-Executables][running-execs], we need to use `chmod` to give this file executable
-permissions:
+Note that if you saved the above file as "my-first-script.sh" and tried to run
+it (`./my-first-script.sh`), you'd get an error. We need to use `chmod` to give
+this file executable permissions:
 
 ~~~
 chmod +x my-first-script.sh
@@ -196,36 +70,143 @@ ending was used to differentiate a compiled binary (like one you'd get from
 compiling a C program) and a shell script.
 {:.ui.info.message}
 
-## Positional Parameters
+## Printing Text
 
-Notice that we used a special variable `$1` in the previous command. We didn't
-set it; rather, it was set for us before our Bash program started. It contains
-the first argument that the user specified at the command line after typing the
-command itself. Thus, we have to run
+One thing we often like to do is debug our scripts. Print statements are a great
+way to do this.
 
-~~~
-./my-first-script.sh hello
-~~~
+To print text, you can use the `echo` command, which just prints its arguments:
 
-in order for `$first_argument` to equal "hello" and get the program to say hi to
-us.
+{% highlight console %}
+$ echo Hello, world!
+Hello, world!
+{% endhighlight %}
 
-For more about positional parameters, check out [this page][posparams].
 
-## Bash Programming
+## Shell Variables (export)
 
-Bash is a very intricate and powerful language. It's much too large to be
-covered in full here; indeed, we've only scratched the surface. If you're
-looking for a good resource to read cover-to-cover, check out the tutorial by
-[The Linux Documentation Project][tldpbash].
+Bash keeps a collection of "environment" variables for every user who's logged
+in. These variables hold key pieces of information about what's going on. For
+example, there's a variable called `SHELL` that says what shell you're running,
+a variable named `USER` which contains the username of the current user, another
+named `PWD` that contains the present working directory, and more.
 
-Other than that, just be curious. A lot of the time, just recognizing that a
-particular Bash command would be handy to help you solve a problem is enough to
-form the beginnings of a Bash script. From there, well-formulated questions and
-Google searches will get you the rest of the way there.
+### Setting Variables
 
-[running-execs]: http://localhost:4000/~15131/topics/terminal-usage/files-commands/#running-executables-chmod
-[posparams]: http://wiki.bash-hackers.org/scripting/posparams
-[tldpbash]: http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
+You can control your environment by setting certain variables. Here are a few
+examples of how that's done:
+
+{% highlight bash %}
+# set my_variable to the string "hello" (no spaces around the '='!)
+$ my_variable="hello"
+
+# assign to another_var and "export" it (see below)
+$ export another_var="some string"
+{% endhighlight %}
+
+The difference between using `export` and not using it deals with what programs
+are able to read the contents of that variable. If a variable is not exported,
+then only you will be able to read its contents. That is, none of the programs
+that you run will be able to see the value of the variable that you just set.
+
+### Accessing Variables
+
+It helps to be able to check and print the value of environment variables! To
+access to contents of a variable, you have to use the `$` operator.
+
+{% highlight bash %}
+# get the value of my_variable and print it
+$ echo $my_variable
+hello
+
+# print another_var surrounded by other text
+$ echo lone${another_var}s
+lonesome strings
+
+# Sometimes using {...} is important:
+$ echo lone$another_vars
+lone
+{% endhighlight %}
+
+Note that in the last example only `lone` was printed. In Bash, all variables
+are treated as the empty string if not initialized, which was the case here.
+Not using `{...}` made the difference of not using the right variable name,
+causing something wrong to be printed.
+
+
+## Permissions
+
+Note: you should know that permissions exist, but we don't expect you to
+memorize this. Feel free to skim.
+
+To learn a little bit more about _why_ we have to run `chmod` to execute
+scripts, let's dive into file permissions. File permissions are a way to control
+what kinds of things can be done to a file, and by whom.
+
+In Unix, there are three granularities at which access can be controlled:
+- The __user__ who owns the file (abbreviated `u`)
+- The __group__ who owns the file (abbreviated `g`)
+- Any user (abbreviated `a`)
+
+Additionally, there are three actions that can be granted on a file:
+- The ability to __read__ that file or folder (abbreviated `r`)
+- The ability to __write__ to that file or folder (abbreviated `w`)
+- The ability to __execute__ that file as a program (abbreviated `x`)
+
+Combined, that's 3 x 3 = 9 permissions. We can see these in action using `ls
+-l`. The first column of output contains the permissions:
+
+{% highlight console %}
+$ ls -l
+total 4
+-rwxrwxrwx 1 jezimmer users   52 Sep  5 03:47 ALL-PERMISSIONS.txt
+drwxr-xr-x 2 jezimmer users 2048 Sep  5 03:47 backups/
+-rw-r--r-- 1 jezimmer users   52 Sep  5 03:47 my-file.txt
+-rw------- 1 jezimmer users   52 Sep  5 03:47 my-private-file.txt
+-rwxr-xr-x 1 jezimmer users   42 Sep  5 03:48 script.sh
+{% endhighlight %}
+
+The first column tells us whether it's a directory, but the next 9 tell us `r`,
+`w`, and `x` for the user, group, and all, in that order. A hyphen means that
+permission is not enabled.
+
+If we're thinking like hackers, we'd represent this information using 9 bits.
+And if we use a fancy numbering system called "octal" where numerals range from
+0 to 7 and take up 3 bits per numeral, we can write a permission using 3 octal
+numerals. For example:
+
+- 7 = 111
+- 6 = 110
+- 6 = 101
+- 4 = 100
+- 0 = 000
+
+(We don't usually get 1, 2, and 3, because that would mean we can't read the
+file, but we can write or execute it, which doesn't usually make sense).
+
+With our new numbering scheme, we can reinterpret our sequences of `rwxrwxrwx`:
+
+- `rwxrwxrwx` = 777
+- `rwxr-xr-x` = 755
+- `rw-r--r--` = 644
+- `rw-------` = 600
+
+### Permissions and `chmod`
+
+When you're invoking `chmod`, you have a number of ways to invoke it:
+
+{% highlight bash %}
+# Explicitly set all 9 bits
+$ chmod 600 my-file.txt
+
+# Set all three execute bits, keep everything else
+$ chmod +x my-file.txt
+
+# Reset all three execute bits, keep everything else
+$ chmod -x my-file.txt
+
+# Add write permissions for the group, keep everything else
+$ chmod g+w my-file.txt
+{% endhighlight %}
 
 
