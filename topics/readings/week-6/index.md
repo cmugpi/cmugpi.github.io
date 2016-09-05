@@ -19,8 +19,19 @@ order: 6
 
 ## Reading
 
-- [Input & Output][io]
-- [Regular Expressions][regex]
+The reading for this week is a bit of a mixup of topics.
 
-[io]:        {{ "/topics/bash/input-output/"        | prepend: site.baseurl }}
-[regex]:     {{ "/topics/bash/regular-expressions/" | prepend: site.baseurl }}
+- [Jobs, Man Pages, & Links]
+
+## Lab
+
+The lab for this week will draw upon the readings of the previous week. In
+particular, you may want to refer back to these:
+
+- [Globbing & Ranges]
+- [Regular Expressions]
+
+
+[Jobs, Man Pages, & Links]: {{ "/topics/terminal-usage/jobs-man-links/" | prepend: site.baseurl }}
+[Globbing & Ranges]:        {{ "/topics/bash/globbing-ranges/"          | prepend: site.baseurl }}
+[Regular Expressions]:      {{ "/topics/bash/regular-expressions/"      | prepend: site.baseurl }}

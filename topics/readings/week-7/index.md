@@ -19,6 +19,11 @@ order: 7
 
 ## Reading
 
-[Oneliners][oneliners]
+This week we'll be learning about one of Bash's most powerful features:
+oneliners!
 
-[oneliners]: {{ "/topics/bash/oneliners/" | prepend: site.baseurl }}
+- [Input & Output]
+- [Oneliners]
+
+[Input & Output]: {{ "/topics/bash/io/"   | prepend: site.baseurl }}
+[Oneliners]: {{ "/topics/bash/oneliners/" | prepend: site.baseurl }}

@@ -28,13 +28,13 @@ For more information, you should checkout the [syllabus].
 | ----      | -------         | -------------           |
 | ASAP      | [Initial setup] | -                       |
 | 9/1       | [Week 1]        | [Terminal usage][usage] |
-| 9/8       |                 |                         |
-| 9/15      |                 |                         |
-| 9/22      |                 |                         |
-| 9/29      |                 |                         |
-| 10/6      |                 |                         |
+| 9/8       | [Week 2]        | [Vim][vim]              |
+| 9/15      | [Week 3]        | [Vim][vim]              |
+| 9/22      | [Week 4]        | [Bash][bash]            |
+| 9/29      | [Week 5]        | [Bash][bash]            |
+| 10/6      | [Week 6]        | [Bash][bash]            |
 | 10/13     | -               | Midterm Exam            |
-| 10/20     |                 |                         |
+| 10/20     | [Week 7]        | [Bash][bash]            |
 | 10/27     |                 |                         |
 | 11/3      |                 |                         |
 | 11/10     |                 |                         |

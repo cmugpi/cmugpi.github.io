@@ -9,6 +9,15 @@ order: 1
 #scripts:
 #  - /javascripts/one.js
 #  - /javascripts/two.js
-redirect_to:
-  - ../../terminal-usage/files-commands/
 ---
+
+# Week 1
+
+## Reading
+
+If you haven't done the [Initial Setup], make sure you do that first.
+
+Once you're done, use [Files & Commands] to complete the lab.
+
+[Initial Setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
+[Files & Commands]: {{ "/topics/terminal-usage/files-commands" | prepend: site.baseurl }}

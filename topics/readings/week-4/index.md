@@ -19,8 +19,12 @@ order: 4
 
 ## Reading
 
-- [Terminal Environment & AFS][environment-afs]
-- [Strings][strings]
+There are three readings this week, but they're reasonably short.
 
-[environment-afs]: {{ "/topics/terminal-usage/environment-afs/" | prepend: site.baseurl }}
-[strings]:         {{ "/topics/bash/strings/"                   | prepend: site.baseurl }}
+- [Bash Scripting]
+- [Globbing & Ranges]
+- [Strings]
+
+[Bash Scripting]:    {{ "/topics/bash/bash-scripting/"  | prepend: site.baseurl }}
+[Globbing & Ranges]: {{ "/topics/bash/globbing-ranges/" | prepend: site.baseurl }}
+[strings]:           {{ "/topics/bash/strings/"         | prepend: site.baseurl }}
