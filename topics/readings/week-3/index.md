@@ -20,8 +20,17 @@ order: 3
 
 ## Reading
 
-- [Vim as Language][vim-language]
-- `vimtutor` (Lessons 3 onwards)
+- `vimtutor`
+  - Same as last week: run `vimtutor` from Andrew
+  - Complete lesson 3 onwards
   - There's a lot of stuff here, remember that memorization is not the goal!
 
-[vim-language]: http://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/
+## Lab
+
+You will also find this useful for solving the labs (you don't have to
+read this before class if you don't want to):
+
+- [Vim Cheatsheet]
+
+[Vim Cheatsheet]: {{ "/topics/vim/vim-cheatsheet.pdf" | prepend: site.baseurl }}
+
