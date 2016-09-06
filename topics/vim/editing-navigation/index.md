@@ -28,18 +28,21 @@ memorize what's listed here.
 | `j` | Move down                     |
 | `k` | Move up                       |
 | `l` | Move left, ('l' for 'letter') |
+{:.ui.striped.table}
 
 | Key | Description                                   |
 | --- | -----------                                   |
 | `w` | Forward one word, start at next word          |
 | `e` | Forward one word, stop at end of current word |
 | `b` | Back to nearest word start                    |
+{:.ui.striped.table}
 
 | Key | Description                                            |
 | --- | -----------                                            |
 | `W` | Same as `w`, but only use spaces for a word boundaries |
 | `E` | Same as `e`, but only use spaces for a word boundaries |
 | `B` | Same as `e`, but only use spaces for a word boundaries |
+{:.ui.striped.table}
 
 | Key         | Description                                                              |
 | ---         | -----------                                                              |
@@ -47,6 +50,7 @@ memorize what's listed here.
 | `t<letter>` | Move cursor right before next instance of `<letter>` in current line     |
 | `F<letter>` | Move cursor on top of previous instance of `<letter>` in current line    |
 | `T<letter>` | Move cursor right before previous instance of `<letter>` in current line |
+{:.ui.striped.table}
 
 | Key   | Description             |
 | ---   | -----------             |
@@ -54,6 +58,7 @@ memorize what's listed here.
 | `G`   | Bottom of file          |
 | `:20` | Line 20 of file         |
 | `}`   | Skip to next empty line |
+{:.ui.striped.table}
 
 | Key | Description                                  |
 | --- | -----------                                  |
@@ -61,6 +66,7 @@ memorize what's listed here.
 | `^` | Go to first non-whitespace character of line |
 | `$` | Go to end of line                            |
 | `%` | Go to matching paren or brace                |
+{:.ui.striped.table}
 
 
 ## Inserting
@@ -73,6 +79,7 @@ memorize what's listed here.
 | `A` | Insert at the __end__ of the line                             |
 | `o` | Insert new line __below__ this line                           |
 | `O` | Insert new line __above__ this line
+{:.ui.striped.table}
 
 
 ## Editing
@@ -83,6 +90,7 @@ memorize what's listed here.
 | `dd` | Delete the entire line                 |
 | `c`  | "Change": delete and enter insert mode |
 | `cc` | Change the entire line                 |
+{:.ui.striped.table}
 
 
 ## Operators & Motions
@@ -96,6 +104,7 @@ Operators can be combined with motions to operate on a certain hunk of text.
 | `df.` | Delete everything up to and including `.` |
 | `d4l` | Delete the next four letters              |
 | `d}`  | Delete until the next empty line          |
+{:.ui.striped.table}
 
 ## More
 
