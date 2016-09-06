@@ -44,8 +44,10 @@ to complete programming assignments.
 You will also find this useful for solving the labs (you don't have to
 read this before class if you don't want to):
 
+- [Editing & Navigation]
 - [Vim Cheatsheet]
 
 [Initial Setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 [Vim as Language]: {{ "/topics/vim/vim-as-language/" | prepend: site.baseurl }}
+[Vim as Language]: {{ "/topics/vim/editing-navigation/" | prepend: site.baseurl }}
 [Vim Cheatsheet]: {{ "/topics/vim/vim-cheatsheet.pdf" | prepend: site.baseurl }}
