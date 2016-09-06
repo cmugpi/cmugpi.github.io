@@ -49,5 +49,5 @@ read this before class if you don't want to):
 
 [Initial Setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 [Vim as Language]: {{ "/topics/vim/vim-as-language/" | prepend: site.baseurl }}
-[Vim as Language]: {{ "/topics/vim/editing-navigation/" | prepend: site.baseurl }}
+[Editing & Navigation]: {{ "/topics/vim/editing-navigation/" | prepend: site.baseurl }}
 [Vim Cheatsheet]: {{ "/topics/vim/vim-cheatsheet.pdf" | prepend: site.baseurl }}
