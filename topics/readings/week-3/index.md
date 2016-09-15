@@ -30,7 +30,9 @@ order: 3
 You will also find this useful for solving the labs (you don't have to
 read this before class if you don't want to):
 
+- [Searching, Substituting, Text Objects, and Yanking][notes]
 - [Vim Cheatsheet]
 
+[notes]: {{ "/topics/vim/search-sub-obj-yank/" | prepend: site.baseurl }}
 [Vim Cheatsheet]: {{ "/topics/vim/vim-cheatsheet.pdf" | prepend: site.baseurl }}
 
