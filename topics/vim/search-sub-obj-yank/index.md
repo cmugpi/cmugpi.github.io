@@ -33,6 +33,7 @@ Use all of these operators with a motion.
 | `y` | Yank (i.e., copy) text  |
 | `p` | Put (i.e., paste) text  |
 | `d` | Delete (i.e., cut) text |
+{:.ui.striped.table}
 
 
 ## Text Objects
@@ -59,6 +60,7 @@ text object's delimiters. The 'a' usually stands for 'around', meaning up to
 | `i>` | Same as above, but with `<...>` |
 | `it` | Same as above, but with HTML tags: `<section>...</section>` |
 | `ip` | Act on the current paragraph, not including the next newline |
+{:.ui.striped.table}
 
 | Key | Description |
 | --- | ----------- |
@@ -68,6 +70,7 @@ text object's delimiters. The 'a' usually stands for 'around', meaning up to
 | `a>` | Same as the 'i' variant, but include the enclosing angle brackets |
 | `at` | Same as the 'i' variant, but include the enclosing HTML tags |
 | `ap` | Same as the 'i' variant, but include the next newline too |
+{:.ui.striped.table}
 
 
 ## Visual Mode
@@ -82,6 +85,7 @@ Once you're in visual mode, you can use all the operators you're used to, like
 | --- | ----------- |
 | `v` | Enter `VISUAL` mode, selecting from a cursor start position to a cursor end position. |
 | `V` | Enter `VISUAL LINE` mode, selecting from a starting line to an ending line. |
+{:.ui.striped.table}
 
 
 
@@ -102,12 +106,14 @@ We want a way to
 | `n` | Go to the next occurence of the current search term |
 | `p` | Go to the previous occurence of the current search term |
 | `*` | Search for the word under the cursor |
+{:.ui.striped.table}
 
 | Key | Description |
 | --- | ----------- |
 | `:s/foo/bar/<ENTER>` | Replace the first occurence of 'foo' on the current line with 'bar' |
 | `:%s/foo/bar/<ENTER>` | Replace the first occurence of 'foo' on every line with 'bar' |
 | `:%s/foo/bar/g<ENTER>` | Replace every occurence of 'foo' on every line with 'bar' |
+{:.ui.striped.table}
 
 The `:s` command is actually quite powerful. It can take a range, which means it
 can operate on a sequence of the lines in the file. One easy way to specify
