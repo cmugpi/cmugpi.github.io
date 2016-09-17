@@ -20,5 +20,11 @@ order: 1
 - [Files & Commands]
   - Once you're done, use this to complete the first lab.
 
+## Lab
+
+The lab can be found on Autolab:
+
+- [WizardLab](https://autolab.andrew.cmu.edu/courses/15131-f16/assessments/wizardlab)
+
 [Initial Setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 [Files & Commands]: {{ "/topics/terminal-usage/files-commands" | prepend: site.baseurl }}

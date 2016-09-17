@@ -27,6 +27,10 @@ order: 3
 
 ## Lab
 
+The lab can be found on Autolab:
+
+- [TrainerLab](https://autolab.andrew.cmu.edu/courses/15131-f16/assessments/trainerlab)
+
 You will also find this useful for solving the labs (you don't have to
 read this before class if you don't want to):
 
