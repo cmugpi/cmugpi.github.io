@@ -18,4 +18,4 @@ Commands] for help.
 [Download]
 
 [Files & Commands]: {{ "/topics/terminal-usage/files-commands/" | prepend: site.baseurl }}
-[Download]: groblab.tar
+[Download]: groblab-linux.tar
