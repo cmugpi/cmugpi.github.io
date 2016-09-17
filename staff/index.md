@@ -49,6 +49,23 @@ whole course staff.
 {% endfor %}
 </div>
 
+## Office Hours
+
+Location: Gates 5 teaching commons (unless otherwise specified)
+
+- **Monday**
+  - 4:30 p.m. - 5:30 p.m. (Jake)
+- **Tuesday**
+  - 5:00 p.m. - 6:00 p.m. (Jordan)
+- **Wednesday**
+  - 2:00 p.m. - 3:00 p.m. (Wilson)
+- **Thursday**
+  - 6:00 p.m. - 7:00 p.m. (Everi)
+- **Friday**
+  - 2:30 p.m. - 3:30 p.m. (Matthew)
+  - 3:30 p.m. - 4:30 p.m. (Andrew)
+
+
 # Attribution
 {:.ui.dividing.header.no_toc}
 
