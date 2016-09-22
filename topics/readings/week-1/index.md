@@ -24,7 +24,7 @@ order: 1
 
 The lab can be found on Autolab:
 
-- [WizardLab](https://autolab.andrew.cmu.edu/courses/15131-f16/assessments/wizardlab)
+- [TrainerLab](https://autolab.andrew.cmu.edu/courses/15131-f16/assessments/trainerlab)
 
 [Initial Setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 [Files & Commands]: {{ "/topics/terminal-usage/files-commands" | prepend: site.baseurl }}
