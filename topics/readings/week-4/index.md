@@ -25,6 +25,13 @@ There are three readings this week, but they're reasonably short.
 - [Globbing & Ranges]
 - [Strings]
 
+## Lab
+
+The lab can be found on Autolab:
+
+- [ForceLab](https://autolab.andrew.cmu.edu/courses/15131-f16/assessments/forcelab)
+
+
 [Bash Scripting]:    {{ "/topics/bash/bash-scripting/"  | prepend: site.baseurl }}
 [Globbing & Ranges]: {{ "/topics/bash/globbing-ranges/" | prepend: site.baseurl }}
 [strings]:           {{ "/topics/bash/strings/"         | prepend: site.baseurl }}
