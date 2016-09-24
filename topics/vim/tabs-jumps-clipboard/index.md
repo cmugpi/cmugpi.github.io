@@ -31,6 +31,7 @@ when you want to open and work with multiple files at the same time.
 | `gt` | Cycle forward through your open tabs |
 | `gT` | Cycle backward through your open tabs |
 | `Ngt` | Go to the Nth tab |
+{.ui.striped.table}
 
 | Key | Description |
 | --- | ----------- |
@@ -40,6 +41,7 @@ when you want to open and work with multiple files at the same time.
 | `^W j` | Go to the split below |
 | `^W k` | Go to the split above |
 | `^W l` | Go to the split to the right |
+{.ui.striped.table}
 
 
 ## Jumping
@@ -63,6 +65,7 @@ We've already seen some of these, and others are new.
 | `{` | Jump backward by one paragraph |
 | `^O` | Jump "out" to where you were before your last jump |
 | `^I` | Jump "in" to where you were before jumping out |
+{.ui.striped.table}
 
 
 ## Copying & Pasting
