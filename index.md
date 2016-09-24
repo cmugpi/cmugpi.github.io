@@ -60,7 +60,7 @@ We'll be posting the extratation schedule here.
 | 9/3       | [First Week Worktime]        | [Terminal Usage][usage] |
 | 9/10      | [Shell Shortcuts]            | [Terminal Usage][usage] |
 | 9/17      | [Commands Booster Pack]      | [Terminal Usage][usage] |
-| 9/24      | Vim: Feature Showcase        | [Vim][vim]              |
+| 9/24      | [Vim: Navigation Showcase]   | [Vim][vim]              |
 | 10/1      | Vim: Feature Showcase        | [Vim][vim]              |
 | 10/8      | Midterm Review               |                         |
 | 10/15     | Job Control Puzzles          | [Terminal Usage][usage] |
@@ -112,3 +112,4 @@ are there as additional resources.
 [First Week Worktime]: {{ "/topics/extratations/first-week-worktime/" | prepend: site.baseurl }}
 [Shell Shortcuts]: {{ "/topics/extratations/shell-shortcuts/" | prepend: site.baseurl }}
 [Commands Booster Pack]: {{ "/topics/extratations/command-booster-pack/" | prepend: site.baseurl }}
+[Vim: Navigation Showcase]: {{ "/topics/extratations/vim-navigation-showcase/" | prepend: site.baseurl }}
