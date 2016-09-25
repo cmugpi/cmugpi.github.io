@@ -149,9 +149,13 @@ another string. The Unix tool `sed` has a feature that lets us accomplish this.
 (In fact, `sed` can do [many more things][sed], but we'll just be looking at the find
 and replace features). It's syntax (for our use cases specifically) is:
 
-~~~
+{% highlight bash %}
+# Replace the first occurence of "<find>" on each line with "<replace>"
 $ sed -e 's/<find>/<replace>/' [<file> ...]
-~~~
+
+# Replace the all occurences of "<find>" on each line with "<replace>"
+$ sed -e 's/<find>/<replace>/g' [<file> ...]
+{% endhighlight %}
 
 As with `grep`, including one or more files is optional. It reads from `stdin`
 when no file is specified.
