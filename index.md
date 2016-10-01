@@ -24,24 +24,24 @@ For more information, you should checkout the [syllabus].
 
 **NOTE**: We are still tweaking the schedule, and it is subject to change.
 
-| Date      | Reading         | Lecture Topic           |
-| ----      | -------         | -------------           |
-| ASAP      | [Initial setup] | -                       |
-| 9/1       | [Week 1]        | [Terminal usage][usage] |
-| 9/8       | [Week 2]        | [Vim][vim]              |
-| 9/15      | [Week 3]        | [Vim][vim]              |
-| 9/22      | [Week 4]        | [Bash][bash]            |
-| 9/29      | [Week 5]        | [Bash][bash]            |
-| 10/6      | [Week 6]        | [Bash][bash]            |
-| 10/13     | -               | Midterm Exam            |
-| 10/20     | [Week 7]        | [Bash][bash]            |
-| 10/27     |                 |                         |
-| 11/3      |                 |                         |
-| 11/10     |                 |                         |
-| 11/17     |                 |                         |
-| __11/24__ | -               | __Thanksgiving__        |
-| 12/1      |                 |                         |
-| 12/8      | -               | Final Exam              |
+| Date      | Reading         | Lecture Topic                    |
+| ----      | -------         | -------------                    |
+| ASAP      | [Initial setup] | -                                |
+| 9/1       | [Week 1]        | [Terminal usage][usage]          |
+| 9/8       | [Week 2]        | [Vim][vim]                       |
+| 9/15      | [Week 3]        | [Vim][vim]                       |
+| 9/22      | [Week 4]        | [Bash][bash]                     |
+| 9/29      | [Week 5]        | [Bash][bash]                     |
+| 10/6      | [Week 6]        | [Bash][bash]                     |
+| 10/13     | -               | Midterm Exam                     |
+| 10/20     | [Week 7]        | [Bash][bash]                     |
+| 10/27     |                 | [Git][git]                       |
+| 11/3      |                 | [Git][git]                       |
+| 11/10     |                 | [LaTeX][latex]                   |
+| 11/17     |                 | [Terminal Configuration][config] |
+| __11/24__ | -               | __Thanksgiving__                 |
+| 12/1      | Final Thoughts  | (misc.)                          |
+| 12/8      | -               | Final Exam                       |
 {:.ui.striped.table}
 
 ## Extratations
@@ -63,7 +63,7 @@ We'll be posting the extratation schedule here.
 | 9/24      | [Vim: Navigation Showcase]   | [Vim][vim]              |
 | 10/1      | [Vim: Editing Showcase]      | [Vim][vim]              |
 | 10/8      | Midterm Review               |                         |
-| 10/15     | Job Control Puzzles          | [Terminal Usage][usage] |
+| 10/15     | Digital Currencies           | (misc.)                 |
 | 10/22     | Technical Interview Practice | (misc.)                 |
 | 10/29     | Tmux, and Other Tools        | (misc.)                 |
 | 11/5      | Vim as an IDE                | [Vim][vim]              |
