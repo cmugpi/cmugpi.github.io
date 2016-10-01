@@ -35,9 +35,9 @@ For more information, you should checkout the [syllabus].
 | 10/6      | [Week 6]        | [Bash][bash]                     |
 | 10/13     | -               | Midterm Exam                     |
 | 10/20     | [Week 7]        | [Bash][bash]                     |
-| 10/27     |                 | [Git][git]                       |
+| 10/27     |                 | [LaTeX][latex]                   |
 | 11/3      |                 | [Git][git]                       |
-| 11/10     |                 | [LaTeX][latex]                   |
+| 11/10     |                 | [Git][git]                       |
 | 11/17     |                 | [Terminal Configuration][config] |
 | __11/24__ | -               | __Thanksgiving__                 |
 | 12/1      | Final Thoughts  | (misc.)                          |
