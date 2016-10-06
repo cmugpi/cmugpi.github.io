@@ -23,15 +23,18 @@ The reading for this week is a bit of a mixup of topics.
 
 - [Jobs, Man Pages, & Links]
 
-## Lab
+## Review
 
-The lab for this week will draw upon the readings of the previous week. In
-particular, you may want to refer back to these:
+Next week is the midterm! It will cover everything up to and including this
+week.
 
-- [Globbing & Ranges]
-- [Regular Expressions]
+There is no lab for this week. To help you practice the topics you learned
+today, here's a short review:
+
+- [Midterm Review]
 
 
 [Jobs, Man Pages, & Links]: {{ "/topics/terminal-usage/jobs-man-links/" | prepend: site.baseurl }}
 [Globbing & Ranges]:        {{ "/topics/bash/globbing-ranges/"          | prepend: site.baseurl }}
 [Regular Expressions]:      {{ "/topics/bash/regular-expressions/"      | prepend: site.baseurl }}
+[Midterm Review]:            midterm-review.pdf
