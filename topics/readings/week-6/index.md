@@ -32,9 +32,11 @@ There is no lab for this week. To help you practice the topics you learned
 today, here's a short review:
 
 - [Midterm Review]
+- [Midterm Review (Sample Answers)][Sample Answers]
 
 
 [Jobs, Man Pages, & Links]: {{ "/topics/terminal-usage/jobs-man-links/" | prepend: site.baseurl }}
 [Globbing & Ranges]:        {{ "/topics/bash/globbing-ranges/"          | prepend: site.baseurl }}
 [Regular Expressions]:      {{ "/topics/bash/regular-expressions/"      | prepend: site.baseurl }}
 [Midterm Review]:            midterm-review.pdf
+[Sample Answers]:            midterm-review-answers.pdf
