@@ -17,7 +17,7 @@ already know to quickly do things that would have been hard to do otherwise.
 
 ## Globbing
 
-Part of Bash's power comes from it's ability to carry out file name expansion in
+Part of Bash's power comes from its ability to carry out file name expansion in
 a process known as "globbing". Globbing is a process whereby certain special
 "wildcard" symbols are expanded into a matching set of filenames.
 
