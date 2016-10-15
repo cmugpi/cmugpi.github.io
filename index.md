@@ -93,6 +93,7 @@ are there as additional resources.
 [usage]:  {{ "/topics/terminal-usage/"         | prepend: site.baseurl }}
 [vim]:    {{ "/topics/vim/"                    | prepend: site.baseurl }}
 [bash]:   {{ "/topics/bash/"                   | prepend: site.baseurl }}
+[latex]:  {{ "/topics/latex/"                  | prepend: site.baseurl }}
 [config]: {{ "/topics/terminal-configuration/" | prepend: site.baseurl }}
 [git]:    {{ "/topics/git/"                    | prepend: site.baseurl }}
 
