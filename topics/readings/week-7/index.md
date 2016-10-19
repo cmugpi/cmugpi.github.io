@@ -25,5 +25,5 @@ oneliners!
 - [Input & Output]
 - [Oneliners]
 
-[Input & Output]: {{ "/topics/bash/io/"   | prepend: site.baseurl }}
+[Input & Output]: {{ "/topics/bash/input-ouput/"   | prepend: site.baseurl }}
 [Oneliners]: {{ "/topics/bash/oneliners/" | prepend: site.baseurl }}
