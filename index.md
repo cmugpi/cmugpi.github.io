@@ -50,6 +50,7 @@ Throughout the semester, we'll be holding extra workshops and talks outside of
 class, dubbed "extratations", to explore topics that we don't want to test you
 on but that you might find interesting.
 
+Time and Location:
 - Saturdays at 2:00 p.m. @ WEH 4709
 - Sundays at 4:00 p.m. @ WEH 5320
 
@@ -64,13 +65,18 @@ We'll be posting the extratation schedule here.
 | 10/1      | [Vim: Editing Showcase]      | [Vim][vim]              |
 | 10/8      | Midterm Review               |                         |
 | 10/15     | Job Control Puzzles          | (misc.)                 |
-| 10/22     | Technical Interview Practice | (misc.)                 |
-| 10/29     | Tmux, and Other Tools        | (misc.)                 |
+| 10/22     | Tmux, and Other Tools        | (misc.)                 |
+| 10/23     | Tmux, and Other Tools        | (misc.)                 |
+| 10/29     | Technical Interview Practice | (misc.)                 |
+| 10/30     | Technical Interview Practice | (misc.)                 |
 | 11/5      | Vim as an IDE                | [Vim][vim]              |
-| 11/12     | Configuring Vim              | [Vim][vim]              |
-| 11/19     | Writing at the Command Line  | (misc.)                 |
+| 11/6      | Vim as an IDE                | [Vim][vim]              |
+| 11/12     | Digital Currencies           | (misc.)                 |
+| 11/13     | Digital Currencies           | (misc.)                 |
+| 11/19     | Configuring Vim              | [Vim][vim]              |
+| 11/20     | Writing at the Command Line  | (misc.)                 |
 | __11/26__ | __Thanksgiving__             |                         |
-| 12/3      |  Final Exam Review           |                         |
+| 12/3      | Final Exam Review            |                         |
 {:.ui.striped.table}
 
 
