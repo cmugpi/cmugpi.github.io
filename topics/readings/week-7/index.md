@@ -25,5 +25,11 @@ oneliners!
 - [Input & Output]
 - [Oneliners]
 
+## Lab
+
+The lab can be found on Autolab:
+
+- [PipeLab](https://autolab.andrew.cmu.edu/courses/15131-f16/assessments/pipelab)
+
 [Input & Output]: {{ "/topics/bash/input-output/"   | prepend: site.baseurl }}
-[Oneliners]: {{ "/topics/bash/oneliners/" | prepend: site.baseurl }}
+[Oneliners]:      {{ "/topics/bash/oneliners/"      | prepend: site.baseurl }}

@@ -9,6 +9,17 @@ order: 5
 #scripts:
 #  - /javascripts/one.js
 #  - /javascripts/two.js
-redirect_to:
-- ../../bash/regular-expressions/
 ---
+
+## Reading
+
+- [Regular Expressions]
+
+[Regular Expressions]: {{ "/topics/terminal-usage/jobs-man-links/" | prepend: site.baseurl }}
+
+## Lab
+
+The lab can be found on Autolab:
+
+- [ZombieLab](https://autolab.andrew.cmu.edu/courses/15131-f16/assessments/zombielab)
+
