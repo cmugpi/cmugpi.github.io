@@ -50,8 +50,8 @@ Throughout the semester, we'll be holding extra workshops and talks outside of
 class, dubbed "extratations", to explore topics that we don't want to test you
 on but that you might find interesting.
 
-- Location: WEH 4709
-- Time: Saturdays at 2:00 p.m.
+- Saturdays at 2:00 p.m. @ WEH 4709
+- Sundays at 4:00 p.m. @ WEH 5320
 
 We'll be posting the extratation schedule here.
 
@@ -63,7 +63,7 @@ We'll be posting the extratation schedule here.
 | 9/24      | [Vim: Navigation Showcase]   | [Vim][vim]              |
 | 10/1      | [Vim: Editing Showcase]      | [Vim][vim]              |
 | 10/8      | Midterm Review               |                         |
-| 10/15     | Digital Currencies           | (misc.)                 |
+| 10/15     | Job Control Puzzles          | (misc.)                 |
 | 10/22     | Technical Interview Practice | (misc.)                 |
 | 10/29     | Tmux, and Other Tools        | (misc.)                 |
 | 11/5      | Vim as an IDE                | [Vim][vim]              |
