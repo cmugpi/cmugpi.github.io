@@ -56,27 +56,27 @@ Time and Location:
 
 We'll be posting the extratation schedule here.
 
-| Date      | Notes                        | Extratation Topic       |
-| ----      | -----                        | -----------------       |
-| 9/3       | [First Week Worktime]        | [Terminal Usage][usage] |
-| 9/10      | [Shell Shortcuts]            | [Terminal Usage][usage] |
-| 9/17      | [Commands Booster Pack]      | [Terminal Usage][usage] |
-| 9/24      | [Vim: Navigation Showcase]   | [Vim][vim]              |
-| 10/1      | [Vim: Editing Showcase]      | [Vim][vim]              |
-| 10/8      | Midterm Review               |                         |
-| 10/15     | Midterm Explanations         |                         |
-| 10/22     | [Tmux, and Other Tools]      | [Terminal Usage][usage] |
-| 10/23     | [Tmux, and Other Tools]      | [Terminal Usage][usage] |
-| 10/29     | Technical Interview Practice | (misc.)                 |
-| 10/30     | Technical Interview Practice | (misc.)                 |
-| 11/5      | Vim as an IDE                | [Vim][vim]              |
-| 11/6      | Vim as an IDE                | [Vim][vim]              |
-| 11/12     | Digital Currencies           | (misc.)                 |
-| 11/13     | Digital Currencies           | (misc.)                 |
-| 11/19     | Configuring Vim              | [Vim][vim]              |
-| 11/20     | Writing at the Command Line  | (misc.)                 |
-| __11/26__ | __Thanksgiving__             |                         |
-| 12/3      | Final Exam Review            |                         |
+| Date      | Notes                          | Extratation Topic       |
+| ----      | -----                          | -----------------       |
+| 9/3       | [First Week Worktime]          | [Terminal Usage][usage] |
+| 9/10      | [Shell Shortcuts]              | [Terminal Usage][usage] |
+| 9/17      | [Commands Booster Pack]        | [Terminal Usage][usage] |
+| 9/24      | [Vim: Navigation Showcase]     | [Vim][vim]              |
+| 10/1      | [Vim: Editing Showcase]        | [Vim][vim]              |
+| 10/8      | Midterm Review                 |                         |
+| 10/15     | Midterm Explanations           |                         |
+| 10/22     | [Tmux, and Other Tools]        | [Terminal Usage][usage] |
+| 10/23     | [Tmux, and Other Tools]        | [Terminal Usage][usage] |
+| 10/29     | [Technical Interview Practice] | (misc.)                 |
+| 10/30     | [Technical Interview Practice] | (misc.)                 |
+| 11/5      | Vim as an IDE                  | [Vim][vim]              |
+| 11/6      | Vim as an IDE                  | [Vim][vim]              |
+| 11/12     | Digital Currencies             | (misc.)                 |
+| 11/13     | Digital Currencies             | (misc.)                 |
+| 11/19     | Configuring Vim                | [Vim][vim]              |
+| 11/20     | Writing at the Command Line    | (misc.)                 |
+| __11/26__ | __Thanksgiving__               |                         |
+| 12/3      | Final Exam Review              |                         |
 {:.ui.striped.table}
 
 
@@ -122,3 +122,4 @@ are there as additional resources.
 [Vim: Navigation Showcase]: {{ "/topics/extratations/vim-navigation-showcase/" | prepend: site.baseurl }}
 [Vim: Editing Showcase]: {{ "/topics/extratations/vim-editing-showcase/" | prepend: site.baseurl }}
 [Tmux, and Other Tools]: {{ "/topics/extratations/tmux-and-other-tools.pdf" | prepend: site.baseurl }}
+[Technical Interview Practice]: {{ "/topics/extratations/interview-practice.pdf" | prepend: site.baseurl }}
