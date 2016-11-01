@@ -64,9 +64,9 @@ We'll be posting the extratation schedule here.
 | 9/24      | [Vim: Navigation Showcase]   | [Vim][vim]              |
 | 10/1      | [Vim: Editing Showcase]      | [Vim][vim]              |
 | 10/8      | Midterm Review               |                         |
-| 10/15     | Job Control Puzzles          | (misc.)                 |
-| 10/22     | Tmux, and Other Tools        | (misc.)                 |
-| 10/23     | Tmux, and Other Tools        | (misc.)                 |
+| 10/15     | Midterm Explanations         |                         |
+| 10/22     | [Tmux, and Other Tools]      | [Terminal Usage][usage] |
+| 10/23     | [Tmux, and Other Tools]      | [Terminal Usage][usage] |
 | 10/29     | Technical Interview Practice | (misc.)                 |
 | 10/30     | Technical Interview Practice | (misc.)                 |
 | 11/5      | Vim as an IDE                | [Vim][vim]              |
@@ -121,3 +121,4 @@ are there as additional resources.
 [Commands Booster Pack]: {{ "/topics/extratations/command-booster-pack/" | prepend: site.baseurl }}
 [Vim: Navigation Showcase]: {{ "/topics/extratations/vim-navigation-showcase/" | prepend: site.baseurl }}
 [Vim: Editing Showcase]: {{ "/topics/extratations/vim-editing-showcase/" | prepend: site.baseurl }}
+[Tmux, and Other Tools]: {{ "/topics/extratations/tmux-and-other-tools.pdf" | prepend: site.baseurl }}

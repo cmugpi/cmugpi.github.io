@@ -25,6 +25,10 @@ oneliners!
 - [Input & Output]
 - [Oneliners]
 
+## Slides
+
+- [oneliners.pdf](oneliners.pdf)
+
 ## Lab
 
 The lab can be found on Autolab:
