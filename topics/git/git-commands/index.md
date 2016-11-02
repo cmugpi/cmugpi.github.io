@@ -29,29 +29,11 @@ to track. In each repository, you can commit files and folders and have git
 remember what changes you have made. You can also push your changes so that
 people you're working with can see them.
 
-We'll be dividing the set of things you might want to do into "collaborative"
-and "private" actions for the sake of organization. In reality, these lines are
-a bit blurred.
-
-## "Private" Actions
-
-### I would like to know what in the world is going on:
-
-{% highlight bash %}
-$ git status
-
-AND
-
-$ git log --pretty=oneline --abbrev-commit --decorate --graph --all
-# or without as much information,
-$ git log
-{% endhighlight %}
-
-Get used to running these commands after you run any other Git command.
+## Getting Yourself a Git Repository
 
 ### Creating a new, local repo:
 
-{% highlight console %}
+{% highlight bash %}
 $ mkdir <my-repo-name>
 $ cd <my-repo-name>
 $ git init
@@ -61,7 +43,39 @@ OR
 git init <my-repo-name>
 {% endhighlight %}
 
-### "Stage" a files changes (staging comes before commiting):
+If you're not starting a new project but are making changes to a project that
+already exists, it makes more sense to "clone" the repo - that means to download
+a copy of a git repository stored somewhere else.
+
+### Cloning a shared, upstream repo
+
+{% highlight bash %}
+# If your upstream is for example, a folder on AFS
+$ git clone <path to bare> [optional directory to create]
+
+# If your upstream is online, like on GitHub
+$ git clone https://example.com/my/repo [optional directory to create]
+{% endhighlight %}
+
+Now that you have a git repository on your computer, you will be able to
+examine the status of the git repository and make commits.
+
+## Making and Committing Changes
+
+After creating, deleting, or editing some files, you can ask git to tell you
+which files have been modified since the last commit.
+
+### Finding the current state of the git repo:
+
+{% highlight bash %}
+$ git status
+{% endhighlight %}
+
+Get used to running this command often!
+
+In order to commit a change or a set of changes, you must "stage" them first.
+
+### "Stage" a file's changes (staging comes before committing):
 
 {% highlight bash %}
 # stage files by name
@@ -78,10 +92,25 @@ It's better to create many small commits rather than one big one, which is why
 it's better to use the first version to stage specific files. This lets you
 create a commit corresponding to a specific change.
 
+There's even more you can do with the staging area - be sure to checkout the
+section on "More On The Staging Area" later on this page.
+
+Sometimes you want to know not just which files you've changed and/or staged,
+but also what in the file was changed.
+
+### Seeing what I've changed:
+
+{% highlight bash %}
+$ git diff
+{% endhighlight %}
+
+Once you have staged all the changes you want for a commit, you can tell git to
+make a commit.
+
 ### Committing a set of changes:
 
 {% highlight bash %}
-# if you're already run `git add`
+# if you've already run `git add`
 $ git commit
 
 # If you haven't run `git add`
@@ -91,66 +120,99 @@ $ git commit -a
 git commit -m
 {% endhighlight %}
 
-### Seeing what I've changed:
+Now that you've made a commit, it will show up in git's record of commits.
 
-{% highlight console %}
-$ git diff
+### Checking the commit history
+
+{% highlight bash %}
+$ git log --pretty=oneline --abbrev-commit --decorate --graph --all
+# Shorter to type, but without as much information:
+$ git log
 {% endhighlight %}
 
-### Seeing what the last commit changed:
+You will be using this command a lot too!
 
-{% highlight console %}
+You can always check what the last commit changed.
+
+### Show the changes in the most recent commit:
+
+{% highlight bash %}
 $ git show -p HEAD
 {% endhighlight %}
 
+Sometimes you want to "undo" a commit. You can do this in git by reverting the
+commit. This creates a new commit that undoes all the changes of the commit.
+
 ### Revert the changes a commit introduced:
 
-{% highlight console %}
+{% highlight bash %}
 $ git revert <commit hash>
 {% endhighlight %}
 
-### Completely reset the repo to what it looked like at the last commit:
+## Branches
+
+If you'd like to make a lot of commits and keep them logically separate for a
+while, while still sharing them with other people, you can use branches. This is
+frequently used when adding a large feature to a project: you work on the new
+feature in a new branch, leaving the master branch clean for others (or
+yourself) to make bugfixes; then, when the new feature is stable, you merge it
+back into the master branch.
+
+### Creating a new branch and switching to it
 
 {% highlight bash %}
-# This will destroy your current changes!
-$ git reset --hard
+$ git checkout -b <branchname>
 {% endhighlight %}
 
+(Yes, the naming of this command is kind of inane. It's equivalent to running
+`git branch <branchname>` to create the branch, and then `git checkout
+branchname` to switch to it.)
 
-## "Collaborative" Actions
-
-### Set up a shared, upstream repository
+### Listing your branches
 
 {% highlight bash %}
-$ mkdir <my-repo-name>
-$ cd <my-repo-name>
-$ git init --bare
-
-OR
-
-git init --bare <my-repo-name>
+$ git branch
 {% endhighlight %}
 
-The trickiest part to getting a shared bare repo to work is to make sure that
-the [AFS permissions][acls] are correct.
+The one you are currently on will have a star next to it.
 
-### Cloning a shared, upstream repo
+### Switching branches
 
 {% highlight bash %}
-# If your upstream is for example, a folder on AFS
-$ git clone <path to bare> [optional directory to create]
-
-# If your upstream is online, like on GitHub
-$ git clone https://example.com/my/repo [optional directory to create]
+$ git checkout <branchname>
 {% endhighlight %}
+
+Now you can make changes and commit as usual on any new branch you create. At
+some point though, you'll want to merge the changes made on one branch to your
+"main" branch.
+
+### Merging branches
+
+{% highlight bash %}
+$ git merge <branchname>
+{% endhighlight %}
+
+This will merge the branch called "branchname" into your current branch. So if
+you want to merge "branchname" into the master branch, you should `git checkout`
+the master branch, then run `git merge <branchname>`. This will pull in all the
+changes from the branch into the master branch. You may have to resolve some
+conflicting changes by hand.
+
+## Pushing
+
+Earlier on, you may have "cloned" your git repository from another place like
+Github. So there you were downloading changes to a git repository. You can also
+upload changes, which we call "pushing".
 
 ### Sharing your changes with everyone
 
 {% highlight bash %}
 $ git push origin master
-# you may have to replace "origin" with the name of the
-upstream you want to push to, and "master" with the branch
 {% endhighlight %}
+
+You may have to replace "origin" with the name of the upstream you want to push
+to (if you cloned the repository, it will be "origin" by default). You may also
+have to replace "master" with the branch you want to push changes from.
 
 There's a trick you can do to shorten this command:
 
@@ -163,8 +225,7 @@ $ git push -u origin master
 $ git push
 {% endhighlight %}
 
-
-## The Staging Area
+## More On The Staging Area
 
 So far, all of the commands discussed have dealt with the files in your
 directory (the "working tree"), the local repository, and possibly a remote
@@ -196,45 +257,7 @@ git reset can remove them:
 Once you have modified the index to your liking, you can commit the staged
 changes with a simple git commit (no arguments!).
 
-
-## Working on a Large Feature
-
-If you'd like to make a lot of commits and keep them logically separate for a
-while, while still sharing them with other people, you can use branches. This is
-frequently used when adding a large feature to a project: you work on the new
-feature in a new branch, leaving the master branch clean for others (or
-yourself) to make bugfixes; then, when the new feature is stable, you merge it
-back into the master branch.
-
-To create a new local branch, you can say `git checkout -b <branchname>`. (Yes,
-the naming of this command is kind of inane. It's equivalent to running `git
-branch <branchname>` to create the branch, and then `git checkout branchname` to
-switch to it.)
-
-You can see what branches exist using `git branch` with no arguments. The one
-you are currently on will have a star next to it.
-
-Now you can make changes and commit as usual on the new branch. You can switch
-between branches using `git checkout <branchname>`.
-
-To share your branch with everyone else, do `git push <branchname>`. You'll also
-want to run `git branch --set-upstream <branchname> remotes/origin/` so that
-when you pull, git will know how to update your new branch.
-
-To use a branch that someone else has added to a remote repository, do `git
-checkout --track -b <branchname> origin/<branchname>`.
-
-When you're done with the new branch and ready to combine it into your main one,
-switch to the master branch (using `git checkout master`) and do
-`git merge <branchname>`. This will pull in all the changes from the branch (as
-usual when merging, you may have to resolve conflicting changes by hand).
-
-
 ## Troubleshooting
 
 You can use the Git man page: `man git` to see an overview, or
 `git help <command>` to open the man page for each individual git command.
-
-
-
-[acls]: {{ "/topics/terminal-usage/environment-afs/#acls-fs" | prepend: site.baseurl }}
