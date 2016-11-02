@@ -53,7 +53,7 @@ a copy of a git repository stored somewhere else.
 # If your upstream is for example, a folder on AFS
 $ git clone <path to bare> [optional directory to create]
 
-# If your upstream is online, like on GitHub
+# If your upstream is hosted online, like on GitHub
 $ git clone https://example.com/my/repo [optional directory to create]
 {% endhighlight %}
 
@@ -183,8 +183,8 @@ $ git checkout <branchname>
 {% endhighlight %}
 
 Now you can make changes and commit as usual on any new branch you create. At
-some point though, you'll want to merge the changes made on one branch to your
-"main" branch.
+some point, you'll want to merge the changes made on one branch to your "main"
+branch.
 
 ### Merging branches
 
@@ -200,7 +200,7 @@ conflicting changes by hand.
 
 ## Pushing
 
-Earlier on, you may have "cloned" your git repository from another place like
+Earlier on, you may have "cloned" your git repository from another place, like
 Github. So there you were downloading changes to a git repository. You can also
 upload changes, which we call "pushing".
 
@@ -210,9 +210,9 @@ upload changes, which we call "pushing".
 $ git push origin master
 {% endhighlight %}
 
-You may have to replace "origin" with the name of the upstream you want to push
-to (if you cloned the repository, it will be "origin" by default). You may also
-have to replace "master" with the branch you want to push changes from.
+You may have to replace "origin" with the name of the upstream to which you want
+to push (if you cloned the repository, it will be "origin" by default). You may
+also have to replace "master" with the branch you want to push changes from.
 
 There's a trick you can do to shorten this command:
 
