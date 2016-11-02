@@ -179,7 +179,7 @@ use various forms of the git add command.
 
 - `git add <files>` - add the listed files to the index
 - `git add -p` - interactively add "hunks" to the index. This examines all files
-  tracked by the repository, detects the sections that have individually, and
+  tracked by the repository, detects the sections that have been modified, and
   lets you add sections of files individually.
 - `git add -p <files>` - like git add -p, but only looks at the listed files.
 
