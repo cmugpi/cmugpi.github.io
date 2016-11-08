@@ -69,10 +69,10 @@ We'll be posting the extratation schedule here.
 | 10/23     | [Tmux, and Other Tools]        | [Terminal Usage][usage] |
 | 10/29     | [Technical Interview Practice] | (misc.)                 |
 | 10/30     | [Technical Interview Practice] | (misc.)                 |
-| 11/5      | Vim as an IDE                  | [Vim][vim]              |
-| 11/6      | Vim as an IDE                  | [Vim][vim]              |
-| 11/12     | Digital Currencies             | (misc.)                 |
-| 11/13     | Digital Currencies             | (misc.)                 |
+| 11/5      | Digital Currencies             | (misc.)                 |
+| 11/6      | Digital Currencies             | (misc.)                 |
+| 11/12     | Vim as an IDE                  | [Vim][vim]              |
+| 11/13     | Vim as an IDE                  | [Vim][vim]              |
 | 11/19     | Configuring Vim                | [Vim][vim]              |
 | 11/20     | Writing at the Command Line    | (misc.)                 |
 | __11/26__ | __Thanksgiving__               |                         |
