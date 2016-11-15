@@ -71,8 +71,8 @@ We'll be posting the extratation schedule here.
 | 10/30     | [Technical Interview Practice] | (misc.)                 |
 | 11/5      | Digital Currencies             | (misc.)                 |
 | 11/6      | Digital Currencies             | (misc.)                 |
-| 11/12     | Vim as an IDE                  | [Vim][vim]              |
-| 11/13     | Vim as an IDE                  | [Vim][vim]              |
+| 11/12     | [Vim as an IDE]                | [Vim][vim]              |
+| 11/13     | [Vim as an IDE]                | [Vim][vim]              |
 | 11/19     | Configuring Vim                | [Vim][vim]              |
 | 11/20     | Writing at the Command Line    | (misc.)                 |
 | __11/26__ | __Thanksgiving__               |                         |
@@ -123,3 +123,4 @@ are there as additional resources.
 [Vim: Editing Showcase]: {{ "/topics/extratations/vim-editing-showcase/" | prepend: site.baseurl }}
 [Tmux, and Other Tools]: {{ "/topics/extratations/tmux-and-other-tools.pdf" | prepend: site.baseurl }}
 [Technical Interview Practice]: {{ "/topics/extratations/interview-practice.pdf" | prepend: site.baseurl }}
+[Vim as an IDE]: {{ "/topics/extratations/vim-as-an-ide/" | prepend: site.baseurl }}
