@@ -19,25 +19,30 @@ order: 10
 
 ## Reading
 
+- [Git Command Overview][git-commands]
 - [Using Git on GitHub][using-github]
 
-<!--
+## Lab
 
-## Homework
+This week's homework has two parts. The first part is on Autolab:
 
-This week's homework isn't on Autolab. It's composed of two parts.
+- [ColLab](https://autolab.andrew.cmu.edu/courses/15131-f16/assessments/collab)
 
-1. [Learn Git Branching][learnGitBranching]
-  - Do the "Introduction Sequence", which amounts to the first four exercises.
-2. [Branching Exercise Repo][branching-exercise]
-  - Make a __GitHub account__ (if you haven't already), and record your username
-    on this form: [Github Username][google-form].
-  - Fork the Git Branching repository.
-  - Fix up the repo. (Hint: check the README of the repo!)
-  - Submit a pull request so we can see your solution!
--->
+For the second part of this assignment, you will get practice with forking a
+GitHub repo and making a pull request. The repo you will be working with is the
+[git-practice] repo that you've seen in lecture a couple times. Do the
+following:
 
-[google-form]: https://docs.google.com/forms/d/1x7B4iCyeKxtthApRrDqG6g1Uh4OgAaFEyqMfCQsVrCg/viewform?usp=send_form
-[learnGitBranching]: http://pcottle.github.io/learnGitBranching/
-[branching-exercise]: https://github.com/cmugpi/branching-exercise
+- Sign in to your Github account and visit
+  <https://github.com/cmugpi/git-practice>.
+- Fork the git-practice repo.
+- Clone your fork of the git-practice repo.
+- On a new branch (named what you want), edit the files of the repo so that you
+  fill in an appetizer, main course, and dessert.
+- Commit your changes and push them to your fork.
+- Make a pull request to cmugpi's git-practice repo. For the title of your pull
+  request, put your Andrew ID.
+
+[git-practice]: https://github.com/cmugpi/git-practice
 [using-github]: {{ "/topics/git/using-github/"    | prepend: site.baseurl }}
+[git-commands]: {{ "/topics/git/git-commands/"    | prepend: site.baseurl }}

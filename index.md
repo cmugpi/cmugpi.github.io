@@ -38,7 +38,7 @@ For more information, you should checkout the [syllabus].
 | 10/27     | [Week 8]        | [LaTeX][latex]                   |
 | 11/3      | [Week 9]        | [Git][git]                       |
 | 11/10     | CMU Advice      | (misc.)                          |
-| 11/17     |                 | [Git][git]                       |
+| 11/17     | [Week 10]       | [Git][git]                       |
 | __11/24__ | -               | __Thanksgiving__                 |
 | 12/1      |                 | [Terminal Configuration][config] |
 | 12/8      | -               | Final Exam                       |
