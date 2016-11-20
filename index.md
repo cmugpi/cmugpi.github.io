@@ -74,7 +74,7 @@ We'll be posting the extratation schedule here.
 | 11/12     | [Vim as an IDE]                | [Vim][vim]              |
 | 11/13     | [Vim as an IDE]                | [Vim][vim]              |
 | 11/19     | Configuring Vim                | [Vim][vim]              |
-| 11/20     | Writing at the Command Line    | (misc.)                 |
+| 11/20     | [Writing at the Command Line]  | (misc.)                 |
 | __11/26__ | __Thanksgiving__               |                         |
 | 12/3      | Final Exam Review              |                         |
 {:.ui.striped.table}
@@ -125,3 +125,4 @@ are there as additional resources.
 [Technical Interview Practice]: {{ "/topics/extratations/interview-practice.pdf" | prepend: site.baseurl }}
 [Vim as an IDE]: {{ "/topics/extratations/vim-as-an-ide/" | prepend: site.baseurl }}
 [Digital Currencies]: {{ "/topics/extratations/digital-currencies.pdf" | prepend: site.baseurl }}
+[Writing at the Command Line]: {{ "/topics/extratations/writing-cli.pdf" | prepend: site.baseurl }}
