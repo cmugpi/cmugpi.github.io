@@ -121,8 +121,8 @@ are there as additional resources.
 [Commands Booster Pack]: {{ "/topics/extratations/command-booster-pack/" | prepend: site.baseurl }}
 [Vim: Navigation Showcase]: {{ "/topics/extratations/vim-navigation-showcase/" | prepend: site.baseurl }}
 [Vim: Editing Showcase]: {{ "/topics/extratations/vim-editing-showcase/" | prepend: site.baseurl }}
-[Tmux, and Other Tools]: {{ "/topics/extratations/tmux-and-other-tools.pdf" | prepend: site.baseurl }}
-[Technical Interview Practice]: {{ "/topics/extratations/interview-practice.pdf" | prepend: site.baseurl }}
+[Tmux, and Other Tools]: {{ "/topics/extratations/tmux-and-other-tools/" | prepend: site.baseurl }}
+[Technical Interview Practice]: {{ "/topics/extratations/interview-practice/" | prepend: site.baseurl }}
 [Vim as an IDE]: {{ "/topics/extratations/vim-as-an-ide/" | prepend: site.baseurl }}
-[Digital Currencies]: {{ "/topics/extratations/digital-currencies.pdf" | prepend: site.baseurl }}
-[Writing at the Command Line]: {{ "/topics/extratations/writing-cli.pdf" | prepend: site.baseurl }}
+[Digital Currencies]: {{ "/topics/extratations/digital-currencies/" | prepend: site.baseurl }}
+[Writing at the Command Line]: {{ "/topics/extratations/writing-cli/" | prepend: site.baseurl }}

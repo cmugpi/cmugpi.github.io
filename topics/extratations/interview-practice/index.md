@@ -1,28 +1,20 @@
 ---
 layout: page
-title: Vim Editing Showcase
+title: Technical Interview Practice
 # What topic does this page belong to?
 group: extratations
 # Relative ordering of lessons within a topic
-order: 5
+order: 7
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js
 #  - /javascripts/two.js
+redirect_to: ../interview-practice.pdf
 ---
 
 
 {% include toc.md %}
 
-# Vim Editing Showcase
+# Technical Interview Practice
 {:.ui.dividing.header.no_toc}
 
-## Notes
-
-Notes will be uploaded later.
-
-## Lab
-
-You can download the [lab handout here][handout].
-
-[handout]: {{ "/topics/extratations/sportspluslab-handout.zip" | prepend: site.baseurl }}

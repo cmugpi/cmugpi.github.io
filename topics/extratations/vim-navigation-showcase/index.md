@@ -4,7 +4,7 @@ title: 'Vim: Navigation Showcase'
 # What topic does this page belong to?
 group: extratations
 # Relative ordering of lessons within a topic
-order: 5
+order: 4
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js

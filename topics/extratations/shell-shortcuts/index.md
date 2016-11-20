@@ -4,7 +4,7 @@ title: Shell Shortcuts
 # What topic does this page belong to?
 group: extratations
 # Relative ordering of lessons within a topic
-order: 4
+order: 2
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js
