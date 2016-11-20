@@ -69,8 +69,8 @@ We'll be posting the extratation schedule here.
 | 10/23     | [Tmux, and Other Tools]        | [Terminal Usage][usage] |
 | 10/29     | [Technical Interview Practice] | (misc.)                 |
 | 10/30     | [Technical Interview Practice] | (misc.)                 |
-| 11/5      | Digital Currencies             | (misc.)                 |
-| 11/6      | Digital Currencies             | (misc.)                 |
+| 11/5      | [Digital Currencies]           | (misc.)                 |
+| 11/6      | [Digital Currencies]           | (misc.)                 |
 | 11/12     | [Vim as an IDE]                | [Vim][vim]              |
 | 11/13     | [Vim as an IDE]                | [Vim][vim]              |
 | 11/19     | Configuring Vim                | [Vim][vim]              |
@@ -124,3 +124,4 @@ are there as additional resources.
 [Tmux, and Other Tools]: {{ "/topics/extratations/tmux-and-other-tools.pdf" | prepend: site.baseurl }}
 [Technical Interview Practice]: {{ "/topics/extratations/interview-practice.pdf" | prepend: site.baseurl }}
 [Vim as an IDE]: {{ "/topics/extratations/vim-as-an-ide/" | prepend: site.baseurl }}
+[Digital Currencies]: {{ "/topics/extratations/digital-currencies.pdf" | prepend: site.baseurl }}
