@@ -30,7 +30,7 @@ Here are the notes from each lecturer:
 - [Andrew](adbenson-terminal-config/)
 - [Jordan](jmbrown-terminal-config/)
 - [Everi](eosofsky-terminal-config/)
-- [Jake](jez-terminal-config/)
+- [Jake](jezimmer-terminal-config/)
 
 
 ## Examples from the Course Staff
