@@ -40,7 +40,7 @@ For more information, you should checkout the [syllabus].
 | 11/10     | CMU Advice      | (misc.)                          |
 | 11/17     | [Week 10]       | [Git][git]                       |
 | __11/24__ | -               | __Thanksgiving__                 |
-| 12/1      |                 | [Terminal Configuration][config] |
+| 12/1      | [Week 11]       | [Terminal Configuration][config] |
 | 12/8      | -               | Final Exam                       |
 {:.ui.striped.table}
 
@@ -114,7 +114,6 @@ are there as additional resources.
 [Week 9]:  {{ "/topics/readings/week-9/"  | prepend: site.baseurl }}
 [Week 10]: {{ "/topics/readings/week-10/" | prepend: site.baseurl }}
 [Week 11]: {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
-[Week 12]: {{ "/topics/readings/week-12/" | prepend: site.baseurl }}
 
 [First Week Worktime]: {{ "/topics/extratations/first-week-worktime/" | prepend: site.baseurl }}
 [Shell Shortcuts]: {{ "/topics/extratations/shell-shortcuts/" | prepend: site.baseurl }}

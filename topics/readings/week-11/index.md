@@ -22,29 +22,39 @@ order: 11
 - [Dotfiles][dotfiles]
 - [Configuring Bash][configuring-bash]
 
-<!--
-## Homework
 
-The homework for this week is to customize your Bash prompt, so get
-creative!
+## Resources
 
-### Handin Instructions
+Here are the notes from each lecturer:
 
-Please submit a picture of your prompt to AFS. To do this,
-
-1. Name your file `week11-prompt.jpg` or `week11-prompt.png`
-1. `scp` your file to AFS
-1. Run `aklog cs.cmu.edu` (this is required to be able to write to the GPI
-   course handin folder)
-1. Move your image to the folder
-   `/afs/cs/academic/class/15131-f15/users/f15/ANDREWID/`, replacing your
-   AndrewID as appropriate.
-
-Feel free to also post the screenshot to Piazza!
--->
+- [Andrew](adbenson-terminal-config/)
+- [Jordan](jmbrown-terminal-config/)
+- [Everi](eosofsky-terminal-config/)
+- [Jake](jez-terminal-config/)
 
 
-[term-conf]: {{ "/topics/terminal-configuration/" | prepend: site.baseurl }}
+## Examples from the Course Staff
+
+Some of the course staff host our dotfiles on GitHub. Take a look to see what
+they look like in the real world and get ideas for what to include in your own.
+
+- Jake's dotfiles: [jez/dotfiles][ex1]
+  - A [blog post][ex2] with the highlights of his configurations
+  - Some individual highlights:
+    - all my [aliases][ex3]
+    - a [starter zshrc][ex4] file for those interested in switching to zsh
+    - my complete [vimrc][ex6]
+- Andrew's dotfiles: [anbenson/dotfiles][ex7]
+
+
 [dotfiles]: {{ "/topics/terminal-configuration/dotfiles/" | prepend: site.baseurl }}
 [configuring-bash]: {{ "/topics/terminal-configuration/configuring-bash/" | prepend: site.baseurl }}
 
+[ex1]: https://github.com/jez/dotfiles
+[ex2]: http://blog.jez.io/2015/03/10/noteworthy-dotfile-hacks/
+[ex3]: https://github.com/jez/dotfiles/blob/ef98d308675dfa2d7ac333a3d1c1dd41f1cf347f/util/aliases.sh
+[ex4]: https://github.com/jez/starter-zshrc
+[ex5]: https://github.com/jez/dotfiles/blob/ef98d308675dfa2d7ac333a3d1c1dd41f1cf347f/zshrc
+[ex6]: https://github.com/jez/dotfiles/blob/eba0202443de6bcc171dbe6bc133fa9fe02357f7/vimrc
+
+[ex7]: https://github.com/anbenson/dotfiles
