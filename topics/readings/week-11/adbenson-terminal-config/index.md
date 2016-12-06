@@ -11,14 +11,14 @@ title: "Terminal Colors & Prompts"
 
 ## Terminal Colorschemes
 
-Configuring your terminal's colorscheme depends on the program you use to use
-the terminal on macOS, we recommend iTerm2 (<https://iterm2.com/>), which comes
-with Solarized preinstalled. Find it in the Preferences menu.
+Configuring your terminal's colorscheme depends on what program you use as a
+terminal on macOS. We recommend iTerm2 (<https://iterm2.com/>), which comes with
+Solarized preinstalled. Find it in the Preferences menu.
 
 On Windows, we recommend MobaXTerm (<http://mobaxterm.mobatek.net/>). MobaXTerm
 has a solarized colorscheme built into the settings as well.
 
-If you're on Linux, each terminal emulator has it's own way to change the
+If you're on Linux, each terminal emulator has its own way to change the
 colorscheme. You might be able to find it in the settings yourself, otherwise
 Google or ask a friend.
 
