@@ -18,7 +18,7 @@ set -o errexit
 echo -e "\n\n"
 
 # Initialize constants
-SEMESTER="f16"
+SEMESTER="f17"
 
 ROOT_DIR="/afs/cs/academic/class/15131-f15"
 STAGING_DIR="$ROOT_DIR/.tmp"
