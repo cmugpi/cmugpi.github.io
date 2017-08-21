@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Week 11"
+title: "Week 10"
 # What topic does this page belong to?
 group: readings
 # Relative ordering of lessons within a topic
-order: 11
+order: 10
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js
@@ -14,7 +14,7 @@ order: 11
 
 {% include toc.md %}
 
-# Week 11
+# Week 10
 {:.ui.dividing.header.no_toc}
 
 ## Reading

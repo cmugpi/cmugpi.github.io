@@ -29,7 +29,7 @@ order: 3
 
 The lab can be found on Autolab:
 
-- [WizardLab](https://autolab.andrew.cmu.edu/courses/15131-f16/assessments/wizardlab)
+- [WizardLab](https://autolab.andrew.cmu.edu/courses/15131-f17/assessments/wizardlab)
 
 You will also find this useful for solving the labs (you don't have to
 read this before class if you don't want to):

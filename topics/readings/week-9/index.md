@@ -27,7 +27,7 @@ order: 9
 
 The lab can be found on Autolab:
 
-- [RomanceLab](https://autolab.andrew.cmu.edu/courses/15131-f16/assessments/romancelab)
+- [RomanceLab](https://autolab.andrew.cmu.edu/courses/15131-f17/assessments/romancelab)
 
 
 [gs-git]: {{ "/topics/git/getting-started/" | prepend: site.baseurl }}
