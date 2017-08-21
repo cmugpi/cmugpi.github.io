@@ -33,7 +33,7 @@ oneliners!
 
 The lab can be found on Autolab:
 
-- [PipeLab](https://autolab.andrew.cmu.edu/courses/15131-f16/assessments/pipelab)
+- [PipeLab](https://autolab.andrew.cmu.edu/courses/15131-f17/assessments/pipelab)
 
 [Input & Output]: {{ "/topics/bash/input-output/"   | prepend: site.baseurl }}
 [Oneliners]:      {{ "/topics/bash/oneliners/"      | prepend: site.baseurl }}

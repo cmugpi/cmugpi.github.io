@@ -27,21 +27,21 @@ For more information, you should checkout the [syllabus].
 | Date      | Reading         | Lecture Topic                    |
 | ----      | -------         | -------------                    |
 | ASAP      | [Initial setup] | -                                |
-| 9/1       | [Week 1]        | [Terminal usage][usage]          |
-| 9/8       | [Week 2]        | [Vim][vim]                       |
-| 9/15      | [Week 3]        | [Vim][vim]                       |
-| 9/22      | [Week 4]        | [Bash][bash]                     |
-| 9/29      | [Week 5]        | [Bash][bash]                     |
-| 10/6      | [Week 6]        | [Bash][bash]                     |
-| 10/13     | -               | Midterm Exam                     |
-| 10/20     | [Week 7]        | [Bash][bash]                     |
-| 10/27     | [Week 8]        | [LaTeX][latex]                   |
-| 11/3      | [Week 9]        | [Git][git]                       |
-| 11/10     | CMU Advice      | (misc.)                          |
-| 11/17     | [Week 10]       | [Git][git]                       |
-| __11/24__ | -               | __Thanksgiving__                 |
-| 12/1      | [Week 11]       | [Terminal Configuration][config] |
-| 12/8      | -               | Final Exam                       |
+| 8/31      | [Week 1]        | [Terminal usage][usage]          |
+| 9/7       | [Week 2]        | [Vim][vim]                       |
+| 9/14      | [Week 3]        | [Vim][vim]                       |
+| 9/21      | [Week 4]        | [Bash][bash]                     |
+| 9/28      | [Week 5]        | [Bash][bash]                     |
+| 10/5      | [Week 6]        | [Bash][bash]                     |
+| 10/12     | -               | Midterm Exam                     |
+| 10/19     | [Week 7]        | [Bash][bash]                     |
+| 10/26     | [Week 8]        | [Git][git]                       |
+| 11/2      | [Week 9]        | [Git][git]                       |
+| 11/9      | CMU Advice      | (misc.)                          |
+| 11/16     | -               | TBA                              |
+| __11/23__ | -               | __Thanksgiving__                 |
+| 11/30     | [Week 10]       | [Terminal Configuration][config] |
+| 12/7      | -               | Final Exam                       |
 {:.ui.striped.table}
 
 ## Extratations
@@ -50,33 +50,26 @@ Throughout the semester, we'll be holding extra workshops and talks outside of
 class, dubbed "extratations", to explore topics that we don't want to test you
 on but that you might find interesting.
 
-Time and Location:
-- Saturdays at 2:00 p.m. @ WEH 4709
-- Sundays at 4:00 p.m. @ WEH 5320
+Time and Location: TBA
 
 We'll be posting the extratation schedule here.
 
 | Date      | Notes                          | Extratation Topic       |
 | ----      | -----                          | -----------------       |
-| 9/3       | [First Week Worktime]          | [Terminal Usage][usage] |
-| 9/10      | [Shell Shortcuts]              | [Terminal Usage][usage] |
-| 9/17      | [Commands Booster Pack]        | [Terminal Usage][usage] |
-| 9/24      | [Vim: Navigation Showcase]     | [Vim][vim]              |
-| 10/1      | [Vim: Editing Showcase]        | [Vim][vim]              |
-| 10/8      | Midterm Review                 |                         |
-| 10/15     | Midterm Explanations           |                         |
-| 10/22     | [Tmux, and Other Tools]        | [Terminal Usage][usage] |
-| 10/23     | [Tmux, and Other Tools]        | [Terminal Usage][usage] |
-| 10/29     | [Technical Interview Practice] | (misc.)                 |
-| 10/30     | [Technical Interview Practice] | (misc.)                 |
-| 11/5      | [Digital Currencies]           | (misc.)                 |
-| 11/6      | [Digital Currencies]           | (misc.)                 |
-| 11/12     | [Vim as an IDE]                | [Vim][vim]              |
-| 11/13     | [Vim as an IDE]                | [Vim][vim]              |
-| 11/19     | Configuring Vim                | [Vim][vim]              |
-| 11/20     | [Writing at the Command Line]  | (misc.)                 |
-| __11/26__ | __Thanksgiving__               |                         |
-| 12/3      | Final Exam Review              |                         |
+| 9/2       | NA                             | TBA                     |
+| 9/9       | NA                             | TBA                     |
+| 9/16      | NA                             | TBA                     |
+| 9/23      | NA                             | TBA                     |
+| 9/30      | NA                             | TBA                     |
+| 10/7      | NA                             | TBA                     |
+| 10/14     | NA                             | TBA                     |
+| 10/21     | NA                             | TBA                     |
+| 10/28     | NA                             | TBA                     |
+| 11/4      | NA                             | TBA                     |
+| 11/11     | NA                             | TBA                     |
+| 11/18     | NA                             | TBA                     |
+| __11/25__ | __Thanksgiving__               |                         |
+| 12/2      | NA                             | TBA                     |
 {:.ui.striped.table}
 
 
@@ -113,7 +106,6 @@ are there as additional resources.
 [Week 8]:  {{ "/topics/readings/week-8/"  | prepend: site.baseurl }}
 [Week 9]:  {{ "/topics/readings/week-9/"  | prepend: site.baseurl }}
 [Week 10]: {{ "/topics/readings/week-10/" | prepend: site.baseurl }}
-[Week 11]: {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
 
 [First Week Worktime]: {{ "/topics/extratations/first-week-worktime/" | prepend: site.baseurl }}
 [Shell Shortcuts]: {{ "/topics/extratations/shell-shortcuts/" | prepend: site.baseurl }}

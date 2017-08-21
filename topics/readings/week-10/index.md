@@ -19,30 +19,42 @@ order: 10
 
 ## Reading
 
-- [Git Command Overview][git-commands]
-- [Using Git on GitHub][using-github]
+- [Dotfiles][dotfiles]
+- [Configuring Bash][configuring-bash]
 
-## Lab
 
-This week's homework has two parts. The first part is on Autolab:
+## Resources
 
-- [ColLab](https://autolab.andrew.cmu.edu/courses/15131-f16/assessments/collab)
+Here are the notes from each lecturer:
 
-For the second part of this assignment, you will get practice with forking a
-GitHub repo and making a pull request. The repo you will be working with is the
-[git-practice] repo that you've seen in lecture a couple times. Do the
-following:
+- [Andrew](adbenson-terminal-config/)
+- [Jordan](jmbrown-terminal-config/)
+- [Everi](eosofsky-terminal-config/)
+- [Jake](jezimmer-terminal-config/)
 
-- Sign in to your Github account and visit
-  <https://github.com/cmugpi/git-practice>.
-- Fork the git-practice repo.
-- Clone your fork of the git-practice repo.
-- On a new branch (named what you want), edit the files of the repo so that you
-  fill in an appetizer, main course, and dessert.
-- Commit your changes and push them to your fork.
-- Make a pull request to cmugpi's git-practice repo. For the title of your pull
-  request, put your Andrew ID.
 
-[git-practice]: https://github.com/cmugpi/git-practice
-[using-github]: {{ "/topics/git/using-github/"    | prepend: site.baseurl }}
-[git-commands]: {{ "/topics/git/git-commands/"    | prepend: site.baseurl }}
+## Examples from the Course Staff
+
+Some of the course staff host our dotfiles on GitHub. Take a look to see what
+they look like in the real world and get ideas for what to include in your own.
+
+- Jake's dotfiles: [jez/dotfiles][ex1]
+  - A [blog post][ex2] with the highlights of his configurations
+  - Some individual highlights:
+    - all my [aliases][ex3]
+    - a [starter zshrc][ex4] file for those interested in switching to zsh
+    - my complete [vimrc][ex6]
+- Andrew's dotfiles: [anbenson/dotfiles][ex7]
+
+
+[dotfiles]: {{ "/topics/terminal-configuration/dotfiles/" | prepend: site.baseurl }}
+[configuring-bash]: {{ "/topics/terminal-configuration/configuring-bash/" | prepend: site.baseurl }}
+
+[ex1]: https://github.com/jez/dotfiles
+[ex2]: http://blog.jez.io/2015/03/10/noteworthy-dotfile-hacks/
+[ex3]: https://github.com/jez/dotfiles/blob/ef98d308675dfa2d7ac333a3d1c1dd41f1cf347f/util/aliases.sh
+[ex4]: https://github.com/jez/starter-zshrc
+[ex5]: https://github.com/jez/dotfiles/blob/ef98d308675dfa2d7ac333a3d1c1dd41f1cf347f/zshrc
+[ex6]: https://github.com/jez/dotfiles/blob/eba0202443de6bcc171dbe6bc133fa9fe02357f7/vimrc
+
+[ex7]: https://github.com/anbenson/dotfiles

@@ -29,7 +29,7 @@ order: 8
 
 The lab can be found on Autolab:
 
-- [TeXLab](https://autolab.andrew.cmu.edu/courses/15131-f16/assessments/texlab)
+- [TeXLab](https://autolab.andrew.cmu.edu/courses/15131-f17/assessments/texlab)
 
 
 [gs-latex]:     {{ "/topics/latex/getting-started/" | prepend: site.baseurl }}
