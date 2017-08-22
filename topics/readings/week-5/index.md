@@ -15,7 +15,7 @@ order: 5
 
 - [Regular Expressions]
 
-[Regular Expressions]: {{ "/topics/terminal-usage/jobs-man-links/" | prepend: site.baseurl }}
+[Regular Expressions]: {{ "/topics/bash/regular-expressions" | prepend: site.baseurl }}
 
 ## Lab
 
