@@ -4,6 +4,7 @@ title: Staff
 group: navigation
 order: 4
 
+# -- This is a test comment
 # -- yaml variables local to this file --
 staff:
   - id: jmbrown
