@@ -13,12 +13,6 @@ staff:
   - id: jxc
     domain: cs
     name: Jacobo Carrasquel
-  - id: jezimmer
-    domain: andrew
-    name: Jake Zimmerman
-  - id: adbenson
-    domain: andrew
-    name: Andrew Benson
   - id: wyz
     domain: andrew
     name: Wilson Zhao
@@ -28,6 +22,18 @@ staff:
   - id: mgq
     domain: andrew
     name: Matthew Quarles
+  - id: azdavis
+    domain: andrew
+    name: Ariel Davis
+  - id: dhashe
+    domain: andrew
+    name: David Hashe
+  - id: tkadur
+    domain: andrew
+    name: Thejaswi Kadur
+  - id: wjp
+    domain: andrew
+    name: William Paivine
 ---
 
 # Staff
