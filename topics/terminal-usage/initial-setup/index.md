@@ -105,7 +105,8 @@ that (you don't need to understand this command yet--we'll cover it later in the
 semester). Copy and paste the command into your terminal and hit enter.
 
 {% highlight bash %}
-mkdir -p ~/.ssh; touch ~/.ssh/config; nano ~/.ssh/config
+mkdir ~/.ssh && touch ~/.ssh/config && chmod 600 ~/.ssh/config && nano
+~/.ssh/config
 {% endhighlight %}
 
 Add the following (replacing `ANDREWID` with your Andrew ID) to this file, save
