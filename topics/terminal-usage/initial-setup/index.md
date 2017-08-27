@@ -78,6 +78,17 @@ other than Windows 10), your copy of Windows does not include this terminal. In
 that case, we recommend that you use [MobaXterm][mobaxterm] for SSH. Download
 and install it from that site.
 
+MobaXterm installs a more minimal terminal than the other supported platforms,
+so copy and paste the following command into your terminal and then press enter
+before continuing with setup. This command will install the nano program, which
+is a simple text editor. You may need to confirm the installation by pressing y
+and then enter if prompted. You should verify that you see an [image similar to
+this][mobaxterm-startup] before running the command.
+
+{% highlight bash %}
+apt-cyg install nano
+{% endhighlight %}
+
 If that number is 14316 or greater, you should follow these instructions to
 activate the built-in terminal:
 
