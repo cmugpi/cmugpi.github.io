@@ -73,6 +73,16 @@ terminal built-in to the OS. To find out if your copy of Windows 10 is recent
 enough, open the Start Menu, type in `winver`, and press enter. In the window
 that appears, look at the number that comes after "OS Build".
 
+If that number is 14316 or greater, you should follow these instructions to
+activate the built-in terminal:
+
+- Open the Start Menu, type in "Turn Windows features on or off", and press
+  enter.
+- Scroll down to "Windows Subsystem for Linux", check its box, and press OK.
+  Allow your computer to restart.
+- After boot, open the start menu and type in "Bash on Ubuntu on Windows", which
+  launches the terminal app. Follow the first-time setup instructions to finish.
+
 If that number is lower than 14316 (or if you're running a version of Windows
 other than Windows 10), your copy of Windows does not include this terminal. In
 that case, we recommend that you use [MobaXterm][mobaxterm] for SSH. Download
@@ -88,16 +98,6 @@ this][mobaxterm-startup] before running the command.
 {% highlight bash %}
 apt-cyg install nano
 {% endhighlight %}
-
-If that number is 14316 or greater, you should follow these instructions to
-activate the built-in terminal:
-
-- Open the Start Menu, type in "Turn Windows features on or off", and press
-  enter.
-- Scroll down to "Windows Subsystem for Linux", check its box, and press OK.
-  Allow your computer to restart.
-- After boot, open the start menu and type in "Bash on Ubuntu on Windows", which
-  launches the terminal app. Follow the first-time setup instructions to finish.
 
 </div>
 </div>
