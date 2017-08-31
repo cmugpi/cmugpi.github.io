@@ -25,10 +25,10 @@ Labs starter files are distributed through a git repository. To get started:
 $ ssh andrew, or ssh ANDREWID@unix.andrew.cmu.edu
 
 # Clone the GPI repo:
-$ git clone https://github.com/cmugpi/gpi-labs.git gpi
+$ git clone https://github.com/cmugpi/gpi-labs.git
 
 # Use cd to change into your GPI directory:
-$ cd ~/private/gpi
+$ cd ~/private/gpi-labs
 
 # When you're done with the lab, scp it back to your computer so that
 # you can submit it on Autolab:
