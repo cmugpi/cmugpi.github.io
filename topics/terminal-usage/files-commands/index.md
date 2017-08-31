@@ -18,36 +18,29 @@ commands that make manipulating these files possible.
 
 ## Working with Labs
 
-Labs starter files are distributed on Autolab. To get started:
+Labs starter files are distributed through a git repository. To get started:
 
 {% highlight bash %}
-# Download this week's zip file
-
-# Use scp to transfer the zip file to Andrew, as per above:
-#
-# Non-Windows:
-$ scp ~/Downloads/LABNAME.zip ANDREWID@unix.andrew.cmu.edu:~
-# or, if you set up the SSH shortcut in the Initial Setup:
-$ scp ~/Downloads/LABNAME.zip andrew:~
-#
-# Windows:
-$ scp /mnt/c/Users/USERNAME/Downloads/LABNAME.zip ANDREWID@unix.andrew.cmu.edu:~
-# USERNAME is the username you use on your laptop
-
 # Use ssh to log into Andrew.
 $ ssh andrew, or ssh ANDREWID@unix.andrew.cmu.edu
 
-# Make a folder to hold your GPI files:
-$ mkdir -p ~/private/gpi
-
-# Move the zip file into your GPI directory:
-$ mv LABNAME.zip ~/private/gpi
+# Clone the GPI repo:
+$ git clone https://github.com/cmugpi/gpi-labs.git gpi
 
 # Use cd to change into your GPI directory:
 $ cd ~/private/gpi
 
-# Unzip the lab:
-$ unzip LABNAME.zip
+# When you're done with the lab, scp it back to your computer so that
+# you can submit it on Autolab:
+#
+# Non-Windows:
+$ scp ANDREWID@unix.andrew.cmu.edu:~/path/to/handin.zip ~/Downloads/
+# or, if you set up the SSH shortcut in the Initial Setup:
+$ scp andrew:~/path/to/handin.zip ~/Downloads/
+#
+# Windows:
+$ scp ANDREWID@unix.andrew.cmu.edu:~/path/to/handin.zip /mnt/c/Users/USERNAME/Downloads/
+# USERNAME is the username you use on your laptop
 {% endhighlight %}
 
 
