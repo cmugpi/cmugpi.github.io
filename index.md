@@ -58,9 +58,10 @@ We'll be posting the extratation schedule here.
 | ----      | -----                          | -----------------       |
 | 9/2       | NA                             | LaTeX                   |
 | 9/3       | NA                             | LaTeX                   |
-| 9/9       | NA                             | git basics, shell tricks|
-| 9/10      | NA                             | git basics, shell tricks|
-| 9/16      | NA                             | TBA                     |
+| 9/9       | NA                             | Git basics, shell tricks|
+| 9/10      | NA                             | Git basics, shell tricks|
+| 9/16      | NA                             | Emacs Basics            |
+| 9/17      | NA                             | Emacs Basics            |
 | 9/23      | NA                             | TBA                     |
 | 9/30      | NA                             | TBA                     |
 | 10/7      | NA                             | TBA                     |
