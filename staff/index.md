@@ -60,14 +60,14 @@ whole course staff.
 
 All office hours are in the GHC 5th floor commons.
 
-Jordan: Wednesday, 3:30 pm - 4:30 pm
-Everi: Tuesday, 4:30 pm - 5:30 pm
-Matt: TBA
-Wilson: Friday, 2:30 pm - 3:30 pm
-Thejas: Wednesday 6:00 pm - 7:00 pm
-Bill: Monday 3:30 pm - 4:30 pm
-David: Wednesday 2:30 pm - 3:30 pm
-Ariel: Thursday 5:30 pm - 6:30 pm
+* Jordan: Wednesday, 3:30 pm - 4:30 pm
+* Everi: Tuesday, 4:30 pm - 5:30 pm
+* Matt: TBA
+* Wilson: Friday, 2:30 pm - 3:30 pm
+* Thejas: Wednesday 6:00 pm - 7:00 pm
+* Bill: Monday 3:30 pm - 4:30 pm
+* David: Wednesday 2:30 pm - 3:30 pm
+* Ariel: Thursday 5:30 pm - 6:30 pm
 
 # Attribution
 {:.ui.dividing.header.no_toc}
