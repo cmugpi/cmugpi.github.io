@@ -25,7 +25,7 @@ Labs starter files are distributed through a git repository. To get started:
 $ ssh andrew, or ssh ANDREWID@unix.andrew.cmu.edu
 
 # Clone the GPI repo:
-$ git clone https://github.com/cmugpi/gpi-labs.git
+$ git clone https://github.com/cmugpi/gpi-labs.git ~/private/gpi-labs
 
 # Use cd to change into your GPI directory:
 $ cd ~/private/gpi-labs
