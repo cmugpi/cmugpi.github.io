@@ -62,7 +62,7 @@ All office hours are in the GHC 5th floor commons.
 
 * Jordan: Wednesday, 3:30 pm - 4:30 pm
 * Everi: Tuesday, 4:30 pm - 5:30 pm
-* Matt: TBA
+* Matt: Tuesday, 1:30 pm - 2:30 pm
 * Wilson: Friday, 2:30 pm - 3:30 pm
 * Thejas: Wednesday 6:00 pm - 7:00 pm
 * Bill: Monday 3:30 pm - 4:30 pm
