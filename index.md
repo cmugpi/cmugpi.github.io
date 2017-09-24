@@ -50,16 +50,20 @@ Throughout the semester, we'll be holding extra workshops and talks outside of
 class, dubbed "extratations", to explore topics that we don't want to test you
 on but that you might find interesting.
 
-Time and Location: TBA
+Time and Location: 2:00 pm Saturday and Sunday in GHC 4102
 
 We'll be posting the extratation schedule here.
 
 | Date      | Notes                          | Extratation Topic       |
 | ----      | -----                          | -----------------       |
-| 9/2       | NA                             | TBA                     |
-| 9/9       | NA                             | TBA                     |
-| 9/16      | NA                             | TBA                     |
-| 9/23      | NA                             | TBA                     |
+| 9/2       | NA                             | LaTeX                   |
+| 9/3       | NA                             | LaTeX                   |
+| 9/9       | NA                             | Git basics, shell tricks|
+| 9/10      | NA                             | Git basics, shell tricks|
+| 9/16      | NA                             | Emacs Basics            |
+| 9/17      | NA                             | Emacs Basics            |
+| 9/23      | NA                             | Advanced Emacs          |
+| 9/24      | NA                             | Advanced Emacs          |
 | 9/30      | NA                             | TBA                     |
 | 10/7      | NA                             | TBA                     |
 | 10/14     | NA                             | TBA                     |
