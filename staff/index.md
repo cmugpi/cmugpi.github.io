@@ -54,7 +54,7 @@ whole course staff.
 {:.ui.dividing.header.no_toc}
 
 The initial version of the course and a significant amount of the current course
-content was created [Adam Blank][adam] in Fall 2011. Later, modifications and
+content was created by [Adam Blank][adam] in Fall 2011. Later, modifications and
 additions to the content were made by Josh Zimmerman, who reformatted the
 original PDFs into web content.
 
