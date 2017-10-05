@@ -21,22 +21,37 @@ order: 6
 
 The reading for this week is a bit of a mixup of topics.
 
-- [Jobs, Man Pages, & Links]
+- [Globbing & Ranges]
+- [Regular Expressions]
+
+## Lab
+
+The lab for this week is on regex and globs. You can find it on autolab.
+
+- [Haunt Lab](https://autolab.andrew.cmu.edu/courses/15131-f17/assessments/hauntlab)
 
 ## Review
 
 Next week is the midterm! It will cover everything up to and including this
-week.
+week. Here are all of the readings we've covered so far for convenience:
 
-There is no lab for this week. To help you practice the topics you learned
-today, here's a short review:
+- [Files & Commands]
+- [Editing & Navigation]
+- [Searching, Substitutining, Text Object, and Yanking]
+- [Bash Scripting]
+- [Strings]
+- [Globbing & Ranges]
+- [Regular Expressions]
 
-- [Midterm Review]
-- [Midterm Review (Sample Answers)][Sample Answers]
 
-
-[Jobs, Man Pages, & Links]: {{ "/topics/terminal-usage/jobs-man-links/" | prepend: site.baseurl }}
+[Files & Commands]:         {{ "/topics/files-commands/"                | prepend: site.baseurl }}
+[Editing & Navigation]:     {{ "/topics/vim/editing-navigation/"        | prepend: site.baseurl }}
+[Searching, Substituting, Text Objects, and Yanking]: {{ "/topics/vim/search-sub-obj-yank/" | prepen: site.baseurl }}
+[Bash Scripting]:           {{ "/topics/bash/bash-scripting/"           | prepend: site.baseurl }}
+[Strings]:                  {{ "/topics/bash/strings/"                  | prepend: site.baseurl }}
 [Globbing & Ranges]:        {{ "/topics/bash/globbing-ranges/"          | prepend: site.baseurl }}
 [Regular Expressions]:      {{ "/topics/bash/regular-expressions/"      | prepend: site.baseurl }}
+
+[Jobs, Man Pages, & Links]: {{ "/topics/terminal-usage/jobs-man-links/" | prepend: site.baseurl }}
 [Midterm Review]:            midterm-review.pdf
 [Sample Answers]:            midterm-review-answers.pdf
