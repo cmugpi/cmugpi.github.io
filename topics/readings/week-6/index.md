@@ -37,7 +37,7 @@ week. Here are all of the readings we've covered so far for convenience:
 
 - [Files & Commands]
 - [Editing & Navigation]
-- [Searching, Substitutining, Text Object, and Yanking]
+- [Searching, Substituting, Text Objects, and Yanking]
 - [Bash Scripting]
 - [Strings]
 - [Globbing & Ranges]
