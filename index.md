@@ -54,26 +54,29 @@ Time and Location: 2:00 pm Saturday and Sunday in GHC 4102
 
 We'll be posting the extratation schedule here.
 
-| Date      | Notes                          | Extratation Topic       |
-| ----      | -----                          | -----------------       |
-| 9/2       | NA                             | LaTeX                   |
-| 9/3       | NA                             | LaTeX                   |
-| 9/9       | NA                             | Git basics, shell tricks|
-| 9/10      | NA                             | Git basics, shell tricks|
-| 9/16      | NA                             | Emacs Basics            |
-| 9/17      | NA                             | Emacs Basics            |
-| 9/23      | NA                             | Advanced Emacs          |
-| 9/24      | NA                             | Advanced Emacs          |
-| 9/30      | NA                             | TBA                     |
-| 10/7      | NA                             | TBA                     |
-| 10/14     | NA                             | TBA                     |
-| 10/21     | NA                             | TBA                     |
-| 10/28     | NA                             | TBA                     |
-| 11/4      | NA                             | TBA                     |
-| 11/11     | NA                             | TBA                     |
-| 11/18     | NA                             | TBA                     |
-| __11/25__ | __Thanksgiving__               |                         |
-| 12/2      | NA                             | TBA                     |
+| Date      | Extratation Topic       |
+| ----      | -----------------       |
+| 9/2       | LaTeX                   |
+| 9/3       | LaTeX                   |
+| 9/9       | Git basics, shell tricks|
+| 9/10      | Git basics, shell tricks|
+| 9/16      | Emacs Basics            |
+| 9/17      | Emacs Basics            |
+| 9/23      | Advanced Emacs          |
+| 9/24      | Advanced Emacs          |
+| 9/30      | Package Managers        |
+| 9/31      | Package Managers        |
+| 10/7      | Pandoc & Midterm Review |
+| 10/8      | Pandoc & Midterm Review |
+| 10/14     | Technical Interviewing  |
+| 10/15     | Technical Interviewing  |
+| 10/21     | TBA                     |
+| 10/28     | TBA                     |
+| 11/4      | TBA                     |
+| 11/11     | TBA                     |
+| 11/18     | TBA                     |
+| __11/25__ | __Thanksgiving__        |
+| 12/2      | TBA                     |
 {:.ui.striped.table}
 
 
