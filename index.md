@@ -54,29 +54,29 @@ Time and Location: 2:00 pm Saturday and Sunday in GHC 4102
 
 We'll be posting the extratation schedule here.
 
-| Date      | Extratation Topic       |
-| ----      | -----------------       |
-| 9/2       | LaTeX                   |
-| 9/3       | LaTeX                   |
-| 9/9       | Git basics, shell tricks|
-| 9/10      | Git basics, shell tricks|
-| 9/16      | Emacs Basics            |
-| 9/17      | Emacs Basics            |
-| 9/23      | Advanced Emacs          |
-| 9/24      | Advanced Emacs          |
-| 9/30      | Package Managers        |
-| 9/31      | Package Managers        |
-| 10/7      | Pandoc & Midterm Review |
-| 10/8      | Pandoc & Midterm Review |
-| 10/14     | Technical Interviewing  |
-| 10/15     | Technical Interviewing  |
-| 10/21     | TBA                     |
-| 10/28     | TBA                     |
-| 11/4      | TBA                     |
-| 11/11     | TBA                     |
-| 11/18     | TBA                     |
-| __11/25__ | __Thanksgiving__        |
-| 12/2      | TBA                     |
+| Date      | Extratation Topics             |
+| ----      | -----                          |
+| 9/2       | Latex                          |
+| 9/3       | Latex                          |
+| 9/9       | [Git]                          |
+| 9/10      | [Git]                          |
+| 9/16      | [Emacs Basics]                 |
+| 9/17      | [Emacs Basics]                 |
+| 9/23      | [Advanced Emacs]               |
+| 9/24      | [Advanced Emacs]               |
+| 9/30      | [Package Managers]             |
+| 10/1      | [Package Managers]             |
+| 10/7      | [Pandoc & Midterm Review]      |
+| 10/8      | [Pandoc & Midterm Review]      |
+| 10/14     | [Technical Interviewing]       |
+| 10/15     | [Technical Interviewing]       |
+| 10/21     | TBA                            |
+| 10/28     | TBA                            |
+| 11/4      | TBA                            |
+| 11/11     | TBA                            |
+| 11/18     | TBA                            |
+| __11/25__ | __Thanksgiving__               |
+| 12/2      | TBA                            |
 {:.ui.striped.table}
 
 
@@ -124,3 +124,10 @@ are there as additional resources.
 [Vim as an IDE]: {{ "/topics/extratations/vim-as-an-ide/" | prepend: site.baseurl }}
 [Digital Currencies]: {{ "/topics/extratations/digital-currencies/" | prepend: site.baseurl }}
 [Writing at the Command Line]: {{ "/topics/extratations/writing-cli/" | prepend: site.baseurl }}
+
+[Git]: {{ "/topics/extratations/git/" | prepend: site.baseurl }}
+[Emacs Basics]: {{ "/topics/extratations/emacs-basics/" | prepend: site.baseurl }}
+[Advanced Emacs]: {{ "/topics/extratations/advanced-emacs/" | prepend: site.baseurl }}
+[Package Managers]: {{ "/topics/extratations/package-managers/" | prepend: site.baseurl }}
+[Pandoc & Midterm Review]: {{ "/topics/extratations/markdown-and-pandoc/" | prepend: site.baseurl }}
+[Technical Interviewing]: {{ "/topics/extratations/technical-interviewing/" | prepend: site.baseurl }}
