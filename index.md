@@ -66,8 +66,8 @@ We'll be posting the extratation schedule here.
 | 9/24      | [Advanced Emacs]               |
 | 9/30      | [Package Managers]             |
 | 10/1      | [Package Managers]             |
-| 10/7      | [Markdown and Pandoc]          |
-| 10/8      | [Markdown and Pandoc]          |
+| 10/7      | [Pandoc & Midterm Review]      |
+| 10/8      | [Pandoc & Midterm Review]      |
 | 10/14     | [Technical Interviewing]       |
 | 10/15     | [Technical Interviewing]       |
 | 10/21     | TBA                            |
@@ -129,5 +129,5 @@ are there as additional resources.
 [Emacs Basics]: {{ "/topics/extratations/emacs-basics/" | prepend: site.baseurl }}
 [Advanced Emacs]: {{ "/topics/extratations/advanced-emacs/" | prepend: site.baseurl }}
 [Package Managers]: {{ "/topics/extratations/package-managers/" | prepend: site.baseurl }}
-[Markdown and Pandoc]: {{ "/topics/extratations/markdown-and-pandoc/" | prepend: site.baseurl }}
+[Pandoc & Midterm Review]: {{ "/topics/extratations/markdown-and-pandoc/" | prepend: site.baseurl }}
 [Technical Interviewing]: {{ "/topics/extratations/technical-interviewing/" | prepend: site.baseurl }}
