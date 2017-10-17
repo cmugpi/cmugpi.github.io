@@ -54,12 +54,12 @@ Time and Location: 2:00 pm Saturday and Sunday in GHC 4102
 
 We'll be posting the extratation schedule here.
 
-| Date      | Extratation Topics             |
+| Date      | Extratation Topic              |
 | ----      | -----                          |
 | 9/2       | Latex                          |
 | 9/3       | Latex                          |
-| 9/9       | [Git]                          |
-| 9/10      | [Git]                          |
+| 9/9       | [Git basics, shell tricks]     |
+| 9/10      | [Git basics, shell tricks]     |
 | 9/16      | [Emacs Basics]                 |
 | 9/17      | [Emacs Basics]                 |
 | 9/23      | [Advanced Emacs]               |
@@ -125,7 +125,7 @@ are there as additional resources.
 [Digital Currencies]: {{ "/topics/extratations/digital-currencies/" | prepend: site.baseurl }}
 [Writing at the Command Line]: {{ "/topics/extratations/writing-cli/" | prepend: site.baseurl }}
 
-[Git]: {{ "/topics/extratations/git/" | prepend: site.baseurl }}
+[Git basics, shell tricks]: {{ "/topics/extratations/git/" | prepend: site.baseurl }}
 [Emacs Basics]: {{ "/topics/extratations/emacs-basics/" | prepend: site.baseurl }}
 [Advanced Emacs]: {{ "/topics/extratations/advanced-emacs/" | prepend: site.baseurl }}
 [Package Managers]: {{ "/topics/extratations/package-managers/" | prepend: site.baseurl }}
