@@ -19,16 +19,30 @@ order: 9
 
 ## Reading
 
-- [Getting Started with Git][gs-git]
 - [Git Command Overview][git-commands]
-  - Not required reading, but good for the lab
+- [Using Git on GitHub][using-github]
 
 ## Lab
 
-The lab can be found on Autolab:
+This week's homework has two parts. The first part is on Autolab:
 
-- [RomanceLab](https://autolab.andrew.cmu.edu/courses/15131-f17/assessments/romancelab)
+- [ColLab](https://autolab.andrew.cmu.edu/courses/15131-f17/assessments/collab)
 
+For the second part of this assignment, you will get practice with forking a
+GitHub repo and making a pull request. The repo you will be working with is the
+[git-practice] repo. Do the following:
 
-[gs-git]: {{ "/topics/git/getting-started/" | prepend: site.baseurl }}
+- Sign in to your Github account and visit
+  <https://github.com/cmugpi/git-practice>.
+- Fork the git-practice repo.
+- Clone your fork of the git-practice repo.
+- On a new branch (named what you want), edit the files of the repo so that you
+  fill in an appetizer, main course, and dessert.
+- Commit your changes and push them to your fork.
+- Make a pull request to cmugpi's git-practice repo. For the title of your pull
+  request, put your Andrew ID.
+
+[git-practice]: https://github.com/cmugpi/git-practice
+[using-github]: {{ "/topics/git/using-github/"    | prepend: site.baseurl }}
 [git-commands]: {{ "/topics/git/git-commands/"    | prepend: site.baseurl }}
+

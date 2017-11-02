@@ -19,20 +19,16 @@ order: 8
 
 ## Reading
 
-- [Getting Started with LaTeX][gs-latex]
-  - Do this **setup** before coming to class
-- [How to LaTeX][how-to-latex]
-  - Skim over this. You don't have to memorize it or even read it thoroughly.
-  - Try to understand the code samples.
+- [Getting Started with Git][gs-git]
+- [Git Command Overview][git-commands]
+  - Not required reading, but good for the lab
 
 ## Lab
 
 The lab can be found on Autolab:
 
-- [TeXLab](https://autolab.andrew.cmu.edu/courses/15131-f17/assessments/texlab)
+- [RomanceLab](https://autolab.andrew.cmu.edu/courses/15131-f17/assessments/romancelab)
 
 
-[gs-latex]:     {{ "/topics/latex/getting-started/" | prepend: site.baseurl }}
-[how-to-latex]: {{ "/topics/latex/how-to-latex.pdf" | prepend: site.baseurl }}
-
-
+[gs-git]: {{ "/topics/git/getting-started/" | prepend: site.baseurl }}
+[git-commands]: {{ "/topics/git/git-commands/"    | prepend: site.baseurl }}
