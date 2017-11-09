@@ -70,10 +70,10 @@ We'll be posting the extratation schedule here.
 | 10/8      | [Pandoc & Midterm Review]      |
 | 10/14     | [Technical Interviewing]       |
 | 10/15     | [Technical Interviewing]       |
-| 10/21     | TBA                            |
-| 10/28     | TBA                            |
-| 11/4      | TBA                            |
-| 11/11     | TBA                            |
+| 10/21     | Mid-semester Break             |
+| 10/28     | Vim Customization              |
+| 11/4      | WDW                            |
+| 11/11     | Digital Currencies             |
 | 11/18     | TBA                            |
 | __11/25__ | __Thanksgiving__               |
 | 12/2      | TBA                            |
