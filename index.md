@@ -38,7 +38,7 @@ For more information, you should checkout the [syllabus].
 | 10/26     | [Week 8]        | [Git][git]                       |
 | 11/2      | [Week 9]        | [Git][git]                       |
 | 11/9      | CMU Advice      | (misc.)                          |
-| 11/16     | -               | TBA                              |
+| 11/16     | -               | Makefiles                        |
 | __11/23__ | -               | __Thanksgiving__                 |
 | 11/30     | [Week 10]       | [Terminal Configuration][config] |
 | 12/7      | -               | Final Exam                       |
@@ -74,9 +74,9 @@ We'll be posting the extratation schedule here.
 | 10/28     | Vim Customization              |
 | 11/4      | WDW                            |
 | 11/11     | Digital Currencies             |
-| 11/18     | TBA                            |
+| 11/18     | React Native                   |
 | __11/25__ | __Thanksgiving__               |
-| 12/2      | TBA                            |
+| 12/2      | Advanced Git                   |
 {:.ui.striped.table}
 
 
