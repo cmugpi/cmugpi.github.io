@@ -30,7 +30,7 @@ __Prerequisites__ are the input files that the rule depends on.
 
 __A recipe__ consists of the commands that are run when the rule is executed.
 
-## The `make` Command
+## The make Command
 
 Running `make` in the shell will cause the shell to look for a Makefile in the
 current directory. If it finds one, it will attempt to create the first target
@@ -83,7 +83,10 @@ It will redirect the output of `pwd` into "whereami."
 
 Thus if we were in the same directory as the above Makefile and we ran `make`,
 this would be the equivalent of running
-`pwd > whereami && cat whereami | xargs echo "I am in"`.
+
+{% highlight bash %}
+$ pwd > whereami && cat whereami | xargs echo "I am in"
+{% end highlight %}
 
 Not only is typing `make` a lot easier than typing out the above oneliner, but
 it actually helps us be efficient if we were to run `make` a second time. If we
@@ -147,5 +150,8 @@ a file called "clean," `make clean` will still always result in running the
 rule as expected.
 
 ## Resources
-- [Phony Targets][https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html]
+
+- [Phony Targets][phonytargets]
   - The manual on phony targets
+
+[phonytargets]: https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html

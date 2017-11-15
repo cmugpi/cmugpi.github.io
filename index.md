@@ -38,7 +38,7 @@ For more information, you should checkout the [syllabus].
 | 10/26     | [Week 8]        | [Git][git]                       |
 | 11/2      | [Week 9]        | [Git][git]                       |
 | 11/9      | CMU Advice      | (misc.)                          |
-| 11/16     | [Week 10]       | Makefiles[makefiles]             |
+| 11/16     | [Week 10]       | [Makefiles][makefiles]           |
 | __11/23__ | -               | __Thanksgiving__                 |
 | 11/30     | [Week 11]       | [Terminal Configuration][config] |
 | 12/7      | -               | Final Exam                       |
