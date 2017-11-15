@@ -86,7 +86,7 @@ this would be the equivalent of running
 
 {% highlight bash %}
 $ pwd > whereami && cat whereami | xargs echo "I am in"
-{% end highlight %}
+{% endhighlight %}
 
 Not only is typing `make` a lot easier than typing out the above oneliner, but
 it actually helps us be efficient if we were to run `make` a second time. If we
