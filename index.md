@@ -38,9 +38,9 @@ For more information, you should checkout the [syllabus].
 | 10/26     | [Week 8]        | [Git][git]                       |
 | 11/2      | [Week 9]        | [Git][git]                       |
 | 11/9      | CMU Advice      | (misc.)                          |
-| 11/16     | -               | Makefiles                        |
+| 11/16     | [Week 10]       | Makefiles[makefiles]             |
 | __11/23__ | -               | __Thanksgiving__                 |
-| 11/30     | [Week 10]       | [Terminal Configuration][config] |
+| 11/30     | [Week 11]       | [Terminal Configuration][config] |
 | 12/7      | -               | Final Exam                       |
 {:.ui.striped.table}
 
@@ -96,12 +96,13 @@ are there as additional resources.
 [syllabus]: {{ "/syllabus/" | prepend: site.baseurl }}
 [Initial setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 
-[usage]:  {{ "/topics/terminal-usage/"         | prepend: site.baseurl }}
-[vim]:    {{ "/topics/vim/"                    | prepend: site.baseurl }}
-[bash]:   {{ "/topics/bash/"                   | prepend: site.baseurl }}
-[latex]:  {{ "/topics/latex/"                  | prepend: site.baseurl }}
-[config]: {{ "/topics/terminal-configuration/" | prepend: site.baseurl }}
-[git]:    {{ "/topics/git/"                    | prepend: site.baseurl }}
+[usage]:     {{ "/topics/terminal-usage/"         | prepend: site.baseurl }}
+[vim]:       {{ "/topics/vim/"                    | prepend: site.baseurl }}
+[bash]:      {{ "/topics/bash/"                   | prepend: site.baseurl }}
+[latex]:     {{ "/topics/latex/"                  | prepend: site.baseurl }}
+[config]:    {{ "/topics/terminal-configuration/" | prepend: site.baseurl }}
+[git]:       {{ "/topics/git/"                    | prepend: site.baseurl }}
+[makefiles]: {{ "/topics/makefiles/"              | prepend: site.baseurl }}
 
 [Week 1]:  {{ "/topics/readings/week-1/"  | prepend: site.baseurl }}
 [Week 2]:  {{ "/topics/readings/week-2/"  | prepend: site.baseurl }}
@@ -113,6 +114,7 @@ are there as additional resources.
 [Week 8]:  {{ "/topics/readings/week-8/"  | prepend: site.baseurl }}
 [Week 9]:  {{ "/topics/readings/week-9/"  | prepend: site.baseurl }}
 [Week 10]: {{ "/topics/readings/week-10/" | prepend: site.baseurl }}
+[Week 11]: {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
 
 [First Week Worktime]: {{ "/topics/extratations/first-week-worktime/" | prepend: site.baseurl }}
 [Shell Shortcuts]: {{ "/topics/extratations/shell-shortcuts/" | prepend: site.baseurl }}
