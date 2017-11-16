@@ -73,7 +73,7 @@ We'll be posting the extratation schedule here.
 | 10/21     | Mid-semester Break             |
 | 10/28     | Vim Customization              |
 | 11/4      | WDW                            |
-| 11/11     | Digital Currencies             |
+| 11/11     | [Digital Currencies]           |
 | 11/18     | React Native                   |
 | __11/25__ | __Thanksgiving__               |
 | 12/2      | Advanced Git                   |
@@ -133,3 +133,5 @@ are there as additional resources.
 [Package Managers]: {{ "/topics/extratations/package-managers/" | prepend: site.baseurl }}
 [Pandoc & Midterm Review]: {{ "/topics/extratations/markdown-and-pandoc/" | prepend: site.baseurl }}
 [Technical Interviewing]: {{ "/topics/extratations/technical-interviewing/" | prepend: site.baseurl }}
+[Digital Currencies]: {{ "/topics/extratations/digital-currencies/" | prepend: site.baseurl }}
+
