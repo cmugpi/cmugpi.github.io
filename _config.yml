@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Carnegie Mellon University. It covers topics relating to basic terminal usage
   and general Unix skills, such as file systems and navigation, bash scripting,
   Unix text editors (i.e. Vim), Git, Make, LaTeX, and more.
-baseurl: "/~15131/f18"
+baseurl: "/~07131/f18"
 url: "https://www.cs.cmu.edu/" # the base hostname & protocol for your site
 twitter_username:
 github_username:

@@ -20,7 +20,7 @@ echo -e "\n\n"
 # Initialize constants
 SEMESTER="f18"
 
-ROOT_DIR="/afs/cs/academic/class/15131-f15"
+ROOT_DIR="/afs/cs/academic/class/07131-f18"
 STAGING_DIR="$ROOT_DIR/.tmp"
 GEM_HOME="$ROOT_DIR/.gems"
 DEPLOYMENT_DIR="$ROOT_DIR/www/$SEMESTER"
