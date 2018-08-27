@@ -7,33 +7,27 @@ order: 4
 # -- This is a test comment
 # -- yaml variables local to this file --
 staff:
-  - id: jmbrown
-    domain: andrew
-    name: Jordan Brown
-  - id: jxc
-    domain: cs
-    name: Jacobo Carrasquel
   - id: wyz
     domain: andrew
     name: Wilson Zhao
-  - id: eosofsky
-    domain: andrew
-    name: Everi Osofsky
+  - id: jxc
+    domain: cs
+    name: Jacobo Carrasquel
   - id: mgq
     domain: andrew
     name: Matthew Quarles
-  - id: azdavis
-    domain: andrew
-    name: Ariel Davis
   - id: dhashe
     domain: andrew
     name: David Hashe
-  - id: tkadur
+  - id: twildenh
     domain: andrew
-    name: Thejaswi Kadur
-  - id: wjp
+    name: Tom Wildenhain
+  - id: ashekar1
     domain: andrew
-    name: William Paivine
+    name: Aditya Shekar
+  - id: schidamb
+    domain: andrew
+    name: Shruti Chidambaram
 ---
 
 # Staff
@@ -58,16 +52,9 @@ whole course staff.
 
 # Office Hours
 
-All office hours are in the GHC 5th floor commons.
+Up-to-date information on office hour times and locations may be found on [Piazza][ohpost].
 
-* Jordan: Wednesday, 3:30 pm - 4:30 pm
-* Everi: Tuesday, 4:30 pm - 5:30 pm
-* Matt: Tuesday, 1:30 pm - 2:30 pm
-* Wilson: Friday, 2:30 pm - 3:30 pm
-* Thejas: Wednesday 6:00 pm - 7:00 pm
-* Bill: Monday 3:30 pm - 4:30 pm
-* David: Wednesday 2:30 pm - 3:30 pm
-* Ariel: Thursday 5:30 pm - 6:30 pm
+[ohpost]: https://piazza.com/class/jl1gj7pztka1cw?cid=6
 
 # Attribution
 {:.ui.dividing.header.no_toc}
@@ -90,4 +77,3 @@ feel free to open an issue or a pull request.
 [adam]: http://www.countablethoughts.com/
 [jake]: https://jez.io/
 [cmugpi]: https://github.com/cmugpi/cmugpi.github.io
-
