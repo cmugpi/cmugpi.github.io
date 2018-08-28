@@ -26,7 +26,7 @@ order: 9
 
 This week's homework has two parts. The first part is on Autolab:
 
-- [ColLab](https://autolab.andrew.cmu.edu/courses/15131-f17/assessments/collab)
+- [ColLab](https://autolab.andrew.cmu.edu/courses/07131-f18/assessments/collab)
 
 For the second part of this assignment, you will get practice with forking a
 GitHub repo and making a pull request. The repo you will be working with is the

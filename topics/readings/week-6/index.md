@@ -28,7 +28,7 @@ The reading for this week is a bit of a mixup of topics.
 
 The lab for this week is on regex and globs. You can find it on autolab.
 
-- [Haunt Lab](https://autolab.andrew.cmu.edu/courses/15131-f17/assessments/hauntlab)
+- [Haunt Lab](https://autolab.andrew.cmu.edu/courses/07131-f18/assessments/hauntlab)
 
 ## Review
 
