@@ -148,7 +148,7 @@ $ echo '$(ls)'
 $(ls)
 {% endhighlight %}
 
-[vars]: http://localhost:4000/~15131/topics/terminal-usage/environment-afs/#environment-variables-export
-[command-sub]: http://localhost:4000/~15131/topics/bash/input-output/#command-substitution-
+[vars]: {{ "/topics/bash/bash-scripting/#shell-variables-export" | prepend: site.baseurl }}
+[command-sub]: {{ "/topics/bash/input-output/#command-substitution-" | prepend: site.baseurl }}
 [escaping]: http://tldp.org/LDP/abs/html/escapingsection.html
 [bash-3.1.2]: http://www.gnu.org/software/bash/manual/html_node/Single-Quotes.html

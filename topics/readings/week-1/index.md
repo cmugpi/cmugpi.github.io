@@ -24,7 +24,7 @@ order: 1
 
 The lab can be found on Autolab:
 
-- [TrainerLab](https://autolab.andrew.cmu.edu/courses/15131-f17/assessments/trainerlab)
+- [TrainerLab](https://autolab.andrew.cmu.edu/courses/07131-f18/assessments/trainerlab)
 
 [Initial Setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 [Files & Commands]: {{ "/topics/terminal-usage/files-commands" | prepend: site.baseurl }}

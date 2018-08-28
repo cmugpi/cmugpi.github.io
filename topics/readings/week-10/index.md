@@ -26,7 +26,7 @@ order: 10
 
 This week's lab can be found on Autolab:
 
-- [SandCastleLab](https://autolab.andrew.cmu.edu/courses/15131-f17/assessments/sandcastlelab)
+- [SandCastleLab](https://autolab.andrew.cmu.edu/courses/07131-f18/assessments/sandcastlelab)
 
 [getting-started]: {{ "/topics/makefiles/getting-started/"  | prepend: site.baseurl }}
 [compiling-code]:  {{ "/topics/makefiles/compiling-code/"   | prepend: site.baseurl }}
