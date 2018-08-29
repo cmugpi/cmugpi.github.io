@@ -73,7 +73,22 @@ terminal built-in to the OS. To find out if your copy of Windows 10 is recent
 enough, open the Start Menu, type in `winver`, and press enter. In the window
 that appears, look at the number that comes after "OS Build".
 
-If that number is 14316 or greater, you should follow these instructions to
+If that number is 16215 or greater, you should follow these instructions to
+activate the built-in terminal:
+
+- Open the Start Menu, type in "Turn Windows features on or off", and press
+  enter.
+- Scroll down to "Windows Subsystem for Linux", check its box, and press OK.
+  Allow your computer to restart.
+- After restarting, open CMD from the start menu and type `bash`.  If you are
+  running Creators Update you should get a prompt to install a linux distribution
+  from the Microsoft Store.
+- Open the Microsoft Store and install Ubuntu.  Then select "Launch" or search
+  "Ubuntu" in the start menu.
+- When installation completes, open CMD and type "bash".  You should get a prompt
+  like `root@COMPUTER-NAME:~#`.
+
+If that number is between 14316 and 16214, you should follow these instructions to
 activate the built-in terminal:
 
 - Open the Start Menu, type in "Turn Windows features on or off", and press
