@@ -83,8 +83,8 @@ activate the built-in terminal:
 - After restarting, open CMD from the start menu and type `bash`.  If you are
   running Creators Update you should get a prompt to install a linux distribution
   from the Microsoft Store.
-- Open the Microsoft Store and install Ubuntu.  Then select "Launch" or search
-  "Ubuntu" in the start menu.
+- Open the Microsoft Store and install [Ubuntu][ms-ubuntu].  Then select "Launch" or
+  search "Ubuntu" in the start menu.
 - When installation completes, open CMD and type "bash".  You should get a prompt
   like `root@COMPUTER-NAME:~#`.
 
@@ -208,6 +208,7 @@ prompt used to be, you're done! If you see a file path, then everything went
 correctly! (If it looks like nothing changed, something went wrong. Try logging
 out and back in, and if that doesn't fix it, make a post on Piazza or email us.)
 
+[ms-ubuntu]: https://www.microsoft.com/store/p/ubuntu/9nblggh4msv6
 [mobaxterm]: http://mobaxterm.mobatek.net/
 [mobaxterm-tutorial]: http://blog.jez.io/2014/09/28/setting-up-mobaxterm-for-ssh-on-windows/
 [iterm2]: http://iterm2.com/
