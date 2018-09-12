@@ -7,10 +7,3 @@ group: extratations
 order: 1
 redirect_to: ../html-and-css.pdf
 ---
-
-
-{% include toc.md %}
-
-# Package Managers
-{:.ui.dividing.header.no_toc}
-

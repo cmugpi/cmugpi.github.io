@@ -54,22 +54,22 @@ Time and Location: TBA
 
 We'll be posting the extratation schedule here.
 
-| Date         | Extratation Topic |
-| ----         | -----             |
-| 9/1-2        | TBA               |
-| 9/8-9        | TBA               |
-| 9/15-16      | TBA               |
-| 9/22-23      | TBA               |
-| 9/29-30      | TBA               |
-| 10/6-7       | TBA               |
-| 10/13-14     | TBA               |
-| 10/20-21     | TBA               |
-| 10/27-28     | TBA               |
-| 11/3-4       | TBA               |
-| 11/10-11     | TBA               |
-| 11/17-18     | TBA               |
-| __11/24-25__ | __Thanksgiving__  |
-| 12/1-2       | TBA               |
+| Date         | Extratation Topic    |
+| ----         | -----                |
+| 9/1-2        | [HTML and CSS][html] |
+| 9/8-9        | [SSH and AFS][afs]   |
+| 9/15-16      | TBA                  |
+| 9/22-23      | TBA                  |
+| 9/29-30      | TBA                  |
+| 10/6-7       | TBA                  |
+| 10/13-14     | TBA                  |
+| 10/20-21     | TBA                  |
+| 10/27-28     | TBA                  |
+| 11/3-4       | TBA                  |
+| 11/10-11     | TBA                  |
+| 11/17-18     | TBA                  |
+| __11/24-25__ | __Thanksgiving__     |
+| 12/1-2       | TBA                  |
 {:.ui.striped.table}
 
 
@@ -109,22 +109,6 @@ are there as additional resources.
 [Week 10]: {{ "/topics/readings/week-10/" | prepend: site.baseurl }}
 [Week 11]: {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
 
-[First Week Worktime]: {{ "/topics/extratations/first-week-worktime/" | prepend: site.baseurl }}
-[Shell Shortcuts]: {{ "/topics/extratations/shell-shortcuts/" | prepend: site.baseurl }}
-[Commands Booster Pack]: {{ "/topics/extratations/command-booster-pack/" | prepend: site.baseurl }}
-[Vim: Navigation Showcase]: {{ "/topics/extratations/vim-navigation-showcase/" | prepend: site.baseurl }}
-[Vim: Editing Showcase]: {{ "/topics/extratations/vim-editing-showcase/" | prepend: site.baseurl }}
-[Tmux, and Other Tools]: {{ "/topics/extratations/tmux-and-other-tools/" | prepend: site.baseurl }}
-[Technical Interview Practice]: {{ "/topics/extratations/interview-practice/" | prepend: site.baseurl }}
-[Vim as an IDE]: {{ "/topics/extratations/vim-as-an-ide/" | prepend: site.baseurl }}
-[Digital Currencies]: {{ "/topics/extratations/digital-currencies/" | prepend: site.baseurl }}
-[Writing at the Command Line]: {{ "/topics/extratations/writing-cli/" | prepend: site.baseurl }}
-
-[Git basics, shell tricks]: {{ "/topics/extratations/git/" | prepend: site.baseurl }}
-[Emacs Basics]: {{ "/topics/extratations/emacs-basics/" | prepend: site.baseurl }}
-[Advanced Emacs]: {{ "/topics/extratations/advanced-emacs/" | prepend: site.baseurl }}
-[Package Managers]: {{ "/topics/extratations/package-managers/" | prepend: site.baseurl }}
-[Pandoc & Midterm Review]: {{ "/topics/extratations/markdown-and-pandoc/" | prepend: site.baseurl }}
-[Technical Interviewing]: {{ "/topics/extratations/technical-interviewing/" | prepend: site.baseurl }}
-[Digital Currencies]: {{ "/topics/extratations/digital-currencies/" | prepend: site.baseurl }}
+[html]: {{ "/topics/extratations/html-and-css/" | prepend: site.baseurl }}
+[afs]: {{ "/topics/extratations/ssh-and-afs/" | prepend: site.baseurl }}
 
