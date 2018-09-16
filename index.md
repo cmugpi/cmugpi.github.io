@@ -54,22 +54,22 @@ Time and Location: TBA
 
 We'll be posting the extratation schedule here.
 
-| Date         | Extratation Topic    |
-| ----         | -----                |
-| 9/1-2        | [HTML and CSS][html] |
-| 9/8-9        | [SSH and AFS][afs]   |
-| 9/15-16      | TBA                  |
-| 9/22-23      | TBA                  |
-| 9/29-30      | TBA                  |
-| 10/6-7       | TBA                  |
-| 10/13-14     | TBA                  |
-| 10/20-21     | TBA                  |
-| 10/27-28     | TBA                  |
-| 11/3-4       | TBA                  |
-| 11/10-11     | TBA                  |
-| 11/17-18     | TBA                  |
-| __11/24-25__ | __Thanksgiving__     |
-| 12/1-2       | TBA                  |
+| Date         | Extratation Topic      |
+| ----         | -----                  |
+| 9/1-2        | [HTML and CSS][html]   |
+| 9/8-9        | [SSH and AFS][afs]     |
+| 9/15-16      | [Spacemacs][spacemacs] |
+| 9/22-23      | TBA                    |
+| 9/29-30      | TBA                    |
+| 10/6-7       | TBA                    |
+| 10/13-14     | TBA                    |
+| 10/20-21     | TBA                    |
+| 10/27-28     | TBA                    |
+| 11/3-4       | TBA                    |
+| 11/10-11     | TBA                    |
+| 11/17-18     | TBA                    |
+| __11/24-25__ | __Thanksgiving__       |
+| 12/1-2       | TBA                    |
 {:.ui.striped.table}
 
 
@@ -111,4 +111,5 @@ are there as additional resources.
 
 [html]: {{ "/topics/extratations/html-and-css/" | prepend: site.baseurl }}
 [afs]: {{ "/topics/extratations/ssh-and-afs/" | prepend: site.baseurl }}
+[spacemacs]: {{ "/topics/extratations/spacemacs/" | prepend: site.baseurl }}
 
