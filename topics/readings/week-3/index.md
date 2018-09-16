@@ -37,6 +37,11 @@ read this before class if you don't want to):
 - [Searching, Substituting, Text Objects, and Yanking][notes]
 - [Vim Cheatsheet]
 
+## Slides
+
+- [Vim]
+
 [notes]: {{ "/topics/vim/search-sub-obj-yank/" | prepend: site.baseurl }}
 [Vim Cheatsheet]: {{ "/topics/vim/vim-cheatsheet.pdf" | prepend: site.baseurl }}
+[Vim]: {{ "/topics/readings/week-3/week-3-vim-2.pdf" | prepend: site.baseurl }}
 
