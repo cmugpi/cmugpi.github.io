@@ -11,15 +11,24 @@ order: 5
 #  - /javascripts/two.js
 ---
 
+{% include toc.md %}
+
 ## Reading
 
+- [Bash Scripting]
+- [Globbing & Ranges]
+- [Strings]
 - [Regular Expressions]
-
-[Regular Expressions]: {{ "/topics/bash/regular-expressions" | prepend: site.baseurl }}
 
 ## Lab
 
-The lab can be found on Autolab:
+This week there are two labs. They can be found on Autolab:
 
+- [ForceLab](https://autolab.andrew.cmu.edu/courses/07131-f18/assessments/forcelab)
 - [ZombieLab](https://autolab.andrew.cmu.edu/courses/07131-f18/assessments/zombielab)
 
+
+[Bash Scripting]:    {{ "/topics/bash/bash-scripting/"  | prepend: site.baseurl }}
+[Globbing & Ranges]: {{ "/topics/bash/globbing-ranges/" | prepend: site.baseurl }}
+[strings]:           {{ "/topics/bash/strings/"         | prepend: site.baseurl }}
+[Regular Expressions]: {{ "/topics/bash/regular-expressions" | prepend: site.baseurl }}

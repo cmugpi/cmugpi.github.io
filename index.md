@@ -30,7 +30,7 @@ For more information, you should checkout the [syllabus].
 | 8/30      | [Week 1]        | [Terminal usage][usage]          |
 | 9/6       | [Week 2]        | [Vim][vim]                       |
 | 9/13      | [Week 3]        | [Vim][vim]                       |
-| 9/20      | [Week 4]        | [Bash][bash]                     |
+| 9/20      | [Week 4]        | Technical Interviewing           |
 | 9/27      | [Week 5]        | [Bash][bash]                     |
 | 10/4      | [Week 6]        | [Bash][bash]                     |
 | 10/11     | -               | Midterm Exam                     |
@@ -59,8 +59,8 @@ We'll be posting the extratation schedule here.
 | 9/1-2        | [HTML and CSS][html]   |
 | 9/8-9        | [SSH and AFS][afs]     |
 | 9/15-16      | [Spacemacs][spacemacs] |
-| 9/22-23      | TBA                    |
-| 9/29-30      | TBA                    |
+| 9/22-23      | Technical Interviewing |
+| 9/29-30      | Powerpoint TM          |
 | 10/6-7       | TBA                    |
 | 10/13-14     | TBA                    |
 | 10/20-21     | TBA                    |

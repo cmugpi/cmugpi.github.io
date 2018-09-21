@@ -19,19 +19,14 @@ order: 4
 
 ## Reading
 
-There are three readings this week, but they're reasonably short.
-
-- [Bash Scripting]
-- [Globbing & Ranges]
-- [Strings]
+There were no readings this week.
 
 ## Lab
 
-The lab can be found on Autolab:
+There was no lab this week.
 
-- [ForceLab](https://autolab.andrew.cmu.edu/courses/07131-f18/assessments/forcelab)
+## Slides
 
+- [Interviewing]
 
-[Bash Scripting]:    {{ "/topics/bash/bash-scripting/"  | prepend: site.baseurl }}
-[Globbing & Ranges]: {{ "/topics/bash/globbing-ranges/" | prepend: site.baseurl }}
-[strings]:           {{ "/topics/bash/strings/"         | prepend: site.baseurl }}
+[Interviewing]: {{ "/topics/readings/week-4/week-4-interviewing.pdf" | prepend: site.baseurl }}
