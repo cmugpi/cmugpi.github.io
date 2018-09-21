@@ -16,9 +16,6 @@ staff:
   - id: mgq
     domain: andrew
     name: Matthew Quarles
-  - id: azdavis
-    domain: andrew
-    name: Ariel Davis
   - id: dhashe
     domain: andrew
     name: David Hashe
