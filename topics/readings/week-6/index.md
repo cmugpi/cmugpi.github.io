@@ -19,16 +19,21 @@ order: 6
 
 ## Reading
 
-The reading for this week is a bit of a mixup of topics.
+This week we'll be learning about one of Bash's most powerful features:
+oneliners!
 
-- [Globbing & Ranges]
-- [Regular Expressions]
+- [Input & Output]
+- [Oneliners]
 
 ## Lab
 
-The lab for this week is on regex and globs. You can find it on autolab.
+The lab can be found on Autolab:
 
-- [Haunt Lab](https://autolab.andrew.cmu.edu/courses/07131-f18/assessments/hauntlab)
+- [PipeLab](https://autolab.andrew.cmu.edu/courses/07131-f18/assessments/pipelab)
+
+## Slides
+
+- [Streams and Oneliners]
 
 ## Review
 
@@ -42,6 +47,8 @@ week. Here are all of the readings we've covered so far for convenience:
 - [Strings]
 - [Globbing & Ranges]
 - [Regular Expressions]
+- [Input & Output]
+- [Oneliners]
 
 
 [Files & Commands]:         {{ "/topics/files-commands/"                | prepend: site.baseurl }}
@@ -53,5 +60,8 @@ week. Here are all of the readings we've covered so far for convenience:
 [Regular Expressions]:      {{ "/topics/bash/regular-expressions/"      | prepend: site.baseurl }}
 
 [Jobs, Man Pages, & Links]: {{ "/topics/terminal-usage/jobs-man-links/" | prepend: site.baseurl }}
+[Input & Output]: {{ "/topics/bash/input-output/"   | prepend: site.baseurl }}
+[Oneliners]:      {{ "/topics/bash/oneliners/"      | prepend: site.baseurl }}
 [Midterm Review]:            midterm-review.pdf
 [Sample Answers]:            midterm-review-answers.pdf
+[Streams and Oneliners]: {{ "/topics/readings/week-6/week-6-oneliners.pdf"      | prepend: site.baseurl }}
