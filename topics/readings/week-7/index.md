@@ -19,21 +19,16 @@ order: 7
 
 ## Reading
 
-This week we'll be learning about one of Bash's most powerful features:
-oneliners!
+This week we'll be learning about job control, signals, and file descriptors.
 
-- [Input & Output]
-- [Oneliners]
+- [Jobs, Man pages, and links]
 
 ## Slides
 
-- [oneliners.pdf](oneliners.pdf)
+- [Jobs and signals](jobs_signals.pdf)
 
 ## Lab
 
-The lab can be found on Autolab:
+There is no lab for this week.
 
-- [PipeLab](https://autolab.andrew.cmu.edu/courses/07131-f18/assessments/pipelab)
-
-[Input & Output]: {{ "/topics/bash/input-output/"   | prepend: site.baseurl }}
-[Oneliners]:      {{ "/topics/bash/oneliners/"      | prepend: site.baseurl }}
+[Jobs, Man pages, and links]:      {{ "/topics/terminal-usage/jobs-man-links/"      | prepend: site.baseurl }}
