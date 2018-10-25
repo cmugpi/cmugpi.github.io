@@ -29,6 +29,10 @@ The lab can be found on Autolab:
 
 - [RomanceLab](https://autolab.andrew.cmu.edu/courses/07131-f18/assessments/romancelab)
 
+## Slides
+
+- [Git]
 
 [gs-git]: {{ "/topics/git/getting-started/" | prepend: site.baseurl }}
 [git-commands]: {{ "/topics/git/git-commands/"    | prepend: site.baseurl }}
+[Git]: {{ "/topics/readings/week-8/git.pdf" | prepend: site.baseurl }}
