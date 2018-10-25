@@ -61,9 +61,9 @@ We'll be posting the extratation schedule here.
 | 9/15-16      | [Spacemacs][spacemacs] |
 | 9/22-23      | Technical Interviewing |
 | 9/29-30      | Powerpoint TM          |
-| 10/6-7       | TBA                    |
-| 10/13-14     | TBA                    |
-| 10/20-21     | TBA                    |
+| 10/6-7       | Midterm Review         |
+| 10/13-14     | -                      |
+| 10/20-21     | Package Managers       |
 | 10/27-28     | TBA                    |
 | 11/3-4       | TBA                    |
 | 11/10-11     | TBA                    |
