@@ -28,6 +28,8 @@ This week's homework has two parts. The first part is on Autolab:
 
 - [ColLab](https://autolab.andrew.cmu.edu/courses/07131-f18/assessments/collab)
 
+The second part will be due one week after the first part, and will use GitHub.
+
 For the second part of this assignment, you will get practice with forking a
 GitHub repo and making a pull request. The repo you will be working with is the
 [git-practice] repo. Do the following:
