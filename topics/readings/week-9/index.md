@@ -44,7 +44,12 @@ GitHub repo and making a pull request. The repo you will be working with is the
 - Make a pull request to cmugpi's git-practice repo. For the title of your pull
   request, put your Andrew ID.
 
+## Slides
+
+- [Git2]
+
 [git-practice]: https://github.com/cmugpi/git-practice
 [using-github]: {{ "/topics/git/using-github/"    | prepend: site.baseurl }}
 [git-commands]: {{ "/topics/git/git-commands/"    | prepend: site.baseurl }}
+[Git2]:         {{ "/topics/readings/week-9/git2.pdf" | prepend: site.baseurl }}
 

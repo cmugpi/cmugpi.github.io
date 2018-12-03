@@ -24,24 +24,24 @@ For more information, you should checkout the [syllabus].
 
 **NOTE**: We are still tweaking the schedule, and it is subject to change.
 
-| Date      | Reading         | Lecture Topic                    |
-| ----      | -------         | -------------                    |
-| ASAP      | [Initial setup] | -                                |
-| 8/30      | [Week 1]        | [Terminal usage][usage]          |
-| 9/6       | [Week 2]        | [Vim][vim]                       |
-| 9/13      | [Week 3]        | [Vim][vim]                       |
-| 9/20      | [Week 4]        | Technical Interviewing           |
-| 9/27      | [Week 5]        | [Bash][bash]                     |
-| 10/4      | [Week 6]        | [Bash][bash]                     |
-| 10/11     | -               | Midterm Exam                     |
-| 10/18     | [Week 7]        | [Bash][bash]                     |
-| 10/25     | [Week 8]        | [Git][git]                       |
-| 11/1      | [Week 9]        | [Git][git]                       |
-| 11/8      | CMU Advice      | (misc.)                          |
-| 11/15     | [Week 10]       | [Makefiles][makefiles]           |
-| __11/22__ | -               | __Thanksgiving__                 |
-| 11/29     | [Week 11]       | [Terminal Configuration][config] |
-| 12/6      | -               | Final Exam                       |
+| Date      | Reading         | Lecture Topic           |
+| ----      | -------         | -------------           |
+| ASAP      | [Initial setup] | -                       |
+| 8/30      | [Week 1]        | [Terminal usage][usage] |
+| 9/6       | [Week 2]        | [Vim][vim]              |
+| 9/13      | [Week 3]        | [Vim][vim]              |
+| 9/20      | [Week 4]        | Technical Interviewing  |
+| 9/27      | [Week 5]        | [Bash][bash]            |
+| 10/4      | [Week 6]        | [Bash][bash]            |
+| 10/11     | -               | Midterm Exam            |
+| 10/18     | [Week 7]        | [Bash][bash]            |
+| 10/25     | [Week 8]        | [Git][git]              |
+| 11/1      | [Week 9]        | [Git][git]              |
+| 11/8      | CMU Advice      | (misc.)                 |
+| 11/15     | [Week 10]       | [Makefiles][makefiles]  |
+| __11/22__ | -               | __Thanksgiving__        |
+| 11/29     | [Week 11]       | What happens when...    |
+| 12/6      | -               | Final Exam              |
 {:.ui.striped.table}
 
 ## Extratations
@@ -54,22 +54,22 @@ Time and Location: 1:00-2:00pm at GHC 5222
 
 We'll be posting the extratation schedule here.
 
-| Date         | Extratation Topic      |
-| ----         | -----                  |
-| 9/1-2        | [HTML and CSS][html]   |
-| 9/8-9        | [SSH and AFS][afs]     |
-| 9/15-16      | [Spacemacs][spacemacs] |
-| 9/22-23      | Technical Interviewing |
-| 9/29-30      | Powerpoint TM          |
-| 10/6-7       | Midterm Review         |
-| 10/13-14     | -                      |
-| 10/20-21     | Package Managers       |
-| 10/27-28     | TBA                    |
-| 11/3-4       | TBA                    |
-| 11/10-11     | TBA                    |
-| 11/17-18     | TBA                    |
-| __11/24-25__ | __Thanksgiving__       |
-| 12/1-2       | TBA                    |
+| Date         | Extratation Topic              |
+| ----         | -----                          |
+| 9/1-2        | [HTML and CSS][html]           |
+| 9/8-9        | [SSH and AFS][afs]             |
+| 9/15-16      | [Spacemacs][spacemacs]         |
+| 9/22-23      | Technical Interviewing         |
+| 9/29-30      | Powerpoint TM                  |
+| 10/6-7       | Midterm Review                 |
+| 10/13-14     | -                              |
+| 10/20-21     | Package Managers               |
+| 10/27-28     | [Terminal Config][configextra] |
+| 11/3-4       | -                              |
+| 11/10-11     | Git                            |
+| 11/17-18     | Programming Languages          |
+| __11/24-25__ | __Thanksgiving__               |
+| 12/1-2       | Final Review                   |
 {:.ui.striped.table}
 
 
@@ -112,4 +112,9 @@ are there as additional resources.
 [html]: {{ "/topics/extratations/html-and-css/" | prepend: site.baseurl }}
 [afs]: {{ "/topics/extratations/ssh-and-afs/" | prepend: site.baseurl }}
 [spacemacs]: {{ "/topics/extratations/spacemacs/" | prepend: site.baseurl }}
+
+[packages]: {{ "/topics/extratations/packages/" | prepend: site.baseurl }}
+[configextra]: {{ "/topics/extratations/configextra/" | prepend: site.baseurl }}
+[gitextra]: {{ "/topics/extratations/gitextra/" | prepend: site.baseurl }}
+[langs]: {{ "/topics/extratations/langs/" | prepend: site.baseurl }}
 

@@ -28,6 +28,10 @@ This week's lab can be found on Autolab:
 
 - [SandCastleLab](https://autolab.andrew.cmu.edu/courses/07131-f18/assessments/sandcastlelab)
 
+## Slides
+
+- [Makefiles]
+
 [getting-started]: {{ "/topics/makefiles/getting-started/"  | prepend: site.baseurl }}
 [compiling-code]:  {{ "/topics/makefiles/compiling-code/"   | prepend: site.baseurl }}
-
+[Makefiles]:         {{ "/topics/readings/week-10/makefiles.pdf" | prepend: site.baseurl }}
