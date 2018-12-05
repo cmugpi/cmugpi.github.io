@@ -66,8 +66,8 @@ We'll be posting the extratation schedule here.
 | 10/20-21     | Package Managers               |
 | 10/27-28     | [Terminal Config][configextra] |
 | 11/3-4       | -                              |
-| 11/10-11     | Git                            |
-| 11/17-18     | Programming Languages          |
+| 11/10-11     | [Git][gitextra]                |
+| 11/17-18     | [Programming Languages][langs] |
 | __11/24-25__ | __Thanksgiving__               |
 | 12/1-2       | Final Review                   |
 {:.ui.striped.table}
