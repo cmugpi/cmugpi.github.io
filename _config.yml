@@ -18,7 +18,7 @@ exclude:
   - Gemfile
   - Makefile
 
-plugins:
+gems:
   - jekyll-redirect-from
 
 # Build settings
