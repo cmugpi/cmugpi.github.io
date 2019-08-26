@@ -68,7 +68,10 @@ The grading breakdown will be as follows:
 - 10% Midterm Exam
 - 10% Final Exam
 
-But if you attend at least 3 extratations, you can:
+All homework assignments will be weighted equally, so missing an assignment is
+roughly equivalent to dropping a letter grade.
+
+Also, if you attend at least 3 extratations, you can:
 
 - use your midterm grade as your final grade
 - use your final grade as your midterm grade
