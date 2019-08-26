@@ -96,6 +96,9 @@ arguments or combinations of commands. The purpose of labs is to learn by
 solving. If you solve the lab and then explain the solution to others, they
 haven't learned!
 
+We will also have a course [Piazza](https://piazza.com/class/jzojufcv14o211)
+where students may ask questions to TAs.
+
 ## Help
 
 If at any point during the semester you're having trouble with anything in the
