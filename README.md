@@ -428,7 +428,7 @@ From here, SCS Facilities takes care of serving our site whenever it's visited.
 After having cloned this repo, you can add the AFS remote with
 
 ```
-git remote add andrew ssh://ANDREWID@unix.andrew.cmu.edu/afs/cs/academic/class/15131-f15/repos/www.git/
+git remote add andrew ssh://ANDREWID@unix.andrew.cmu.edu/afs/cs/academic/class/07131-f18/repos/www.git/
 ```
 
 And you can deploy to it by pushing `develop` to that remote:
@@ -450,16 +450,16 @@ works is:
     - A copy of this script is in `_support`
 - When Jekyll builds the site, it knows what semester it is from the
   `_config.yml` file.
-- When users visit https://www.cs.cmu.edu/~15131/, there is a single
-  `index.html` file sitting in `15131-f15/www/` that refreshes to the current
+- When users visit https://www.cs.cmu.edu/~07131/, there is a single
+  `index.html` file sitting in `07131-f18/www/` that refreshes to the current
   semester.
 
 To bump the semester, you have to manually alter the semester in the last three
 places just discussed. To recap, you'll have to edit the semester in
 
-- `SEMESTER` in `/afs/cs/academic/class/15131-f15/repos/www.git/hooks/post-receive`
+- `SEMESTER` in `/afs/cs/academic/class/07131-f18/repos/www.git/hooks/post-receive`
   and in `_support/post-receive`
-- the refresh URL of `/afs/cs/academic/class/15131-f15/www/index.html`
+- the refresh URL of `/afs/cs/academic/class/07131-f18/www/index.html`
 - `baseurl` in `_config.yml`
 
 That's a lot of places, but it's only once a semester. If you want to make it
