@@ -7,42 +7,33 @@ order: 4
 # -- This is a test comment
 # -- yaml variables local to this file --
 staff:
-  - id: tcortina
+  - id: wyz
+    domain: andrew
+    name: Wilson Zhao
+  - id: jxc
     domain: cs
-    name: Tom Cortina
+    name: Jacobo Carrasquel
+  - id: mgq
+    domain: andrew
+    name: Matthew Quarles
   - id: dhashe
     domain: andrew
     name: David Hashe
+  - id: twildenh
+    domain: andrew
+    name: Tom Wildenhain
   - id: ashekar1
     domain: andrew
     name: Aditya Shekar
   - id: schidamb
     domain: andrew
     name: Shruti Chidambaram
-  - id: jiachen5
-    domain: andrew
-    name: Amy Liu
-  - id: asanders
-    domain: andrew
-    name: Antioch Sanders
-  - id: emmanuee
-    domain: andrew
-    name: Emmanuel Eppinger
-  - id: jmcamero
-    domain: andrew
-    name: Jack Cameron
-  - id: kimberll
-    domain: andrew
-    name: Kimberly Lo
-  - id: myong
-    domain: andrew
-    name: Sam Yong
 ---
 
 # Staff
 {:.ui.dividing.header.no_toc}
 
-Please send general emails to 07131-staff at cs.cmu.edu. Only send email to a
+Please send general emails to 15-131-staff at cs.cmu.edu. Only send email to a
 specific TA if you have a question that wouldn't be appropriate to send to the
 whole course staff.
 
@@ -61,7 +52,7 @@ whole course staff.
 
 # Office Hours
 
-Up-to-date information on office hour times and locations may be found on Piazza.
+Up-to-date information on office hour times and locations may be found on [Piazza][ohpost].
 
 [ohpost]: https://piazza.com/class/jl1gj7pztka1cw?cid=6
 
