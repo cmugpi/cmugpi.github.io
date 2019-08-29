@@ -34,6 +34,11 @@
   box-shadow: 4px 0 0 inset;
 }
 
+// make space for redirect banner
+.ui.grid>.column:not(.row) {
+    padding-top: 4rem;
+}
+
 // Huge hack to fix black bar that appears after toggling sidebar
 .pushable {
   background: #f7f7f7!important;
