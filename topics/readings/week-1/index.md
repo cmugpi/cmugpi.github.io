@@ -28,8 +28,8 @@ The lab can be found on Autolab:
 
 ## Slides
 
+- [Intro]
+
 [Initial Setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 [Files & Commands]: {{ "/topics/terminal-usage/files-commands" | prepend: site.baseurl }}
-[Intro]: {{ "/topics/readings/week-1/week-1-intro.pdf" | prepend: site.baseurl }}
-[Terminal]: {{ "/topics/readings/week-1/week-1-terminal.pdf" | prepend: site.baseurl }}
-[Bash]: {{ "/topics/readings/week-1/week-1-bash.pdf" | prepend: site.baseurl }}
+[Intro]: {{ "/topics/readings/week-1/week-1-bash.pdf" | prepend: site.baseurl }}
