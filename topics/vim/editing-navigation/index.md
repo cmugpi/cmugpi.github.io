@@ -22,12 +22,12 @@ memorize what's listed here.
 
 ## Navigation
 
-| Key | Description                   |
-| --- | -----------                   |
-| `h` | Move left                     |
-| `j` | Move down                     |
-| `k` | Move up                       |
-| `l` | Move left, ('l' for 'letter') |
+| Key | Description                    |
+| --- | -----------                    |
+| `h` | Move left                      |
+| `j` | Move down                      |
+| `k` | Move up                        |
+| `l` | Move right, ('l' for 'letter') |
 {:.ui.striped.table}
 
 | Key | Description                                   |
@@ -41,7 +41,7 @@ memorize what's listed here.
 | --- | -----------                                            |
 | `W` | Same as `w`, but only use spaces for a word boundaries |
 | `E` | Same as `e`, but only use spaces for a word boundaries |
-| `B` | Same as `e`, but only use spaces for a word boundaries |
+| `B` | Same as `b`, but only use spaces for a word boundaries |
 {:.ui.striped.table}
 
 | Key         | Description                                                              |
