@@ -42,9 +42,9 @@ staff:
 # Staff
 {:.ui.dividing.header.no_toc}
 
-Please send general emails to 07131-staff at cs.cmu.edu. Only send email to a
-specific TA if you have a question that wouldn't be appropriate to send to the
-whole course staff.
+Please send general emails to scs-gpi2019 at lists.andrew.cmu.edu. Only send
+email to a specific TA if you have a question that wouldn't be appropriate to
+send to the whole course staff.
 
 <div class="ui three column center aligned grid">
 {% for person in page.staff %}
