@@ -28,9 +28,9 @@ For more information, you should checkout the [syllabus].
 | ----      | -------         | -------------           |
 | ASAP      | [Initial setup] | -                       |
 | 8/29      | [Week 1]        | [Terminal usage][usage] |
-| 9/5       |                 | [Vim][vim]              |
-| 9/12      |                 | [Vim][vim]              |
-| 9/19      |                 | Technical Interviewing  |
+| 9/5       | [Week 2]        | [Vim][vim]              |
+| 9/12      | [Week 3]        | [Vim][vim]              |
+| 9/19      |                 | Summer Opportunities    |
 | 9/26      |                 | [Bash][bash]            |
 | 10/3      |                 | [Bash][bash]            |
 | 10/10     | -               | Midterm Exam            |
@@ -54,22 +54,22 @@ Time and Location: TBD
 
 We'll be posting the extratation schedule here.
 
-| Date         | Extratation Topic |
-| ----         | -----             |
-| 8/31-9/1     | TBD               |
-| 9/7-8        | TBD               |
-| 9/14-15      | TBD               |
-| 9/21-22      | TBD               |
-| 9/28-29      | TBD               |
-| 10/5-6       | Midterm Review    |
-| 10/12-13     | TBD               |
-| 10/19-20     | TBD               |
-| 10/26-27     | TBD               |
-| 11/2-3       | TBD               |
-| 11/9-10      | TBD               |
-| 11/16-17     | TBD               |
-| __11/23-24__ | __Thanksgiving__  |
-| 11/30-1      | Final Review      |
+| Date         | Extratation Topic      |
+| ----         | -----                  |
+| 8/31-9/1     | [ZSH][zsh]             |
+| 9/7-8        | [Tmux and Vim+][tmux]  |
+| 9/14-15      | Technical Interviewing |
+| 9/21-22      | TBD                    |
+| 9/28-29      | TBD                    |
+| 10/5-6       | Midterm Review         |
+| 10/12-13     | TBD                    |
+| 10/19-20     | TBD                    |
+| 10/26-27     | TBD                    |
+| 11/2-3       | TBD                    |
+| 11/9-10      | TBD                    |
+| 11/16-17     | TBD                    |
+| __11/23-24__ | __Thanksgiving__       |
+| 11/30-1      | Final Review           |
 {:.ui.striped.table}
 
 
@@ -108,3 +108,6 @@ are there as additional resources.
 [Week 9]:  {{ "/topics/readings/week-9/"  | prepend: site.baseurl }}
 [Week 10]: {{ "/topics/readings/week-10/" | prepend: site.baseurl }}
 [Week 11]: {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
+
+[zsh]: {{ "/topics/extratations/zsh/" | prepend: site.baseurl }}
+[tmux]: {{ "/topics/extratations/tmux/" | prepend: site.baseurl }}
