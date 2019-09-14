@@ -54,22 +54,22 @@ Time and Location: TBD
 
 We'll be posting the extratation schedule here.
 
-| Date         | Extratation Topic      |
-| ----         | -----                  |
-| 8/31-9/1     | [ZSH][zsh]             |
-| 9/7-8        | [Tmux and Vim+][tmux]  |
-| 9/14-15      | Technical Interviewing |
-| 9/21-22      | TBD                    |
-| 9/28-29      | TBD                    |
-| 10/5-6       | Midterm Review         |
-| 10/12-13     | TBD                    |
-| 10/19-20     | TBD                    |
-| 10/26-27     | TBD                    |
-| 11/2-3       | TBD                    |
-| 11/9-10      | TBD                    |
-| 11/16-17     | TBD                    |
-| __11/23-24__ | __Thanksgiving__       |
-| 11/30-1      | Final Review           |
+| Date         | Extratation Topic                    |
+| ----         | -----                                |
+| 8/31-9/1     | [ZSH][zsh]                           |
+| 9/7-8        | [Tmux and Vim+][tmux]                |
+| 9/14-15      | [Technical Interviewing][interviews] |
+| 9/21-22      | TBD                                  |
+| 9/28-29      | TBD                                  |
+| 10/5-6       | Midterm Review                       |
+| 10/12-13     | TBD                                  |
+| 10/19-20     | TBD                                  |
+| 10/26-27     | TBD                                  |
+| 11/2-3       | TBD                                  |
+| 11/9-10      | TBD                                  |
+| 11/16-17     | TBD                                  |
+| __11/23-24__ | __Thanksgiving__                     |
+| 11/30-1      | Final Review                         |
 {:.ui.striped.table}
 
 
@@ -111,3 +111,4 @@ are there as additional resources.
 
 [zsh]: {{ "/topics/extratations/zsh/" | prepend: site.baseurl }}
 [tmux]: {{ "/topics/extratations/tmux/" | prepend: site.baseurl }}
+[interviews]: {{ "/topics/extratations/interviews/" | prepend: site.baseurl }}
