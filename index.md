@@ -30,7 +30,7 @@ For more information, you should checkout the [syllabus].
 | 8/29      | [Week 1]        | [Terminal usage][usage] |
 | 9/5       | [Week 2]        | [Vim][vim]              |
 | 9/12      | [Week 3]        | [Vim][vim]              |
-| 9/19      |                 | Summer Opportunities    |
+| 9/19      | [Week 4]        | Summer Opportunities    |
 | 9/26      |                 | [Bash][bash]            |
 | 10/3      |                 | [Bash][bash]            |
 | 10/10     | -               | Midterm Exam            |
