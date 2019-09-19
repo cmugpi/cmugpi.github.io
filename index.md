@@ -59,7 +59,7 @@ We'll be posting the extratation schedule here.
 | 8/31-9/1     | [ZSH][zsh]                           |
 | 9/7-8        | [Tmux and Vim+][tmux]                |
 | 9/14-15      | [Technical Interviewing][interviews] |
-| 9/21-22      | TBD                                  |
+| 9/21-22      | Spacemacs                            |
 | 9/28-29      | TBD                                  |
 | 10/5-6       | Midterm Review                       |
 | 10/12-13     | TBD                                  |
