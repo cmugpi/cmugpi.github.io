@@ -54,31 +54,29 @@ number of optional workshops called "extratations" (a portmanteau of "extra" and
 
 ## Tests
 
-There will be an in-class written midterm exam which will have multiple choice
-and free response questions.
-
-There will also be a final exam, similar in style to the midterm exam but
-covering material from the entire semester.
+There will be two in-class written exams with both multiple choice and free
+response questions. The second exam will be cumulative.
 
 ## Grading
 
 The grading breakdown will be as follows:
 
 - 80% Homeworks
-- 10% Midterm Exam
-- 10% Final Exam
+- 10% Exam 1
+- 10% Exam 2
 
 All homework assignments will be weighted equally, so missing an assignment is
 roughly equivalent to dropping a letter grade.
 
-Also, if you attend at least 3 extratations, you can:
+Also, if you attend at least 3 extratations, you can replace the lower of your
+two exam grades with the higher. This means you can:
 
-- use your midterm grade as your final grade
-- use your final grade as your midterm grade
+- use your Exam 1 grade as your Exam 2 grade
+- use your Exam 2 grade as your Exam 1 grade
 
-Thus, you only have to take the final if you want to improve your midterm grade.
+Thus, you only have to take Exam 2 if you want to improve your Exam 1 grade.
 
-You'll notice that this means you can get a 50% on the midterm and pass with an
+You'll notice that this means you can get a 50% on Exam 1 and pass with an
 A as long as you've completed all the labs. **Anyone who puts effort into this
 class can get an A.**
 
