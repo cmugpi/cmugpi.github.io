@@ -31,12 +31,12 @@ For more information, you should checkout the [syllabus].
 | 9/5       | [Week 2]        | [Vim][vim]              |
 | 9/12      | [Week 3]        | [Vim][vim]              |
 | 9/19      | [Week 4]        | Summer Opportunities    |
-| 9/26      |                 | [Bash][bash]            |
-| 10/3      |                 | [Bash][bash]            |
+| 9/26      | [Week 5]        | [Git][git]              |
+| 10/3      |                 | [Git][git]              |
 | 10/10     | -               | Exam 1                  |
 | 10/17     |                 | [Bash][bash]            |
-| 10/24     |                 | [Git][git]              |
-| 11/31     |                 | [Git][git]              |
+| 10/24     |                 | [Bash][bash]            |
+| 11/31     |                 | [Bash][bash]            |
 | 11/7      |                 | CMU Advice              |
 | 11/14     |                 | TBD                     |
 | __11/21__ | -               | __Thanksgiving__        |
@@ -60,7 +60,7 @@ We'll be posting the extratation schedule here.
 | 9/7-8        | [Tmux and Vim+][tmux]                |
 | 9/14-15      | [Technical Interviewing][interviews] |
 | 9/21-22      | [Spacemacs][spacemacs]               |
-| 9/28-29      | TBD                                  |
+| 9/28-29      | Personal Websites                    |
 | 10/5-6       | Exam 1 Review                        |
 | 10/12-13     | TBD                                  |
 | 10/19-20     | TBD                                  |
