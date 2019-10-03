@@ -32,7 +32,7 @@ For more information, you should checkout the [syllabus].
 | 9/12      | [Week 3]        | [Vim][vim]              |
 | 9/19      | [Week 4]        | Summer Opportunities    |
 | 9/26      | [Week 5]        | [Git][git]              |
-| 10/3      |                 | [Git][git]              |
+| 10/3      | [Week 6]        | [Git][git]              |
 | 10/10     | -               | Exam 1                  |
 | 10/17     |                 | [Bash][bash]            |
 | 10/24     |                 | [Bash][bash]            |
@@ -113,3 +113,4 @@ are there as additional resources.
 [tmux]: {{ "/topics/extratations/tmux/" | prepend: site.baseurl }}
 [interviews]: {{ "/topics/extratations/interviews/" | prepend: site.baseurl }}
 [spacemacs]: {{ "/topics/extratations/spacemacs/" | prepend: site.baseurl }}
+[websites]: {{ "/topics/extratations/websites/" | prepend: site.baseurl }}
