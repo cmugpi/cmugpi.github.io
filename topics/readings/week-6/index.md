@@ -47,7 +47,7 @@ GitHub repo and making a pull request. The repo you will be working with is the
 
 ## Slides
 
-- Git2
+- [Git2]
 
 [git-practice]: https://github.com/cmugpi/git-practice
 [using-github]: {{ "/topics/git/using-github/"    | prepend: site.baseurl }}
