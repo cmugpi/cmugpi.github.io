@@ -60,8 +60,8 @@ We'll be posting the extratation schedule here.
 | 9/7-8        | [Tmux and Vim+][tmux]                |
 | 9/14-15      | [Technical Interviewing][interviews] |
 | 9/21-22      | [Spacemacs][spacemacs]               |
-| 9/28-29      | Personal Websites                    |
-| 10/5-6       | Exam 1 Review                        |
+| 9/28-29      | [Personal Websites][websites]        |
+| 10/5-6       | [Exam 1 Review][exam1review]         |
 | 10/12-13     | TBD                                  |
 | 10/19-20     | TBD                                  |
 | 10/26-27     | TBD                                  |
@@ -114,3 +114,4 @@ are there as additional resources.
 [interviews]: {{ "/topics/extratations/interviews/" | prepend: site.baseurl }}
 [spacemacs]: {{ "/topics/extratations/spacemacs/" | prepend: site.baseurl }}
 [websites]: {{ "/topics/extratations/websites/" | prepend: site.baseurl }}
+[exam1review]: {{ "/topics/extratations/exam1review/" | prepend: site.baseurl }}
