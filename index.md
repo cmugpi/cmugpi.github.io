@@ -50,7 +50,7 @@ Throughout the semester, we'll be holding extra workshops and talks outside of
 class, dubbed "extratations", to explore topics that we don't want to test you
 on but that you might find interesting.
 
-Time and Location: TBD
+Time and Location: 2:30-3:30 PM in GHC 4211 on Sat/Sun
 
 We'll be posting the extratation schedule here.
 
