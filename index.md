@@ -34,7 +34,7 @@ For more information, you should checkout the [syllabus].
 | 9/26      | [Week 5]        | [Git][git]              |
 | 10/3      | [Week 6]        | [Git][git]              |
 | 10/10     | -               | Exam 1                  |
-| 10/17     |                 | [Bash][bash]            |
+| 10/17     | [Week 7]        | [Bash][bash]            |
 | 10/24     |                 | [Bash][bash]            |
 | 10/31     |                 | [Bash][bash]            |
 | 11/7      |                 | [Bash][bash]            |
@@ -62,7 +62,7 @@ We'll be posting the extratation schedule here.
 | 9/21-22      | [Spacemacs][spacemacs]               |
 | 9/28-29      | [Personal Websites][websites]        |
 | 10/5-6       | [Exam 1 Review][exam1review]         |
-| 10/12-13     | URL Shorteners                       |
+| 10/12-13     | [URL Shorteners][urlshortener]       |
 | 10/19-20     | PowerPoint Turing Machines           |
 | 10/26-27     | TBD                                  |
 | 11/2-3       | TBD                                  |
@@ -115,3 +115,4 @@ are there as additional resources.
 [spacemacs]: {{ "/topics/extratations/spacemacs/" | prepend: site.baseurl }}
 [websites]: {{ "/topics/extratations/websites/" | prepend: site.baseurl }}
 [exam1review]: {{ "/topics/extratations/exam1review/" | prepend: site.baseurl }}
+[urlshortener]: {{ "/topics/extratations/urlshortener/" | prepend: site.baseurl }}
