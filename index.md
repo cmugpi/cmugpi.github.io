@@ -36,11 +36,11 @@ For more information, you should checkout the [syllabus].
 | 10/10     | -               | Exam 1                  |
 | 10/17     |                 | [Bash][bash]            |
 | 10/24     |                 | [Bash][bash]            |
-| 11/31     |                 | [Bash][bash]            |
-| 11/7      |                 | CMU Advice              |
-| 11/14     |                 | TBD                     |
-| __11/21__ | -               | __Thanksgiving__        |
-| 11/28     |                 | TBD                     |
+| 10/31     |                 | [Bash][bash]            |
+| 11/7      |                 | [Bash][bash]            |
+| 11/14     |                 | CMU Advice              |
+| 11/21     | -               | [Latex][latex]          |
+| __11/28__ |                 | __Thanksgiving__        |
 | 12/5      | -               | Exam 2                  |
 {:.ui.striped.table}
 
@@ -62,8 +62,8 @@ We'll be posting the extratation schedule here.
 | 9/21-22      | [Spacemacs][spacemacs]               |
 | 9/28-29      | [Personal Websites][websites]        |
 | 10/5-6       | [Exam 1 Review][exam1review]         |
-| 10/12-13     | TBD                                  |
-| 10/19-20     | TBD                                  |
+| 10/12-13     | URL Shorteners                       |
+| 10/19-20     | PowerPoint Turing Machines           |
 | 10/26-27     | TBD                                  |
 | 11/2-3       | TBD                                  |
 | 11/9-10      | TBD                                  |
