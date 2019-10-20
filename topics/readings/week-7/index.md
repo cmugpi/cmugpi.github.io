@@ -14,7 +14,7 @@ order: 7
 
 {% include toc.md %}
 
-# Week 4
+# Week 7
 {:.ui.dividing.header.no_toc}
 
 ## Reading
