@@ -63,7 +63,7 @@ We'll be posting the extratation schedule here.
 | 9/28-29      | [Personal Websites][websites]        |
 | 10/5-6       | [Exam 1 Review][exam1review]         |
 | 10/12-13     | [URL Shorteners][urlshortener]       |
-| 10/19-20     | PowerPoint Turing Machines           |
+| 10/19-20     | [PowerPoint Programming][powerpoint] |
 | 10/26-27     | TBD                                  |
 | 11/2-3       | TBD                                  |
 | 11/9-10      | TBD                                  |
@@ -116,3 +116,4 @@ are there as additional resources.
 [websites]: {{ "/topics/extratations/websites/" | prepend: site.baseurl }}
 [exam1review]: {{ "/topics/extratations/exam1review/" | prepend: site.baseurl }}
 [urlshortener]: {{ "/topics/extratations/urlshortener/" | prepend: site.baseurl }}
+[powerpoint]: {{ "/topics/extratations/powerpoint/" | prepend: site.baseurl }}
