@@ -31,7 +31,12 @@ The lab can be found on Autolab:
 
 - [ForceLab](https://autolab.andrew.cmu.edu/courses/07131-f19/assessments/forcelab)
 
+## Slides
+
+- [Bash Globs]
 
 [Bash Scripting]:    {{ "/topics/bash/bash-scripting/"  | prepend: site.baseurl }}
 [Globbing & Ranges]: {{ "/topics/bash/globbing-ranges/" | prepend: site.baseurl }}
 [strings]:           {{ "/topics/bash/strings/"         | prepend: site.baseurl }}
+
+[Bash Globs]:        {{ "/topics/readings/week-7/bash-globs.pdf" | prepend: site.baseurl }}
