@@ -35,8 +35,8 @@ For more information, you should checkout the [syllabus].
 | 10/3      | [Week 6]        | [Git][git]              |
 | 10/10     | -               | Exam 1                  |
 | 10/17     | [Week 7]        | [Bash][bash]            |
-| 10/24     |                 | [Bash][bash]            |
-| 10/31     |                 | [Bash][bash]            |
+| 10/24     | [Week 8]        | [Bash][bash]            |
+| 10/31     | [Week 9]        | [Bash][bash]            |
 | 11/7      |                 | [Bash][bash]            |
 | 11/14     |                 | CMU Advice              |
 | 11/21     | -               | [Latex][latex]          |
@@ -64,12 +64,12 @@ We'll be posting the extratation schedule here.
 | 10/5-6       | [Exam 1 Review][exam1review]         |
 | 10/12-13     | [URL Shorteners][urlshortener]       |
 | 10/19-20     | [PowerPoint Programming][powerpoint] |
-| 10/26-27     | TBD                                  |
+| 10/26-27     | [Web Dev Weekend][wdw]               |
 | 11/2-3       | TBD                                  |
 | 11/9-10      | TBD                                  |
 | 11/16-17     | TBD                                  |
-| __11/23-24__ | __Thanksgiving__                     |
-| 11/30-1      | Exam 2 Review                        |
+| 11/23-24     | TBD                                  |
+| __11/30-1__  | __Thanksgiving__                     |
 {:.ui.striped.table}
 
 
@@ -117,3 +117,4 @@ are there as additional resources.
 [exam1review]: {{ "/topics/extratations/exam1review/" | prepend: site.baseurl }}
 [urlshortener]: {{ "/topics/extratations/urlshortener/" | prepend: site.baseurl }}
 [powerpoint]: {{ "/topics/extratations/powerpoint/" | prepend: site.baseurl }}
+[wdw]: {{ "/topics/extratations/wdw/" | prepend: site.baseurl }}

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "PowerPoint Programming"
+title: "Web Dev Weekend"
 # What topic does this page belong to?
 group: extratations
 # Relative ordering of lessons within a topic
-order: 8
-redirect_to: https://www.youtube.com/watch?v=_3loq22TxSc
+order: 9
+redirect_to: https://scottylabs.org/wdw/
 ---
