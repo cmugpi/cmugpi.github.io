@@ -31,5 +31,9 @@ The lab can be found on Autolab:
 
 - [PipeLab](https://autolab.andrew.cmu.edu/courses/07131-f19/assessments/pipelab)
 
+## Slides
+
+- [Bash Oneliners](bash-oneliners.pdf)
+
 [Input & Output]: {{ "/topics/bash/input-output/"   | prepend: site.baseurl }}
 [Oneliners]:      {{ "/topics/bash/oneliners/"      | prepend: site.baseurl }}
