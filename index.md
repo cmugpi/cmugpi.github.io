@@ -54,22 +54,22 @@ Time and Location: 2:30-3:30 PM in GHC 4211 on Sat/Sun
 
 We'll be posting the extratation schedule here.
 
-| Date         | Extratation Topic                    |
-| ----         | -----                                |
-| 8/31-9/1     | [ZSH][zsh]                           |
-| 9/7-8        | [Tmux and Vim+][tmux]                |
-| 9/14-15      | [Technical Interviewing][interviews] |
-| 9/21-22      | [Spacemacs][spacemacs]               |
-| 9/28-29      | [Personal Websites][websites]        |
-| 10/5-6       | [Exam 1 Review][exam1review]         |
-| 10/12-13     | [URL Shorteners][urlshortener]       |
-| 10/19-20     | [PowerPoint Programming][powerpoint] |
-| 10/26-27     | [Web Dev Weekend][wdw]               |
-| 11/2-3       | TBD                                  |
-| 11/9-10      | TBD                                  |
-| 11/16-17     | TBD                                  |
-| 11/23-24     | TBD                                  |
-| __11/30-1__  | __Thanksgiving__                     |
+| Date         | Extratation Topic                     |
+| ----         | -----                                 |
+| 8/31-9/1     | [ZSH][zsh]                            |
+| 9/7-8        | [Tmux and Vim+][tmux]                 |
+| 9/14-15      | [Technical Interviewing][interviews]  |
+| 9/21-22      | [Spacemacs][spacemacs]                |
+| 9/28-29      | [Personal Websites][websites]         |
+| 10/5-6       | [Exam 1 Review][exam1review]          |
+| 10/12-13     | [URL Shorteners][urlshortener]        |
+| 10/19-20     | [PowerPoint Programming][powerpoint]  |
+| 10/26-27     | [Web Dev Weekend][wdw]                |
+| 11/2-3       | [Personal Digital Security][security] |
+| 11/9-10      | TBD                                   |
+| 11/16-17     | TBD                                   |
+| 11/23-24     | TBD                                   |
+| __11/30-1__  | __Thanksgiving__                      |
 {:.ui.striped.table}
 
 
@@ -118,3 +118,4 @@ are there as additional resources.
 [urlshortener]: {{ "/topics/extratations/urlshortener/" | prepend: site.baseurl }}
 [powerpoint]: {{ "/topics/extratations/powerpoint/" | prepend: site.baseurl }}
 [wdw]: {{ "/topics/extratations/wdw/" | prepend: site.baseurl }}
+[security]: {{ "/topics/extratations/security/" | prepend: site.baseurl }}
