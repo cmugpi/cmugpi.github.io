@@ -25,3 +25,8 @@ The lab can be found on Autolab:
 
 - [ZombieLab](https://autolab.andrew.cmu.edu/courses/07131-f19/assessments/zombielab)
 
+## Slides
+
+- [Regex] 
+
+[Regex]:        {{ "/topics/readings/week-8/bash-regex.pdf" | prepend: site.baseurl }}

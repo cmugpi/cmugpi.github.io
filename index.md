@@ -37,7 +37,7 @@ For more information, you should checkout the [syllabus].
 | 10/17     | [Week 7]        | [Bash][bash]            |
 | 10/24     | [Week 8]        | [Bash][bash]            |
 | 10/31     | [Week 9]        | [Bash][bash]            |
-| 11/7      |                 | [Bash][bash]            |
+| 11/7      | [Week 10]       | [Bash][bash]            |
 | 11/14     |                 | CMU Advice              |
 | 11/21     | -               | [Latex][latex]          |
 | __11/28__ |                 | __Thanksgiving__        |

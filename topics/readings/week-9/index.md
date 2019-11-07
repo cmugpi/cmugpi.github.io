@@ -32,5 +32,10 @@ The lab for this week is on regex and globs. You can find it on autolab.
 
 - [Haunt Lab](https://autolab.andrew.cmu.edu/courses/07131-f19/assessments/hauntlab)
 
+## Slides
+
+- [Regex vs Globs]
+
 [Globbing & Ranges]:        {{ "/topics/bash/globbing-ranges/"          | prepend: site.baseurl }}
 [Regular Expressions]:      {{ "/topics/bash/regular-expressions/"      | prepend: site.baseurl }}
+[Regex vs Globs]:        {{ "/topics/readings/week-9/bash-grep.pdf" | prepend: site.baseurl }}
