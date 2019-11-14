@@ -38,7 +38,7 @@ For more information, you should checkout the [syllabus].
 | 10/24     | [Week 8]        | [Bash][bash]            |
 | 10/31     | [Week 9]        | [Bash][bash]            |
 | 11/7      | [Week 10]       | [Bash][bash]            |
-| 11/14     |                 | CMU Advice              |
+| 11/14     | [Week 11]       | CMU Advice              |
 | 11/21     | -               | [Latex][latex]          |
 | __11/28__ |                 | __Thanksgiving__        |
 | 12/5      | -               | Exam 2                  |
@@ -108,6 +108,7 @@ are there as additional resources.
 [Week 9]:  {{ "/topics/readings/week-9/"  | prepend: site.baseurl }}
 [Week 10]: {{ "/topics/readings/week-10/" | prepend: site.baseurl }}
 [Week 11]: {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
+[Week 12]: {{ "/topics/readings/week-12/" | prepend: site.baseurl }}
 
 [zsh]: {{ "/topics/extratations/zsh/" | prepend: site.baseurl }}
 [tmux]: {{ "/topics/extratations/tmux/" | prepend: site.baseurl }}
