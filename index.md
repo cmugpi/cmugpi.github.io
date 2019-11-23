@@ -39,7 +39,7 @@ For more information, you should checkout the [syllabus].
 | 10/31     | [Week 9]        | [Bash][bash]            |
 | 11/7      | [Week 10]       | [Bash][bash]            |
 | 11/14     | [Week 11]       | CMU Advice              |
-| 11/21     | -               | [Latex][latex]          |
+| 11/21     | [Week 12]       | [Latex][latex]          |
 | __11/28__ |                 | __Thanksgiving__        |
 | 12/5      | -               | Exam 2                  |
 {:.ui.striped.table}
@@ -66,9 +66,9 @@ We'll be posting the extratation schedule here.
 | 10/19-20     | [PowerPoint Programming][powerpoint]  |
 | 10/26-27     | [Web Dev Weekend][wdw]                |
 | 11/2-3       | [Personal Digital Security][security] |
-| 11/9-10      | TBD                                   |
-| 11/16-17     | TBD                                   |
-| 11/23-24     | TBD                                   |
+| 11/9-10      | [Bitcoin][bitcoin]                    |
+| 11/16-17     | [Package Managers][packagemanagers]   |
+| 11/23-24     | Lyx                                   |
 | __11/30-1__  | __Thanksgiving__                      |
 {:.ui.striped.table}
 
@@ -120,3 +120,5 @@ are there as additional resources.
 [powerpoint]: {{ "/topics/extratations/powerpoint/" | prepend: site.baseurl }}
 [wdw]: {{ "/topics/extratations/wdw/" | prepend: site.baseurl }}
 [security]: {{ "/topics/extratations/security/" | prepend: site.baseurl }}
+[bitcoin]: {{ "/topics/extratations/bitcoin/" | prepend: site.baseurl }}
+[packagemanagers]: {{ "/topics/extratations/packagemanagers/" | prepend: site.baseurl }}
