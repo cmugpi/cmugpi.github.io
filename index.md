@@ -27,21 +27,21 @@ For more information, you should checkout the [syllabus].
 | Date      | Reading         | Lecture Topic           |
 | ----      | -------         | -------------           |
 | ASAP      | [Initial setup] | -                       |
-| 8/29      | [Week 1]        | [Terminal usage][usage] |
-| 9/5       | [Week 2]        | [Vim][vim]              |
-| 9/12      | [Week 3]        | [Vim][vim]              |
-| 9/19      | [Week 4]        | Summer Opportunities    |
-| 9/26      | [Week 5]        | [Git][git]              |
-| 10/3      | [Week 6]        | [Git][git]              |
-| 10/10     | -               | Exam 1                  |
-| 10/17     | [Week 7]        | [Bash][bash]            |
-| 10/24     | [Week 8]        | [Bash][bash]            |
-| 10/31     | [Week 9]        | [Bash][bash]            |
-| 11/7      | [Week 10]       | [Bash][bash]            |
-| 11/14     | [Week 11]       | CMU Advice              |
-| 11/21     | [Week 12]       | [Latex][latex]          |
-| __11/28__ |                 | __Thanksgiving__        |
-| 12/5      | -               | Exam 2                  |
+| 9/3       | [Week 1]        | [Terminal usage][usage] |
+| 9/10      | [Week 2]        | [Vim][vim]              |
+| 9/17      | [Week 3]        | [Vim][vim]              |
+| 9/24      | [Week 4]        | Summer Opportunities    |
+| 10/1      | [Week 5]        | [Git][git]              |
+| 10/8      | [Week 6]        | [Git][git]              |
+| 10/15     | -               | Exam 1                  |
+| 10/22     | [Week 7]        | [Bash][bash]            |
+| 10/29     | [Week 8]        | [Bash][bash]            |
+| 11/5      | [Week 9]        | [Bash][bash]            |
+| 11/12     | [Week 10]       | [Bash][bash]            |
+| 11/19     | [Week 11]       | CMU Advice              |
+| __11/26__ |                 | __Thanksgiving__        |
+| 12/3      | [Week 12]       | [Latex][latex]          |
+| 12/10     | -               | Exam 2                  |
 {:.ui.striped.table}
 
 ## Extratations
@@ -50,26 +50,26 @@ Throughout the semester, we'll be holding extra workshops and talks outside of
 class, dubbed "extratations", to explore topics that we don't want to test you
 on but that you might find interesting.
 
-Time and Location: 2:30-3:30 PM in GHC 4211 on Sat/Sun
+Time and Location: TBA
 
 We'll be posting the extratation schedule here.
 
 | Date         | Extratation Topic                     |
 | ----         | -----                                 |
-| 8/31-9/1     | [ZSH][zsh]                            |
-| 9/7-8        | [Tmux and Vim+][tmux]                 |
-| 9/14-15      | [Technical Interviewing][interviews]  |
-| 9/21-22      | [Spacemacs][spacemacs]                |
-| 9/28-29      | [Personal Websites][websites]         |
-| 10/5-6       | [Exam 1 Review][exam1review]          |
-| 10/12-13     | [URL Shorteners][urlshortener]        |
-| 10/19-20     | [PowerPoint Programming][powerpoint]  |
-| 10/26-27     | [Web Dev Weekend][wdw]                |
-| 11/2-3       | [Personal Digital Security][security] |
-| 11/9-10      | [Bitcoin][bitcoin]                    |
-| 11/16-17     | [Package Managers][packagemanagers]   |
-| 11/23-24     | Lyx                                   |
-| __11/30-1__  | __Thanksgiving__                      |
+| 9/5-9/6      | TBA                                   |
+| 9/12-13      | TBA                                   |
+| 9/19-20      | TBA                                   |
+| 9/26-27      | TBA                                   |
+| 10/3-4       | TBA                                   |
+| 10/10-11     | TBA                                   |
+| 10/17-18     | TBA                                   |
+| 10/24-25     | TBA                                   |
+| 10/31-11/1   | TBA                                   |
+| 11/7-8       | TBA                                   |
+| 11/14-15     | TBA                                   |
+| 11/21-22     | TBA                                   |
+| __11/28-29__ | __Thanksgiving__                      |
+| 12/5-6       | TBA                                   |
 {:.ui.striped.table}
 
 
@@ -110,7 +110,7 @@ are there as additional resources.
 [Week 11]: {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
 [Week 12]: {{ "/topics/readings/week-12/" | prepend: site.baseurl }}
 
-[zsh]: {{ "/topics/extratations/zsh/" | prepend: site.baseurl }}
+<!-- [zsh]: {{ "/topics/extratations/zsh/" | prepend: site.baseurl }}
 [tmux]: {{ "/topics/extratations/tmux/" | prepend: site.baseurl }}
 [interviews]: {{ "/topics/extratations/interviews/" | prepend: site.baseurl }}
 [spacemacs]: {{ "/topics/extratations/spacemacs/" | prepend: site.baseurl }}
@@ -121,4 +121,4 @@ are there as additional resources.
 [wdw]: {{ "/topics/extratations/wdw/" | prepend: site.baseurl }}
 [security]: {{ "/topics/extratations/security/" | prepend: site.baseurl }}
 [bitcoin]: {{ "/topics/extratations/bitcoin/" | prepend: site.baseurl }}
-[packagemanagers]: {{ "/topics/extratations/packagemanagers/" | prepend: site.baseurl }}
+[packagemanagers]: {{ "/topics/extratations/packagemanagers/" | prepend: site.baseurl }} -->
