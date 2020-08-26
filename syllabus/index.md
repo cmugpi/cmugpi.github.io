@@ -19,7 +19,7 @@ systems used in 15-122, 15-213, and many other CS courses. Our goal for the
 course is for you to have a fun break from your other classes, and an
 opportunity to see some real uses for what you're learning about.
 
-We will meet on Thursdays from 3:00 - 4:20 in GHC 4401.
+We will meet on Thursdays from 3:20 - 4:40 EDT on Zoom.
 
 ## Lecture
 
