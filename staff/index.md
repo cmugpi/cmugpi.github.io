@@ -10,33 +10,39 @@ staff:
   - id: tcortina
     domain: cs
     name: Tom Cortina
-  - id: dhashe
+  - id: vpeet
     domain: andrew
-    name: David Hashe
+    name: Veronica Peet
   - id: ashekar1
     domain: andrew
     name: Aditya Shekar
-  - id: schidamb
-    domain: andrew
-    name: Shruti Chidambaram
   - id: jiachen5
     domain: andrew
     name: Amy Liu
-  - id: asanders
+  - id: dpatra
     domain: andrew
-    name: Antioch Sanders
+    name: Deepayan Patra
   - id: emmanuee
     domain: andrew
     name: Emmanuel Eppinger
-  - id: jmcamero
+  - id: jwang7
     domain: andrew
-    name: Jack Cameron
-  - id: kimberll
+    name: Jeremy Wang
+  - id: jpyang
     domain: andrew
-    name: Kimberly Lo
+    name: Jules Yang 
+  - id: changhem
+    domain: andrew
+    name: Owen Mo
   - id: myong
     domain: andrew
     name: Sam Yong
+  - id: sayanc
+    domain: andrew
+    name: Sayan Chaudhry
+  - id: schidamb
+    domain: andrew
+    name: Shruti Chidambaram
 ---
 
 # Staff
