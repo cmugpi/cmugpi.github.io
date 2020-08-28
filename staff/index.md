@@ -31,6 +31,9 @@ staff:
   - id: jpyang
     domain: andrew
     name: Jules Yang 
+  - id: kimberll
+    domain: andrew
+    name: Kimberly Lo
   - id: changhem
     domain: andrew
     name: Owen Mo
