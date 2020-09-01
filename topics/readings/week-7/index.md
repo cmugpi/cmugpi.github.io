@@ -29,7 +29,7 @@ There are three readings this week, but they're reasonably short.
 
 The lab can be found on Autolab:
 
-- [ForceLab](https://autolab.andrew.cmu.edu/courses/07131-f19/assessments/forcelab)
+- [ForceLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/forcelab)
 
 ## Slides
 

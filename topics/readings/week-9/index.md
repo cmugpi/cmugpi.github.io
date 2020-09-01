@@ -30,7 +30,7 @@ similar but used in different contexts.
 
 The lab for this week is on regex and globs. You can find it on autolab.
 
-- [Haunt Lab](https://autolab.andrew.cmu.edu/courses/07131-f19/assessments/hauntlab)
+- [Haunt Lab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/hauntlab)
 
 ## Slides
 

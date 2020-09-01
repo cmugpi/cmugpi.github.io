@@ -23,7 +23,7 @@ order: 8
 
 The lab can be found on Autolab:
 
-- [ZombieLab](https://autolab.andrew.cmu.edu/courses/07131-f19/assessments/zombielab)
+- [ZombieLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/zombielab)
 
 ## Slides
 

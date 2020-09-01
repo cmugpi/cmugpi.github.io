@@ -23,7 +23,7 @@ order: 5
 
 The lab can be found on Autolab:
 
-- [RomanceLab](https://autolab.andrew.cmu.edu/courses/07131-f19/assessments/romancelab)
+- [RomanceLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/romancelab)
 
 ## Slides
 

@@ -22,7 +22,7 @@ the slides though, as some have deadlines in the coming months.
 
 The lab can be found on Autolab:
 
-- [SummerLab](https://autolab.andrew.cmu.edu/courses/07131-f19/assessments/summerlab)
+- [SummerLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/summerlab)
 
 ## Slides
 

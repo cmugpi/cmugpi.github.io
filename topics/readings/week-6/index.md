@@ -26,7 +26,7 @@ order: 6
 
 This week's homework has two parts. The first part is on Autolab:
 
-- [ColLab](https://autolab.andrew.cmu.edu/courses/07131-f19/assessments/collab)
+- [ColLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/collab)
 
 The second part will use GitHub.
 

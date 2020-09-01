@@ -29,7 +29,7 @@ oneliners!
 
 The lab can be found on Autolab:
 
-- [PipeLab](https://autolab.andrew.cmu.edu/courses/07131-f19/assessments/pipelab)
+- [PipeLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/pipelab)
 
 ## Slides
 

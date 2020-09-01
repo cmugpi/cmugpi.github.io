@@ -28,7 +28,7 @@ many classes at CMU.
 
 The lab can be found on Autolab:
 
-- [TexLab](https://autolab.andrew.cmu.edu/courses/07131-f19/assessments/texlab)
+- [TexLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/texlab)
 
 ## Slides
 

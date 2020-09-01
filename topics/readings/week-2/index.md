@@ -40,7 +40,7 @@ to complete programming assignments.
 
 The lab can be found on Autolab:
 
-- [SportsLab](https://autolab.andrew.cmu.edu/courses/07131-f19/assessments/sportslab)
+- [SportsLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/sportslab)
 
 You will also find this useful for solving the labs (you don't have to
 read this before class if you don't want to):
