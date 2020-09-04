@@ -56,7 +56,6 @@ We'll be posting the extratation schedule here.
 
 | Date         | Extratation Topic                     |
 | ----         | -----                                 |
-| 9/5-9/6      | TBA                                   |
 | 9/12-13      | TBA                                   |
 | 9/19-20      | TBA                                   |
 | 9/26-27      | TBA                                   |

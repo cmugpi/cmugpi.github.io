@@ -51,7 +51,7 @@ staff:
 # Staff
 {:.ui.dividing.header.no_toc}
 
-Please send general emails to scs-gpi2019 at lists.andrew.cmu.edu. Only send
+For general questions/comments, please post on the course Piazza. Only send an
 email to a specific TA if you have a question that wouldn't be appropriate to
 send to the whole course staff.
 

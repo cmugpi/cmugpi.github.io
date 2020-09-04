@@ -14,8 +14,7 @@ script: /javascripts/initial-setup.js
 ## Help!
 
 If at any point you get stuck during this initial setup or throughout the
-semester, please don't hesitate to email the course staff at 15-131-staff at cs
-dot cmu dot edu.
+semester, please don't hesitate to post on Piazza or come to office hours.
 
 ## Set Up SSH
 
