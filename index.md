@@ -50,25 +50,25 @@ Throughout the semester, we'll be holding extra workshops and talks outside of
 class, dubbed "extratations", to explore topics that we don't want to test you
 on but that you might find interesting.
 
-Time and Location: TBA
+Time and Location: See Piazza
 
 We'll be posting the extratation schedule here.
 
 | Date         | Extratation Topic                     |
 | ----         | -----                                 |
-| 9/12-13      | TBA                                   |
-| 9/19-20      | TBA                                   |
-| 9/26-27      | TBA                                   |
-| 10/3-4       | TBA                                   |
-| 10/10-11     | TBA                                   |
-| 10/17-18     | TBA                                   |
-| 10/24-25     | TBA                                   |
-| 10/31-11/1   | TBA                                   |
-| 11/7-8       | TBA                                   |
-| 11/14-15     | TBA                                   |
-| 11/21-22     | TBA                                   |
-| __11/28-29__ | __Thanksgiving__                      |
-| 12/5-6       | TBA                                   |
+| 9/12         | [Latex Resume][latexresume]          |
+| 9/19         | TBA                                   |
+| 9/26         | TBA                                   |
+| 10/3 .       | TBA                                   |
+| 10/10        | TBA                                   |
+| 10/17        | TBA                                   |
+| 10/24        | TBA                                   |
+| 10/31        | TBA                                   |
+| 11/7         | TBA                                   |
+| 11/14        | TBA                                   |
+| 11/21        | TBA                                   |
+| __11/28__    | __Thanksgiving__                      |
+| 12/5         | TBA                                   |
 {:.ui.striped.table}
 
 
@@ -109,15 +109,4 @@ are there as additional resources.
 [Week 11]: {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
 [Week 12]: {{ "/topics/readings/week-12/" | prepend: site.baseurl }}
 
-<!-- [zsh]: {{ "/topics/extratations/zsh/" | prepend: site.baseurl }}
-[tmux]: {{ "/topics/extratations/tmux/" | prepend: site.baseurl }}
-[interviews]: {{ "/topics/extratations/interviews/" | prepend: site.baseurl }}
-[spacemacs]: {{ "/topics/extratations/spacemacs/" | prepend: site.baseurl }}
-[websites]: {{ "/topics/extratations/websites/" | prepend: site.baseurl }}
-[exam1review]: {{ "/topics/extratations/exam1review/" | prepend: site.baseurl }}
-[urlshortener]: {{ "/topics/extratations/urlshortener/" | prepend: site.baseurl }}
-[powerpoint]: {{ "/topics/extratations/powerpoint/" | prepend: site.baseurl }}
-[wdw]: {{ "/topics/extratations/wdw/" | prepend: site.baseurl }}
-[security]: {{ "/topics/extratations/security/" | prepend: site.baseurl }}
-[bitcoin]: {{ "/topics/extratations/bitcoin/" | prepend: site.baseurl }}
-[packagemanagers]: {{ "/topics/extratations/packagemanagers/" | prepend: site.baseurl }} -->
+[latexresume]: {{ "/topics/extratations/latexresume/" | prepend: site.baseurl }}
