@@ -11,27 +11,9 @@ order: 12
 #  - /javascripts/two.js
 ---
 
-
-{% include toc.md %}
-
 # Week 12
-{:.ui.dividing.header.no_toc}
 
 ## Reading
 
-This week we'll be learning about Latex, a typesetting program recommended by
-many classes at CMU.
+No reading this week!
 
-- [Latex]
-
-## Lab
-
-The lab can be found on Autolab:
-
-- [TexLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/texlab)
-
-## Slides
-
-- [Latex](latex.pdf)
-
-[Latex]: {{ "/topics/latex/"   | prepend: site.baseurl }}

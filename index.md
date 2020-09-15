@@ -29,8 +29,8 @@ For more information, you should checkout the [syllabus].
 | ASAP      | [Initial setup] | -                       |
 | 9/3       | [Week 1]        | [Terminal usage][usage] |
 | 9/10      | [Week 2]        | [Vim][vim]              |
-| 9/17      | [Week 3]        | [Vim][vim]              |
-| 9/24      | [Week 4]        | Summer Opportunities    |
+| 9/17      | [Week 3]        | [Latex][latex]          |
+| 9/24      | [Week 4]        | [Vim][vim]              |
 | 10/1      | [Week 5]        | [Git][git]              |
 | 10/8      | [Week 6]        | [Git][git]              |
 | 10/15     | -               | Exam 1                  |
@@ -40,7 +40,7 @@ For more information, you should checkout the [syllabus].
 | 11/12     | [Week 10]       | [Bash][bash]            |
 | 11/19     | [Week 11]       | CMU Advice              |
 | __11/26__ |                 | __Thanksgiving__        |
-| 12/3      | [Week 12]       | [Latex][latex]          |
+| 12/3      | [Week 12]       | TBD                     |
 | 12/10     | -               | Exam 2                  |
 {:.ui.striped.table}
 
@@ -56,10 +56,10 @@ We'll be posting the extratation schedule here.
 
 | Date         | Extratation Topic                     |
 | ----         | -----                                 |
-| 9/12         | [Latex Resume][latexresume]          |
-| 9/19         | TBA                                   |
+| 9/12         | [Latex Resume][latexresume]           |
+| 9/19         | Summer Opportunities                  |
 | 9/26         | TBA                                   |
-| 10/3 .       | TBA                                   |
+| 10/3         | TBA                                   |
 | 10/10        | TBA                                   |
 | 10/17        | TBA                                   |
 | 10/24        | TBA                                   |

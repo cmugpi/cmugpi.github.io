@@ -15,18 +15,28 @@ order: 4
 
 ## Reading
 
-No reading this week! We recommend looking over the opportunities listed in
-the slides though, as some have deadlines in the coming months.
+- `vimtutor`
+  - Same as last week: run `vimtutor` from Andrew
+  - Complete lesson 3 onwards
+  - There's a lot of stuff here, remember that memorization is not the goal!
 
 ## Lab
 
 The lab can be found on Autolab:
 
-- [SummerLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/summerlab)
+- [WizardLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/wizardlab)
+
+You will also find this useful for solving the labs (you don't have to
+read this before class if you don't want to):
+
+- [Searching, Substituting, Text Objects, and Yanking][notes]
+- [Vim Cheatsheet]
 
 ## Slides
 
-- [Summer]
+- [Vim]
 
-[Summer]: {{ "/topics/readings/week-4/week-4-summer.pdf" | prepend: site.baseurl }}
+[notes]: {{ "/topics/vim/search-sub-obj-yank/" | prepend: site.baseurl }}
+[Vim Cheatsheet]: {{ "/topics/vim/vim-cheatsheet.pdf" | prepend: site.baseurl }}
+[Vim]: {{ "/topics/readings/week-4/week-3-vim-2.pdf" | prepend: site.baseurl }}
 
