@@ -28,10 +28,10 @@ many classes at CMU.
 
 The lab can be found on Autolab:
 
-- [TexLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/texlab)
+- [SmashLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/smashlab)
 
 ## Slides
 
-- [Latex](latex.pdf)
+- [Latex](week-3-latex.pdf)
 
 [Latex]: {{ "/topics/latex/"   | prepend: site.baseurl }}
