@@ -34,9 +34,9 @@ read this before class if you don't want to):
 
 ## Slides
 
-- [Vim]
+- [Vim and VSCode]
 
 [notes]: {{ "/topics/vim/search-sub-obj-yank/" | prepend: site.baseurl }}
 [Vim Cheatsheet]: {{ "/topics/vim/vim-cheatsheet.pdf" | prepend: site.baseurl }}
-[Vim]: {{ "/topics/readings/week-4/week-3-vim-2.pdf" | prepend: site.baseurl }}
+[Vim and VSCode]: {{ "/topics/readings/week-4/week-4-vim-vscode.pdf" | prepend: site.baseurl }}
 

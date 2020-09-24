@@ -30,7 +30,7 @@ For more information, you should checkout the [syllabus].
 | 9/3       | [Week 1]        | [Terminal usage][usage] |
 | 9/10      | [Week 2]        | [Vim][vim]              |
 | 9/17      | [Week 3]        | [Latex][latex]          |
-| 9/24      | [Week 4]        | [Vim][vim]              |
+| 9/24      | [Week 4]        | [Vim and VSCode][vim]   |
 | 10/1      | [Week 5]        | [Git][git]              |
 | 10/8      | [Week 6]        | [Git][git]              |
 | 10/15     | -               | Exam 1                  |
