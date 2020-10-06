@@ -34,7 +34,7 @@ For the second part of this assignment, you will get practice with forking a
 GitHub repo and making a pull request. The repo you will be working with is the
 [git-practice] repo. Do the following:
 
-- Submit your GitHub username to [this](https://forms.gle/cCxkN3rQxQEgL8Eu9) form
+- Submit your GitHub username to [this](https://forms.gle/k8Wtg9Dfy5Rw6cQx6) form
 - Sign in to your Github account and visit
   <https://github.com/cmugpi/git-practice>.
 - Fork the git-practice repo.

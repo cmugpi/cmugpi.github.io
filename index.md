@@ -111,5 +111,5 @@ are there as additional resources.
 
 [latexresume]: {{ "/topics/extratations/latexresume/" | prepend: site.baseurl }}
 [tmux]: {{ "topics/extratations/tmux/" | prepend: site.baseurl }}
-[wdw]: {{ "topics/extratations/wdw/" | prepend: site.baseurl }} 
 [cicd]: {{ "topics/extratations/githubactions/" | prepend: site.baseurl }}
+[wdw]: {{ "topics/extratations/wdw/" | prepend: site.baseurl }} 
