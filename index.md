@@ -59,8 +59,8 @@ We'll be posting the extratation schedule here.
 | 9/12         | [Latex Resume][latexresume]           |
 | 9/19         | Summer Opportunities                  |
 | 9/26         | [Tmux and Advanced Vim][tmux]         |
-| 10/3         | TBA                                   |
-| 10/10        | TBA                                   |
+| 10/3         | [CI/CD with Github Actions][cicd]     |
+| 10/10        | [Web Dev Weekend][wdw]                |
 | 10/17        | TBA                                   |
 | 10/24        | TBA                                   |
 | 10/31        | TBA                                   |
@@ -111,3 +111,5 @@ are there as additional resources.
 
 [latexresume]: {{ "/topics/extratations/latexresume/" | prepend: site.baseurl }}
 [tmux]: {{ "topics/extratations/tmux/" | prepend: site.baseurl }}
+[wdw]: {{ "topics/extratations/wdw/" | prepend: site.baseurl }} 
+[cicd]: {{ "topics/extratations/githubactions/" | prepend: site.baseurl }}
