@@ -110,6 +110,6 @@ are there as additional resources.
 [Week 12]: {{ "/topics/readings/week-12/" | prepend: site.baseurl }}
 
 [latexresume]: {{ "/topics/extratations/latexresume/" | prepend: site.baseurl }}
-[tmux]: {{ "topics/extratations/tmux/" | prepend: site.baseurl }}
-[cicd]: {{ "topics/extratations/githubactions/" | prepend: site.baseurl }}
-[wdw]: {{ "topics/extratations/wdw/" | prepend: site.baseurl }} 
+[tmux]: {{ "/topics/extratations/tmux/" | prepend: site.baseurl }}
+[cicd]: {{ "/topics/extratations/githubactions/" | prepend: site.baseurl }}
+[wdw]: {{ "/topics/extratations/wdw/" | prepend: site.baseurl }} 
