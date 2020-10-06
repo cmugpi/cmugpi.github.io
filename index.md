@@ -58,7 +58,7 @@ We'll be posting the extratation schedule here.
 | ----         | -----                                 |
 | 9/12         | [Latex Resume][latexresume]           |
 | 9/19         | Summer Opportunities                  |
-| 9/26         | TBA                                   |
+| 9/26         | [Tmux and Advanced Vim][tmux]         |
 | 10/3         | TBA                                   |
 | 10/10        | TBA                                   |
 | 10/17        | TBA                                   |
@@ -110,3 +110,4 @@ are there as additional resources.
 [Week 12]: {{ "/topics/readings/week-12/" | prepend: site.baseurl }}
 
 [latexresume]: {{ "/topics/extratations/latexresume/" | prepend: site.baseurl }}
+[tmux]: {{ "topics/extratations/tmux/" | prepend: site.baseurl }}
