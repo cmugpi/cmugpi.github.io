@@ -47,10 +47,10 @@ GitHub repo and making a pull request. The repo you will be working with is the
 
 ## Slides
 
-- [Git2]
+- [Git Part 2]
 
 [git-practice]: https://github.com/cmugpi/git-practice
 [using-github]: {{ "/topics/git/using-github/"    | prepend: site.baseurl }}
 [git-commands]: {{ "/topics/git/git-commands/"    | prepend: site.baseurl }}
-[Git2]:         {{ "/topics/readings/week-6/git2.pdf" | prepend: site.baseurl }}
+[Git Part 2]:         {{ "/topics/readings/week-6/week-6-git-2.pdf" | prepend: site.baseurl }}
 
