@@ -104,7 +104,7 @@ We want a way to
 | --- | ----------- |
 | `/foo<ENTER>` | Search for 'foo' in the file |
 | `n` | Go to the next occurence of the current search term |
-| `p` | Go to the previous occurence of the current search term |
+| `N` | Go to the previous occurence of the current search term |
 | `*` | Search for the word under the cursor |
 {:.ui.striped.table}
 
