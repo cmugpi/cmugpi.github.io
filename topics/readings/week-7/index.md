@@ -33,10 +33,10 @@ The lab can be found on Autolab:
 
 ## Slides
 
-- [Bash Globs]
+- [Shell Scripting, Globs, and Ranges]
 
 [Bash Scripting]:    {{ "/topics/bash/bash-scripting/"  | prepend: site.baseurl }}
 [Globbing & Ranges]: {{ "/topics/bash/globbing-ranges/" | prepend: site.baseurl }}
 [strings]:           {{ "/topics/bash/strings/"         | prepend: site.baseurl }}
 
-[Bash Globs]:        {{ "/topics/readings/week-7/bash-globs.pdf" | prepend: site.baseurl }}
+[Shell Scripting, Globs, and Ranges]:        {{ "/topics/readings/week-7/week-7-bash-globs-ranges.pdf" | prepend: site.baseurl }}

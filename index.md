@@ -61,7 +61,7 @@ We'll be posting the extratation schedule here.
 | 9/26         | [Tmux and Advanced Vim][tmux]         |
 | 10/4         | [CI/CD with Github Actions][cicd]     |
 | 10/10-11     | [Web Dev Weekend][wdw]                |
-| 10/17        | TBA                                   |
+| 10/17        | [GitHub URL Shortener][giturl]        |
 | 10/24        | TBA                                   |
 | 10/31        | TBA                                   |
 | 11/7         | TBA                                   |
@@ -113,3 +113,4 @@ are there as additional resources.
 [tmux]: {{ "/topics/extratations/tmux/" | prepend: site.baseurl }}
 [cicd]: {{ "/topics/extratations/githubactions/" | prepend: site.baseurl }}
 [wdw]: {{ "/topics/extratations/wdw/" | prepend: site.baseurl }} 
+[giturl]: {{ "/topics/extratations/githuburlshortener/" | prepend: site.baseurl }}  
