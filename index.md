@@ -62,7 +62,7 @@ We'll be posting the extratation schedule here.
 | 10/4         | [CI/CD with Github Actions][cicd]     |
 | 10/10-11     | [Web Dev Weekend][wdw]                |
 | 10/17        | [GitHub URL Shortener][giturl]        |
-| 10/24        | TBA                                   |
+| 10/25        | [Bitcoin][bitcoin]                    |
 | 10/31        | TBA                                   |
 | 11/7         | TBA                                   |
 | 11/14        | TBA                                   |
@@ -114,3 +114,4 @@ are there as additional resources.
 [cicd]: {{ "/topics/extratations/githubactions/" | prepend: site.baseurl }}
 [wdw]: {{ "/topics/extratations/wdw/" | prepend: site.baseurl }} 
 [giturl]: {{ "/topics/extratations/githuburlshortener/" | prepend: site.baseurl }}  
+[bitcoin]: {{ "/topics/extratations/bitcoin/" | prepend: site.baseurl }}  
