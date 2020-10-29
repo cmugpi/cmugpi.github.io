@@ -63,7 +63,7 @@ We'll be posting the extratation schedule here.
 | 10/10-11     | [Web Dev Weekend][wdw]                |
 | 10/17        | [GitHub URL Shortener][giturl]        |
 | 10/25        | [Bitcoin][bitcoin]                    |
-| 10/31        | TBA                                   |
+| 10/31        | Dotfiles                              |
 | 11/7         | TBA                                   |
 | 11/14        | TBA                                   |
 | 11/21        | TBA                                   |

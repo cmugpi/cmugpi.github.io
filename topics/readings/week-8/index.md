@@ -29,4 +29,4 @@ The lab can be found on Autolab:
 
 - [Regex] 
 
-[Regex]:        {{ "/topics/readings/week-8/bash-regex.pdf" | prepend: site.baseurl }}
+[Regex]:        {{ "/topics/readings/week-8/week-8-regex.pdf" | prepend: site.baseurl }}
