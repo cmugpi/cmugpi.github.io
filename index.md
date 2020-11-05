@@ -64,7 +64,7 @@ We'll be posting the extratation schedule here.
 | 10/17        | [GitHub URL Shortener][giturl]        |
 | 10/25        | [Bitcoin][bitcoin]                    |
 | 10/31        | [Dotfiles][dotfiles]                  |
-| 11/7         | TBA                                   |
+| 11/7         | Product Management                    |
 | 11/14        | TBA                                   |
 | 11/21        | TBA                                   |
 | __11/28__    | __Thanksgiving__                      |

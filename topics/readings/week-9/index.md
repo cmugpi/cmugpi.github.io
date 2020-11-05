@@ -34,8 +34,8 @@ The lab for this week is on regex and globs. You can find it on autolab.
 
 ## Slides
 
-- [Regex vs Globs]
+- [More on Grep]
 
 [Globbing & Ranges]:        {{ "/topics/bash/globbing-ranges/"          | prepend: site.baseurl }}
 [Regular Expressions]:      {{ "/topics/bash/regular-expressions/"      | prepend: site.baseurl }}
-[Regex vs Globs]:        {{ "/topics/readings/week-9/bash-grep.pdf" | prepend: site.baseurl }}
+[More on Grep]:        {{ "/topics/readings/week-9/week-9-grep.pdf" | prepend: site.baseurl }}
