@@ -33,7 +33,8 @@ The lab can be found on Autolab:
 
 ## Slides
 
-- [Bash Oneliners](bash-oneliners.pdf)
+- [Input, Output, and Bash Oneliners]
 
 [Input & Output]: {{ "/topics/bash/input-output/"   | prepend: site.baseurl }}
 [Oneliners]:      {{ "/topics/bash/oneliners/"      | prepend: site.baseurl }}
+[Input, Output, and Bash Oneliners]: {{ "/topics/readings/week-10/week-10-io-oneliners.pdf" | prepend: site.baseurl }}

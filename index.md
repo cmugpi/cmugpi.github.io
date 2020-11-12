@@ -64,8 +64,8 @@ We'll be posting the extratation schedule here.
 | 10/17        | [GitHub URL Shortener][giturl]        |
 | 10/25        | [Bitcoin][bitcoin]                    |
 | 10/31        | [Dotfiles][dotfiles]                  |
-| 11/7         | Product Management                    |
-| 11/14        | TBA                                   |
+| 11/7         | [Product Management][pm]              |
+| 11/14        | [Crash Course][cc]                    |
 | 11/21        | TBA                                   |
 | __11/28__    | __Thanksgiving__                      |
 | 12/5         | TBA                                   |
@@ -116,3 +116,5 @@ are there as additional resources.
 [giturl]: {{ "/topics/extratations/githuburlshortener/" | prepend: site.baseurl }}  
 [bitcoin]: {{ "/topics/extratations/bitcoin/" | prepend: site.baseurl }}  
 [dotfiles]: {{ "/topics/extratations/dotfiles/" | prepend: site.baseurl }}  
+[pm]: {{ "/topics/extratations/pm/" | prepend: site.baseurl }}   
+[cc]: {{ "/topics/extratations/crashcourse/" | prepend: site.baseurl }}   
