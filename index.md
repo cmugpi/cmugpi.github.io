@@ -40,7 +40,7 @@ For more information, you should checkout the [syllabus].
 | 11/12     | [Week 10]       | [Bash][bash]            |
 | 11/19     | [Week 11]       | CMU Advice              |
 | __11/26__ |                 | __Thanksgiving__        |
-| 12/3      | [Week 12]       | TBD                     |
+| 12/3      | [Week 12]       | Lightning Rounds        |
 | 12/10     | -               | Exam 2                  |
 {:.ui.striped.table}
 
@@ -66,9 +66,9 @@ We'll be posting the extratation schedule here.
 | 10/31        | [Dotfiles][dotfiles]                  |
 | 11/7         | [Product Management][pm]              |
 | 11/14        | [Crash Course][cc]                    |
-| 11/21        | TBA                                   |
+| 11/21        | PowerPoint Programming                |
 | __11/28__    | __Thanksgiving__                      |
-| 12/5         | TBA                                   |
+| 12/5         | Lightning Rounds (continued) + Review |
 {:.ui.striped.table}
 
 

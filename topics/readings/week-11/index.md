@@ -24,7 +24,3 @@ There is no reading this week. The TAs gave a panel on advice about how to make 
 ## Lab
 
 There is no lab this week.
-
-## Slides
-
-- [Advice](advice.pdf)
