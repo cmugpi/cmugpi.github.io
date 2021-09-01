@@ -19,7 +19,7 @@ systems used in 15-122, 15-213, and many other CS courses. Our goal for the
 course is for you to have a fun break from your other classes, and an
 opportunity to see some real uses for what you're learning about.
 
-We will meet on Thursdays from 3:20 - 4:40 EDT on Zoom.
+We will meet on Thursdays from 3:05 - 4:25 EDT UC McConomy.
 
 ## Lecture
 
@@ -94,7 +94,7 @@ arguments or combinations of commands. The purpose of labs is to learn by
 solving. If you solve the lab and then explain the solution to others, they
 haven't learned!
 
-We will also have a course [Piazza](https://piazza.com/class/ke6i5xvl806mu)
+We will also have a course [Piazza](https://piazza.com/class/ksxqlrx8a9k1x)
 where students may ask questions to TAs.
 
 ## Help
