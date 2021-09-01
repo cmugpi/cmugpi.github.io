@@ -13,39 +13,33 @@ staff:
   - id: vpeet
     domain: andrew
     name: Veronica Peet
-  - id: ashekar1
-    domain: andrew
-    name: Aditya Shekar
   - id: jiachen5
     domain: andrew
     name: Amy Liu
-  - id: dpatra
-    domain: andrew
-    name: Deepayan Patra
-  - id: emmanuee
-    domain: andrew
-    name: Emmanuel Eppinger
   - id: jwang7
     domain: andrew
     name: Jeremy Wang
   - id: jpyang
     domain: andrew
     name: Jules Yang 
-  - id: kimberll
+  - id: aryas
     domain: andrew
-    name: Kimberly Lo
-  - id: changhem
+    name: Arya Shah
+  - id: dsunkara
     domain: andrew
-    name: Owen Mo
-  - id: myong
+    name: Deepti Sunkara
+  - id: yalsuhai
     domain: andrew
-    name: Sam Yong
-  - id: sayanc
+    name: Yosef Alsuhaibani
+  - id: ljyao
     domain: andrew
-    name: Sayan Chaudhry
-  - id: schidamb
+    name: Laura Yao
+  - id: kacoba
     domain: andrew
-    name: Shruti Chidambaram
+    name: Keiffer Acoba
+  - id: ktummala
+    domain: andrew
+    name: Kavya Tummalapalli
 ---
 
 # Staff
@@ -53,12 +47,13 @@ staff:
 
 For general questions/comments, please post on the course Piazza. Only send an
 email to a specific TA if you have a question that wouldn't be appropriate to
-send to the whole course staff.
+send to the whole course staff. 
 
 <div class="ui three column center aligned grid">
 {% for person in page.staff %}
 <div class="column">
 <img class="ui rounded image" alt="{{ person.id }}" width="100%" src="{{ site.baseurl }}/images/staff/{{ person.id }}.jpg">
+
 
 ## {{ person.name }}
 
@@ -70,9 +65,8 @@ send to the whole course staff.
 
 # Office Hours
 
-Up-to-date information on office hour times and locations may be found on Piazza.
+Up-to-date information on office hour times and locations may be found on [Google Calendar][ohtimes].
 
-[ohpost]: https://piazza.com/class/jl1gj7pztka1cw?cid=6
 
 # Attribution
 {:.ui.dividing.header.no_toc}
@@ -95,3 +89,4 @@ feel free to open an issue or a pull request.
 [adam]: http://www.countablethoughts.com/
 [jake]: https://jez.io/
 [cmugpi]: https://github.com/cmugpi/cmugpi.github.io
+[ohtimes]: https://calendar.google.com/calendar/embed?src=c_9ggct2afcr7d1rmdkn0i9e811c%40group.calendar.google.com&ctz=America%2FNew_York
