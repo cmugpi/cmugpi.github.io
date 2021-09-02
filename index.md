@@ -23,7 +23,9 @@ For more information, you should checkout the [syllabus].
 We are keeping a form open throughout the semester for you to submit
 feedback on all the lectures and anything non-lecture related / about the course in
 general as well. You are welcome to submit the form multiple times throughout
-the semester, but please don't spam us. [Form available here][feedback]
+the semester, but please don't spam us. 
+[Form available here](tinyurl.com/f21-gpi-feedback)
+
 
 
 ## Schedule
@@ -93,7 +95,6 @@ are there as additional resources.
 
 [syllabus]: {{ "/syllabus/" | prepend: site.baseurl }}
 [Initial setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
-[feedback]: tinyurl.com/f21-gpi-feedback
 
 <!-- Topics -->
 [usage]:     {{ "/topics/terminal-usage/"         | prepend: site.baseurl }}
