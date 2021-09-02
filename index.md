@@ -24,24 +24,23 @@ For more information, you should checkout the [syllabus].
 
 **NOTE**: We are still tweaking the schedule, and it is subject to change.
 
-| Date      | Reading         | Lecture Topic           |
-| ----      | -------         | -------------           |
-| ASAP      | [Initial setup] | -                       |
-| 9/3       | [Week 1]        | [Terminal usage][usage] |
-| 9/10      | [Week 2]        | [Vim][vim]              |
-| 9/17      | [Week 3]        | [Latex][latex]          |
-| 9/24      | [Week 4]        | [Vim and VSCode][vim]   |
-| 10/1      | [Week 5]        | [Git][git]              |
-| 10/8      | [Week 6]        | [Git][git]              |
-| 10/15     | -               | Exam 1                  |
-| 10/22     | [Week 7]        | [Bash][bash]            |
-| 10/29     | [Week 8]        | [Bash][bash]            |
-| 11/5      | [Week 9]        | [Bash][bash]            |
-| 11/12     | [Week 10]       | [Bash][bash]            |
-| 11/19     | [Week 11]       | CMU Advice              |
-| __11/26__ |                 | __Thanksgiving__        |
-| 12/3      | [Week 12]       | Lightning Rounds        |
-| 12/10     | -               | Exam 2                  |
+| Date     | Slides             | Reading         | Lecture Topic               |
+| ----     | ------             | -------         | -------------               |
+| 9/2      | [slides][latex_S1] | [Week 1]        | Intro + [Latex][latex]      |
+| ASAP     |   -                | [Initial setup] | -                           |
+| 9/9      |                    | [Week 2]        | [Terminal usage][usage]     |
+| 9/16     |                    | [Week 3]        | [Vim][vim]                  |
+| 9/23     |                    | [Week 4]        | [Git][git] - Basics         |
+| 9/30     |                    | [Week 5]        | [Git][git] - github         |
+| 10/7     |                    | [Week 6]        | Exam 1                      |
+| __10/14__|                    | Week 7          | __Midsemester Break__       |
+| 10/21    |                    | [Week 8]        | [Bash][bash] - Basics       |
+| 10/28    |                    | [Week 9]        | [Bash][bash] - Glob & Regex |
+| 11/4     |                    | [Week 10]       | [Bash][bash] - Pipes        |
+| 11/11    |                    | [Week 11]       | CMU Advice / Q&A            |
+| 11/18    |                    | [Week 12]       | Lightning Rounds            |
+| __11/26__|   -                | Week 13         | __Thanksgiving__            |
+| 12/2     |   -                | [Week 14]       | Exam 2                      |
 {:.ui.striped.table}
 
 ## Extratations
@@ -54,21 +53,22 @@ Time and Location: See Piazza
 
 We'll be posting the extratation schedule here.
 
-| Date         | Extratation Topic                     |
-| ----         | -----                                 |
-| 9/12         | [Latex Resume][latexresume]           |
-| 9/19         | Summer Opportunities                  |
-| 9/26         | [Tmux and Advanced Vim][tmux]         |
-| 10/4         | [CI/CD with Github Actions][cicd]     |
-| 10/10-11     | [Web Dev Weekend][wdw]                |
-| 10/17        | [GitHub URL Shortener][giturl]        |
-| 10/25        | [Bitcoin][bitcoin]                    |
-| 10/31        | [Dotfiles][dotfiles]                  |
-| 11/7         | [Product Management][pm]              |
-| 11/14        | [Crash Course][cc]                    |
-| 11/21        | PowerPoint Programming                |
-| __11/28__    | __Thanksgiving__                      |
-| 12/5         | Lightning Rounds (continued) + Review |
+|Week   | Date          | Extratation Topic                     |
+|----   | ----          | -----                                 |
+|1      | 9/4           | No extratation, Extended OH instead   |
+|2      | 9/11          | Summer Opportunities                  |
+|3      | 9/18          | VSCode                                |
+|4      | 9/25          | Interview prep                        |
+|5      | 10/2          |?|
+|6      | 10/9          |?|
+|7      | 10/16         |?|
+|8      | 10/23         |?|
+|9      | 10/30         |?|
+|10     | 11/6          |?|
+|11     | 11/13         |?|
+|12     | 11/20         |?|
+|13     | __11/27__     | __Thanksgiving__                      |
+|14     | 12/4          | N/A                                   |
 {:.ui.striped.table}
 
 
@@ -88,6 +88,7 @@ are there as additional resources.
 [syllabus]: {{ "/syllabus/" | prepend: site.baseurl }}
 [Initial setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 
+<!-- Topics -->
 [usage]:     {{ "/topics/terminal-usage/"         | prepend: site.baseurl }}
 [vim]:       {{ "/topics/vim/"                    | prepend: site.baseurl }}
 [bash]:      {{ "/topics/bash/"                   | prepend: site.baseurl }}
@@ -96,6 +97,10 @@ are there as additional resources.
 [git]:       {{ "/topics/git/"                    | prepend: site.baseurl }}
 [makefiles]: {{ "/topics/makefiles/"              | prepend: site.baseurl }}
 
+<!-- Slides -->
+[latex_S1]:  {{ "/topics/readings/week-1/week-1-intro-latex.pdf" | prepend: site.baseurl }}
+
+<!-- Weekly pages/readings -->
 [Week 1]:  {{ "/topics/readings/week-1/"  | prepend: site.baseurl }}
 [Week 2]:  {{ "/topics/readings/week-2/"  | prepend: site.baseurl }}
 [Week 3]:  {{ "/topics/readings/week-3/"  | prepend: site.baseurl }}
@@ -108,7 +113,10 @@ are there as additional resources.
 [Week 10]: {{ "/topics/readings/week-10/" | prepend: site.baseurl }}
 [Week 11]: {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
 [Week 12]: {{ "/topics/readings/week-12/" | prepend: site.baseurl }}
+[Week 13]: {{ "/topics/readings/week-13/" | prepend: site.baseurl }}
+[Week 14]: {{ "/topics/readings/week-14/" | prepend: site.baseurl }}
 
+<!-- Extratation pages/slides -->
 [latexresume]: {{ "/topics/extratations/latexresume/" | prepend: site.baseurl }}
 [tmux]: {{ "/topics/extratations/tmux/" | prepend: site.baseurl }}
 [cicd]: {{ "/topics/extratations/githubactions/" | prepend: site.baseurl }}
