@@ -442,6 +442,28 @@ And you can deploy to it by pushing `develop` to that remote:
 git push andrew develop
 ```
 
+### Alternative to deploying and pushing with hook: scp the _site folder
+
+After you are done making changes locally, do
+
+```
+jekyll build
+```
+
+To build a rendered version of the website, complete with an `index.html` page and proper
+links to other pages. By default, the rendered site is stored in the `_site/` folder. 
+
+```
+scp -r _site/ andrew:~private/
+```
+
+or your prefered command for scp-ing, to your prefered location. Then you can ssh in, and
+perform a `cp` to transfer the `_site/` folder to `/afs/cs/academic/class/07131-f18/www`.
+Be sure to rename it to `f21` afterwards.
+
+While it's admittedly jank, this alternative is good to use if you don't have the direct
+permission to edit `/afs/` folders, or if you have version issues with Ruby.
+
 ### Bumping the Semester
 
 Our site's content is always versioned by semester, so people can always access
