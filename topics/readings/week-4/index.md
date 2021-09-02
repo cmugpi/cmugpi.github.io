@@ -11,32 +11,4 @@ order: 4
 #  - /javascripts/two.js
 ---
 
-# Week 4
-
-## Reading
-
-- `vimtutor`
-  - Same as last week: run `vimtutor` from Andrew
-  - Complete lesson 3 onwards
-  - There's a lot of stuff here, remember that memorization is not the goal!
-
-## Lab
-
-The lab can be found on Autolab:
-
-- [WizardLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/wizardlab)
-
-You will also find this useful for solving the labs (you don't have to
-read this before class if you don't want to):
-
-- [Searching, Substituting, Text Objects, and Yanking][notes]
-- [Vim Cheatsheet]
-
-## Slides
-
-- [Vim and VSCode]
-
-[notes]: {{ "/topics/vim/search-sub-obj-yank/" | prepend: site.baseurl }}
-[Vim Cheatsheet]: {{ "/topics/vim/vim-cheatsheet.pdf" | prepend: site.baseurl }}
-[Vim and VSCode]: {{ "/topics/readings/week-4/week-4-vim-vscode.pdf" | prepend: site.baseurl }}
-
+# Week 4 - UNDER CONSTRUCTION

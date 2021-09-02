@@ -11,22 +11,4 @@ order: 8
 #  - /javascripts/two.js
 ---
 
-# Week 8
-
-## Reading
-
-- [Regular Expressions]
-
-[Regular Expressions]: {{ "/topics/bash/regular-expressions" | prepend: site.baseurl }}
-
-## Lab
-
-The lab can be found on Autolab:
-
-- [ZombieLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/zombielab)
-
-## Slides
-
-- [Regex] 
-
-[Regex]:        {{ "/topics/readings/week-8/week-8-regex.pdf" | prepend: site.baseurl }}
+# Week 8 - UNDER CONSTRUCTION
