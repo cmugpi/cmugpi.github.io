@@ -47,8 +47,8 @@ at Carnegie Mellon University (15-131).
 First, clone this repo to your local machine. I've cloned mine to `~/gpi/www/`,
 so I may use this as a shorthand for the root of the project from time to time.
 
-This is a Jekyll site. If you don't have an up-to-date version of Ruby, go get
-one. OS X comes with a version of Ruby out of the box, but it's outdated and not
+This is a Jekyll site. If you don't have an up-to-date version of [Ruby][rubyinstall], 
+go get one. OS X comes with a version of Ruby out of the box, but it's outdated and not
 easy to upgrade. If you don't already have a way to manage Ruby versions, I
 recommend [rbenv][rbenv]. See the Appendix for [`rbenv`
 installation](#building-a-ruby-version) instructions.
@@ -71,13 +71,18 @@ $ make install
 ```
 
 which will set up the virtual environment, install the dependencies, and make
-the magic happen.
+the magic happen. If you are working on windows, and the script keeps saying you need 
+to install rbenv or virtualenvwrapper even though you already have those installed, 
+accompanied by "$'\r': command not found" error, then consider [this solution][dos2unix].
 
 To work in the newly created virtual environment, run
 
 ```
 $ workon <name of virtualenv>
 ```
+
+If workon is not recognized as a command, then you probably forgot to edit the
+bashrc file as specified in the [virtualenvwrapper installation instructions][venvwinstallshell].
 
 To stop working on the virtual environment,
 
@@ -586,6 +591,10 @@ Gemfile.lock (the last working state).
 [doctoc]: https://github.com/thlorenz/doctoc
 [uninstall_gems]: https://gist.github.com/IanVaughan/2902499
 [git-hook]: https://github.com/cmugpi/cmugpi.github.io/blob/develop/_support/post-receive
+
+[rubyinstall]: https://virtualenvwrapper.readthedocs.io/en/latest/install.html#shell-startup-file
+[dos2unix]: https://askubuntu.com/questions/966488/how-do-i-fix-r-command-not-found-errors-running-bash-scripts-in-wsl
+[venvwinstallshell]: https://virtualenvwrapper.readthedocs.io/en/latest/install.html#shell-startup-file
 
 <!-- vim:foldmethod=marker:foldlevel=0:
 -->
