@@ -14,4 +14,4 @@ order: 7
 
 {% include toc.md %}
 
-# Week 7 - UNDER CONSTRUCTION
+# Week 7 - Midsemester Break

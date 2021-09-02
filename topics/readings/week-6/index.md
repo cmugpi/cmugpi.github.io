@@ -14,4 +14,4 @@ order: 6
 
 {% include toc.md %}
 
-# Week 6 - UNDER CONSTRUCTION
+# Week 6 - Exam 1
