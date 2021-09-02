@@ -15,21 +15,25 @@ order: 1
 
 ## Reading
 
+This week we'll be learning about Latex, a typesetting program recommended by
+many classes at CMU. 
+
+- [Latex]
+
+After you are done with the lab, feel free to get started on set ups for next lecture!
+
 - [Initial Setup]
-  - If you haven't done this yet, do it now.
-- [Files & Commands]
-  - Once you're done, use this to complete the first lab.
 
 ## Lab
 
-The lab can be found on Autolab:
+The lab can be found on Canvas:
 
-- [TrainerLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/trainerlab)
+- [SmashLab](https://canvas.cmu.edu/courses/24860/files)
 
 ## Slides
 
-- [Intro]
+- [Intro & Latex]
 
 [Initial Setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
-[Files & Commands]: {{ "/topics/terminal-usage/files-commands" | prepend: site.baseurl }}
-[Intro]: {{ "/topics/readings/week-1/week-1-bash.pdf" | prepend: site.baseurl }}
+[Latex]: {{ "/topics/latex/"   | prepend: site.baseurl }}
+[Intro & Latex]: {{ "/topics/readings/week-1/week-1-intro-latex.pdf" | prepend: site.baseurl }}

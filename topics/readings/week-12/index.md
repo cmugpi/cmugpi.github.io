@@ -11,9 +11,5 @@ order: 12
 #  - /javascripts/two.js
 ---
 
-# Week 12
-
-## Reading
-
-No reading this week!
+# Week 12 - UNDER CONSTRUCTION
 

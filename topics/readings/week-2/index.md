@@ -12,48 +12,24 @@ order: 2
 ---
 
 
-# Week 2
-
-## GPI Vim Config
-
-If you still haven't gone through the Initial Setup instructions, make sure
-you do them now.
-
-If you have already done this, you do not have to repeat the process.
+# Week 2 - UNDER CONSTRUCTION
 
 - [Initial Setup]
+  - If you haven't done this yet, do it now.
 
-## Reading
 
-Vim is a command line text editor. You may have started using it in your classes
-to complete programming assignments.
+# Reading
+- [Files & Commands]
+  - Once you're done, use this to complete the first lab.
 
-- `vimtutor`
-  - This isn't a reading, it's an interactive tutorial
-  - To start, log into Andrew and run the command `vimtutor`
-  - Do lessons 1.1 - 2.7
-- [Vim as Language]
-  - This is a short reading that explains the best way to "think" when using
-    Vim.
-
-## Lab
+# Lab
 
 The lab can be found on Autolab:
 
-- [SportsLab](https://autolab.andrew.cmu.edu/courses/07131-f20/assessments/sportslab)
+# Slides
 
-You will also find this useful for solving the labs (you don't have to
-read this before class if you don't want to):
 
-- [Editing & Navigation]
-- [Vim Cheatsheet]
 
-## Slides
-
-- [Vim]
 
 [Initial Setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
-[Vim as Language]: {{ "/topics/vim/vim-as-language/" | prepend: site.baseurl }}
-[Editing & Navigation]: {{ "/topics/vim/editing-navigation/" | prepend: site.baseurl }}
-[Vim Cheatsheet]: {{ "/topics/vim/vim-cheatsheet.pdf" | prepend: site.baseurl }}
-[Vim]: {{ "/topics/readings/week-2/week-2-vim.pdf" | prepend: site.baseurl }}
+[Files & Commands]: {{ "/topics/terminal-usage/files-commands" | prepend: site.baseurl }}

@@ -14,13 +14,4 @@ order: 11
 
 {% include toc.md %}
 
-# Week 11
-{:.ui.dividing.header.no_toc}
-
-## Reading
-
-There is no reading this week. The TAs gave a panel on advice about how to make the most of CMU.
-
-## Lab
-
-There is no lab this week.
+# Week 11 - UNDER CONSTRUCTION
