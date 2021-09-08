@@ -2,7 +2,7 @@
 layout: page
 title: Staff
 group: navigation
-order: 4
+order: 5
 
 # -- This is a test comment
 # -- yaml variables local to this file --

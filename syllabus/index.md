@@ -2,7 +2,7 @@
 layout: page
 title: "Syllabus"
 group: navigation
-order: 5
+order: 6
 ---
 
 

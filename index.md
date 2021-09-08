@@ -37,16 +37,16 @@ the semester, but please don't spam us.
 | 9/2      | [slides][latex_S1] | [Week 1]        | Intro + [Latex][latex]      |
 | ASAP     |   -                | [Initial setup] | -                           |
 | 9/9      |                    | [Week 2]        | [Terminal usage][usage]     |
-| 9/16     |                    | [Week 3]        | [Vim][vim]                  |
-| 9/23     |                    | [Week 4]        | [Git][git] - Basics         |
-| 9/30     |                    | [Week 5]        | [Git][git] - github         |
+| 9/16     |                    | [Week 3]        | [Vim][vim] - Basics         |
+| 9/23     |                    | [Week 4]        | [Vim][vim] - Advanced       |
+| 9/30     |                    | [Week 5]        | [Git][git] - Basics         |
 | 10/7     |                    | [Week 6]        | Exam 1                      |
-| __10/14__|                    | Week 7          | __Midsemester Break__       |
-| 10/21    |                    | [Week 8]        | [Bash][bash] - Basics       |
-| 10/28    |                    | [Week 9]        | [Bash][bash] - Glob & Regex |
-| 11/4     |                    | [Week 10]       | [Bash][bash] - Pipes        |
-| 11/11    |                    | [Week 11]       | CMU Advice / Q&A            |
-| 11/18    |                    | [Week 12]       | Lightning Rounds            |
+| __10/14__|   -                | Week 7          | __Midsemester Break__       |
+| 10/21    |                    | [Week 8]        | [Git][git] - github         |
+| 10/28    |                    | [Week 9]        | [Bash][bash] - Basics       |
+| 11/4     |                    | [Week 10]       | [Bash][bash] - Glob & Regex |
+| 11/11    |                    | [Week 11]       | [Bash][bash] - Pipes        |
+| 11/18    |                    | [Week 12]       | CMU Advice / Q&A            |
 | __11/26__|   -                | Week 13         | __Thanksgiving__            |
 | 12/2     |   -                | [Week 14]       | Exam 2                      |
 {:.ui.striped.table}

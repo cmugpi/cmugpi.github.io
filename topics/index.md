@@ -2,7 +2,7 @@
 layout: page
 title: "Topics"
 group: navigation
-order: 3
+order: 4
 ---
 
 # Topics
