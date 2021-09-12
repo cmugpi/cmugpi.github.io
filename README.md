@@ -63,6 +63,7 @@ Python community went and figured it out, building a project called
 modules, but when combined with RubyGems and Bundler, it possesses all the
 features necessary to work similarly for Ruby. If you don't have
 virtualenvwrapper installed already, go [install it][venvwinstall].
+Note that you need *python 3.6 or lower*! 
 
 Once you've got that done, you can go ahead and run
 
@@ -75,14 +76,23 @@ the magic happen. If you are working on windows, and the script keeps saying you
 to install rbenv or virtualenvwrapper even though you already have those installed, 
 accompanied by "$'\r': command not found" error, then consider [this solution][dos2unix].
 
+If workon is not recognized as a command, then you probably forgot to edit the
+bashrc file as specified in the [virtualenvwrapper installation instructions][venvwinstallshell].
+My `~/.bashrc` has the following:
+
+```
+export WORKON_HOME=~/.virtualenvs
+VIRTUALENVWRAPPER_PYTHON='/usr/bin/python'
+source /home/path/to/virtualenvwrapper.sh
+```
+
+where the path to `python` and `virtualenvwrapper.sh` can be found by doing `which python` and `which virtualenvwrapper.sh` respectively. 
+
 To work in the newly created virtual environment, run
 
 ```
 $ workon <name of virtualenv>
 ```
-
-If workon is not recognized as a command, then you probably forgot to edit the
-bashrc file as specified in the [virtualenvwrapper installation instructions][venvwinstallshell].
 
 To stop working on the virtual environment,
 
