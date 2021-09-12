@@ -35,8 +35,8 @@ the semester, but please don't spam us.
 | Date     | Slides             | Reading         | Lecture Topic               |
 | ----     | ------             | -------         | -------------               |
 | 9/2      | [slides][latex_S1] | [Week 1]        | Intro + [Latex][latex]      |
-| ASAP     |   -                | [Initial setup] | -                           |
-| 9/9      |                    | [Week 2]        | [Terminal usage][usage]     |
+| ASAP     | -                  | [Initial setup] | -                           |
+| 9/9      | [slides][term_S1]  | [Week 2]        | [Terminal usage][usage]     |
 | 9/16     |                    | [Week 3]        | [Vim][vim] - Basics         |
 | 9/23     |                    | [Week 4]        | [Vim][vim] - Advanced       |
 | 9/30     |                    | [Week 5]        | [Git][git] - Basics         |
@@ -107,6 +107,7 @@ are there as additional resources.
 
 <!-- Slides -->
 [latex_S1]:  {{ "/topics/readings/week-1/week-1-intro-latex.pdf" | prepend: site.baseurl }}
+[term_S1]: {{ "/topics/readings/week-2/week-2-terminal.pdf" | prepend: site.baseurl }}
 
 <!-- Weekly pages/readings -->
 [Week 1]:  {{ "/topics/readings/week-1/"  | prepend: site.baseurl }}
