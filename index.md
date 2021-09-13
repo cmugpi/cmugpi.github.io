@@ -64,7 +64,7 @@ We'll be posting the extratation schedule here.
 |Week   | Date          | Extratation Topic                     |
 |----   | ----          | -----                                 |
 |1      | 9/4           | No extratation, Extended OH instead   |
-|2      | 9/11          | Summer Opportunities                  |
+|2      | 9/11          | [Summer Opportunities][summer]        |
 |3      | 9/18          | VSCode                                |
 |4      | 9/25          | Interview prep                        |
 |5      | 10/2          |?|
@@ -84,6 +84,7 @@ We'll be posting the extratation schedule here.
 <div class="">
 <iframe src="https://calendar.google.com/calendar/embed?src=c_9ggct2afcr7d1rmdkn0i9e811c%40group.calendar.google.com&ctz=America%2FNew_York" style="border-width:0" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
 </div>
+{:.ui.dividing.header.no_toc}
 
 
 ## How to use this site
@@ -141,3 +142,4 @@ are there as additional resources.
 [dotfiles]: {{ "/topics/extratations/dotfiles/" | prepend: site.baseurl }}  
 [pm]: {{ "/topics/extratations/pm/" | prepend: site.baseurl }}   
 [cc]: {{ "/topics/extratations/crashcourse/" | prepend: site.baseurl }}   
+[summer]: {{ "/topics/extratations/summer/" | prepend: site.baseurl }}   

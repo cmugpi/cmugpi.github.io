@@ -25,7 +25,7 @@ order: 2
 # Lab
 
 The lab can be found on Autolab: 
-- [sportslab](https://autolab.andrew.cmu.edu/courses/07131-f21/assessments/trainerlab)
+- [trainerlab](https://autolab.andrew.cmu.edu/courses/07131-f21/assessments/trainerlab)
 
 # Slides
 - [terminal]
