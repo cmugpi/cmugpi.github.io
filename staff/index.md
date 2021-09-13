@@ -64,8 +64,9 @@ send to the whole course staff.
 </div>
 
 # Office Hours
+{:.ui.dividing.header.no_toc}
 
-Up-to-date information on office hour times and locations may be found on [Google Calendar][ohtimes].
+Up-to-date information on office hour times and locations may be found on [Google Calendar][ohtimes] or the embedded google calendar on the homepage.
 
 
 # Attribution
