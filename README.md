@@ -624,7 +624,7 @@ Gemfile.lock (the last working state).
 [uninstall_gems]: https://gist.github.com/IanVaughan/2902499
 [git-hook]: https://github.com/cmugpi/cmugpi.github.io/blob/develop/_support/post-receive
 
-[rubyinstall]: https://virtualenvwrapper.readthedocs.io/en/latest/install.html#shell-startup-file
+[rubyinstall]: https://www.ruby-lang.org/en/documentation/installation/
 [dos2unix]: https://askubuntu.com/questions/966488/how-do-i-fix-r-command-not-found-errors-running-bash-scripts-in-wsl
 [venvwinstallshell]: https://virtualenvwrapper.readthedocs.io/en/latest/install.html#shell-startup-file
 
