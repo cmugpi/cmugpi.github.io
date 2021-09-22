@@ -14,7 +14,7 @@ order: 3
 
 {% include toc.md %}
 
-# Week 3 - UNDER CONSTRUCTION
+# Week 3
 {:.ui.dividing.header.no_toc}
 
 ## GPI Vim Config
@@ -46,9 +46,10 @@ read this before class if you don't want to):
 
 
 ## Slides
+- [slides][Vim]
 
 
 [Vim as Language]: {{ "/topics/vim/vim-as-language/" | prepend: site.baseurl }}
 [Editing & Navigation]: {{ "/topics/vim/editing-navigation/" | prepend: site.baseurl }}
 [Vim Cheatsheet]: {{ "/topics/vim/vim-cheatsheet.pdf" | prepend: site.baseurl }}
-[Vim]: {{ "/topics/readings/week-2/week-2-vim.pdf" | prepend: site.baseurl }}
+[Vim]: {{ "/topics/readings/week-3/week-3-vim.pdf" | prepend: site.baseurl }}

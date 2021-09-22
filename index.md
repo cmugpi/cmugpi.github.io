@@ -37,8 +37,8 @@ the semester, but please don't spam us.
 | 9/2      | [slides][latex_S1] | [Week 1]        | Intro + [Latex][latex]      |
 | ASAP     | -                  | [Initial setup] | -                           |
 | 9/9      | [slides][term_S1]  | [Week 2]        | [Terminal usage][usage]     |
-| 9/16     |                    | [Week 3]        | [Vim][vim] - Basics         |
-| 9/23     |                    | [Week 4]        | [Vim][vim] - Advanced       |
+| 9/16     | [slides][vim_s1]   | [Week 3]        | [Vim][vim] - Basics         |
+| 9/23     | [slides][vim_s2]   | [Week 4]        | [Vim][vim] - Advanced       |
 | 9/30     |                    | [Week 5]        | [Git][git] - Basics         |
 | 10/7     |                    | [Week 6]        | Exam 1                      |
 | __10/14__|   -                | Week 7          | __Midsemester Break__       |
@@ -65,7 +65,7 @@ We'll be posting the extratation schedule here.
 |----   | ----          | -----                                 |
 |1      | 9/4           | No extratation, Extended OH instead   |
 |2      | 9/11          | [Summer Opportunities][summer]        |
-|3      | 9/18          | VSCode                                |
+|3      | 9/18          | [VSCode][vscode]                      |
 |4      | 9/25          | Interview prep                        |
 |5      | 10/2          |?|
 |6      | 10/9          |?|
@@ -115,6 +115,8 @@ are there as additional resources.
 <!-- Slides -->
 [latex_S1]:  {{ "/topics/readings/week-1/week-1-intro-latex.pdf" | prepend: site.baseurl }}
 [term_S1]: {{ "/topics/readings/week-2/week-2-terminal.pdf" | prepend: site.baseurl }}
+[vim_S1]: {{ "/topics/readings/week-3/week-3-vim.pdf" | prepend: site.baseurl }}
+[vim_S2]: {{ "/topics/readings/week-4/week-4-vim-2.pdf" | prepend: site.baseurl }}
 
 <!-- Weekly pages/readings -->
 [Week 1]:  {{ "/topics/readings/week-1/"  | prepend: site.baseurl }}
@@ -143,3 +145,4 @@ are there as additional resources.
 [pm]: {{ "/topics/extratations/pm/" | prepend: site.baseurl }}   
 [cc]: {{ "/topics/extratations/crashcourse/" | prepend: site.baseurl }}   
 [summer]: {{ "/topics/extratations/summer/" | prepend: site.baseurl }}   
+[vscode]: {{ "/topics/extratations/vscode/" | prepend: site.baseurl }}   
