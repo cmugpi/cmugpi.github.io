@@ -40,7 +40,9 @@ far from the only use for Makefiles.
 
 ## Resources
 
+- [F21 Extratation Slides][slides]
 - [GNU make Manual][makemanual]
   - A detailed manual on how to use `make` and write Makefiles
 
 [makemanual]: https://www.gnu.org/software/make/manual/make.html 
+[slides]:  {{ "./makefiles.pdf"  | prepend: site.baseurl }}

@@ -24,7 +24,7 @@ We are keeping a form open throughout the semester for you to submit
 feedback on all the lectures and anything non-lecture related / about the course in
 general as well. You are welcome to submit the form multiple times throughout
 the semester, but please don't spam us. 
-[Form available here](tinyurl.com/f21-gpi-feedback)
+[Form available here](https://tinyurl.com/f21-gpi-feedback)
 
 
 
@@ -37,10 +37,10 @@ the semester, but please don't spam us.
 | 9/2      | [slides][latex_S1] | [Week 1]        | Intro + [Latex][latex]      |
 | ASAP     | -                  | [Initial setup] | -                           |
 | 9/9      | [slides][term_S1]  | [Week 2]        | [Terminal usage][usage]     |
-| 9/16     | [slides][vim_s1]   | [Week 3]        | [Vim][vim] - Basics         |
-| 9/23     | [slides][vim_s2]   | [Week 4]        | [Vim][vim] - Advanced       |
-| 9/30     |                    | [Week 5]        | [Git][git] - Basics         |
-| 10/7     |                    | [Week 6]        | Exam 1                      |
+| 9/16     | [slides][vim_S1]   | [Week 3]        | [Vim][vim] - Basics         |
+| 9/23     | [slides][vim_S2]   | [Week 4]        | [Vim][vim] - Advanced       |
+| 9/30     | [slides][git_S1]   | [Week 5]        | [Git][git] - Basics         |
+| 10/7     |   -                | [Week 6]        | Exam 1                      |
 | __10/14__|   -                | Week 7          | __Midsemester Break__       |
 | 10/21    |                    | [Week 8]        | [Git][git] - github         |
 | 10/28    |                    | [Week 9]        | [Bash][bash] - Basics       |
@@ -66,15 +66,15 @@ We'll be posting the extratation schedule here.
 |1      | 9/4           | No extratation, Extended OH instead   |
 |2      | 9/11          | [Summer Opportunities][summer]        |
 |3      | 9/18          | [VSCode][vscode]                      |
-|4      | 9/25          | Interview prep                        |
-|5      | 10/2          |?|
-|6      | 10/9          |?|
-|7      | 10/16         |?|
-|8      | 10/23         |?|
+|4      | 9/25          | [Interview prep][interview]           |
+|5      | 10/2          | [Exam 1 review](https://create.kahoot.it/details/242bb421-a27a-4679-8078-31f0e423bc10) |
+|6      | 10/9          | [Makefile][makefiles] |
+|7      | 10/16         | [Intro to Product Management (PM)][pm]|
+|8      | 10/23         | Crash Course w/ ScottyLabs |
 |9      | 10/30         |?|
 |10     | 11/6          |?|
-|11     | 11/13         |?|
-|12     | 11/20         |?|
+|11     | 11/13         | WebDev Weekend w/ ScottyLabs|
+|12     | 11/20         | Exam 2 review |
 |13     | __11/27__     | __Thanksgiving__                      |
 |14     | 12/4          | N/A                                   |
 {:.ui.striped.table}
@@ -111,12 +111,14 @@ are there as additional resources.
 [config]:    {{ "/topics/terminal-configuration/" | prepend: site.baseurl }}
 [git]:       {{ "/topics/git/"                    | prepend: site.baseurl }}
 [makefiles]: {{ "/topics/makefiles/"              | prepend: site.baseurl }}
+[pm]:        {{ "/topics/intro-to-pm/"            | prepend: site.baseurl }}
 
 <!-- Slides -->
 [latex_S1]:  {{ "/topics/readings/week-1/week-1-intro-latex.pdf" | prepend: site.baseurl }}
 [term_S1]: {{ "/topics/readings/week-2/week-2-terminal.pdf" | prepend: site.baseurl }}
 [vim_S1]: {{ "/topics/readings/week-3/week-3-vim.pdf" | prepend: site.baseurl }}
 [vim_S2]: {{ "/topics/readings/week-4/week-4-vim-2.pdf" | prepend: site.baseurl }}
+[git_S1]: {{ "/topics/readings/week-5/week-5-git-1.pdf" | prepend: site.baseurl }}
 
 <!-- Weekly pages/readings -->
 [Week 1]:  {{ "/topics/readings/week-1/"  | prepend: site.baseurl }}
@@ -146,3 +148,4 @@ are there as additional resources.
 [cc]: {{ "/topics/extratations/crashcourse/" | prepend: site.baseurl }}   
 [summer]: {{ "/topics/extratations/summer/" | prepend: site.baseurl }}   
 [vscode]: {{ "/topics/extratations/vscode/" | prepend: site.baseurl }}   
+[interview]: {{ "/topics/extratations/interview/" | prepend: site.baseurl }}   
