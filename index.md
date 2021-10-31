@@ -42,11 +42,11 @@ the semester, but please don't spam us.
 | 9/30     | [slides][git_S1]   | [Week 5]        | [Git][git] - Basics         |
 | 10/7     |   -                | [Week 6]        | Exam 1                      |
 | __10/14__|   -                | Week 7          | __Midsemester Break__       |
-| 10/21    |                    | [Week 8]        | [Git][git] - github         |
-| 10/28    |                    | [Week 9]        | [Bash][bash] - Basics       |
-| 11/4     |                    | [Week 10]       | [Bash][bash] - Glob & Regex |
-| 11/11    |                    | [Week 11]       | [Bash][bash] - Pipes        |
-| 11/18    |                    | [Week 12]       | CMU Advice / Q&A            |
+| 10/21    | [slides][git_S2]   | [Week 8]        | [Git][git] - github         |
+| 10/28    | [slides][bash_S1]  | [Week 9]        | [Bash][bash] - Intro & Globs|
+| 11/4     |                    | [Week 10]       | [Bash][bash] - Regex & Grep |
+| 11/11    |   -                | [Week 11]       | CMU Advice - Q&A        |
+| 11/18    |                    | [Week 12]       | [Bash][bash] - Pipes        |
 | __11/26__|   -                | Week 13         | __Thanksgiving__            |
 | 12/2     |   -                | [Week 14]       | Exam 2                      |
 {:.ui.striped.table}
@@ -71,9 +71,9 @@ We'll be posting the extratation schedule here.
 |6      | 10/9          | [Makefile][makefiles] |
 |7      | 10/16         | [Intro to Product Management (PM)][pm]|
 |8      | 10/23         | Crash Course w/ ScottyLabs |
-|9      | 10/30         |?|
-|10     | 11/6          |?|
-|11     | 11/13         | WebDev Weekend w/ ScottyLabs|
+|9      | 10/30         | [UML & OOD][umlood] |
+|10     | 11/6          | Resume review (bring a resume!) |
+|11     | 11/13         | WebDev Weekend w/ ScottyLabs |
 |12     | 11/20         | Exam 2 review |
 |13     | __11/27__     | __Thanksgiving__                      |
 |14     | 12/4          | N/A                                   |
@@ -119,6 +119,8 @@ are there as additional resources.
 [vim_S1]: {{ "/topics/readings/week-3/week-3-vim.pdf" | prepend: site.baseurl }}
 [vim_S2]: {{ "/topics/readings/week-4/week-4-vim-2.pdf" | prepend: site.baseurl }}
 [git_S1]: {{ "/topics/readings/week-5/week-5-git-1.pdf" | prepend: site.baseurl }}
+[git_S2]:   {{ "/topics/readings/week-8/week-8-git-2.pdf" | prepend: site.baseurl }}
+[bash_S1]: {{ "/topics/readings/week-9/week-9-bash-script.pdf" | prepend: site.baseurl }}
 
 <!-- Weekly pages/readings -->
 [Week 1]:  {{ "/topics/readings/week-1/"  | prepend: site.baseurl }}
@@ -149,3 +151,4 @@ are there as additional resources.
 [summer]: {{ "/topics/extratations/summer/" | prepend: site.baseurl }}   
 [vscode]: {{ "/topics/extratations/vscode/" | prepend: site.baseurl }}   
 [interview]: {{ "/topics/extratations/interview/" | prepend: site.baseurl }}   
+[umlood]: {{ "/topics/extratations/umlood/" | prepend: site.baseurl }}   
