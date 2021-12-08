@@ -5,7 +5,7 @@ group: navigation
 order: 1
 ---
 
-# 07-131 -- Great Practical Ideas in CS
+# 07-131 -- Great Practical Ideas in CS -- F21
 {:.ui.dividing.header.no_toc}
 
 ## Overview
@@ -44,9 +44,9 @@ the semester, but please don't spam us.
 | __10/14__|   -                | Week 7          | __Midsemester Break__       |
 | 10/21    | [slides][git_S2]   | [Week 8]        | [Git][git] - github         |
 | 10/28    | [slides][bash_S1]  | [Week 9]        | [Bash][bash] - Intro & Globs|
-| 11/4     |                    | [Week 10]       | [Bash][bash] - Regex & Grep |
-| 11/11    |   -                | [Week 11]       | CMU Advice - Q&A        |
-| 11/18    |                    | [Week 12]       | [Bash][bash] - Pipes        |
+| 11/4     | [slides][bash_S2]  | [Week 10]       | [Bash][bash] - Regex & Grep |
+| 11/11    |   -                | [Week 11]       | CMU Advice - Q&A            |
+| 11/18    | [slides][bash_S3]  | [Week 12]       | [Bash][bash] - Pipes        |
 | __11/26__|   -                | Week 13         | __Thanksgiving__            |
 | 12/2     |   -                | [Week 14]       | Exam 2                      |
 {:.ui.striped.table}
@@ -68,13 +68,13 @@ We'll be posting the extratation schedule here.
 |3      | 9/18          | [VSCode][vscode]                      |
 |4      | 9/25          | [Interview prep][interview]           |
 |5      | 10/2          | [Exam 1 review](https://create.kahoot.it/details/242bb421-a27a-4679-8078-31f0e423bc10) |
-|6      | 10/9          | [Makefile][makefiles] |
+|6      | 10/9          | [Makefile][makefiles]                 |
 |7      | 10/16         | [Intro to Product Management (PM)][pm]|
-|8      | 10/23         | Crash Course w/ ScottyLabs |
-|9      | 10/30         | [UML & OOD][umlood] |
-|10     | 11/6          | Resume review (bring a resume!) |
-|11     | 11/13         | WebDev Weekend w/ ScottyLabs |
-|12     | 11/20         | Exam 2 review |
+|8      | 10/23         | Crash Course w/ ScottyLabs            |
+|9      | 10/30         | [UML & OOD][umlood]                   |
+|10     | 11/6          | [Resume review][resumereview]         |
+|11     | 11/13         | WebDev Weekend w/ ScottyLabs          |
+|12     | 11/20         | Exam 2 review                         |
 |13     | __11/27__     | __Thanksgiving__                      |
 |14     | 12/4          | N/A                                   |
 {:.ui.striped.table}
@@ -121,6 +121,8 @@ are there as additional resources.
 [git_S1]: {{ "/topics/readings/week-5/week-5-git-1.pdf" | prepend: site.baseurl }}
 [git_S2]:   {{ "/topics/readings/week-8/week-8-git-2.pdf" | prepend: site.baseurl }}
 [bash_S1]: {{ "/topics/readings/week-9/week-9-bash-script.pdf" | prepend: site.baseurl }}
+[bash_S2]: {{ "/topics/readings/week-10/week-10-regex-grep.pdf" | prepend: site.baseurl }}
+[bash_S3]: {{ "/topics/readings/week-12/week-12-pipes.pdf" | prepend: site.baseurl }}
 
 <!-- Weekly pages/readings -->
 [Week 1]:  {{ "/topics/readings/week-1/"  | prepend: site.baseurl }}
@@ -152,3 +154,4 @@ are there as additional resources.
 [vscode]: {{ "/topics/extratations/vscode/" | prepend: site.baseurl }}   
 [interview]: {{ "/topics/extratations/interview/" | prepend: site.baseurl }}   
 [umlood]: {{ "/topics/extratations/umlood/" | prepend: site.baseurl }}   
+[resumereview]: {{ "/topics/extratations/resumereview/" | prepend: site.baseurl }}   

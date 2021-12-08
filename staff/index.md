@@ -63,6 +63,15 @@ send to the whole course staff.
 {% endfor %}
 </div>
 
+<div class="ui two column center aligned grid">
+<div class="column">
+<img class="ui image" alt="group_pic_1" width="100%" src="{{ site.baseurl }}/images/staff/group_pic_1.jpg">
+</div>
+<div class="column">
+<img class="ui image" alt="group_pic_2" width="100%" src="{{ site.baseurl }}/images/staff/group_pic_2.jpg">
+</div>
+</div>
+
 # Office Hours
 {:.ui.dividing.header.no_toc}
 

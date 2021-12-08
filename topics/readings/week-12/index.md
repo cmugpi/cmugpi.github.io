@@ -11,5 +11,26 @@ order: 12
 #  - /javascripts/two.js
 ---
 
-# Week 12 - UNDER CONSTRUCTION
+# Week 12
+{:.ui.dividing.header.no_toc}
 
+## Reading
+This week we'll be learning about one of Bash's most powerful features:
+oneliners!
+
+- [Input & Output]
+- [Oneliners]
+
+## Lab
+
+The lab can be found on Autolab:
+
+- [PipeLab](https://autolab.andrew.cmu.edu/courses/07131-f21/assessments/pipelab)
+
+## Slides
+
+- [Input, Output, and Bash Oneliners]
+
+[Input & Output]: {{ "/topics/bash/input-output/"   | prepend: site.baseurl }}
+[Oneliners]:      {{ "/topics/bash/oneliners/"      | prepend: site.baseurl }}
+[Input, Output, and Bash Oneliners]: {{ "./week-12-pipes.pdf" | prepend: site.baseurl }}

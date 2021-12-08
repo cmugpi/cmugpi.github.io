@@ -12,3 +12,5 @@ order: 13
 ---
 
 # Week 13 - Thanksgiving Break
+
+Happy Thanksgiving :)
