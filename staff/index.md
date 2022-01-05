@@ -7,47 +7,18 @@ order: 5
 # -- This is a test comment
 # -- yaml variables local to this file --
 staff:
-  - id: tcortina
-    domain: cs
-    name: Tom Cortina
-  - id: vpeet
+  - id: giselle
+    domain: cmu
+    name: Giselle Reis
+  - id: efeoflus
     domain: andrew
-    name: Veronica Peet
-  - id: jiachen5
-    domain: andrew
-    name: Amy Liu
-  - id: jwang7
-    domain: andrew
-    name: Jeremy Wang
-  - id: jpyang
-    domain: andrew
-    name: Jules Yang 
-  - id: aryas
-    domain: andrew
-    name: Arya Shah
-  - id: dsunkara
-    domain: andrew
-    name: Deepti Sunkara
-  - id: yalsuhai
-    domain: andrew
-    name: Yosef Alsuhaibani
-  - id: ljyao
-    domain: andrew
-    name: Laura Yao
-  - id: kacoba
-    domain: andrew
-    name: Keiffer Acoba
-  - id: ktummala
-    domain: andrew
-    name: Kavya Tummalapalli
+    name: Eduardo Feo-Flushing
 ---
 
 # Staff
 {:.ui.dividing.header.no_toc}
 
-For general questions/comments, please post on the course Piazza. Only send an
-email to a specific TA if you have a question that wouldn't be appropriate to
-send to the whole course staff. 
+For general questions/comments, please post on the course Piazza.
 
 <div class="ui three column center aligned grid">
 {% for person in page.staff %}
@@ -63,25 +34,17 @@ send to the whole course staff.
 {% endfor %}
 </div>
 
-<div class="ui two column center aligned grid">
-<div class="column">
-<img class="ui image" alt="group_pic_1" width="100%" src="{{ site.baseurl }}/images/staff/group_pic_1.jpg">
-</div>
-<div class="column">
-<img class="ui image" alt="group_pic_2" width="100%" src="{{ site.baseurl }}/images/staff/group_pic_2.jpg">
-</div>
-</div>
 
 # Office Hours
 {:.ui.dividing.header.no_toc}
 
-Up-to-date information on office hour times and locations may be found on [Google Calendar][ohtimes] or the embedded google calendar on the homepage.
 
 
 # Attribution
 {:.ui.dividing.header.no_toc}
 
-The initial version of the course and a significant amount of the current course
+This course is entirely based on the 07-131 course offered in Pittsburgh. The
+initial version of the course and a significant amount of the current course
 content was created by [Adam Blank][adam] in Fall 2011. Later, modifications and
 additions to the content were made by Josh Zimmerman, who reformatted the
 original PDFs into web content.
