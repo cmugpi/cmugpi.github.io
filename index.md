@@ -5,7 +5,7 @@ group: navigation
 order: 1
 ---
 
-# 07-131 -- Great Practical Ideas in CS -- F21
+# 07-131 -- Great Practical Ideas in CS -- S22 Qatar
 {:.ui.dividing.header.no_toc}
 
 ## Overview
@@ -23,7 +23,7 @@ For more information, you should checkout the [syllabus].
 We are keeping a form open throughout the semester for you to submit
 feedback on all the lectures and anything non-lecture related / about the course in
 general as well. You are welcome to submit the form multiple times throughout
-the semester, but please don't spam us. 
+the semester, but please don't spam us.
 [Form available here](https://tinyurl.com/f21-gpi-feedback)
 
 
@@ -34,7 +34,7 @@ the semester, but please don't spam us.
 
 | Date     | Slides             | Reading         | Lecture Topic               |
 | ----     | ------             | -------         | -------------               |
-| 9/2      | [slides][latex_S1] | [Week 1]        | Intro + [Latex][latex]      |
+| 1/9      | [slides][latex_S1] | [Week 1]        | Intro + [Latex][latex]      |
 | ASAP     | -                  | [Initial setup] | -                           |
 | 9/9      | [slides][term_S1]  | [Week 2]        | [Terminal usage][usage]     |
 | 9/16     | [slides][vim_S1]   | [Week 3]        | [Vim][vim] - Basics         |
@@ -51,41 +51,12 @@ the semester, but please don't spam us.
 | 12/2     |   -                | [Week 14]       | Exam 2                      |
 {:.ui.striped.table}
 
-## Extratations
 
-Throughout the semester, we'll be holding extra workshops and talks outside of
-class, dubbed "extratations", to explore topics that we don't want to test you
-on but that you might find interesting.
+## Office hours
 
-Time and Location: See Piazza
+Eduardo Feo-Flushing:
 
-We'll be posting the extratation schedule here.
-
-|Week   | Date          | Extratation Topic                     |
-|----   | ----          | -----                                 |
-|1      | 9/4           | No extratation, Extended OH instead   |
-|2      | 9/11          | [Summer Opportunities][summer]        |
-|3      | 9/18          | [VSCode][vscode]                      |
-|4      | 9/25          | [Interview prep][interview]           |
-|5      | 10/2          | [Exam 1 review](https://create.kahoot.it/details/242bb421-a27a-4679-8078-31f0e423bc10) |
-|6      | 10/9          | [Makefile][makefiles]                 |
-|7      | 10/16         | [Intro to Product Management (PM)][pm]|
-|8      | 10/23         | Crash Course w/ ScottyLabs            |
-|9      | 10/30         | [UML & OOD][umlood]                   |
-|10     | 11/6          | [Resume review][resumereview]         |
-|11     | 11/13         | WebDev Weekend w/ ScottyLabs          |
-|12     | 11/20         | Exam 2 review                         |
-|13     | __11/27__     | __Thanksgiving__                      |
-|14     | 12/4          | N/A                                   |
-{:.ui.striped.table}
-
-
-## Office hours calendar
-<div class="">
-<iframe src="https://calendar.google.com/calendar/embed?src=c_9ggct2afcr7d1rmdkn0i9e811c%40group.calendar.google.com&ctz=America%2FNew_York" style="border-width:0" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
-</div>
-{:.ui.dividing.header.no_toc}
-
+Giselle Reis:
 
 ## How to use this site
 
@@ -141,17 +112,19 @@ are there as additional resources.
 [Week 14]: {{ "/topics/readings/week-14/" | prepend: site.baseurl }}
 
 <!-- Extratation pages/slides -->
+<!--
 [latexresume]: {{ "/topics/extratations/latexresume/" | prepend: site.baseurl }}
 [tmux]: {{ "/topics/extratations/tmux/" | prepend: site.baseurl }}
 [cicd]: {{ "/topics/extratations/githubactions/" | prepend: site.baseurl }}
-[wdw]: {{ "/topics/extratations/wdw/" | prepend: site.baseurl }} 
-[giturl]: {{ "/topics/extratations/githuburlshortener/" | prepend: site.baseurl }}  
-[bitcoin]: {{ "/topics/extratations/bitcoin/" | prepend: site.baseurl }}  
-[dotfiles]: {{ "/topics/extratations/dotfiles/" | prepend: site.baseurl }}  
-[pm]: {{ "/topics/extratations/pm/" | prepend: site.baseurl }}   
-[cc]: {{ "/topics/extratations/crashcourse/" | prepend: site.baseurl }}   
-[summer]: {{ "/topics/extratations/summer/" | prepend: site.baseurl }}   
-[vscode]: {{ "/topics/extratations/vscode/" | prepend: site.baseurl }}   
-[interview]: {{ "/topics/extratations/interview/" | prepend: site.baseurl }}   
-[umlood]: {{ "/topics/extratations/umlood/" | prepend: site.baseurl }}   
-[resumereview]: {{ "/topics/extratations/resumereview/" | prepend: site.baseurl }}   
+[wdw]: {{ "/topics/extratations/wdw/" | prepend: site.baseurl }}
+[giturl]: {{ "/topics/extratations/githuburlshortener/" | prepend: site.baseurl }}
+[bitcoin]: {{ "/topics/extratations/bitcoin/" | prepend: site.baseurl }}
+[dotfiles]: {{ "/topics/extratations/dotfiles/" | prepend: site.baseurl }}
+[pm]: {{ "/topics/extratations/pm/" | prepend: site.baseurl }}
+[cc]: {{ "/topics/extratations/crashcourse/" | prepend: site.baseurl }}
+[summer]: {{ "/topics/extratations/summer/" | prepend: site.baseurl }}
+[vscode]: {{ "/topics/extratations/vscode/" | prepend: site.baseurl }}
+[interview]: {{ "/topics/extratations/interview/" | prepend: site.baseurl }}
+[umlood]: {{ "/topics/extratations/umlood/" | prepend: site.baseurl }}
+[resumereview]: {{ "/topics/extratations/resumereview/" | prepend: site.baseurl }}
+-->
