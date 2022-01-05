@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Extratations"
-group: topic
+group: _topic
 description: >
   Notes for extratations that don't quite belong in a particular category.
 # How sub-pages will be linked to this page
