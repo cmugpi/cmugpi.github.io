@@ -24,7 +24,7 @@ We are keeping a form open throughout the semester for you to submit
 feedback on all the lectures and anything non-lecture related / about the course in
 general as well. You are welcome to submit the form multiple times throughout
 the semester, but please don't spam us.
-[Form available here](https://tinyurl.com/f21-gpi-feedback)
+[Form available here](https://tinyurl.com/s22q-gpi-feedback)
 
 
 
@@ -70,7 +70,6 @@ assessed on your knowledge of those that relate to solving the labs. The others
 are there as additional resources.
 
 
-
 [syllabus]: {{ "/syllabus/" | prepend: site.baseurl }}
 [Initial setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 
@@ -86,6 +85,7 @@ are there as additional resources.
 
 <!-- Slides -->
 [latex_S1]:  {{ "/topics/readings/week-1/week-1-intro-latex.pdf" | prepend: site.baseurl }}
+
 [term_S1]: {{ "/topics/readings/week-2/week-2-terminal.pdf" | prepend: site.baseurl }}
 [vim_S1]: {{ "/topics/readings/week-3/week-3-vim.pdf" | prepend: site.baseurl }}
 [vim_S2]: {{ "/topics/readings/week-4/week-4-vim-2.pdf" | prepend: site.baseurl }}
@@ -110,6 +110,7 @@ are there as additional resources.
 [Week 12]: {{ "/topics/readings/week-12/" | prepend: site.baseurl }}
 [Week 13]: {{ "/topics/readings/week-13/" | prepend: site.baseurl }}
 [Week 14]: {{ "/topics/readings/week-14/" | prepend: site.baseurl }}
+
 
 <!-- Extratation pages/slides -->
 <!--
