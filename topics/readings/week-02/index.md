@@ -35,4 +35,4 @@ The lab can be found on Autolab:
 
 [Initial Setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 [Files & Commands]: {{ "/topics/terminal-usage/files-commands" | prepend: site.baseurl }}
-[terminal]: {{ "/topics/readings/week-2/week-2-terminal.pdf" | prepend: site.baseurl }}
+[terminal]: {{ "/topics/readings/week-02/week-2-terminal.pdf" | prepend: site.baseurl }}

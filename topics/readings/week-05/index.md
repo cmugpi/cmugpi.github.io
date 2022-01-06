@@ -29,7 +29,7 @@ The lab can be found on Autolab:
 
 - [Git]
 
-[Git]: {{ "/topics/readings/week-5/week-5-git-1.pdf" | prepend: site.baseurl }}
+[Git]: {{ "/topics/readings/week-05/week-5-git-1.pdf" | prepend: site.baseurl }}
 
 [gs-git]: {{ "/topics/git/getting-started/" | prepend: site.baseurl }}
 [git-commands]: {{ "/topics/git/git-commands/"    | prepend: site.baseurl }}

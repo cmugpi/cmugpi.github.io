@@ -35,4 +35,4 @@ The lab can be found on Autolab:
 [Globbing & Ranges]: {{ "/topics/bash/globbing-ranges/" | prepend: site.baseurl }}
 [strings]:           {{ "/topics/bash/strings/"         | prepend: site.baseurl }}
 
-[Shell Scripting, Globs, and Ranges]:        {{ "/topics/readings/week-9/week-9-bash-script.pdf" | prepend: site.baseurl }}
+[Shell Scripting, Globs, and Ranges]:        {{ "/topics/readings/week-09/week-9-bash-script.pdf" | prepend: site.baseurl }}

@@ -1,19 +1,20 @@
 ---
 layout: page
-title: "Week 4"
+title: "Week 3"
 # What topic does this page belong to?
 group: readings
 # Relative ordering of lessons within a topic
-order: 4
+order: 3
 #script: /javascripts/mypage.js
 #scripts:
 #  - /javascripts/one.js
 #  - /javascripts/two.js
 ---
 
+
 {% include toc.md %}
 
-# Week 4 
+# Week 3
 {:.ui.dividing.header.no_toc}
 
 ## GPI Vim Config
@@ -35,7 +36,7 @@ to complete programming assignments.
 ## Lab
 
 The lab can be found on Autolab:
-- [wizardlab](https://autolab.andrew.cmu.edu/courses/07131-f21/assessments/wizardlab)
+- [sportslab](https://autolab.andrew.cmu.edu/courses/07131-f21/assessments/sportslab)
 
 You will also find this useful for solving the labs (you don't have to
 read this before class if you don't want to):
@@ -45,10 +46,10 @@ read this before class if you don't want to):
 
 
 ## Slides
-- [Vim-advanced][Vim2]
+- [slides][Vim]
 
 
 [Vim as Language]: {{ "/topics/vim/vim-as-language/" | prepend: site.baseurl }}
 [Editing & Navigation]: {{ "/topics/vim/editing-navigation/" | prepend: site.baseurl }}
 [Vim Cheatsheet]: {{ "/topics/vim/vim-cheatsheet.pdf" | prepend: site.baseurl }}
-[Vim2]: {{ "/topics/readings/week-4/week-4-vim-2.pdf" | prepend: site.baseurl }}
+[Vim]: {{ "/topics/readings/week-03/week-3-vim.pdf" | prepend: site.baseurl }}

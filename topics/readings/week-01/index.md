@@ -36,4 +36,4 @@ The lab can be found on Canvas:
 
 [Initial Setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 [Latex]: {{ "/topics/latex/"   | prepend: site.baseurl }}
-[Intro & Latex]: {{ "/topics/readings/week-1/01-intro-and-latex.pdf" | prepend: site.baseurl }}
+[Intro & Latex]: {{ "/topics/readings/week-01/01-intro-and-latex.pdf" | prepend: site.baseurl }}

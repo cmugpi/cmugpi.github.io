@@ -84,16 +84,15 @@ are there as additional resources.
 [pm]:        {{ "/topics/intro-to-pm/"            | prepend: site.baseurl }}
 
 <!-- Slides -->
-[latex_S1]:  {{ "/topics/readings/week-1/week-1-intro-latex.pdf" | prepend: site.baseurl }}
-
-[term_S1]: {{ "/topics/readings/week-2/week-2-terminal.pdf" | prepend: site.baseurl }}
-[vim_S1]: {{ "/topics/readings/week-3/week-3-vim.pdf" | prepend: site.baseurl }}
-[vim_S2]: {{ "/topics/readings/week-4/week-4-vim-2.pdf" | prepend: site.baseurl }}
-[git_S1]: {{ "/topics/readings/week-5/week-5-git-1.pdf" | prepend: site.baseurl }}
-[git_S2]:   {{ "/topics/readings/week-8/week-8-git-2.pdf" | prepend: site.baseurl }}
-[bash_S1]: {{ "/topics/readings/week-9/week-9-bash-script.pdf" | prepend: site.baseurl }}
-[bash_S2]: {{ "/topics/readings/week-10/week-10-regex-grep.pdf" | prepend: site.baseurl }}
-[bash_S3]: {{ "/topics/readings/week-12/week-12-pipes.pdf" | prepend: site.baseurl }}
+[latex_S1]: {{ "/topics/readings/week-01/01-intro-and-latex.pdf" | prepend: site.baseurl }}
+[term_S1]:  {{ "/topics/readings/week-02/week-2-terminal.pdf" | prepend: site.baseurl }}
+[vim_S1]:   {{ "/topics/readings/week-03/week-3-vim.pdf" | prepend: site.baseurl }}
+[vim_S2]:   {{ "/topics/readings/week-04/week-4-vim-2.pdf" | prepend: site.baseurl }}
+[git_S1]:   {{ "/topics/readings/week-05/week-5-git-1.pdf" | prepend: site.baseurl }}
+[git_S2]:   {{ "/topics/readings/week-08/week-8-git-2.pdf" | prepend: site.baseurl }}
+[bash_S1]:  {{ "/topics/readings/week-09/week-9-bash-script.pdf" | prepend: site.baseurl }}
+[bash_S2]:  {{ "/topics/readings/week-10/week-10-regex-grep.pdf" | prepend: site.baseurl }}
+[bash_S3]:  {{ "/topics/readings/week-12/week-12-pipes.pdf" | prepend: site.baseurl }}
 
 <!-- Weekly pages/readings -->
 [Week 1]:  {{ "/topics/readings/week-1/"  | prepend: site.baseurl }}
