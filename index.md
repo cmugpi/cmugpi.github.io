@@ -34,22 +34,22 @@ the semester, but please don't spam us.
 
 | Date     | Slides             | Reading         | Lecture Topic               |
 | ----     | ------             | -------         | -------------               |
-| Jan, 10  | [slides][latex_S1] | [Week 1]        | Intro + [Latex][latex]      |
+| Jan, 10  | [slides][latex_S1] | [Lec 1]         | Intro + [Latex][latex]      |
 | ASAP     |   -                | [Initial setup] | -                           |
-| Jan, 17  | [slides][term_S1]  | [Week 2]        | [Terminal usage][usage]     |
-| Jan, 24  | [slides][vim_S1]   | [Week 3]        | [Vim][vim] - Basics         |
+| Jan, 17  | [slides][term_S1]  | [Lec 2]         | [Terminal usage][usage]     |
+| Jan, 24  | [slides][vim_S1]   | [Lec 3]         | [Vim][vim] - Basics         |
 | Jan, 31  |   -                |   -             | __Break__                   |
-| Feb, 7   | [slides][vim_S2]   | [Week 4]        | [Vim][vim] - Advanced       |
-| Feb, 14  | [slides][git_S1]   | [Week 5]        | [Git][git] - Basics         |
-| Feb, 21  |   -                | [Week 6]        | Exam 1                      |
+| Feb, 7   | [slides][vim_S2]   | [Lec 4]         | [Vim][vim] - Advanced       |
+| Feb, 14  | [slides][git_S1]   | [Lec 5]         | [Git][git] - Basics         |
+| Feb, 21  |   -                | [Exam 1]        | Exam 1                      |
 | Feb, 28  |   -                |   -             | __Midsemester Break__       |
-| Mar, 7   | [slides][git_S2]   | [Week 8]        | [Git][git] - github         |
-| Mar, 14  | [slides][bash_S1]  | [Week 9]        | [Bash][bash] - Intro & Globs|
-| Mar, 21  | [slides][bash_S2]  | [Week 10]       | [Bash][bash] - Regex & Grep |
-| Mar, 28  |   -                | [Week 11]       | CMU Advice - Q&A            |
-| Apr, 4   | [slides][bash_S3]  | [Week 12]       | [Bash][bash] - Pipes        |
-| Apr, 11  | TBD                | Week 13         | TBD                         |
-| Apr, 18  |   -                | [Week 14]       | Exam 2                      |
+| Mar, 7   | [slides][git_S2]   | [Lec 6]         | [Git][git] - github         |
+| Mar, 14  | [slides][bash_S1]  | [Lec 7]         | [Bash][bash] - Intro & Globs|
+| Mar, 21  | [slides][bash_S2]  | [Lec 8]         | [Bash][bash] - Regex & Grep |
+| Mar, 28  |   -                | [Lec 9]         | CMU Advice - Q&A            |
+| Apr, 4   | [slides][bash_S3]  | [Lec 10]        | [Bash][bash] - Pipes        |
+| Apr, 11  | TBD                | Lec 11          | TBD                         |
+| Apr, 18  |   -                | [Exam 2]        | Exam 2                      |
 {:.ui.striped.table}
 
 
@@ -96,20 +96,21 @@ are there as additional resources.
 [bash_S3]:  {{ "/topics/readings/week-12/week-12-pipes.pdf" | prepend: site.baseurl }}
 
 <!-- Weekly pages/readings -->
-[Week 1]:  {{ "/topics/readings/week-1/"  | prepend: site.baseurl }}
-[Week 2]:  {{ "/topics/readings/week-2/"  | prepend: site.baseurl }}
-[Week 3]:  {{ "/topics/readings/week-3/"  | prepend: site.baseurl }}
-[Week 4]:  {{ "/topics/readings/week-4/"  | prepend: site.baseurl }}
-[Week 5]:  {{ "/topics/readings/week-5/"  | prepend: site.baseurl }}
-[Week 6]:  {{ "/topics/readings/week-6/"  | prepend: site.baseurl }}
-[Week 7]:  {{ "/topics/readings/week-7/"  | prepend: site.baseurl }}
-[Week 8]:  {{ "/topics/readings/week-8/"  | prepend: site.baseurl }}
-[Week 9]:  {{ "/topics/readings/week-9/"  | prepend: site.baseurl }}
-[Week 10]: {{ "/topics/readings/week-10/" | prepend: site.baseurl }}
-[Week 11]: {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
-[Week 12]: {{ "/topics/readings/week-12/" | prepend: site.baseurl }}
-[Week 13]: {{ "/topics/readings/week-13/" | prepend: site.baseurl }}
-[Week 14]: {{ "/topics/readings/week-14/" | prepend: site.baseurl }}
+<!-- TODO: change the names of folders -->
+[Lec 1]:  {{ "/topics/readings/week-1/"  | prepend: site.baseurl }}
+[Lec 2]:  {{ "/topics/readings/week-2/"  | prepend: site.baseurl }}
+[Lec 3]:  {{ "/topics/readings/week-3/"  | prepend: site.baseurl }}
+[Lec 4]:  {{ "/topics/readings/week-4/"  | prepend: site.baseurl }}
+[Lec 5]:  {{ "/topics/readings/week-5/"  | prepend: site.baseurl }}
+[Exam 1]: {{ "/topics/readings/week-6/"  | prepend: site.baseurl }}
+<!-- [Week 7]:  {{ "/topics/readings/week-7/"  | prepend: site.baseurl }} nothing here -->
+[Lec 6]:  {{ "/topics/readings/week-8/"  | prepend: site.baseurl }}
+[Lec 7]:  {{ "/topics/readings/week-9/"  | prepend: site.baseurl }}
+[Lec 8]:  {{ "/topics/readings/week-10/" | prepend: site.baseurl }}
+[Lec 9]:  {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
+[Lec 10]: {{ "/topics/readings/week-12/" | prepend: site.baseurl }}
+[Lec 11]: {{ "/topics/readings/week-13/" | prepend: site.baseurl }}
+[Exam 2]: {{ "/topics/readings/week-14/" | prepend: site.baseurl }}
 
 
 <!-- Extratation pages/slides -->
