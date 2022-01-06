@@ -24,7 +24,7 @@ We are keeping a form open throughout the semester for you to submit
 feedback on all the lectures and anything non-lecture related / about the course in
 general as well. You are welcome to submit the form multiple times throughout
 the semester, but please don't spam us.
-[Form available here](https://tinyurl.com/s22q-gpi-feedback)
+[Form available here](https://forms.gle/JLyQorecHPAtjcr1A)
 
 
 
