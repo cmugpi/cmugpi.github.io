@@ -34,21 +34,22 @@ the semester, but please don't spam us.
 
 | Date     | Slides             | Reading         | Lecture Topic               |
 | ----     | ------             | -------         | -------------               |
-| 1/9      | [slides][latex_S1] | [Week 1]        | Intro + [Latex][latex]      |
-| ASAP     | -                  | [Initial setup] | -                           |
-| 9/9      | [slides][term_S1]  | [Week 2]        | [Terminal usage][usage]     |
-| 9/16     | [slides][vim_S1]   | [Week 3]        | [Vim][vim] - Basics         |
-| 9/23     | [slides][vim_S2]   | [Week 4]        | [Vim][vim] - Advanced       |
-| 9/30     | [slides][git_S1]   | [Week 5]        | [Git][git] - Basics         |
-| 10/7     |   -                | [Week 6]        | Exam 1                      |
-| __10/14__|   -                | Week 7          | __Midsemester Break__       |
-| 10/21    | [slides][git_S2]   | [Week 8]        | [Git][git] - github         |
-| 10/28    | [slides][bash_S1]  | [Week 9]        | [Bash][bash] - Intro & Globs|
-| 11/4     | [slides][bash_S2]  | [Week 10]       | [Bash][bash] - Regex & Grep |
-| 11/11    |   -                | [Week 11]       | CMU Advice - Q&A            |
-| 11/18    | [slides][bash_S3]  | [Week 12]       | [Bash][bash] - Pipes        |
-| __11/26__|   -                | Week 13         | __Thanksgiving__            |
-| 12/2     |   -                | [Week 14]       | Exam 2                      |
+| Jan, 10  | [slides][latex_S1] | [Week 1]        | Intro + [Latex][latex]      |
+| ASAP     |   -                | [Initial setup] | -                           |
+| Jan, 17  | [slides][term_S1]  | [Week 2]        | [Terminal usage][usage]     |
+| Jan, 24  | [slides][vim_S1]   | [Week 3]        | [Vim][vim] - Basics         |
+| Jan, 31  |   -                |   -             | __Break__                   |
+| Feb, 7   | [slides][vim_S2]   | [Week 4]        | [Vim][vim] - Advanced       |
+| Feb, 14  | [slides][git_S1]   | [Week 5]        | [Git][git] - Basics         |
+| Feb, 21  |   -                | [Week 6]        | Exam 1                      |
+| Feb, 28  |   -                |   -             | __Midsemester Break__       |
+| Mar, 7   | [slides][git_S2]   | [Week 8]        | [Git][git] - github         |
+| Mar, 14  | [slides][bash_S1]  | [Week 9]        | [Bash][bash] - Intro & Globs|
+| Mar, 21  | [slides][bash_S2]  | [Week 10]       | [Bash][bash] - Regex & Grep |
+| Mar, 28  |   -                | [Week 11]       | CMU Advice - Q&A            |
+| Apr, 4   | [slides][bash_S3]  | [Week 12]       | [Bash][bash] - Pipes        |
+| Apr, 11  | TBD                | Week 13         | TBD                         |
+| Apr, 18  |   -                | [Week 14]       | Exam 2                      |
 {:.ui.striped.table}
 
 
