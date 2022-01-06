@@ -15,10 +15,10 @@ order: 1
 
 ## Reading
 
-This week we'll be learning about Latex, a typesetting program recommended by
+This week we'll be learning about LaTeX, a typesetting program recommended by
 many classes at CMU. 
 
-- [Latex]
+- [LaTeX]
 
 After you are done with the lab, feel free to get started on set ups for next lecture!
 
@@ -36,4 +36,4 @@ The lab can be found on Canvas:
 
 [Initial Setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 [Latex]: {{ "/topics/latex/"   | prepend: site.baseurl }}
-[Intro & Latex]: {{ "/topics/readings/week-1/week-1-intro-latex.pdf" | prepend: site.baseurl }}
+[Intro & Latex]: {{ "/topics/readings/week-1/01-intro-and-latex.pdf" | prepend: site.baseurl }}
