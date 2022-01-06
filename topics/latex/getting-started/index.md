@@ -25,10 +25,10 @@ viewing PDFs.
 Luckily, there are plenty of easier options for both online and offline
 development.
 
-## Online - ShareLaTeX
+## Online - Overleaf
 
 A lot of people at CMU use an online LaTeX client called
-[ShareLaTeX][sharelatex]. It's incredibly easy to get started working on this
+[Overleaf][overleaf]. It's incredibly easy to get started working on this
 site. Just create a free account, create a "New Project", and you'll bring up an
 editor where you can edit and compile your LaTeX side-by-side. It's very quick
 and easy.
@@ -36,7 +36,7 @@ and easy.
 ## Offline
 
 Unfortunately, sometimes the Internet goes down. If this happens when you're
-doing your homework on ShareLaTeX at the last minute, you're out of luck.
+doing your homework on Overleaf at the last minute, you're out of luck.
 However, we can install LaTeX locally so that we never run into this problem!
 
 ### OS X
@@ -47,7 +47,7 @@ two major interfaces to compiling LaTeX.
 
 #### TeXShop
 
-This is a graphical LaTeX editor. It's similar to ShareLaTeX in the sense that
+This is a graphical LaTeX editor. It's similar to Overleaf in the sense that
 you get a side-by-side view of the LaTeX source and the PDF. It also contains a
 bunch of convenience menus for code snippets and templates.
 
@@ -71,7 +71,7 @@ already. The package is probably called `texlive`. On Debian/Ubuntu/Linux Mint
 and similar distros:
 
 ~~~
-$ sudo apt-get install texlive
+$ sudo apt-get install texlive-full
 ~~~
 
 If you have a different system, you might have to Google to figure out the right
@@ -85,7 +85,7 @@ for some LaTeX editing options.
 If you're on Windows, you should install [MikTeX][miktex]. [TeXnicCenter][texnic] is a
 good LaTeX editor for Windows.
 
-[sharelatex]: https://www.sharelatex.com/
+[overleaf]: https://www.overleaf.com/
 [mactex]: https://tug.org/mactex/
 [offline]: http://blog.jez.io/2014/10/06/offline-latex-development/
 [miktex]: http://miktex.org/

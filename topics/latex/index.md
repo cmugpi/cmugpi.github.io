@@ -33,7 +33,7 @@ document actually looks.
 
 LaTeX works with plain text files (generally ending in `.tex`). You format your
 document with a special syntax, then use either a command line tool (like
-`pdflatex`) or a graphical interface (like TeXShop or ShareLaTeX) to compile the
+`pdflatex`) or a graphical interface (like TeXShop or Overleaf) to compile the
 plain text into a PDF or some other graphical format.
 
 People enjoy LaTeX for a number of reasons. First, LaTeX is particularly
@@ -41,7 +41,7 @@ useful for typesetting mathematical equations, as we'll see. It's also easy to
 focus on just writing the content. Instead of fiddling with fonts and changing
 the appearance of the document, you can focus on its content. One final reason
 is that because LaTeX is plain text, you can use your favorite text editor (i.e.
-Vim) to edit content written in LaTeX.
+vim) to edit content written in LaTeX.
 
 Most computer science classes which posses some aspect of theory to them as well
 as many upper-level math classes expect their documents to be submitted as PDFs
