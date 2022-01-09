@@ -62,6 +62,11 @@ papers in academia and industry.
 
 ### Handy Tools
 
+- [LaTeX Cheat Sheet][cheatsheet]
+  - Just keep it easily accessible when writing LaTeX.
+- [The Comprehensive LaTeX Symbol List][symbols]
+  - If you ever need to be creative about which symbol to use...
+    This is a list with all of them!
 - [Detexify][detexify]
   - A tool for figuring out the command for typesetting a symbol in LaTeX. Just
     draw it with your mouse!
@@ -113,6 +118,8 @@ free LaTeX templates.
 [fsmd]: http://madebyevan.com/fsm/
 [fsm]: http://en.wikipedia.org/wiki/Finite-state_machine
 [lshort]: https://tobi.oetiker.ch/lshort/lshort.pdf
+[cheatsheet]: https://wch.github.io/latexsheet/latexsheet.pdf
+[symbols]: http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf
 
 
 
