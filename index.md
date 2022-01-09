@@ -36,18 +36,18 @@ the semester, but please don't spam us.
 | ----     | ------             | -------         | -------------               |
 | Jan, 10  | [slides][latex_S1] | [Lec 1]         | Intro + [Latex][latex]      |
 | ASAP     |   -                | [Initial setup] | -                           |
-| Jan, 17  | [slides][term_S1]  | [Lec 2]         | [Terminal usage][usage]     |
-| Jan, 24  | [slides][vim_S1]   | [Lec 3]         | [Vim][vim] - Basics         |
+| Jan, 17  | [slides]           | [Lec 2]         | [Terminal usage][usage]     |
+| Jan, 24  | [slides]           | [Lec 3]         | [Vim][vim] - Basics         |
 | Jan, 31  |   -                |   -             | __Break__                   |
-| Feb, 7   | [slides][vim_S2]   | [Lec 4]         | [Vim][vim] - Advanced       |
-| Feb, 14  | [slides][git_S1]   | [Lec 5]         | [Git][git] - Basics         |
+| Feb, 7   | [slides]           | [Lec 4]         | [Vim][vim] - Advanced       |
+| Feb, 14  | [slides]           | [Lec 5]         | [Git][git] - Basics         |
 | Feb, 21  |   -                | [Exam 1]        | Exam 1                      |
 | Feb, 28  |   -                |   -             | __Midsemester Break__       |
-| Mar, 7   | [slides][git_S2]   | [Lec 6]         | [Git][git] - github         |
-| Mar, 14  | [slides][bash_S1]  | [Lec 7]         | [Bash][bash] - Intro & Globs|
-| Mar, 21  | [slides][bash_S2]  | [Lec 8]         | [Bash][bash] - Regex & Grep |
-| Mar, 28  |   -                | [Lec 9]         | CMU Advice - Q&A            |
-| Apr, 4   | [slides][bash_S3]  | [Lec 10]        | [Bash][bash] - Pipes        |
+| Mar, 7   | [slides]           | [Lec 6]         | [Git][git] - github         |
+| Mar, 14  | [slides]           | [Lec 7]         | [Bash][bash] - Intro & Globs|
+| Mar, 21  | [slides]           | [Lec 8]         | [Bash][bash] - Regex & Grep |
+| Mar, 28  |   -                | [Lec 9]         | TBD                         |
+| Apr, 4   | [slides]           | [Lec 10]        | [Bash][bash] - Pipes        |
 | Apr, 11  | TBD                | Lec 11          | TBD                         |
 | Apr, 18  |   -                | [Exam 2]        | Exam 2                      |
 {:.ui.striped.table}
