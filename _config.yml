@@ -1,13 +1,13 @@
 # Site settings
 title: Great Practical Ideas in CS
-email: scs-gpi2021@lists.andrew.cmu.edu
+email:
 description: > # this means to ignore newlines until "baseurl:"
   Great Practical Ideas (GPI) is a course for first-year CS students at
   Carnegie Mellon University. It covers topics relating to basic terminal usage
   and general Unix skills, such as file systems and navigation, bash scripting,
   Unix text editors (i.e. Vim), Git, Make, LaTeX, and more.
-baseurl: "/~07131/f21"
-url: "https://www.cs.cmu.edu/" # the base hostname & protocol for your site
+baseurl: "/cs/07131"
+url: "https://qatar.cmu.edu/" # the base hostname & protocol for your site
 twitter_username:
 github_username:
 
