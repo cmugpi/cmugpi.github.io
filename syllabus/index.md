@@ -11,8 +11,6 @@ order: 6
 # Syllabus
 {:.ui.dividing.header.no_toc}
 
-## Overview
-
 The purpose of GPI is to teach you all kinds of cool things you never knew you
 could do with a computer, and make you super comfortable with using the Unix
 systems used in 15-122, 15-150, 15-213, and many other CS courses. Our goal for the

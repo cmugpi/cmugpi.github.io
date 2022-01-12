@@ -20,8 +20,6 @@ order: 5
 # LaTeX
 {:.ui.dividing.header.no_toc}
 
-## Overview
-
 LaTeX is a "document preparation system". It is used to create presentable
 documents. More specifically, LaTeX is a "What You See Is What You Mean"
 interface; instead of focusing on how the content should look when everything is
@@ -48,7 +46,7 @@ as many upper-level math classes expect their documents to be submitted as PDFs
 in LaTeX. Moreover, writing in LaTeX is very common practice for submitting
 papers in academia and industry.
 
-## Getting Started with LaTeX
+## Getting Started
 
 To work with LaTeX, you will need a way of compiling your `.tex` files to PDFs.
 You can just use the `pdflatex` program on the Unix servers (usage:
