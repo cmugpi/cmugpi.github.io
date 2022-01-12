@@ -16,6 +16,7 @@ order: 5
 #  - /javascripts/two.js
 ---
 
+{% include toc.md %}
 
 # LaTeX
 {:.ui.dividing.header.no_toc}
