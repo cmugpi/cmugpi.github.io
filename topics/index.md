@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Topics"
-group: navigation
+#group: navigation
 order: 4
 ---
 
