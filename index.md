@@ -32,22 +32,22 @@ the semester, but please don't spam us.
 
 **NOTE**: We are still tweaking the schedule, and it is subject to change.
 
-| Date     | Slides             | Reading         | Lecture Topic               |
-| ----     | ------             | -------         | -------------               |
-| Jan, 17  | [slides][latex_S1] | [Lec 1]         | Intro + [Latex][latex]      |
-| Jan, 24  | [slides]           | [Lec 2]         | [Terminal usage][usage]     |
-| Jan, 31  | [slides]           | [Lec 3]         | [Vim][vim] - Basics         |
-| Feb, 7   |   -                |   -             | __Break__                   |
-| Feb, 14  | [slides]           | [Lec 4]         | [Vim][vim] - Advanced       |
-| Feb, 21  | [slides]           | [Lec 5]         | [Git][git] - Basics         |
-| Feb, 28  |   -                | [Exam 1]        | Exam 1                      |
-| Mar, 7   |   -                |   -             | __Midsemester Break__       |
-| Mar, 14  | [slides]           | [Lec 6]         | [Git][git] - github         |
-| Mar, 21  | [slides]           | [Lec 7]         | [Bash][bash] - Intro & Globs|
-| Mar, 28  | [slides]           | [Lec 8]         | [Bash][bash] - Regex & Grep |
-| Apr, 4   |   -                | [Lec 9]         | TBD                         |
-| Apr, 11  | [slides]           | [Lec 10]        | [Bash][bash] - Pipes        |
-| Apr, 18  |   -                | [Exam 2]        | Exam 2                      |
+| Date     | Slides                              | Lecture Topic               | Lab                   |
+| ----     | ------                              | -------------               | ---                   |
+| Jan, 17  | [intro][intro_S1],[latex][latex_S1] | Intro + [Latex][latex]      | [smashlab][latex_lab] |
+| Jan, 24  | [slides]                            | [Terminal usage][usage]     | [trainerlab]          |
+| Jan, 31  | [slides]                            | [Vim][vim] - Basics         | [sportslab]           |
+| Feb, 7   |   -                                 | __Break__                   |                       |
+| Feb, 14  | [slides]                            | [Vim][vim] - Advanced       | [wizardlab]           |
+| Feb, 21  | [slides]                            | [Git][git] - Basics         | [romancelab]          |
+| Feb, 28  |   -                                 | Exam 1                      |                       |
+| Mar, 7   |   -                                 | __Midsemester Break__       |                       |
+| Mar, 14  | [slides]                            | [Git][git] - github         | [collab]              |
+| Mar, 21  | [slides]                            | [Bash][bash] - Intro & Globs| [forcelab]            |
+| Mar, 28  | [slides]                            | [Bash][bash] - Regex & Grep | [zombielab & hauntlab]|
+| Apr, 4   |   -                                 | TBD                         |                       |
+| Apr, 11  | [slides]                            | [Bash][bash] - Pipes        | [pipelab]             |
+| Apr, 18  |   -                                 | Exam 2                      |                       |
 {:.ui.striped.table}
 
 
@@ -72,7 +72,7 @@ are there as additional resources.
 [syllabus]: {{ "/syllabus/" | prepend: site.baseurl }}
 [Initial setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 
-<!-- Topics -->
+<!-- Topic pages -->
 [usage]:     {{ "/topics/terminal-usage/"         | prepend: site.baseurl }}
 [vim]:       {{ "/topics/vim/"                    | prepend: site.baseurl }}
 [bash]:      {{ "/topics/bash/"                   | prepend: site.baseurl }}
@@ -83,8 +83,10 @@ are there as additional resources.
 [pm]:        {{ "/topics/intro-to-pm/"            | prepend: site.baseurl }}
 
 <!-- Slides -->
-[latex_S1]: {{ "/topics/readings/week-01/01-intro-and-latex.pdf" | prepend: site.baseurl }}
-[term_S1]:  {{ "/topics/readings/week-02/week-2-terminal.pdf" | prepend: site.baseurl }}
+[intro_S1]: {{ "/slides/00-intro.pdf" | prepend: site.baseurl }}
+[latex_S1]: {{ "/slides/01-latex.pdf" | prepend: site.baseurl }}
+[term_S1]:  {{ "/slides/02-terminal.pdf" | prepend: site.baseurl }}
+
 [vim_S1]:   {{ "/topics/readings/week-03/week-3-vim.pdf" | prepend: site.baseurl }}
 [vim_S2]:   {{ "/topics/readings/week-04/week-4-vim-2.pdf" | prepend: site.baseurl }}
 [git_S1]:   {{ "/topics/readings/week-05/week-5-git-1.pdf" | prepend: site.baseurl }}
@@ -93,17 +95,19 @@ are there as additional resources.
 [bash_S2]:  {{ "/topics/readings/week-10/week-10-regex-grep.pdf" | prepend: site.baseurl }}
 [bash_S3]:  {{ "/topics/readings/week-12/week-12-pipes.pdf" | prepend: site.baseurl }}
 
+<!-- Labs -->
+[latex_lab]: https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/smashlab
+
 <!-- Weekly pages/readings -->
-<!-- TODO: change the names of folders -->
-[Lec 1]:  {{ "/topics/readings/week-1/"  | prepend: site.baseurl }}
-[Lec 2]:  {{ "/topics/readings/week-2/"  | prepend: site.baseurl }}
-[Lec 3]:  {{ "/topics/readings/week-3/"  | prepend: site.baseurl }}
-[Lec 4]:  {{ "/topics/readings/week-4/"  | prepend: site.baseurl }}
-[Lec 5]:  {{ "/topics/readings/week-5/"  | prepend: site.baseurl }}
-[Exam 1]: {{ "/topics/readings/week-6/"  | prepend: site.baseurl }}
-<!-- [Week 7]:  {{ "/topics/readings/week-7/"  | prepend: site.baseurl }} nothing here -->
-[Lec 6]:  {{ "/topics/readings/week-8/"  | prepend: site.baseurl }}
-[Lec 7]:  {{ "/topics/readings/week-9/"  | prepend: site.baseurl }}
+<!-- TODO: remove these pages -->
+[Lec 2]:  {{ "/topics/readings/week-02/"  | prepend: site.baseurl }}
+[Lec 3]:  {{ "/topics/readings/week-03/"  | prepend: site.baseurl }}
+[Lec 4]:  {{ "/topics/readings/week-04/"  | prepend: site.baseurl }}
+[Lec 5]:  {{ "/topics/readings/week-05/"  | prepend: site.baseurl }}
+[Exam 1]: {{ "/topics/readings/week-06/"  | prepend: site.baseurl }}
+<!-- [Week 7]:  {{ "/topics/readings/week-07/"  | prepend: site.baseurl }} nothing here -->
+[Lec 6]:  {{ "/topics/readings/week-08/"  | prepend: site.baseurl }}
+[Lec 7]:  {{ "/topics/readings/week-09/"  | prepend: site.baseurl }}
 [Lec 8]:  {{ "/topics/readings/week-10/" | prepend: site.baseurl }}
 [Lec 9]:  {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
 [Lec 10]: {{ "/topics/readings/week-12/" | prepend: site.baseurl }}
