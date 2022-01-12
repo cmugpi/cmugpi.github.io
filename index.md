@@ -57,6 +57,7 @@ Eduardo Feo-Flushing:
 
 Giselle Reis:
 
+<!--
 ## How to use this site
 
 This site is broken up into a number of _Topics_ which are further broken up
@@ -67,16 +68,19 @@ the the lessons that will be useful for solving that week's lab.
 In general, there are more lesson pages than there are labs. You will only be
 assessed on your knowledge of those that relate to solving the labs. The others
 are there as additional resources.
-
+-->
 
 [syllabus]: {{ "/syllabus/" | prepend: site.baseurl }}
+
+<!-- TODO: remove this page -->
 [Initial setup]: {{ "/initial-setup/" | prepend: site.baseurl }}
 
 <!-- Topic pages -->
+[latex]:     {{ "/topics/latex/"                  | prepend: site.baseurl }}
+
 [usage]:     {{ "/topics/terminal-usage/"         | prepend: site.baseurl }}
 [vim]:       {{ "/topics/vim/"                    | prepend: site.baseurl }}
 [bash]:      {{ "/topics/bash/"                   | prepend: site.baseurl }}
-[latex]:     {{ "/topics/latex/"                  | prepend: site.baseurl }}
 [config]:    {{ "/topics/terminal-configuration/" | prepend: site.baseurl }}
 [git]:       {{ "/topics/git/"                    | prepend: site.baseurl }}
 [makefiles]: {{ "/topics/makefiles/"              | prepend: site.baseurl }}
