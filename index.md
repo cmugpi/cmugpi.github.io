@@ -34,21 +34,19 @@ the semester, but please don't spam us.
 
 | Date     | Slides             | Reading         | Lecture Topic               |
 | ----     | ------             | -------         | -------------               |
-| Jan, 10  | [slides][latex_S1] | [Lec 1]         | Intro + [Latex][latex]      |
-| ASAP     |   -                | [Initial setup] | -                           |
-| Jan, 17  | [slides]           | [Lec 2]         | [Terminal usage][usage]     |
-| Jan, 24  | [slides]           | [Lec 3]         | [Vim][vim] - Basics         |
-| Jan, 31  |   -                |   -             | __Break__                   |
-| Feb, 7   | [slides]           | [Lec 4]         | [Vim][vim] - Advanced       |
-| Feb, 14  | [slides]           | [Lec 5]         | [Git][git] - Basics         |
-| Feb, 21  |   -                | [Exam 1]        | Exam 1                      |
-| Feb, 28  |   -                |   -             | __Midsemester Break__       |
-| Mar, 7   | [slides]           | [Lec 6]         | [Git][git] - github         |
-| Mar, 14  | [slides]           | [Lec 7]         | [Bash][bash] - Intro & Globs|
-| Mar, 21  | [slides]           | [Lec 8]         | [Bash][bash] - Regex & Grep |
-| Mar, 28  |   -                | [Lec 9]         | TBD                         |
-| Apr, 4   | [slides]           | [Lec 10]        | [Bash][bash] - Pipes        |
-| Apr, 11  | TBD                | Lec 11          | TBD                         |
+| Jan, 17  | [slides][latex_S1] | [Lec 1]         | Intro + [Latex][latex]      |
+| Jan, 24  | [slides]           | [Lec 2]         | [Terminal usage][usage]     |
+| Jan, 31  | [slides]           | [Lec 3]         | [Vim][vim] - Basics         |
+| Feb, 7   |   -                |   -             | __Break__                   |
+| Feb, 14  | [slides]           | [Lec 4]         | [Vim][vim] - Advanced       |
+| Feb, 21  | [slides]           | [Lec 5]         | [Git][git] - Basics         |
+| Feb, 28  |   -                | [Exam 1]        | Exam 1                      |
+| Mar, 7   |   -                |   -             | __Midsemester Break__       |
+| Mar, 14  | [slides]           | [Lec 6]         | [Git][git] - github         |
+| Mar, 21  | [slides]           | [Lec 7]         | [Bash][bash] - Intro & Globs|
+| Mar, 28  | [slides]           | [Lec 8]         | [Bash][bash] - Regex & Grep |
+| Apr, 4   |   -                | [Lec 9]         | TBD                         |
+| Apr, 11  | [slides]           | [Lec 10]        | [Bash][bash] - Pipes        |
 | Apr, 18  |   -                | [Exam 2]        | Exam 2                      |
 {:.ui.striped.table}
 
