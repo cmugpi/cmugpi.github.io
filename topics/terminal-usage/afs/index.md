@@ -22,9 +22,9 @@ invented at CMU. You have a quota of space and a home directory where you can
 put your files. You can access these files from any Andrew Unix server or
 cluster computer on campus.
 
-When you are using AFS, there's a system of permissions (called access control
+When you are using AFS, there is a system of permissions (called access control
 lists, or ACLs) regulating who can access your files and what they can do to
-them.  It's important to know about how to use this system so that you can stop
+them.  It is important to know about how to use this system so that you can stop
 other people from getting access to your homework or other private files.
 
 AFS is set up so that by default, you have a private directory where you can do
@@ -39,12 +39,12 @@ add their own files.
 
 ## ACLs (fs)
 
-You do not need to memorize this information! It's listed here solely for your
+You do not need to memorize this information! It is listed here solely for your
 reference.
 {:.ui.info.message}
 
-It's important to be able to control who can access your files on AFS, and
-there's a command called `fs` that lets you do this.
+It is important to be able to control who can access your files on AFS, and
+there is a command called `fs` that lets you do this.
 
 For more information on any of the following commands, you can always run `fs
 help <command>` to get help on that fs subcommand.

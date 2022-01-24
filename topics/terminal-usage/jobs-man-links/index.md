@@ -19,7 +19,7 @@ few here.
 
 ## Job Control (jobs, fg, bg)
 
-It's very common to want to run more than one program at the same time, or to
+It is very common to want to run more than one program at the same time, or to
 temporarily stop running a program and resume it later. This section will teach
 you how to do that.
 
@@ -64,7 +64,7 @@ $
 ## Exiting from a REPL (^D)
 
 If you are working in `python`, `coin`, `bash` or any other program that
-repeatedly gets input from you while it's running, you can almost always make
+repeatedly gets input from you while it is running, you can almost always make
 the program exit by pressing `^D` (or end of file, commonly abbreviated EOF).
 
 These types of programs are called REPLs (read-eval-print-loop). They do exactly
@@ -125,7 +125,7 @@ easier to read through than the man page.
 
 You can also use Google to look for answers to questions that are not as easily
 answered by `man`. StackOverflow tends to be a very good resource to answer
-questions. It's important to be careful with Googling, since some answers are
+questions. It is important to be careful with Googling, since some answers are
 wrong or overly complicated.
 
 ## Symbolic Links (ln)
