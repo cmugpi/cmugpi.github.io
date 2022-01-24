@@ -36,8 +36,8 @@ the semester, but please don't spam us.
 | ----     | ------                              | -------------               | ---                   |
 | Jan, 17  | [intro][intro_S1],[latex][latex_S1] | Intro + [Latex][latex]      | [smashlab][latex_lab] |
 | Jan, 24  | [slides][term_S1]                   | [Terminal usage][usage]     | [trainerlab]          |
-| Jan, 31  | [slides]                            | [Vim][vim] - Basics         | [sportslab]           |
-| Feb, 7   |   -                                 | __Break__                   |                       |
+| Jan, 31  |   -                                 | __Break__                   |                       |
+| Feb, 7   | [slides]                            | [Vim][vim] - Basics         | [sportslab]           |
 | Feb, 14  | [slides]                            | [Vim][vim] - Advanced       | [wizardlab]           |
 | Feb, 21  | [slides]                            | [Git][git] - Basics         | [romancelab]          |
 | Feb, 28  |   -                                 | Exam 1                      |                       |
@@ -51,11 +51,13 @@ the semester, but please don't spam us.
 {:.ui.striped.table}
 
 
+<!--
 ## Office hours
 
 Eduardo Feo-Flushing:
 
 Giselle Reis:
+-->
 
 <!--
 ## How to use this site
