@@ -35,7 +35,7 @@ the semester, but please don't spam us.
 | Date     | Slides                              | Lecture Topic               | Lab                   |
 | ----     | ------                              | -------------               | ---                   |
 | Jan, 17  | [intro][intro_S1],[latex][latex_S1] | Intro + [Latex][latex]      | [smashlab][latex_lab] |
-| Jan, 24  | [slides]                            | [Terminal usage][usage]     | [trainerlab]          |
+| Jan, 24  | [slides][term_S1]                   | [Terminal usage][usage]     | [trainerlab]          |
 | Jan, 31  | [slides]                            | [Vim][vim] - Basics         | [sportslab]           |
 | Feb, 7   |   -                                 | __Break__                   |                       |
 | Feb, 14  | [slides]                            | [Vim][vim] - Advanced       | [wizardlab]           |
