@@ -35,7 +35,7 @@ the semester, but please don't spam us.
 | Date     | Slides                              | Lecture Topic               | Lab                   |
 | ----     | ------                              | -------------               | ---                   |
 | Jan, 17  | [intro][intro_S1],[latex][latex_S1] | Intro + [Latex][latex]      | [smashlab][latex_lab] |
-| Jan, 24  | [slides][term_S1]                   | [Terminal usage][usage]     | [trainerlab]          |
+| Jan, 24  | [slides][term_S1]                   | [Terminal usage][usage]     | [trainerlab][term_lab]|
 | Jan, 31  |   -                                 | __Break__                   |                       |
 | Feb, 7   | [slides]                            | [Vim][vim] - Basics         | [sportslab]           |
 | Feb, 14  | [slides]                            | [Vim][vim] - Advanced       | [wizardlab]           |
@@ -103,10 +103,11 @@ are there as additional resources.
 
 <!-- Labs -->
 [latex_lab]: https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/smashlab
+[term_lab]: https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/trainerlab
 
 <!-- Weekly pages/readings -->
-<!-- TODO: remove these pages -->
-[Lec 2]:  {{ "/topics/readings/week-02/"  | prepend: site.baseurl }}
+<!-- TODO: remove these folders and pages within them once the content
+is merged in the appropriate topics folder -->
 [Lec 3]:  {{ "/topics/readings/week-03/"  | prepend: site.baseurl }}
 [Lec 4]:  {{ "/topics/readings/week-04/"  | prepend: site.baseurl }}
 [Lec 5]:  {{ "/topics/readings/week-05/"  | prepend: site.baseurl }}
