@@ -79,8 +79,8 @@ are there as additional resources.
 
 <!-- Topic pages -->
 [latex]:     {{ "/topics/latex/"                  | prepend: site.baseurl }}
-
 [usage]:     {{ "/topics/terminal-usage/"         | prepend: site.baseurl }}
+
 [vim]:       {{ "/topics/vim/"                    | prepend: site.baseurl }}
 [bash]:      {{ "/topics/bash/"                   | prepend: site.baseurl }}
 [config]:    {{ "/topics/terminal-configuration/" | prepend: site.baseurl }}
