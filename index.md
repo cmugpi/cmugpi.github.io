@@ -32,22 +32,22 @@ the semester, but please don't spam us.
 
 **NOTE**: We are still tweaking the schedule, and it is subject to change.
 
-| Date     | Slides                              | Lecture Topic               | Lab                   |
-| ----     | ------                              | -------------               | ---                   |
+| Date     | Slides                | Lecture Topic               | Lab                   |
+| ----     | ------                | -------------               | ---                   |
 | Jan, 17  | [intro][intro_S1],[latex][latex_S1] | Intro + [Latex][latex]      | [smashlab][latex_lab] |
-| Jan, 24  | [slides][term_S1]                   | [Terminal usage][usage]     | [trainerlab][term_lab]|
-| Jan, 31  |   -                                 | __Break__                   |                       |
-| Feb, 7   | [slides]                            | [Vim][vim] - Basics         | [sportslab]           |
-| Feb, 14  | [slides]                            | [Vim][vim] - Advanced       | [wizardlab]           |
-| Feb, 21  | [slides]                            | [Git][git] - Basics         | [romancelab]          |
-| Feb, 28  |   -                                 | Exam 1                      |                       |
-| Mar, 7   |   -                                 | __Midsemester Break__       |                       |
-| Mar, 14  | [slides]                            | [Git][git] - github         | [collab]              |
-| Mar, 21  | [slides]                            | [Bash][bash] - Intro & Globs| [forcelab]            |
-| Mar, 28  | [slides]                            | [Bash][bash] - Regex & Grep | [zombielab & hauntlab]|
-| Apr, 4   |   -                                 | TBD                         |                       |
-| Apr, 11  | [slides]                            | [Bash][bash] - Pipes        | [pipelab]             |
-| Apr, 18  |   -                                 | Exam 2                      |                       |
+| Jan, 24  | [terminal][term_S1]   | [Terminal usage][usage]     | [trainerlab][term_lab]|
+| Jan, 31  |   -                   | __Break__                   |                       |
+| Feb, 7   | [vim1]                | [Vim][vim] - Basics         | [sportslab]           |
+| Feb, 14  | [vim2]                | [Vim][vim] - Advanced       | [wizardlab]           |
+| Feb, 21  | [git1]                | [Git][git] - Basics         | [romancelab]          |
+| Feb, 28  |   -                   | Exam 1                      |                       |
+| Mar, 7   |   -                   | __Midsemester Break__       |                       |
+| Mar, 14  | [git2]                | [Git][git] - github         | [collab]              |
+| Mar, 21  | [slides]              | [Bash][bash] - Intro & Globs| [forcelab]            |
+| Mar, 28  | [slides]              | [Bash][bash] - Regex & Grep | [zombielab & hauntlab]|
+| Apr, 4   |   -                   | TBD                         |                       |
+| Apr, 11  | [slides]              | [Bash][bash] - Pipes        | [pipelab]             |
+| Apr, 18  |   -                   | Exam 2                      |                       |
 {:.ui.striped.table}
 
 
