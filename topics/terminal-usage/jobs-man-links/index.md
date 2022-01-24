@@ -14,7 +14,7 @@ order: 3
 {:.ui.dividing.header.no_toc}
 
 Whenever you run a command in a shell, any programs that it starts up are added
-to a "job". You can do various things with these jobs, of which we'll describe a
+to a "job". You can do various things with these jobs, of which we will describe a
 few here.
 
 ## Job Control (jobs, fg, bg)
@@ -63,7 +63,7 @@ $
 
 ## Exiting from a REPL (^D)
 
-If you're working in `python`, `coin`, `bash` or any other program that
+If you are working in `python`, `coin`, `bash` or any other program that
 repeatedly gets input from you while it's running, you can almost always make
 the program exit by pressing `^D` (or end of file, commonly abbreviated EOF).
 
@@ -97,8 +97,8 @@ $ ps u
 
 ## Manual Pages (man)
 
-There will come a time when you're not sure how to do something on a terminal.
-In those cases, you'll want to get help on how to do it. Thankfully, there are
+There will come a time when you are not sure how to do something on a terminal.
+In those cases, you will want to get help on how to do it. Thankfully, there are
 several useful resources to provide you with help.
 
 `man` (short for "manual") is one of the most commonly used help resources. You

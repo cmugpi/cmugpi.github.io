@@ -22,13 +22,13 @@ invented at CMU. You have a quota of space and a home directory where you can
 put your files. You can access these files from any Andrew Unix server or
 cluster computer on campus.
 
-When you're using AFS, there's a system of permissions (called access control
+When you are using AFS, there's a system of permissions (called access control
 lists, or ACLs) regulating who can access your files and what they can do to
 them.  It's important to know about how to use this system so that you can stop
 other people from getting access to your homework or other private files.
 
 AFS is set up so that by default, you have a private directory where you can do
-your work: `~/private`. If you don't change its permissions, you can put all of
+your work: `~/private`. If you do not change its permissions, you can put all of
 your work for your classes in there and no one will be able to access it except
 for you.
 
@@ -39,7 +39,7 @@ add their own files.
 
 ## ACLs (fs)
 
-You don't need to memorize this information! It's listed here solely for your
+You do not need to memorize this information! It's listed here solely for your
 reference.
 {:.ui.info.message}
 
@@ -96,7 +96,7 @@ fs sa foo bovik rlidwk
 ### AFS Quota (fs lq)
 
 You can use `fs lq` (or fs listquota) to see how much of your alloted AFS space
-you're using. For example:
+you are using. For example:
 
 {% highlight console %}
 jzimmerm@unix14:~$ fs lq
