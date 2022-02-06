@@ -32,22 +32,22 @@ the semester, but please don't spam us.
 
 **NOTE**: We are still tweaking the schedule, and it is subject to change.
 
-| Date     | Slides                | Lecture Topic               | Lab                   |
-| ----     | ------                | -------------               | ---                   |
-| Jan, 17  | [intro][intro_S1],[latex][latex_S1] | Intro + [Latex][latex]      | [smashlab][latex_lab] |
-| Jan, 24  | [terminal][term_S1]   | [Terminal usage][usage]     | [trainerlab][term_lab]|
-| Jan, 31  |   -                   | __Break__                   |                       |
-| Feb, 7   | [vim1]                | [Vim][vim] - Basics         | [sportslab]           |
-| Feb, 14  | [vim2]                | [Vim][vim] - Advanced       | [wizardlab]           |
-| Feb, 21  | [git1]                | [Git][git] - Basics         | [romancelab]          |
-| Feb, 28  |   -                   | Exam 1                      |                       |
-| Mar, 7   |   -                   | __Midsemester Break__       |                       |
-| Mar, 14  | [git2]                | [Git][git] - github         | [collab]              |
-| Mar, 21  | [slides]              | [Bash][bash] - Intro & Globs| [forcelab]            |
-| Mar, 28  | [slides]              | [Bash][bash] - Regex & Grep | [zombielab & hauntlab]|
-| Apr, 4   |   -                   | TBD                         |                       |
-| Apr, 11  | [slides]              | [Bash][bash] - Pipes        | [pipelab]             |
-| Apr, 18  |   -                   | Exam 2                      |                       |
+| Date     | Slides                | Lecture Topic               | Lab                     |
+| ----     | ------                | -------------               | ---                     |
+| Jan, 17  | [intro][intro_S1],[latex][latex_S1] | Intro + [Latex][latex] | [smashlab][latex_lab] |
+| Jan, 24  | [terminal][term_S1]   | [Terminal usage][usage]     | [trainerlab][term_lab]  |
+| Jan, 31  |   -                   | __Break__                   |                         |
+| Feb, 7   | [vim1][vim_S1]        | [Vim][vim] - Basics         | [sportslab][sports_lab] |
+| Feb, 14  | [vim2]                | [Vim][vim] - Advanced       | [wizardlab]             |
+| Feb, 21  | [git1]                | [Git][git] - Basics         | [romancelab]            |
+| Feb, 28  |   -                   | Exam 1                      |                         |
+| Mar, 7   |   -                   | __Midsemester Break__       |                         |
+| Mar, 14  | [git2]                | [Git][git] - github         | [collab]                |
+| Mar, 21  | [slides]              | [Bash][bash] - Intro & Globs| [forcelab]              |
+| Mar, 28  | [slides]              | [Bash][bash] - Regex & Grep | [zombielab & hauntlab]  |
+| Apr, 4   |   -                   | TBD                         |                         |
+| Apr, 11  | [slides]              | [Bash][bash] - Pipes        | [pipelab]               |
+| Apr, 18  |   -                   | Exam 2                      |                         |
 {:.ui.striped.table}
 
 
@@ -92,8 +92,8 @@ are there as additional resources.
 [intro_S1]: {{ "/slides/00-intro.pdf" | prepend: site.baseurl }}
 [latex_S1]: {{ "/slides/01-latex.pdf" | prepend: site.baseurl }}
 [term_S1]:  {{ "/slides/02-terminal.pdf" | prepend: site.baseurl }}
+[vim_S1]:   {{ "/slides/03-vim-1.pdf" | prepend: site.baseurl }}
 
-[vim_S1]:   {{ "/topics/readings/week-03/week-3-vim.pdf" | prepend: site.baseurl }}
 [vim_S2]:   {{ "/topics/readings/week-04/week-4-vim-2.pdf" | prepend: site.baseurl }}
 [git_S1]:   {{ "/topics/readings/week-05/week-5-git-1.pdf" | prepend: site.baseurl }}
 [git_S2]:   {{ "/topics/readings/week-08/week-8-git-2.pdf" | prepend: site.baseurl }}
@@ -104,11 +104,11 @@ are there as additional resources.
 <!-- Labs -->
 [latex_lab]: https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/smashlab
 [term_lab]: https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/trainerlab
+[sports_lab]: https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/sportslab
 
 <!-- Weekly pages/readings -->
 <!-- TODO: remove these folders and pages within them once the content
 is merged in the appropriate topics folder -->
-[Lec 3]:  {{ "/topics/readings/week-03/"  | prepend: site.baseurl }}
 [Lec 4]:  {{ "/topics/readings/week-04/"  | prepend: site.baseurl }}
 [Lec 5]:  {{ "/topics/readings/week-05/"  | prepend: site.baseurl }}
 [Exam 1]: {{ "/topics/readings/week-06/"  | prepend: site.baseurl }}
