@@ -38,7 +38,7 @@ the semester, but please don't spam us.
 | Jan, 24  | [terminal][term_S1]   | [Terminal usage][usage]     | [trainerlab][term_lab]  |
 | Jan, 31  |   -                   | __Break__                   |                         |
 | Feb, 7   | [vim1][vim_S1]        | [Vim][vim] - Basics         | [sportslab][sports_lab] |
-| Feb, 14  | [vim2]                | [Vim][vim] - Advanced       | [wizardlab]             |
+| Feb, 14  | [emacs]                | [Emacs][emacs] - Basics       | [butterflylab][butterfly_lab]             |
 | Feb, 21  | [git1]                | [Git][git] - Basics         | [romancelab]            |
 | Feb, 28  |   -                   | Exam 1                      |                         |
 | Mar, 7   |   -                   | __Midsemester Break__       |                         |
@@ -82,6 +82,7 @@ are there as additional resources.
 [usage]:     {{ "/topics/terminal-usage/"         | prepend: site.baseurl }}
 
 [vim]:       {{ "/topics/vim/"                    | prepend: site.baseurl }}
+[emacs]:       {{ "/topics/emacs/"                    | prepend: site.baseurl }}
 [bash]:      {{ "/topics/bash/"                   | prepend: site.baseurl }}
 [config]:    {{ "/topics/terminal-configuration/" | prepend: site.baseurl }}
 [git]:       {{ "/topics/git/"                    | prepend: site.baseurl }}
@@ -105,6 +106,7 @@ are there as additional resources.
 [latex_lab]: https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/smashlab
 [term_lab]: https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/trainerlab
 [sports_lab]: https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/sportslab
+[butterfly_lab]: {{ "/files/butterflylab.zip" | prepend: site.baseurl }}
 
 <!-- Weekly pages/readings -->
 <!-- TODO: remove these folders and pages within them once the content
