@@ -37,11 +37,11 @@ the semester, but please don't spam us.
 | Jan, 17  | [intro][intro_S1],[latex][latex_S1] | Intro + [Latex][latex] | [smashlab][latex_lab] |
 | Jan, 24  | [terminal][term_S1]   | [Terminal usage][usage]     | [trainerlab][term_lab]  |
 | Jan, 31  |   -                   | __Break__                   |                         |
-| Feb, 7   | [vim1][vim_S1]        | [Vim][vim] - Basics         | [sportslab][sports_lab] |
-| Feb, 14  | [emacs]                | [Emacs][emacs] - Basics       | [butterflylab][butterfly_lab]             |
+| Feb, 7   | [vim1][vim_S1]        | [Vim][vim]                  | [sportslab][sports_lab] |
+| Feb, 14  | [emacs]                | [Emacs][emacs] - Basics    | [butterflylab][butterfly_lab]             |
 | Feb, 21  | [git1]                | [Git][git] - Basics         | [romancelab]            |
-| Feb, 28  |   -                   | Exam 1                      |                         |
-| Mar, 7   |   -                   | __Midsemester Break__       |                         |
+| Feb, 28  |   -                   | __Midsemester Break__       |                         |
+| Mar, 7   |   -                   | Exam 1                      |                         |
 | Mar, 14  | [git2]                | [Git][git] - github         | [collab]                |
 | Mar, 21  | [slides]              | [Bash][bash] - Intro & Globs| [forcelab]              |
 | Mar, 28  | [slides]              | [Bash][bash] - Regex & Grep | [zombielab & hauntlab]  |
