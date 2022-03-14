@@ -22,26 +22,26 @@ order: 4
 
 ## Overview
 
-When working on large programming projects, it's important to be able to
-collaborate with others, share code, keep track of what's changed between
+When working on large programming projects, it is important to be able to
+collaborate with others, share code, keep track of what has changed between
 versions, and to annotate why things are changing.
 
 These are the types of problems that Git solves. Git is a "distributed version
-control system" (DVCS), but knowing what that means isn't necessary to figure
+control system" (DVCS), but knowing what that means is not necessary to figure
 out how to use it effectively. Basically, Git is a technology that allows for
 rapid code sharing, lightweight "branching" (making it easy to work on different
 features in the codebase), and much more.
 
 A lot of people confuse Git with GitHub when they first start learning it. To
 clarify, GitHub uses the Git technology at its core. GitHub is designed to be a
-nice, graphical frontend that emphasizes "social coding." It has features that
+nice, graphical frontend that emphasizes "social coding". It has features that
 empower people to collaborate on open source projects, discover new projects,
 and more. People use GitHub for the most part by interacting with Git on the
 command line. Every once in a while, they can "synchronize" their most recent
-work with the work available on GitHub. (this isn't the best analogy for what's
-happening, but let's roll with it).
+work with the work available on GitHub. (this is not the best analogy for what is
+happening, but let us roll with it).
 
-Git has a command line interface; we'll be showing you some basic features of
+Git has a command line interface; we will show you some basic features of
 how to use it so you can hit the ground running.
 
 ## Lessons
@@ -65,7 +65,7 @@ how to use it so you can hit the ground running.
 
 - [Learn Git Branching][gitbranching]
   - __Interactive__, very well designed tutorial that covers just about
-    everything there is to know about Git branching. Depicts what's happening
+    everything there is to know about Git branching. Depicts what is happening
     visually on top of just demonstrating the commands.
 - [A Hacker's Guide to Git][hackersguide]
   - My __absolute favorite__ guide to Git. Everyone who uses Git should read
@@ -82,9 +82,9 @@ how to use it so you can hit the ground running.
     more useful to look up specific things in this book rather than read it all
     the way through, though it certainly could be approached that way.
 
-[trygit]: https://try.github.io/
-[simplegit]: http://rogerdudler.github.io/git-guide/
+[trygit]:       https://try.github.io/
+[simplegit]:    http://rogerdudler.github.io/git-guide/
 [gitbranching]: http://pcottle.github.io/learnGitBranching/
 [hackersguide]: https://wildlyinaccurate.com/a-hackers-guide-to-git
-[gitflow]: http://nvie.com/posts/a-successful-git-branching-model/
-[progit]: http://git-scm.com/book/
+[gitflow]:      http://nvie.com/posts/a-successful-git-branching-model/
+[progit]:       http://git-scm.com/book/

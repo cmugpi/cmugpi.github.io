@@ -42,7 +42,7 @@ the semester, but please don't spam us.
 | Feb, 21  | [git1][git_S1]        | [Git][git] - Basics         | [romancelab][romance_lab]      |
 | Feb, 28  |   -                   | __Midsemester Break__       |                                |
 | Mar, 7   |   -                   | Exam 1                      |                                |
-| Mar, 14  | [git2]                | [Git][git] - github         | [collab]                       |
+| Mar, 14  | [git2][git_S2]        | [Git][git] - github         | [collab][col_lab]              |
 | Mar, 21  | [slides]              | [Bash][bash] - Intro & Globs| [forcelab]                     |
 | Mar, 28  | [slides]              | [Bash][bash] - Regex & Grep | [zombielab & hauntlab]         |
 | Apr, 4   |   -                   | TBD                         |                                |
@@ -96,6 +96,7 @@ are there as additional resources.
 [vim_S1]:   {{ "/slides/03-vim-1.pdf" | prepend: site.baseurl }}
 [emacs_S1]: {{ "/slides/04-emacs.pdf" | prepend: site.baseurl }}
 [git_S1]:   {{ "/slides/05-git.pdf" | prepend: site.baseurl }}
+[git_S2]:   {{ "/slides/06-more-git.pdf" | prepend: site.baseurl }}
 
 [git_S2]:   {{ "/topics/readings/week-08/week-8-git-2.pdf" | prepend: site.baseurl }}
 [bash_S1]:  {{ "/topics/readings/week-09/week-9-bash-script.pdf" | prepend: site.baseurl }}
@@ -103,18 +104,16 @@ are there as additional resources.
 [bash_S3]:  {{ "/topics/readings/week-12/week-12-pipes.pdf" | prepend: site.baseurl }}
 
 <!-- Labs -->
-[latex_lab]: https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/smashlab
-[term_lab]: https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/trainerlab
-[sports_lab]: https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/sportslab
+[latex_lab]:     https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/smashlab
+[term_lab]:      https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/trainerlab
+[sports_lab]:    https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/sportslab
 [butterfly_lab]: {{ "/files/butterflylab.zip" | prepend: site.baseurl }}
-[romance_lab]: https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/romancelab
+[romance_lab]:   https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/romancelab
+[col_lab]:       {{ "/topics/git/collab-instructions" | prepend: site.baseurl }}
 
 <!-- Weekly pages/readings -->
 <!-- TODO: remove these folders and pages within them once the content
 is merged in the appropriate topics folder -->
-[Exam 1]: {{ "/topics/readings/week-06/"  | prepend: site.baseurl }}
-<!-- [Week 7]:  {{ "/topics/readings/week-07/"  | prepend: site.baseurl }} nothing here -->
-[Lec 6]:  {{ "/topics/readings/week-08/"  | prepend: site.baseurl }}
 [Lec 7]:  {{ "/topics/readings/week-09/"  | prepend: site.baseurl }}
 [Lec 8]:  {{ "/topics/readings/week-10/" | prepend: site.baseurl }}
 [Lec 9]:  {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
@@ -125,18 +124,18 @@ is merged in the appropriate topics folder -->
 
 <!-- Extratation pages/slides -->
 <!--
-[latexresume]: {{ "/topics/extratations/latexresume/" | prepend: site.baseurl }}
-[tmux]: {{ "/topics/extratations/tmux/" | prepend: site.baseurl }}
-[cicd]: {{ "/topics/extratations/githubactions/" | prepend: site.baseurl }}
-[wdw]: {{ "/topics/extratations/wdw/" | prepend: site.baseurl }}
-[giturl]: {{ "/topics/extratations/githuburlshortener/" | prepend: site.baseurl }}
-[bitcoin]: {{ "/topics/extratations/bitcoin/" | prepend: site.baseurl }}
-[dotfiles]: {{ "/topics/extratations/dotfiles/" | prepend: site.baseurl }}
-[pm]: {{ "/topics/extratations/pm/" | prepend: site.baseurl }}
-[cc]: {{ "/topics/extratations/crashcourse/" | prepend: site.baseurl }}
-[summer]: {{ "/topics/extratations/summer/" | prepend: site.baseurl }}
-[vscode]: {{ "/topics/extratations/vscode/" | prepend: site.baseurl }}
-[interview]: {{ "/topics/extratations/interview/" | prepend: site.baseurl }}
-[umlood]: {{ "/topics/extratations/umlood/" | prepend: site.baseurl }}
+[latexresume]:  {{ "/topics/extratations/latexresume/" | prepend: site.baseurl }}
+[tmux]:         {{ "/topics/extratations/tmux/" | prepend: site.baseurl }}
+[cicd]:         {{ "/topics/extratations/githubactions/" | prepend: site.baseurl }}
+[wdw]:          {{ "/topics/extratations/wdw/" | prepend: site.baseurl }}
+[giturl]:       {{ "/topics/extratations/githuburlshortener/" | prepend: site.baseurl }}
+[bitcoin]:      {{ "/topics/extratations/bitcoin/" | prepend: site.baseurl }}
+[dotfiles]:     {{ "/topics/extratations/dotfiles/" | prepend: site.baseurl }}
+[pm]:           {{ "/topics/extratations/pm/" | prepend: site.baseurl }}
+[cc]:           {{ "/topics/extratations/crashcourse/" | prepend: site.baseurl }}
+[summer]:       {{ "/topics/extratations/summer/" | prepend: site.baseurl }}
+[vscode]:       {{ "/topics/extratations/vscode/" | prepend: site.baseurl }}
+[interview]:    {{ "/topics/extratations/interview/" | prepend: site.baseurl }}
+[umlood]:       {{ "/topics/extratations/umlood/" | prepend: site.baseurl }}
 [resumereview]: {{ "/topics/extratations/resumereview/" | prepend: site.baseurl }}
 -->
