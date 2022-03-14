@@ -1,5 +1,3 @@
-Bla
-
 # Great Practical Ideas in CS Website
 
 This is a Jekyll/Octopress project that compiles to the website for GPI, a class
