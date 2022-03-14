@@ -14,10 +14,11 @@ order: 10
 # Collab Instructions
 
 There are 2 parts to this lab! Make sure to do both and submit your
-andrewid-githubid information for grading! The lab can be found on
-Autolab:
+andrewid-githubid information for grading! 
 
-- [ColLab](https://autolab.andrew.cmu.edu/courses/07131-f21/assessments/collab)
+The first part of the lab should be submitted to Autolab:
+
+- [ColLab](https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/collab)
 
 The second part will use GitHub.
 For the second part of this assignment, you will get practice with
