@@ -98,7 +98,6 @@ are there as additional resources.
 [git_S1]:   {{ "/slides/05-git.pdf" | prepend: site.baseurl }}
 [git_S2]:   {{ "/slides/06-more-git.pdf" | prepend: site.baseurl }}
 
-[git_S2]:   {{ "/topics/readings/week-08/week-8-git-2.pdf" | prepend: site.baseurl }}
 [bash_S1]:  {{ "/topics/readings/week-09/week-9-bash-script.pdf" | prepend: site.baseurl }}
 [bash_S2]:  {{ "/topics/readings/week-10/week-10-regex-grep.pdf" | prepend: site.baseurl }}
 [bash_S3]:  {{ "/topics/readings/week-12/week-12-pipes.pdf" | prepend: site.baseurl }}
