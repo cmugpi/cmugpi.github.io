@@ -43,10 +43,10 @@ the semester, but please don't spam us.
 | Feb, 28  |   -                   | __Midsemester Break__       |                                |
 | Mar, 7   |   -                   | Exam 1                      |                                |
 | Mar, 14  | [git2][git_S2]        | [Git][git] - github         | [collab][col_lab]              |
-| Mar, 21  | [slides]              | [Bash][bash] - Intro & Globs| [forcelab]                     |
-| Mar, 28  | [slides]              | [Bash][bash] - Regex & Grep | [zombielab & hauntlab]         |
-| Apr, 4   |   -                   | TBD                         |                                |
-| Apr, 11  | [slides]              | [Bash][bash] - Pipes        | [pipelab]                      |
+| Mar, 21  | [bash][bash_S1]       | [Bash][bash] - Intro & Globs| [forcelab][force_lab]          |
+| Mar, 28  | [grep & sed][bash_S2] | [Bash][bash] - Regex & Grep | [zombielab][zombie_lab] & [hauntlab][haunt_lab] |
+| Apr, 4   |   -                   | Extra: docker               |                                |
+| Apr, 11  | [pipes][bash_S3]      | [Bash][bash] - Pipes        | [pipelab][pipe_lab]            |
 | Apr, 18  |   -                   | Exam 2                      |                                |
 {:.ui.striped.table}
 
@@ -57,19 +57,6 @@ the semester, but please don't spam us.
 Eduardo Feo-Flushing:
 
 Giselle Reis:
--->
-
-<!--
-## How to use this site
-
-This site is broken up into a number of _Topics_ which are further broken up
-into _Lessons_. One topic in particular relates directly to the assignments in
-this class: Readings. The "Readings" topic is where you can find links to
-the the lessons that will be useful for solving that week's lab.
-
-In general, there are more lesson pages than there are labs. You will only be
-assessed on your knowledge of those that relate to solving the labs. The others
-are there as additional resources.
 -->
 
 [syllabus]: {{ "/syllabus/" | prepend: site.baseurl }}
@@ -83,11 +70,13 @@ are there as additional resources.
 [vim]:       {{ "/topics/vim/"                    | prepend: site.baseurl }}
 [emacs]:     {{ "/topics/emacs/"                  | prepend: site.baseurl }}
 [git]:       {{ "/topics/git/"                    | prepend: site.baseurl }}
-
 [bash]:      {{ "/topics/bash/"                   | prepend: site.baseurl }}
+
+<!-- These pages were not used.
 [config]:    {{ "/topics/terminal-configuration/" | prepend: site.baseurl }}
 [makefiles]: {{ "/topics/makefiles/"              | prepend: site.baseurl }}
 [pm]:        {{ "/topics/intro-to-pm/"            | prepend: site.baseurl }}
+-->
 
 <!-- Slides -->
 [intro_S1]: {{ "/slides/00-intro.pdf" | prepend: site.baseurl }}
@@ -97,10 +86,9 @@ are there as additional resources.
 [emacs_S1]: {{ "/slides/04-emacs.pdf" | prepend: site.baseurl }}
 [git_S1]:   {{ "/slides/05-git.pdf" | prepend: site.baseurl }}
 [git_S2]:   {{ "/slides/06-more-git.pdf" | prepend: site.baseurl }}
-
-[bash_S1]:  {{ "/topics/readings/week-09/week-9-bash-script.pdf" | prepend: site.baseurl }}
-[bash_S2]:  {{ "/topics/readings/week-10/week-10-regex-grep.pdf" | prepend: site.baseurl }}
-[bash_S3]:  {{ "/topics/readings/week-12/week-12-pipes.pdf" | prepend: site.baseurl }}
+[bash_S1]:  {{ "/slides/07-bash.pdf" | prepend: site.baseurl }}
+[bash_S2]:  {{ "/slides/08-grep-sed.pdf" | prepend: site.baseurl }}
+[bash_S3]:  {{ "/slides/09-oneliners.pdf" | prepend: site.baseurl }}
 
 <!-- Labs -->
 [latex_lab]:     https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/smashlab
@@ -109,19 +97,12 @@ are there as additional resources.
 [butterfly_lab]: {{ "/files/butterflylab.zip" | prepend: site.baseurl }}
 [romance_lab]:   https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/romancelab
 [col_lab]:       {{ "/topics/git/collab-instructions" | prepend: site.baseurl }}
+[force_lab]:     https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/forcelab
+[zombie_lab]:    https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/zombielab
+[haunt_lab]:     https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/hauntlab
+[pipe_lab]:      https://autolab.andrew.cmu.edu/courses/07131q-s22/assessments/pipelab
 
-<!-- Weekly pages/readings -->
-<!-- TODO: remove these folders and pages within them once the content
-is merged in the appropriate topics folder -->
-[Lec 7]:  {{ "/topics/readings/week-09/"  | prepend: site.baseurl }}
-[Lec 8]:  {{ "/topics/readings/week-10/" | prepend: site.baseurl }}
-[Lec 9]:  {{ "/topics/readings/week-11/" | prepend: site.baseurl }}
-[Lec 10]: {{ "/topics/readings/week-12/" | prepend: site.baseurl }}
-[Lec 11]: {{ "/topics/readings/week-13/" | prepend: site.baseurl }}
-[Exam 2]: {{ "/topics/readings/week-14/" | prepend: site.baseurl }}
-
-
-<!-- Extratation pages/slides -->
+<!-- Extra topics pages/slides -->
 <!--
 [latexresume]:  {{ "/topics/extratations/latexresume/" | prepend: site.baseurl }}
 [tmux]:         {{ "/topics/extratations/tmux/" | prepend: site.baseurl }}
